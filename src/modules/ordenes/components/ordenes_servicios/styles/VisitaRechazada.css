@@ -1,0 +1,802 @@
+.VisitaByIdRechazada-visita-rechazada {
+    background-color: transparent;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    left: 535px;
+    top: 345px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 563px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-div {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 412px;
+  position: relative;
+  width: 563px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-header {
+  background-color: transparent;
+  height: 34px;
+  left: 16px;
+  position: absolute;
+  top: 17px;
+  width: 500px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 34px;
+  position: relative;
+  width: 498px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 498px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-ejecutar-icon {
+  height: 30px;
+  left: 524px;
+  color: #00ddfa;
+  cursor: pointer;
+  position: absolute;
+  top: 19px;
+  width: 30px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap {
+  background-color: #d9d9d9;
+  height: 353px;
+  left: 0;
+  border-radius: 10px;
+  position: absolute;
+  top: 59px;
+  width: 563px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-ejecucion-div {
+  height: 316px;
+  left: 14px;
+  position: absolute;
+  top: 24px;
+  width: 311px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-2 {
+  height: 316px;
+  position: relative;
+  width: 291px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 316px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-text-wrapper-2 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 271px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-ejecucion-icon {
+  height: 20px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 25px;
+  width: 20px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-ejecucion-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  width: 108px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-time-icon {
+  height: 20px;
+  left: 156px;
+  color: #00ddfa;
+  position: absolute;
+  top: 25px;
+  width: 20px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-time-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 101px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-separator {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 290px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-group-2 {
+  height: 12px;
+  left: 137px;
+  position: absolute;
+  top: 0;
+  width: 153px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-ellipse {
+  border: 1px solid;
+  border-color: #d9d9d9;
+  border-radius: 8.25px/5.83px;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-line {
+  height: 2px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  background-color: #d9d9d9;
+  top: 5px;
+  width: 137px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-3 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 137px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-img {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-line-2 {
+  height: 2px;
+  background-color: #d9d9d9;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 137px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-tecnico-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 73px;
+  width: 272px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-tecnico-oid {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 89px;
+  width: 288px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-tecnico-icon {
+  height: 20px;
+  left: 11px;
+  position: absolute;
+  color: #00ddfa;
+  top: 105px;
+  width: 20px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-tecnico-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 109px;
+  width: 89px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-cedula-icon {
+  height: 20px;
+  left: 156px;
+  position: absolute;
+  color: #00ddfa;
+  top: 105px;
+  width: 20px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-cedula-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 109px;
+  width: 92px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-email-icon {
+  height: 20px;
+  left: 11px;
+  position: absolute;
+  color: #00ddfa;
+  top: 145px;
+  width: 20px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-email-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 150px;
+  width: 88px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-telephone-icon {
+  height: 20px;
+  left: 156px;
+  color: #00ddfa;
+  position: absolute;
+  top: 145px;
+  width: 20px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-telephone-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 150px;
+  width: 92px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-separator-2 {
+  height: 12px;
+  left: 1px;
+  position: absolute;
+  top: 172px;
+  width: 290px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-protocolos-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 194px;
+  width: 272px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-actividades-list {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    left: 2px;
+    position: absolute;
+    top: 213px;
+    width: 288px;
+    overflow-y: auto; 
+}
+
+/* Estilos de barra de desplazamiento para navegadores WebKit como Chrome y Safari */
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-actividades-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-actividades-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-actividades-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; /* Puedes redondear los bordes del pulgar para que coincida con el contenedor */
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-actividades-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Estilos de barra de desplazamiento para Firefox */
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-actividades-list {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+  
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-rectangle-2 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 21px;
+    font-size: 12px;
+    left: 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 4px;
+    list-style: none;
+    top: 11px;
+    width: 251px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-change-estado {
+  height: 115px;
+  left: 323px;
+  position: absolute;
+  top: 34px;
+  width: 199px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-4 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 115px;
+  position: relative;
+  width: 191px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-estado-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 136px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-decline-icon {
+  height: 28px;
+  left: 81px;
+  color: #da2808;
+  position: absolute;
+  top: 20px;
+  width: 28px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-rechazada-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  height: 5px;
+  left: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-separator-estado {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 57px;
+  width: 191px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-observacion-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 58px;
+  width: 191px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 77px;
+  width: 191px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-creation-div {
+  height: 181px;
+  left: 323px;
+  position: absolute;
+  top: 155px;
+  width: 207px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-5 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 181px;
+  position: relative;
+  width: 191px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-creation-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 16px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 136px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-created-icon {
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  color: #00ddfa;
+  top: 31px;
+  width: 18px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-created-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 18px;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  width: 102px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-sede-ejecutar {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 63px;
+  width: 87px;
+}
+
+/* .visita-rechazada .ejecutar-input {
+  height: 32px;
+  left: 124px;
+  position: absolute;
+  top: 53px;
+  width: 30px;
+} */
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-separator-3 {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 88px;
+  width: 191px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-group-3 {
+  height: 12px;
+  left: 90px;
+  position: absolute;
+  top: 0;
+  width: 101px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-elipse {
+  border: 1px solid;
+  border-color: #d9d9d9;
+  border-radius: 5.43px/6.17px;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-line-3 {
+  height: 1px;
+  left: 11px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 90px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-line-4 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  background-color: #d9d9d9;
+  top: 5px;
+  width: 90px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-creator-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 16px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 104px;
+  width: 136px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-tecnico-i {
+  height: 16px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 123px;
+  width: 12px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-tecnico-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+  width: 64px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-cedula-i {
+  height: 16px;
+  left: 103px;
+  color: #00ddfa;
+  position: absolute;
+  top: 123px;
+  width: 12px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-cedula-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 123px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+  width: 63px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-email-i {
+  height: 15px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 154px;
+  width: 12px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-email-n {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 0;
+    /* justify-content: left; */
+    line-height: normal;
+    position: absolute;
+    word-break: break-all; /* Permite que la palabra se rompa y continúe en la siguiente línea */
+    overflow-wrap: break-word; /* Alternativa a word-wrap para navegadores modernos */
+    white-space: normal; /* Asegura que el espacio en blanco se maneje normalmente */
+    top: 158px;
+    height: 22px;
+    width: 67px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-telephone-i {
+  height: 15px;
+  left: 103px;
+  color: #00ddfa;
+  position: absolute;
+  top: 154px;
+  width: 12px;
+}
+
+.VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-telephone-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 123px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 158px;
+  width: 63px;
+}
+
+
+
+/* EJECUTAR SEDE */
+
+.VisitaByIdRechazada-switch {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 115px;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .VisitaByIdRechazada-switch .VisitaByIdRechazada-ejecutar-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .VisitaByIdRechazada-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7C7C7C;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .VisitaByIdRechazada-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .VisitaByIdRechazada-switch.VisitaByIdRechazada-on .VisitaByIdRechazada-slider {
+    background-color: #00ddfa;
+  }
+  
+  .VisitaByIdRechazada-switch.VisitaByIdRechazada-off .VisitaByIdRechazada-slider {
+    background-color: #7C7C7C;
+  }
+  
+  .ejecutar-input:checked + .VisitaByIdRechazada-slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .VisitaByIdRechazada-slider.VisitaByIdRechazada-round {
+    border-radius: 34px;
+  }
+  
+  .VisitaByIdRechazada-slider.VisitaByIdRechazada-round:before {
+    border-radius: 50%;
+  }
+  

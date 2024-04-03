@@ -1,0 +1,97 @@
+.MarcasEquiposCard-box {
+  height: 184px;
+  width: 565px;
+}
+
+.MarcasEquiposCard-box .MarcasEquiposCard-overlap-group-wrapper {
+  height: 184px;
+  left: 0;
+  top: 0;
+  width: 569px;
+}
+
+.MarcasEquiposCard-box .MarcasEquiposCard-overlap-group {
+  background-size: 100% 100%;
+    height: 96px;
+    width: 510px;
+    background-color: #ffffffd9;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+}
+
+.MarcasEquiposCard-box .MarcasEquiposCard-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 96px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 123px;
+}
+
+.MarcasEquiposCard-box .MarcasEquiposCard-marcaequipo-icon {
+  height: 95px;
+  left: 19px;
+  color: #00ddfa;
+  position: absolute;
+  top: 2px;
+  width: 87px;
+}
+
+.MarcasEquiposCard-box .MarcasEquiposCard-marcaequipo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 149px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 329px;
+  height: 48px;
+}
+
+.MarcasEquiposCard-box .MarcasEquiposCard-marcaequipo-id {
+  color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 149px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 57px;
+    width: 329px;
+}
+
+  .MarcasEquipos-cards-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:2rem;
+    margin:4rem 5vw;
+    padding:0;
+    list-style: none;
+	
+  }
+
+  .MarcasEquiposPage-Container-Card{
+      width: 900px;
+      height: 100%;
+      display:grid;
+      grid-template-columns: repeat(2, 1fr); /* Hace que haya 3 tarjetas por fila */
+      gap: 10rem; /* Espaciado entre las tarjetas */
+      row-gap: 5%;
+      margin:2rem 2vw;
+      padding:0;
+      list-style: none
+  }
+
+
+.MarcasEquiposPage-container{
+    width: 1200px;
+	height: 100%;
+}

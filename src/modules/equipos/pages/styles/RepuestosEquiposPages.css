@@ -1,0 +1,220 @@
+.RepuestoEquipoCard-box-2 {
+    height: 191px;
+    width: 605px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestos-equipos {
+    height: 191px;
+    left: 0;
+    top: 0;
+    width: 621px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap-group {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 139px;
+    position: relative;
+    width: 563px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 190px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-screw {
+    height: 167px;
+    left: 26px;
+    color: #00ddfa;
+    position: absolute;
+    top: -11px;
+    width: 134px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-div {
+    height: 164px;
+    left: 218px;
+    position: absolute;
+    top: 13px;
+    width: 383px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap-2 {
+    height: 164px;
+    left: 6px;
+    position: absolute;
+    top: 0;
+    width: 369px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-name {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: -30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -4px;
+    width: 369px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-id {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: -30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+    top: 42px;
+    width: 369px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo {
+    background-color: #636b6f61;
+    height: 53px;
+    left: 106px;
+    position: absolute;
+    top: 61px;
+    transform: rotate(180deg);
+    width: 2px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-2 {
+    background-color: #636b6f61;
+    height: 53px;
+    left: 233px;
+    position: absolute;
+    top: 61px;
+    transform: rotate(180deg);
+    width: 2px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-text-wrapper {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 91px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-3 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 28px;
+    left: -21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 96px;
+    width: 128px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-4 {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 91px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-5 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 65px;
+    left: 119px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 92px;
+    width: 113px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-6 {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 246px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 91px;
+  }
+  
+  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestoequipo-7 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 65px;
+    left: 235px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 92px;
+    width: 113px;
+  }
+  
+  .RepuestosEquiposPages-cards-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:2rem;
+    margin:4rem 5vw;
+    padding:0;
+    list-style: none;
+	
+  }
+
+  .RepuestosEquiposPages-Container-Card{
+    width: 900px;
+    position: relative;
+    height: 100%;
+    left: -10%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); /* Hace que haya 3 tarjetas por fila */
+    gap: 12rem; /* Espaciado entre las tarjetas */
+    row-gap: 5%;
+    margin:2rem 2vw;
+    padding:0;
+    list-style: none
+  }
+
+
+.RepuestosEquiposPages-container{
+    width: 1200px;
+	height: 100%;
+}

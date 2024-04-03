@@ -1,0 +1,98 @@
+.CampoDetailPage-box {
+  height: 167px;
+  width: 374px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-campobyid-container {
+  height: 167px;
+  left: 0;
+  top: 0;
+  width: 380px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 167px;
+  position: relative;
+  width: 374px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 167px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-icon {
+  height: 96px;
+  left: 2px;
+  color: #00ddfa;
+  position: absolute;
+  top: 33px;
+  width: 91px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  width: 264px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 264px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-tipo {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 117px;
+  width: 264px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-edit-icon {
+  height: 22px;
+  left: 307px;
+  color: #00ddfa;
+  position: absolute;
+  top: 3px;
+  width: 22px;
+}
+
+.CampoDetailPage-box .CampoDetailPage-delete-icon {
+  height: 22px;
+  left: 337px;
+  color: #00ddfa;
+  position: absolute;
+  top: 3px;
+  width: 22px;
+}

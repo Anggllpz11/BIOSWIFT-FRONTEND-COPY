@@ -1,0 +1,177 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wgh@300;400;500;600;700;800;900&display=swap'); */
+
+
+
+
+
+
+.CreateSedeForm-box
+{
+    position: relative;
+    width: 400px;
+    height: 520px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.CreateSedeForm-box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 520px;
+    background: linear-gradient(0deg,transparent,
+    #00ddfa,#00ddfa);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.CreateSedeForm-box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 520px;
+    background: linear-gradient(0deg,transparent,
+    #00ddfa,#00ddfa);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+.CreateSedeForm-form
+{
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: #28292d;
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction:  column;    
+}
+
+.CreateSedeForm-form h2
+{
+    color:#00ddfa;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+.CreateSedeForm-inputBox
+{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+
+}
+
+/* .CreateSedeForm-inputBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+} */
+
+
+
+  
+.CreateSedeForm-input
+{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+
+.CreateSedeForm-inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    pointer-events: none;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+
+.CreateSedeForm-inputBox input:valid ~ span,
+.CreateSedeForm-inputBox input:focus ~ span
+{
+    color: #00ddfa;
+    transform: translateX(0px) translateY(-34px);
+    font-size: 0.75em;
+}
+
+
+
+.CreateSedeForm-inputBox i
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #00ddfa;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+}
+
+.CreateSedeForm-input:valid ~ i,
+.CreateSedeForm-input:focus ~ i
+{
+    height: 44px;
+
+}
+
+
+
+
+
+.CreateSedeForm-button[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: #00ddfa;
+    padding: 11px 25px;
+    width: 130px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.CreateSedeForm-button[type="submit"]:active
+{
+    opacity: 0.8;
+}

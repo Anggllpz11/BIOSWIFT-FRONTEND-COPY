@@ -1,0 +1,19 @@
+.RegisterClaseEquipo-button-redirec-container{
+    
+    position: relative;
+    left: 1150px;
+    top: 70px;
+    overflow: hidden;
+}
+
+
+.RegisterClaseEquipo-button-redirect{
+    top: -95px;
+    border-radius: 150px;
+    color:#00ddfa;
+    background-color: rgba(32, 32, 32,0.6);
+    padding: 5px;
+    height: 55px ;
+    width:55px ;
+}
+

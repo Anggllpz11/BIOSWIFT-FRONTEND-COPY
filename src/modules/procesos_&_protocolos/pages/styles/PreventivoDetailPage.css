@@ -1,0 +1,508 @@
+.PreventivoDetailPage-box {
+  height: 758px;
+  width: 1084px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-preventivo-detail {
+  height: 758px;
+  left: 0;
+  top: 0;
+  width: 1122px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap-group {
+  background-color: #53789587;
+  border-radius: 5px;
+  height: 758px;
+  position: relative;
+  width: 1084px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 159px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1084px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 293px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  width: 565px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-check-funcionamiento {
+  height: 41px;
+  left: 209px;
+  color: #10a415;
+  position: absolute;
+  top: 25px;
+  width: 50px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-icon {
+  height: 134px;
+  color: #00ddfa;
+  left: 13px;
+  position: absolute;
+  top: 10px;
+  width: 177px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-code {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 268px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 174px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-version {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 488px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 150px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-date {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 707px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 370px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-edit-icon {
+  height: 44px;
+  left: 892px;
+  color: #00ddfa;
+  position: absolute;
+  top: 21px;
+  width: 45px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-delete-icon {
+  height: 44px;
+  left: 975px;
+  color: #00ddfa;
+  position: absolute;
+  top: 21px;
+  width: 45px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-oid {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 356px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 439px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-div {
+  background-color: #ffffffd9;
+  background-size: 100% 100%;
+  border-radius: 5px;
+  height: 270px;
+  left: 13px;
+  position: absolute;
+  top: 181px;
+  width: 582px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 552px;
+}
+
+.PreventivoDetailPage-ul-cuantitativo{
+
+  position: relative;
+  height: 150px;
+  width: 450px;
+  left: 0px;
+
+} 
+.PreventivoDetailPage-box .PreventivoDetailPage-div-wrapper {
+  background-color: #0000007d;
+  border-radius: 5px;
+  height: 38px;
+  list-style: none;
+  color: #ffffff;
+  text-align: center;
+  left: 44px;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  top: 67px;
+  margin-bottom: 16px;
+  width: 494px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 461px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap-2 {
+  background-color: #ffffffd9;
+  background-size: 100% 100%;
+  height: 270px;
+  border-radius: 5px;
+  left: 13px;
+  position: absolute;
+  top: 469px;
+  width: 582px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap-3 {
+  background-color: #ffffffd9;
+  background-size: 100% 100%;
+  height: 190px;
+  border-radius: 5px;
+  left: 611px;
+  position: absolute;
+  top: 549px;
+  width: 454px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-otros-name {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 430px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-otros-text-wrapper {
+  background-color: #0000007d;
+  border-radius: 5px;
+  list-style: none;
+  color: #ffffff;
+  text-align: center;
+  height: 27px;
+  left: 35px;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  top: 47px;
+  width: 384px;
+  margin-bottom: 16px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-otros-text {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 359px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap-4 {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  height: 355px;
+  left: 611px;
+  position: absolute;
+  top: 181px;
+  width: 454px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-cuantitativo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 430px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-cuantitativo-text-wrapper {
+  background-color: #0000007d;
+  border-radius: 5px;
+  height: 38px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  left: 34px;
+  top: 67px;
+  width: 386px;
+  margin-bottom: 16px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-cuantitativo-text {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 376px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-minimo {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 139px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-maximo {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 139px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-unidad {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 125px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-separator {
+  height: 1px;
+  left: 24px;
+  background-color: #537895;
+  object-fit: cover;
+  position: relative;
+  top: 110px;
+  width: 330px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-img {
+  height: 45px;
+  left: 120px;
+  background-color: #537895;
+  object-fit: cover;
+  position: relative;
+  top: 50px;
+  width: 1px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-separator-2 {
+  height: 45px;
+  left: 250px;
+  background-color: #537895;
+  object-fit: cover;
+  position: relative;
+  top: 5px;
+  width: 1px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-minimo-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 117px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-maximo-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 117px;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-unidad-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 255px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 117px;
+}

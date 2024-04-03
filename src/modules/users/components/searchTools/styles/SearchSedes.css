@@ -1,0 +1,244 @@
+/* SearchSedes.css */
+.SearchSede-section{
+  position: fixed;
+  top: 80px;
+  left: 180px;
+} 
+
+.SearchSede-section-container{
+    width: 100%;
+    height: 100%;
+    left: 750px;
+    position: absolute;
+    color: #a0a0a0;
+  }
+  
+  .SearchSede-input[type=text]{
+    position: absolute;
+    padding: 20px 30px 15px 20px;
+    width: 180px;
+    color: #00ddfa;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 1rem;
+    background:#1c1c1c ;
+    transition: width 0.4s ease;
+    outline: none;
+    
+    &:focus{ width: 300px; }
+  }
+  .SearchSede-IconButton{
+    position: relative;
+    top: 0px;
+    left: -0px;
+    color:#00ddfa;
+    background:#1c1c1c ;
+  }
+
+  .SearchSede-icon-search{
+    height: 25px;
+    width: 25px;
+    color: #00ddfa;
+    border-radius: 25px;
+ }
+  
+  @media screen and (min-device-width: 412px) and (max-device-width: 915px) {
+    .SearchSede-section{
+      top: 20px;
+      left: 120px;
+      background-color: #1c1c1c;
+      height: 45px;
+      width: 130px;
+      border-radius: 1rem;
+     
+    }
+  
+    .SearchSede-section-container{
+      width: 100%;
+      height: 100%;
+      left: -25px;
+      position: absolute;
+      color: #a0a0a0;
+      display:flex;
+      background:#1c1c1c ;
+      border-radius: 1rem;
+    }
+    
+    .SearchSede-input[type=text]{
+      position: absolute;
+      padding: 15px 0px 15px 20px;
+      width: 120px;
+      color: #00ddfa;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      &:focus{ width: 200px; }
+    }
+    .SearchSede-IconButton{
+      position: absolute;
+      top: 0px;
+      left: -0px;
+      width: 50px;
+      height: 50px;
+      color:#00ddfa;
+      background:#1c1c1c ;
+    }
+  
+    .SearchSede-icon-search{
+      height: 100%;
+      width: 100%;
+      color: #00ddfa;
+      
+      /* border-radius: 25px; */
+      background:#1c1c1c ;
+   }
+   
+   }
+   @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+    .SearchSede-section{
+      top: 20px;
+      left: 330px;
+      background-color: #1c1c1c;
+      height: 45px;
+      width: 130px;
+      border-radius: 1rem;
+    }
+  
+    .SearchSede-section-container{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      color: #a0a0a0;
+      display:flex;
+      background:#1c1c1c ;
+      border-radius: 1rem;
+    }
+    
+    .SearchSede-input[type=text]{
+      position: absolute;
+      margin: 0px 0px 0px 25px;
+      padding: 15px 5px 15px 20px;
+      width: 120px;
+      color: #00ddfa;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      &:focus{ width: 200px; }
+    }
+    .SearchSede-IconButton{
+      position: absolute;
+      top: 0px;
+      left: -0px;
+      width: 50px;
+      height: 50px;
+      color:#00ddfa;
+      background:#1c1c1c ;
+    }
+  
+    .SearchSede-icon-search{
+      height: 100%;
+      width: 100%;
+      color: #00ddfa;
+      
+      /* border-radius: 25px; */
+      background:#1c1c1c ;
+   }
+   }
+   
+    
+  
+  
+  
+  @media screen and (min-device-width: 1080px) {
+   
+    .SearchSede-section{
+      top: 50px;
+      left: 960px;
+      background-color: #1c1c1c;
+      height: 45px;
+      width: 150px;
+      border-radius: 1rem;
+     
+    }
+  
+    .SearchSede-section-container{
+      width: 100%;
+      height: 100%;
+      left: 25px;
+      position: absolute;
+      color: #a0a0a0;
+      display:flex;
+      background:#1c1c1c ;
+      border-radius: 1rem;
+    }
+    
+    .SearchSede-input[type=text]{
+      position: absolute;
+      margin: 0px 0px 0px 25px;
+      padding: 15px 5px 15px 20px;
+      width: 140px;
+      color: #00ddfa;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      &:focus{ width: 220px; }
+    }
+    .SearchSede-IconButton{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      color:#00ddfa;
+      background:#1c1c1c ;
+    }
+  
+    .SearchSede-icon-search{
+      height: 100%;
+      width: 100%;
+      color: #00ddfa;
+      background:#1c1c1c ;
+   }
+  }
+  
+  @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
+    .SearchSede-section{
+      position: absolute;
+      top: 80px;
+      left: 200px;
+    }
+    
+    .SearchSede-section-container{
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        left: 350px;
+        position: absolute;
+        color: #a0a0a0;
+      }
+      
+      .SearchSede-input[type=text]{
+        position: absolute;
+        padding: 20px 30px 15px 20px;
+        width: 180px;
+        color: #00ddfa;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        border: none;
+        border-radius: 10px;
+        background:#1c1c1c ;
+        transition: width 0.4s ease;
+        outline: none;
+        
+        &:focus{ width: 300px; }
+      }
+   }
+   
+  
+   

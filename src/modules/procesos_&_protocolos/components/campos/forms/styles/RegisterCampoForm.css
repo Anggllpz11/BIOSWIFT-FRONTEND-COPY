@@ -1,0 +1,118 @@
+.RegisterCampoForm-box {
+  height: 622px;
+  width: 631px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-register-campo {
+  height: 622px;
+  left: 0;
+  top: 0;
+  width: 637px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 622px;
+  position: relative;
+  width: 631px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 220px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 631px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-campo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 152px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 574px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-tipo-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 25px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 282px;
+  width: 543px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-tipo-input {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 35px;
+  border: none;
+  left: 93px;
+  position: absolute;
+  top: 326px;
+  width: 441px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-title-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 25px;
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 403px;
+  width: 543px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-title-input {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  left: 98px;
+  position: absolute;
+  top: 447px;
+  width: 441px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-cancelar {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 42px;
+  left: 134px;
+  border: none;
+  position: absolute;
+  top: 530px;
+  width: 164px;
+}
+
+.RegisterCampoForm-box .RegisterCampoForm-registrar {
+  background-color: #00ddfa;
+  border-radius: 10px;
+  height: 42px;
+  left: 344px;
+  border: none;
+  position: absolute;
+  top: 530px;
+  width: 164px;
+}

@@ -1,0 +1,98 @@
+.PassUpdateSuccessfullPage-box
+{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.PassUpdateSuccessfullPage-box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,
+    #00ddfa,#00ddfa);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.PassUpdateSuccessfullPage-box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,
+    #00ddfa,#00ddfa);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.PassUpdateSuccessfullPage-form
+{
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: #28292d;
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction:  column;    
+}
+
+.PassUpdateSuccessfullPage-form h2
+{
+    color:#00ddfa;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+.PassUpdateSuccessfullPage-p{
+    color: #c4c4c4;
+}
+
+
+.PassUpdateSuccessfullPage-button[type="submit"]
+ {
+     border: none;
+     text-align: center; 
+     outline: none;
+     background: #00ddfa;
+     padding: 11px 25px;
+     /* width: 100px; */
+     margin-top: 10px;
+     border-radius: 4px;
+     font-weight: 600;
+     cursor: pointer;
+ }
+ 
+ .PassUpdateSuccessfullPage-button[type="submit"]:active
+ {
+    text-align: center; 
+     opacity: 0.8;
+ }

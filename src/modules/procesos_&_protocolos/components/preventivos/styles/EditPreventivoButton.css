@@ -1,0 +1,749 @@
+.EditPreventivoButton-box-1 {
+  height: 857px;
+  width: 1138px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-edit-preventivo {
+  height: 857px;
+  left: 0;
+  top: 0;
+  width: 1150px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-overlap {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  height: 857px;
+  position: relative;
+  width: 1138px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-overlap-group {
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  height: 184px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1138px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-preventivo-title {
+  -webkit-text-stroke: 1px #00ddfa33;
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 53px;
+  width: 1107px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-preventivo-id {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 48px;
+  left: 224px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 112px;
+  width: 692px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-title-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 263px;
+  width: 543px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-title-input {
+  height: 49px;
+  background-color: #d9d9d9;
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  left: 29px;
+  position: absolute;
+  top: 301px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-codigo-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 385px;
+  width: 543px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-codigo-input {
+  height: 49px;
+  left: 29px;
+  background-color: #d9d9d9;
+  box-shadow: none;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 423px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-version-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 507px;
+  width: 543px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-version-input {
+  height: 49px;
+  left: 29px;
+  background-color: #d9d9d9;
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  top: 545px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-date-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 629px;
+  width: 543px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-date-input {
+  height: 49px;
+  left: 29px;
+  background-color: #d9d9d9;
+  box-shadow: none;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 667px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-separator {
+  background-color: #636b6f61;
+  height: 636px;
+  left: 568px;
+  position: absolute;
+  top: 203px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-div {
+  background-color: transparent;
+  height: 593px;
+  left: 570px;
+  position: absolute;
+  top: 253px;
+  width: 565px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cualitativo-space {
+  height: 200px;
+  left: 16px;
+  position: relative;
+  top: 11px;
+  width: 525px;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cualitativos-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0;
+  width: 481px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-x-wrapper {
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 49px;
+  left: 0;
+  position: relative;
+  margin-bottom: 5px;
+  top: 15px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-x {
+  height: 20px;
+  left: 474px;
+  position: relative;
+  top: -23px;
+  color: #00ddfa;
+  width: 21px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cualitativo-selected {
+  height: 49px;
+  left: 0;
+  background-color: #d9d9d9;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  position: relative;
+  top: 10px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cualitativo-result {
+  height: 49px;
+  left: 0;
+  list-style: none;
+  background-color: #5378957e;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 16px;
+  width: 505px;
+}
+
+
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo {
+  height: 68px;
+  left: 0;
+  position: relative;
+  top: 20px;
+  width: 503px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo-search {
+  height: 49px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  position: absolute;
+  top: 19px;
+  width: 163px;
+}
+
+/* MANTENIMIENTO STYLES */
+.EditPreventivoButton-box-1 .EditPreventivoButton-mantenimiento-space {
+  height: 200px;
+  left: 16px;
+  position: relative;
+  top: 75px;
+  width: 525px;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-mantenimiento-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0;
+  width: 481px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-mantenimiento-x-wrapper {
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 49px;
+  left: 0;
+  position: relative;
+  margin-bottom: 5px;
+  top: 15px;
+  width: 505px;
+}
+
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-mantenimiento-x {
+  height: 20px;
+  left: 474px;
+  position: relative;
+  top: -23px;
+  color: #00ddfa;
+  width: 21px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-mantenimiento-selected {
+  height: 49px;
+  left: 0;
+  background-color: #d9d9d9;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  position: relative;
+  top: 10px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-mantenimiento-result {
+  height: 49px;
+  left: 0;
+  list-style: none;
+  background-color: #5378957e;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 16px;
+  width: 505px;
+}
+
+/* CUANTITATIVOS STYLES */
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0;
+  width: 481px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo-space {
+  height: 220px;
+  left: 16px;
+  position: relative;
+  top: 150px;
+  width: 525px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+}
+
+.EditPreventivoButton-separator2{
+  height: 1px;
+  left: 45px;
+  background-color: #636b6f61;;
+  object-fit: cover;
+  position: relative;
+  top: 115px;
+  width: 450px;
+}
+
+.EditPreventivoButton-separator3{
+  height: 1px;
+  left: 45px;
+  background-color: #636b6f61;;
+  object-fit: cover;
+  position: relative;
+  top: 185px;
+  width: 450px;
+}
+
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-img {
+  height: 49px;
+  left: 171px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  position: absolute;
+  top: 19px;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo-search-2 {
+  height: 49px;
+  left: 264px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  position: absolute;
+  top: 19px;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo-search-3 {
+  height: 49px;
+  left: 357px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  position: absolute;
+  top: 19px;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-x-2 {
+  height: 20px;
+  left: 465px;
+  position: absolute;
+  color: #00ddfa;
+  top: 33px;
+  width: 21px;
+}
+
+/* OTROS STYLES */
+.EditPreventivoButton-box-1 .EditPreventivoButton-otros-space {
+  height: 200px;
+  left: 16px;
+  position: relative;
+  top: 220px;
+  width: 525px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-otros-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0;
+  width: 481px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-otros-x-wrapper {
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 49px;
+  left: 0;
+  position: relative;
+  margin-bottom: 5px;
+  top: 15px;
+  width: 505px;
+}
+
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-otros-x {
+  height: 20px;
+  left: 474px;
+  position: relative;
+  top: -23px;
+  color: #00ddfa;
+  width: 21px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-otros-selected {
+  height: 49px;
+  left: 0;
+  background-color: #d9d9d9;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  position: relative;
+  top: 10px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-otros-result {
+  height: 49px;
+  left: 0;
+  list-style: none;
+  background-color: #5378957e;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 16px;
+  width: 505px;
+}
+
+
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 14px;
+  left: 171px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-text-wrapper-2 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 14px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-text-wrapper-3 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 14px;
+  left: 264px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-unidad {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 14px;
+  left: 357px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 85px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cuantitativo-selected-2 {
+  height: 49px;
+  left: 0;
+  background-color: #d9d9d9;
+  text-align: center;
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  top: 30px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-cualitativo-result-2 {
+  height: 49px;
+  left: 0;
+  list-style: none;
+  background-color: #5378957e;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  margin-bottom: 16px;
+  width: 505px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-update-cancelar {
+  height: 69px;
+  left: 55px;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 769px;
+  width: 196px;
+}
+
+.EditPreventivoButton-box-1 .EditPreventivoButton-actualizar-button {
+  height: 69px;
+  left: 312px;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #00ddfa;
+  position: absolute;
+  top: 769px;
+  width: 196px;
+}
+
+
+.EditPreventivoButton-separator{
+  height: 1px;
+  left: 45px;
+  background-color: #636b6f61;;
+  object-fit: cover;
+  position: relative;
+  top: 45px;
+  width: 450px;
+}

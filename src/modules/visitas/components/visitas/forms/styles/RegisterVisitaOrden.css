@@ -1,0 +1,389 @@
+
+
+.RegisterVisitaOrden-visita-nueva {
+  background-color: transparent;
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: center;
+  position: relative;
+  left: 430px;
+  margin: 0;
+  padding: 0;
+  top: 105px;
+  width:563px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-div {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  height: 412px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  position: relative;
+  /* left: 200px; */
+  /* top: 80px; */
+  width: 563px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-header {
+  background-color: transparent;
+  height: 34px;
+  left: 16px;
+  position: absolute;
+  top: 17px;
+  width: 500px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 34px;
+  position: relative;
+  width: 498px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-register-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 498px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-overlap {
+  background-color: #d9d9d9;
+  height: 353px;
+  left: 0;
+  border-radius: 10px;
+  position: absolute;
+  top: 59px;
+  width: 563px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-user-div {
+  height: 126px;
+  left: 16px;
+  position: absolute;
+  top: 30px;
+  width: 260px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  border-style: none;
+  left: 0;
+  position: absolute;
+  top: 35px;
+  width: 234px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-users-listed {
+  height: 22px;
+  background-color: #53789587;
+  left: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  list-style: none;
+  position: relative;
+  top: 10px;
+  width: 234px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-user-pick {
+  background-color: #7C7C7C;
+  border-radius: 10px;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 72px;
+  width: 234px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-user-selected-cancel {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  top: 2px;
+  cursor: pointer;
+  color: #da2808;
+  left: 210px;
+}
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-users-ul {
+  position: absolute;
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+  top: 63px;
+  height: 100px;
+  width: 250px;
+}
+/* Estiliza la barra de desplazamiento en su totalidad */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-users-ul::-webkit-scrollbar {
+  width: 10px; /* Ajusta el ancho de la barra de desplazamiento */
+}
+
+/* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-users-ul::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-users-ul::-webkit-scrollbar-thumb {
+  background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-users-ul::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+}
+
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-img {
+  height: 22px;
+  left: 0;
+  background-color: #7C7C7C;
+  position: relative;
+  border-radius: 10px;
+  top: 0;
+  margin-bottom: 2px;
+  width: 234px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolo-selected-cancel {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  top: 2px;
+  cursor: pointer;
+  color: #da2808;
+  left: 210px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 26px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  width: 258px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-div {
+  height: 123px;
+  left: 16px;
+  position: absolute;
+  top: 192px;
+  width: 260px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-listed {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 72px;
+  width: 247px;
+  overflow-y: auto; 
+}
+/* Estiliza la barra de desplazamiento en su totalidad */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-listed::-webkit-scrollbar {
+  width: 10px; /* Ajusta el ancho de la barra de desplazamiento */
+}
+
+/* Estiliza el rastro de la barra de desplazamiento */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-listed::-webkit-scrollbar-track {
+  background: #f1f1f1; /* El color de fondo del rastro */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-listed::-webkit-scrollbar-thumb {
+  background: #888; /* El color de fondo del pulgar */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-listed::-webkit-scrollbar-thumb:hover {
+  background: #555; /* El color de fondo del pulgar al hacer hover */
+}
+
+
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-protocolos-pick {
+  background-color: #53789587;
+  border-radius: 10px;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 29px;
+  width: 234px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-separator {
+  height: 339px;
+  left: 280px;
+  background-color: #ffffff;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-fecha-div {
+  height: 61px;
+  left: 299px;
+  position: absolute;
+  top: 30px;
+  width: 260px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 258px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-div-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  left: 0;
+  border-style: none;
+  position: absolute;
+  top: 31px;
+  width: 234px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-insede-div {
+  height: 74px;
+  left: 299px;
+  position: absolute;
+  top: 116px;
+  width: 260px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-sede-input {
+  height: 50px;
+  left: 104px;
+  position: absolute;
+  top: 24px;
+  width: 50px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-time-div {
+  height: 61px;
+  left: 299px;
+  position: absolute;
+  top: 199px;
+  width: 260px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-btn-register {
+  background-color: #00ddfa;
+  border-radius: 10px;
+  height: 35px;
+  left: 420px;
+  cursor: pointer;
+  border-style: none;
+  position: absolute;
+  top: 360px;
+  width: 85px;
+}
+
+.RegisterVisitaOrden-visita-nueva .RegisterVisitaOrden-btn-cancel {
+  background-color: #7C7C7C;
+  border-radius: 10px;
+  height: 35px;
+  left: 320px;
+  cursor: pointer;
+  border-style: none;
+  position: absolute;
+  top: 360px;
+  width: 85px;
+}
+
+
+/* CSS */
+.RegisterVisitaOrden-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 80px;
+  top: 30px;
+}
+
+.RegisterVisitaOrden-switch .RegisterVisitaOrden-ejecutar-sede-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.RegisterVisitaOrden-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7C7C7C;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.RegisterVisitaOrden-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.RegisterVisitaOrden-ejecutar-sede-input:checked + .RegisterVisitaOrden-slider {
+  background-color: #00ddfa;
+}
+
+.RegisterVisitaOrden-ejecutar-sede-input:focus + .RegisterVisitaOrden-slider {
+  box-shadow: 0 0 1px #00ddfa;
+}
+
+.RegisterVisitaOrden-ejecutar-sede-input:checked + .RegisterVisitaOrden-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.RegisterVisitaOrden-slider.RegisterVisitaOrden-round {
+  border-radius: 34px;
+}
+
+.RegisterVisitaOrden-slider.RegisterVisitaOrden-round:before {
+  border-radius: 50%;
+}

@@ -1,0 +1,557 @@
+.RegisterEquipoForm-box {
+    height: 531px;
+    width: 732px;
+  }
+  
+  .RegisterEquipoForm-box .REGISTER-EQUIPO-FORM {
+    height: 531px;
+    left: 0;
+    top: 0;
+    width: 752px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-overlap-group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 602px;
+    position: relative;
+    width: 732px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-overlap {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 91px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 732px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    width: 409px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle {
+    background-color: #00ddfa;
+    height: 477px;
+    left: 362px;
+    position: absolute;
+    top: 109px;
+    transform: rotate(180deg);
+    width: 1px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-div {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    box-shadow: none;
+    font-weight: 400;
+    left: 47px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 121px;
+    width: 252px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-2 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 50px;
+    position: absolute;
+    top: 146px;
+    width: 286px;
+  }
+
+  .RegisterEquipoForm-box .RegisterEquipoForm-search-results {
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    left: 50px;
+    position: absolute;
+    top: 175px;
+    height: 65px;
+    width: 286px;
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+
+  }
+
+  /* Estiliza la barra de desplazamiento en su totalidad */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results::-webkit-scrollbar {
+  width: 10px; /* Ajusta el ancho de la barra de desplazamiento */
+}
+
+/* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results::-webkit-scrollbar-thumb {
+  background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+}
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-item {
+  background-color: #53789587;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  top: 3px;
+  height: 20px;
+  list-style: none;
+  position: relative;
+  margin-bottom: 2px;
+  width: 265px;
+}
+  
+
+/* LOGICA BUSQUEDA MODELOS EQUIPOS */
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-modelo {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 50px;
+  position: absolute;
+  top: 300px;
+  height: 65px;
+  width: 286px;
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+
+}
+
+/* Estiliza la barra de desplazamiento en su totalidad */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-modelo::-webkit-scrollbar {
+width: 10px; /* Ajusta el ancho de la barra de desplazamiento */
+}
+
+/* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-modelo::-webkit-scrollbar-track {
+background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-modelo::-webkit-scrollbar-thumb {
+background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-modelo::-webkit-scrollbar-thumb:hover {
+background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+}
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-item-modelo {
+background-color: #53789587;
+border-radius: 5px;
+text-align: center;
+font-size: 12px;
+box-shadow: none;
+outline: none;
+cursor: pointer;
+border: none;
+top: 3px;
+height: 20px;
+list-style: none;
+position: relative;
+margin-bottom: 2px;
+width: 265px;
+}
+
+/* LOGICA BUSQUEDA AREAS EQUIPOS */
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-areas {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 50px;
+  position: absolute;
+  top: 425px;
+  height: 65px;
+  width: 286px;
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+
+}
+
+/* Estiliza la barra de desplazamiento en su totalidad */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-areas::-webkit-scrollbar {
+width: 10px; /* Ajusta el ancho de la barra de desplazamiento */
+}
+
+/* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-areas::-webkit-scrollbar-track {
+background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-areas::-webkit-scrollbar-thumb {
+background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-areas::-webkit-scrollbar-thumb:hover {
+background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+}
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-item-areas {
+background-color: #53789587;
+border-radius: 5px;
+text-align: center;
+font-size: 12px;
+box-shadow: none;
+outline: none;
+cursor: pointer;
+border: none;
+top: 3px;
+height: 20px;
+list-style: none;
+position: relative;
+margin-bottom: 2px;
+width: 265px;
+}
+
+/* LOGICA BUSQUEDA TIPOS EQUIPOS */
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-tipos {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 397px;
+  position: absolute;
+  top: 175px;
+  height: 65px;
+  width: 286px;
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+
+}
+
+/* Estiliza la barra de desplazamiento en su totalidad */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-tipos::-webkit-scrollbar {
+width: 10px; /* Ajusta el ancho de la barra de desplazamiento */
+}
+
+/* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-tipos::-webkit-scrollbar-track {
+background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-tipos::-webkit-scrollbar-thumb {
+background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+.RegisterEquipoForm-box .RegisterEquipoForm-search-results-tipos::-webkit-scrollbar-thumb:hover {
+background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+}
+
+.RegisterEquipoForm-box .RegisterEquipoForm-search-item-tipos {
+background-color: #53789587;
+border-radius: 5px;
+text-align: center;
+font-size: 12px;
+box-shadow: none;
+outline: none;
+cursor: pointer;
+border: none;
+top: 3px;
+height: 20px;
+list-style: none;
+position: relative;
+margin-bottom: 2px;
+width: 265px;
+}
+
+
+  .RegisterEquipoForm-box .RegisterEquipoForm-p {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 251px;
+    width: 252px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-3 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 28px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    left: 397px;
+    position: absolute;
+    top: 272px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-2 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 321px;
+    width: 252px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-4 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 397px;
+    position: absolute;
+    top: 358px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-3 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 404px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-5 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 397px;
+    position: absolute;
+    top: 440px;
+    width: 286px;
+  }
+
+  .RegisterEquipoForm-box .RegisterEquipoForm-activo-fijo-label {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 487px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-activo-fijo-input{
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 397px;
+    position: absolute;
+    top: 515px;
+    width: 286px;
+  }
+
+  .RegisterEquipoForm-box .RegisterEquipoForm-mtto-label {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 53px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 494px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-mtto-input{
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 50px;
+    position: absolute;
+    top: 517px;
+    width: 286px;
+  }
+  
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-4 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 246px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-5 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 377px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-6 {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 395px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 122px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-6 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 50px;
+    position: absolute;
+    top: 270px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-7 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 50px;
+    position: absolute;
+    top: 395px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-rectangle-8 {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 28px;
+    left: 395px;
+    position: absolute;
+    top: 145px;
+    width: 286px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-div-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 36px;
+    left: 438px;
+    position: absolute;
+    top: 558px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-7 {
+    color: #09203f;
+    background-color: #d9d9d9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    border-color: transparent;
+    left: 17px;
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .RegisterEquipoForm-box .RegisterEquipoForm-text-wrapper-8 {
+    color: #09203f;
+    background-color: #00ddfa;
+    border-color: transparent;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 17px;
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+  }
+
+  .RegisterEquipoForm-box .RegisterEquipoForm-overlap-2 {
+    background-color: #00ddfa;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 36px;
+    left: 552px;
+    position: absolute;
+    top: 558px;
+    width: 100px;
+  }
+  

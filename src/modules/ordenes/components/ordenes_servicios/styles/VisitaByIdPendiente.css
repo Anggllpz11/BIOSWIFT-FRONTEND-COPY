@@ -1,0 +1,927 @@
+.VisitaByIdPendiente-visita-pendiente {
+  background-color: transparent;
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: center;
+  left: 535px;
+  top: 345px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 563px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-div {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 412px;
+  position: relative;
+  width: 563px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-header {
+  background-color: transparent;
+  height: 34px;
+  left: 16px;
+  position: absolute;
+  top: 17px;
+  width: 500px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 34px;
+  position: relative;
+  width: 498px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 498px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-ejecutar-icon {
+  height: 30px;
+  left: 524px;
+  color: #00ddfa;
+  cursor: pointer;
+  position: absolute;
+  top: 19px;
+  width: 30px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap {
+  background-color: #d9d9d9;
+  height: 353px;
+  left: 0;
+  border-radius: 10px;
+  position: absolute;
+  top: 59px;
+  width: 563px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-ejecucion-div {
+  height: 316px;
+  left: 14px;
+  position: absolute;
+  top: 24px;
+  width: 311px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-2 {
+  height: 316px;
+  position: relative;
+  width: 291px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 316px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-text-wrapper-2 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 271px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-ejecucion-icon {
+  height: 20px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 25px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-ejecucion-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  width: 108px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-time-icon {
+  height: 20px;
+  left: 156px;
+  color: #00ddfa;
+  position: absolute;
+  top: 25px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-time-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 101px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-separator {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 290px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-group-2 {
+  height: 12px;
+  left: 137px;
+  /* background-color: #d9d9d9; */
+  position: absolute;
+  top: 0;
+  width: 153px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-ellipse {
+  border: 1px solid;
+  border-color: #d9d9d9;
+  border-radius: 8.25px/5.83px;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-line {
+  height: 2px;
+  left: 16px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 137px;
+}
+
+/* .visita-pendiente .line2 {
+  height: 2px;
+  background-color: #d9d9d9;
+  right: 170px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 137px;
+} */
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-3 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 137px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-img {
+  height: 2px;
+  left: 0;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 137px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-line-2 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 0;
+  width: 137px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-tecnico-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 73px;
+  width: 272px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-tecnico-oid {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 89px;
+  width: 288px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-tecnico-icon {
+  height: 20px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 105px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-tecnico-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 109px;
+  width: 89px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-cedula-icon {
+  height: 20px;
+  left: 156px;
+  color: #00ddfa;
+  position: absolute;
+  top: 105px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-cedula-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 109px;
+  width: 92px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-email-icon {
+  height: 20px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 145px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-email-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 150px;
+  width: 88px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-telephone-icon {
+  height: 20px;
+  left: 156px;
+  color: #00ddfa;
+  position: absolute;
+  top: 145px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-telephone-data {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 150px;
+  width: 92px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-separator-2 {
+  height: 12px;
+  left: 1px;
+  position: absolute;
+  top: 172px;
+  width: 290px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-protocolos-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 194px;
+  width: 272px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-actividades-list {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 100px;
+  left: 2px;
+  position: absolute;
+  top: 213px;
+  width: 288px;
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido es demasiado alto */
+}
+
+/* Estilos de barra de desplazamiento para navegadores WebKit como Chrome y Safari */
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-actividades-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-actividades-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-actividades-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px; /* Puedes redondear los bordes del pulgar para que coincida con el contenedor */
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-actividades-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Estilos de barra de desplazamiento para Firefox */
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-actividades-list {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-rectangle-2 {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 21px;
+  font-size: 12px;
+  left: 20px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 4px;
+  list-style: none;
+  top: 11px;
+  width: 251px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-change-estado {
+  height: 115px;
+  left: 323px;
+  position: absolute;
+  top: 34px;
+  width: 197px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-4 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 115px;
+  position: relative;
+  width: 191px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-text-wrapper-3 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 136px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-img-2-pending {
+  height: 30px;
+  left: 79px;
+  color: #dac508;
+  position: absolute;
+  top: 20px;
+  width: 30px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-img-2-aprooved {
+  height: 30px;
+  left: 79px;
+  color: #08da08;
+  position: absolute;
+  top: 20px;
+  width: 30px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-img-2-rejected {
+  height: 30px;
+  left: 79px;
+  color: #da2808;
+  position: absolute;
+  top: 20px;
+  width: 30px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-separator-estado {
+  height: 1px;
+  left: 0;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 191px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-decline-icon {
+  height: 30px;
+  left: 46px;
+  position: absolute;
+  top: 65px;
+  cursor: pointer;
+  color: #da2808;
+  width: 30px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-decline-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 9px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 99px;
+  white-space: nowrap;
+  width: 63px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-aprove-icon {
+  height: 30px;
+  left: 114px;
+  position: absolute;
+  cursor: pointer;
+  color: #08da08;
+  top: 64px;
+  width: 30px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-aprove-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 9px;
+  left: 101px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  white-space: nowrap;
+  width: 63px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-creation-div {
+  height: 181px;
+  left: 323px;
+  position: absolute;
+  top: 155px;
+  width: 207px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-5 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 181px;
+  position: relative;
+  width: 191px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-creation-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 16px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 136px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-created-icon {
+  height: 19px;
+  left: 35px;
+  color: #00ddfa  ;
+  position: absolute;
+  top: 29px;
+  width: 18px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-created-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 18px;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  width: 102px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-sede-ejecutar {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 63px;
+  width: 87px;
+}
+
+/* .visita-pendiente .ejecutar-input {
+  height: 32px;
+  left: 124px;
+  position: absolute;
+  top: 53px;
+  width: 30px;
+} */
+
+/* CSS */
+.VisitaByIdPendiente-ejecutar-switch {
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  left: 115px;
+  width: 60px;
+  height: 34px;
+}
+
+.VisitaByIdPendiente-ejecutar-switch .VisitaByIdPendiente-ejecutar-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.VisitaByIdPendiente-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7C7C7C;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.VisitaByIdPendiente-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.VisitaByIdPendiente-ejecutar-switch.on .VisitaByIdPendiente-slider {
+  background-color: #00ddfa;
+}
+
+.VisitaByIdPendiente-ejecutar-switch.off .VisitaByIdPendiente-slider {
+  background-color: #7C7C7C;
+}
+
+.VisitaByIdPendiente-ejecutar-input:checked + .VisitaByIdPendiente-slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.VisitaByIdPendiente-slider.round {
+  border-radius: 34px;
+}
+
+.VisitaByIdPendiente-slider.round:before {
+  border-radius: 50%;
+}
+
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-separator-3 {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 88px;
+  width: 191px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-overlap-group-3 {
+  height: 12px;
+  left: 90px;
+  position: absolute;
+  top: 0;
+  width: 101px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-elipse {
+  border: 1px solid;
+  border-color: #d9d9d9;
+  border-radius: 5.43px/6.17px;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-line-3 {
+  height: 1px;
+  left: 11px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 90px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-line-4 {
+  height: 1px;
+  left: 0;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 90px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-creator-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 16px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 104px;
+  width: 136px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-tecnico-i {
+  height: 16px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 123px;
+  width: 12px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-tecnico-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+  width: 64px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-cedula-i {
+  height: 16px;
+  left: 103px;
+  color: #00ddfa;
+  position: absolute;
+  top: 123px;
+  width: 12px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-cedula-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 123px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+  width: 63px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-email-i {
+  height: 15px;
+  left: 11px;
+  color: #00ddfa;
+  position: absolute;
+  top: 154px;
+  width: 12px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-email-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0;
+  /* justify-content: left; */
+  line-height: normal;
+  position: absolute;
+  word-break: break-all; /* Permite que la palabra se rompa y continúe en la siguiente línea */
+  overflow-wrap: break-word; /* Alternativa a word-wrap para navegadores modernos */
+  white-space: normal; /* Asegura que el espacio en blanco se maneje normalmente */
+  top: 158px;
+  height: 22px;
+  width: 67px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-telephone-i {
+  height: 15px;
+  left: 103px;
+  position: absolute;
+  color: #00ddfa;
+  top: 154px;
+  width: 12px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-telephone-n {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 123px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 158px;
+  width: 63px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-estado-section {
+  height: 115px;
+  left: 322px;
+  position: absolute;
+  top: 34px;
+  width: 199px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-estado-text {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 9px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 53px;
+  white-space: nowrap;
+  width: 191px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-separator-4 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 64px;
+  width: 191px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-observacion-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  width: 190px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-observacion-text {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0px;
+  background-color: #d9d9d9;
+  border: none;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 78px;
+  height: 20px;
+  width: 192px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-back-icon {
+  height: 20px;
+  left: 3px;
+  color: #00ddfa;
+  position: absolute;
+  cursor: pointer;
+  top: 3px;
+  width: 20px;
+}
+
+.VisitaByIdPendiente-visita-pendiente .VisitaByIdPendiente-update-estado-button {
+  color: #ffffff;
+  background-color: #00ddfa;
+  position: absolute;
+  cursor: pointer;
+  top: 101px;
+  border-radius: 3px;
+  height: 14px;
+  border: none;
+  left: 60px;
+  font-size: 10px;
+  width: 70px;
+}

@@ -1,0 +1,37 @@
+.RegisterEquipo-button-redirec-container{
+    
+    position: fixed;
+    left: 70%;
+    top: 12%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.RegisterEquipo-button-redirect{
+    top: -95px;
+    border-radius: 150px;
+    color:#00ddfa;
+    background-color: rgba(32, 32, 32,0.6);
+    padding: 5px;
+    height: 55px ;
+    width:55px ;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.RegisterEquipo-button-redirect-add{
+    color:#00ddfa;
+    height: 20px !important;
+    position: relative;
+    width:20px !important;
+    z-index: 11;
+    left: -22px;
+    top: 10px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,411 @@
+.VisitasOrden-visitas {
+  /* background-color: #ffffff; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 205px;
+  width: 100%;
+}
+
+.VisitasOrden-visitas .VisitasOrden-div {
+  background-color: #ffffff;
+  border-radius: 10px;
+  top: 205px;
+  height: 566px;
+  overflow: hidden;
+  position: relative;
+  width: 1006px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-header {
+  background-color: transparent;
+  height: 124px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1008px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 124px;
+  position: relative;
+  width: 1006px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-visita-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  height: 42px;
+  left: 82px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  width: 842px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-all-visitas {
+  height: 398px;
+  left: 12px;
+  position: absolute;
+  top: 147px;
+  width: 407px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 398px;
+  position: relative;
+  width: 399px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-navbar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 47px;
+  left: 7px;
+  position: absolute;
+  top: 9px;
+  width: 383px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-pendiente-t {
+  color: #dac508;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 26px;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 88px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estados {
+  height: 34px;
+  left: 98px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-abierta-t {
+  color: #08da08;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 26px;
+  left: 101px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 77px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estados-separator {
+  height: 34px;
+  left: 182px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-cerrada-title {
+  color: #555555;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 26px;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 82px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-img {
+  height: 34px;
+  left: 273px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-rechazada-t {
+  color: #da2808;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 26px;
+  left: 279px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 101px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-visitas-list {
+  background-color: #d9d9d9;
+  height: 319px;
+  left: 0;
+  position: absolute;
+  top: 66px;
+  width: 399px;
+  overflow-y: scroll; /* Habilita el scroll vertical */
+  overflow-x: hidden;
+  scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+  scrollbar-color:  #636b6f61 transparent; /* Firefox */
+}
+
+/* Para Chrome, Safari y Edge */
+.VisitasOrden-visitas .VisitasOrden-visitas-list::-webkit-scrollbar {
+  width: 3px; /* Ajusta el ancho del scrollbar */
+}
+
+.VisitasOrden-visitas .VisitasOrden-visitas-list::-webkit-scrollbar-track {
+  background-color: transparent;
+
+}
+
+.VisitasOrden-visitas .VisitasOrden-visitas-list::-webkit-scrollbar-thumb {
+  background-color: transparent;
+    border-radius: 3px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-visita-card {
+  height: 94px;
+  left: 12px;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  top: 8px;
+  width: 365px;
+  margin-bottom: 10px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap-group-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 94px;
+  position: relative;
+  width: 355px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-oid-card {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 18px;
+  left: 92px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 252px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-separator {
+  height: 77px;
+  left: 85px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-separator-card {
+  height: 56px;
+  left: 219px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estado {
+  height: 50px;
+  left: 16px;
+  position: absolute;
+  top: 22px;
+  width: 53px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estado-pendiente {
+    height: 50px;
+    left: 16px;
+    position: absolute;
+    top: 22px;
+    width: 53px;
+    color: #dac508;
+
+  }
+
+  .VisitasOrden-visitas .VisitasOrden-estado-cerrado {
+    height: 50px;
+    left: 16px;
+    position: absolute;
+    top: 22px;
+    width: 53px;
+    color: #555555;
+
+  }
+
+  .VisitasOrden-visitas .VisitasOrden-estado-abierto {
+    height: 50px;
+    left: 16px;
+    position: absolute;
+    top: 22px;
+    width: 53px;
+    color: #08da08;
+  }
+
+  .VisitasOrden-visitas .VisitasOrden-estado-rechazado {
+    height: 50px;
+    left: 16px;
+    position: absolute;
+    top: 22px;
+    width: 53px;
+    color: #da2808;
+  }
+
+
+.VisitasOrden-visitas .VisitasOrden-inicio-icon {
+  height: 18px;
+  left: 92px;
+  color: #00ddfa;
+  position: absolute;
+  top: 33px;
+  width: 19px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-inicio-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 116px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  width: 102px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-tecnico-icon {
+  height: 18px;
+  left: 92px;
+  color: #00ddfa;
+  position: absolute;
+  top: 63px;
+  width: 19px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-tecnico-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 115px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 64px;
+  width: 103px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-created-icon {
+  height: 18px;
+  left: 230px;
+  color: #00ddfa;
+  position: absolute;
+  top: 33px;
+  width: 18px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-created-icon-add {
+  height: 11px;
+  left: 233px;
+  color: #00ddfa;
+  position: absolute;
+  top: 39px;
+  width: 11px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-created-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 252px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  width: 102px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-user-icon {
+  height: 18px;
+  color: #00ddfa;
+  left: 230px;
+  position: absolute;
+  top: 63px;
+  width: 19px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-user-creator {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 64px;
+  width: 101px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-addVisita-button{
+
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 900px;
+  top: 36px;
+  cursor: pointer;
+  color: #00ddfa;
+}

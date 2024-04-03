@@ -1,0 +1,1293 @@
+.SolicitudesServicioDetailPage-solicitudes {
+  border-radius: 10px;
+  height: 680px;
+  overflow: hidden;
+  width: 1012px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap {
+  height: 680px;
+  left: 19px;
+  position: relative;
+  width: 978px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-container {
+  background-color: #53789587;
+  border-radius: 10px;
+  height: 680px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 976px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-header {
+  background-color: transparent;
+  height: 149px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 978px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 149px;
+  position: relative;
+  width: 976px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-solicitud-id {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  height: 80px;
+  left: 82px;
+  letter-spacing: 0;
+  position: absolute;
+  align-items: center !important;	
+  justify-content: center;
+  text-align: center;
+  top: 60px;
+  width: 817px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-edit-icon {
+  height: 40px; 
+  color: #00ddfa;
+  left: 910px;
+  position: absolute;
+  top: 26px;
+  width: 40px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-delete-icon {
+  color: #00ddfa;
+  height: 40px;
+  left: 910px;
+  position: absolute;
+  top: 85px;
+  width: 40px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-geninfo-section {
+  height: 176px;
+  left: 30px;
+  position: absolute;
+  top: 178px;
+  width: 398px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-div {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 176px;
+  position: relative;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-geninfo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-service-icon {
+  color: #00ddfa;
+  height: 22px;
+  left: 15px;
+  position: absolute;
+  top: 66px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-service-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 18px;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 69px;
+  width: 123px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-created-icon {
+  height: 22px;
+  color: #00ddfa;
+  left: 15px;
+  position: absolute;
+  top: 114px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-created-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 18px;
+  left: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 119px;
+  width: 130px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-geninfo-separator {
+  height: 106px;
+  left: 194px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 2px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-aviso-icon {
+  height: 22px;
+  left: 212px;
+  color: #00ddfa;
+  position: absolute;
+  top: 66px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-aviso-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 18px;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 69px;
+  width: 127px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-observacion-icon {
+  height: 22px;
+  left: 212px;
+  color: #00ddfa;
+  position: absolute;
+  top: 114px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-observacion-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 55px;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 117px;
+  width: 127px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-section {
+  height: 67px;
+  left: 15px;
+  position: absolute;
+  top: 365px;
+  width: 421px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-2 {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 67px;
+  position: relative;
+  width: 417px;
+}
+
+
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 24px;
+  width: 128px;
+}
+
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-cambio-date {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 114px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 99px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-cambio-date-icon {
+  color: #636b6f;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+  width: 17px;
+  height: 17px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-separator {
+  height: 41px;
+  left: 210px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  width: 1px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-text-wrapper {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    height: 57px;
+    left: 218px;
+    letter-spacing: 0;
+    line-height: normal;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 194px;
+    overflow-y: auto; /* Agrega scroll vertical */
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+  }
+  
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creator-section {
+  height: 226px;
+  left: 28px;
+  position: absolute;
+  top: 443px;
+  width: 412px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-3 {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 226px;
+  position: relative;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-4 {
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creador-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 14px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creador-oid {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 10px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  white-space: nowrap;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-eye {
+  height: 20px;
+  color: #636b6f;
+  cursor: pointer;
+  left: 353px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-username-icon {
+  height: 17px;
+  left: 7px;
+  color: #00ddfa;
+  position: absolute;
+  top: 47px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creador-username {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 47px;
+  width: 144px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-telephone-icon {
+  height: 17px;
+  left: 223px;
+  color: #00ddfa;
+  position: absolute;
+  top: 47px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creador-telephone {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  left: 259px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 47px;
+  width: 124px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-cc-icon {
+  height: 17px;
+  left: 7px;
+  color: #00ddfa;
+  position: absolute;
+  top: 75px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creador-cc {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 75px;
+  width: 144px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-email-icon {
+  height: 17px;
+  left: 223px;
+  color: #00ddfa;
+  position: absolute;
+  top: 75px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-creador-email {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 28px;
+  left: 259px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 80px;
+  width: 124px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-separator {
+  height: 55px;
+  left: 193px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 44px;
+  width: 2px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-separator-info {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 109px;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-group-2 {
+  height: 14px;
+  position: relative;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-line {
+  height: 1px;
+  left: 0;
+  background-color: #537895;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 187px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-img {
+  height: 1px;
+  left: 201px;
+  background-color: #537895;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 187px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-ellipse {
+  border: 1px solid;
+  border-color: #537895;
+  border-radius: 8px/7px;
+  height: 14px;
+  left: 186px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-5 {
+  height: 29px;
+  left: 0;
+  position: absolute;
+  top: 129px;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-actualizador-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 14px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-actualizador-oid {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 10px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  white-space: nowrap;
+  width: 388px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-user {
+  height: 17px;
+  left: 7px;
+  color: #00ddfa;
+  position: absolute;
+  top: 171px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-actualizador {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 170px;
+  width: 144px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-cc {
+  height: 17px;
+  left: 7px;
+  color: #00ddfa;
+  position: absolute;
+  top: 199px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-actualizador-cc {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 198px;
+  width: 144px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-telephone {
+  height: 17px;
+  left: 223px;
+  color: #00ddfa;
+  position: absolute;
+  top: 170px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-actualizador-2 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  left: 259px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 170px;
+  width: 124px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-email {
+  height: 17px;
+  left: 223px;
+  color: #00ddfa;
+  position: absolute;
+  top: 198px;
+  width: 28px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-actualizador-email {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 28px;
+  left: 259px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 197px;
+  width: 124px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-separator-2 {
+  height: 55px;
+  left: 193px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 167px;
+  width: 2px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-equipo-section {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 491px;
+  left: 449px;
+  position: absolute;
+  top: 178px;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-client-info {
+  height: 131px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+  width: 521px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-group-3 {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-client-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 27px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-eye-2 {
+  height: 25px;
+  color: #636b6f;
+  cursor: pointer;
+  left: 474px;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-client-oid {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 10px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  white-space: nowrap;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientname-icon {
+  height: 27px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 54px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientname-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 40px;
+  left: 74px;
+  letter-spacing: 0;
+  align-items: center;
+  line-height: normal;
+  position: absolute;
+  top: 60px;
+  width: 168px;
+  z-index: 999;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-nit-icon {
+  height: 27px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 91px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-nit-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 21px;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientphone-icon {
+  height: 27px;
+  left: 297px;
+  color: #00ddfa;
+  position: absolute;
+  top: 54px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientphone-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 20px;
+  left: 333px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 57px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientinfo-separator {
+  height: 79px;
+  left: 255px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 1px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientemail-icon {
+  height: 27px;
+  left: 297px;
+  color: #00ddfa;
+  position: absolute;
+  top: 91px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-clientemail-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 35px;
+  left: 333px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 96px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-separator-info-2 {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 169px;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-line-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  background-color: #537895;
+  position: absolute;
+  top: 6px;
+  width: 247px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-line-3 {
+  height: 1px;
+  left: 263px;
+  object-fit: cover;
+  background-color: #537895;
+  position: absolute;
+  top: 6px;
+  width: 246px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-ellipse-2 {
+  border: 1px solid;
+  border-color: #537895;
+  border-radius: 8px/7px;
+  height: 14px;
+  left: 247px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-equipo-info {
+  height: 137px;
+  left: 0;
+  position: absolute;
+  top: 192px;
+  width: 527px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-6 {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-equipo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 24px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-equipo-oid {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 9px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  white-space: nowrap;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-eye-3 {
+  height: 25px;
+  color: #636b6f;
+  cursor: pointer;
+  left: 474px;
+  position: absolute;
+  top: 1px;
+  width: 25px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-class-icon {
+  height: 24px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 48px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-class-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 36px;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-marca-icon {
+  height: 24px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 82px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-marca-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 19px;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 87px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-model-icon {
+  height: 24px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 113px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-model-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 19px;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-equipoinfo-separator {
+  height: 91px;
+  left: 255px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 46px;
+  width: 1px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-serial-icon {
+  height: 24px;
+  left: 297px;
+  color: #00ddfa;
+  position: absolute;
+  top: 48px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-serial-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 20px;
+  left: 333px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-client-wrapper {
+  /* background-image: url(./area-icon.png); */
+  background-size: 100% 100%;
+  height: 24px;
+  color: #00ddfa;
+  left: 297px;
+  position: absolute;
+  top: 82px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-client {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-7 {
+  height: 32px;
+  left: 333px;
+  position: absolute;
+  top: 82px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-text-wrapper-2 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 32px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-ubicacion-icon {
+  height: 24px;
+  left: 297px;
+  color: #00ddfa;
+  position: absolute;
+  top: 113px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-ubicacion-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 19px;
+  left: 333px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-wrapper {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 344px;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-line-4 {
+  height: 1px;
+  left: 0;
+  background-color: #537895;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 248px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-line-5 {
+  height: 1px;
+  left: 262px;
+  background-color: #537895;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 247px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-info {
+  height: 123px;
+  left: 0;
+  position: absolute;
+  top: 364px;
+  width: 521px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-overlap-8 {
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 19px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-oid {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 7px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  white-space: nowrap;
+  width: 509px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-icon {
+  height: 27px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 47px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-nombre {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 40px;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-location-icon {
+  height: 27px;
+  left: 38px;
+  color: #00ddfa;
+  position: absolute;
+  top: 81px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-address {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 35px;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 90px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sedeinfo-separator {
+  height: 58px;
+  left: 255px;
+  object-fit: cover;
+  background-color: #636b6f61;
+  position: absolute;
+  top: 49px;
+  width: 1px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sedetelephone-icon {
+  height: 27px;
+  left: 297px;
+  color: #00ddfa;
+  position: absolute;
+  top: 47px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-telefono {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 24px;
+  left: 333px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 48px;
+  width: 168px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sedeemail-icon {
+  height: 27px;
+  left: 297px;
+  color: #00ddfa;
+  position: absolute;
+  top: 81px;
+  width: 27px;
+}
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-sede-email {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 335px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 92px;
+  width: 168px;
+}
+
+
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-icon {
+    height: 45px;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    width: 47px;
+  }
+.SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-pendiente {
+    height: 45px;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    width: 47px;
+    color: #dac508;
+  }
+  
+  .SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-aprobada {
+    height: 45px;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    width: 47px;
+    color: #08da08;
+  }
+  .SolicitudesServicioDetailPage-solicitudes .SolicitudesServicioDetailPage-estado-rechazada {
+    height: 45px;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    width: 47px;
+    color: #da2808;
+  }
+
+  .EditSolicitudServiciosButton-equipoInfo{
+    cursor: pointer;
+  }

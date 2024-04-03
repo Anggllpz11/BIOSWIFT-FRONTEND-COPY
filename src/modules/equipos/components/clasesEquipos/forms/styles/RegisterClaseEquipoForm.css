@@ -1,0 +1,106 @@
+.RegisterClaseEquipoForm-box {
+    height: 238px;
+    width: 466px;
+  }
+  
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-register-marca {
+    height: 238px;
+    left: 0;
+    top: 0;
+    width: 470px;
+  }
+  
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-overlap-group {
+    background-size: 100% 100%;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    height: 238px;
+    position: relative;
+    width: 466px;
+}
+
+.RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-overlap {
+    background-size: 100% 100%;
+    background-color: #d9d9d9;
+    height: 69px;
+    border-radius: 5px;
+    color: #00ddfa;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 466px;
+  }
+  
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-register-marca-title {
+    -webkit-text-stroke: 1px #00ddfa33;
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    width: 327px;
+  }
+  
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-register-marca-label {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 91px;
+    width: 453px;
+  }
+  
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-register-marca-input {
+    height: 36px;
+    left: 60px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 144px;
+    width: 345px;
+  }
+  
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-registrar-button {
+    height: 36px;
+    left: 235px;
+    background-color: #00ddfa;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 189px;
+    width: 79px;
+  }
+  
+
+    
+  .RegisterClaseEquipoForm-box .RegisterClaseEquipoForm-cancelar-button {
+    height: 36px;
+    left: 145px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 189px;
+    width: 79px;
+  }
+  

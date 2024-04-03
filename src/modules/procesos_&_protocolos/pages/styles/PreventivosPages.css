@@ -1,0 +1,205 @@
+.PreventivoCard-box {
+  height: 137px;
+  width: 387px;
+}
+
+.PreventivoCard-box .PreventivoCard-preventivo-card {
+  height: 137px;
+  left: 0;
+  top: 0;
+  width: 387px;
+  cursor: pointer;
+}
+
+.PreventivoCard-box .PreventivoCard-overlap-group {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 137px;
+  position: relative;
+  width: 387px;
+}
+
+.PreventivoCard-box .PreventivoCard-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 137px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.PreventivoCard-box .PreventivoCard-icon {
+  height: 123px;
+  left: 5px;
+  color: #00ddfa;
+  position: absolute;
+  top: 7px;
+  width: 124px;
+}
+
+.PreventivoCard-box .PreventivoCard-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 139px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 245px;
+}
+
+.PreventivoCard-box .PreventivoCard-id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 143px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  width: 235px;
+}
+
+.PreventivoCard-box .PreventivoCard-div {
+  height: 68px;
+  left: 139px;
+  position: absolute;
+  top: 59px;
+  width: 82px;
+}
+
+.PreventivoCard-box .PreventivoCard-codigo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 81px;
+}
+
+.PreventivoCard-box .PreventivoCard-codigo-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 46px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 81px;
+}
+
+.PreventivoCard-box .PreventivoCard-separator {
+  background-color: #636b6f61;
+  height: 75px;
+  left: 224px;
+  position: absolute;
+  top: 52px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.PreventivoCard-box .PreventivoCard-overlap-2 {
+  height: 68px;
+  left: 228px;
+  position: absolute;
+  top: 59px;
+  width: 75px;
+}
+
+.PreventivoCard-box .PreventivoCard-version-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.PreventivoCard-box .PreventivoCard-text-wrapper {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 46px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 72px;
+}
+
+.PreventivoCard-box .PreventivoCard-separator-2 {
+  background-color: #636b6f61;
+  height: 75px;
+  left: 308px;
+  position: absolute;
+  top: 52px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.PreventivoCard-box .PreventivoCard-overlap-3 {
+  height: 68px;
+  left: 312px;
+  position: absolute;
+  top: 59px;
+  width: 72px;
+}
+
+.PreventivoCard-box .PreventivoCard-fecha-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 72px;
+}
+
+  .PreventivosPages-Container-Card{
+    width: 1200px;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /* Hace que haya 3 tarjetas por fila */
+    gap: 2%; /* Espaciado entre las tarjetas */
+    row-gap: 10%;
+    margin:2rem 3vw;
+    padding:0;
+    list-style: none
+  }
+
+
+.PreventivosPages-container{
+    width: 1350px;
+	height: 100%;
+}
+
+.PreventivoPages-cards-list{
+    list-style: none
+}

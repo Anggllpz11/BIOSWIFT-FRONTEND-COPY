@@ -1,0 +1,870 @@
+.RegisterSolicitudServicioForm-div-wrapper {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-wrapper {
+    height: 733px;
+    width: 1012px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap {
+    height: 727px;
+    left: 19px;
+    position: relative;
+    width: 978px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 730px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 976px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-header {
+    background-color: transparent;
+    height: 149px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 978px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 149px;
+    position: relative;
+    width: 976px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-solicitud-id {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 50px;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 817px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-section {
+    height: 540px;
+    left: 34px;
+    position: absolute;
+    top: 171px;
+    width: 442px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-tipo-servicio-p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 37px;
+    left: 11px;
+    letter-spacing: 0;
+    border-style: none;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 416px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-tipo-servicio-input {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 40px;
+    left: 10px;
+    position: absolute;
+    top: 37px;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-busqueda-equipos-p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 37px;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 86px;
+    width: 416px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-busqueda-equipos {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 40px;
+    left: 10px;
+    border-style: none;
+    position: absolute;
+    top: 132px;
+    width: 305px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-div {
+    background-color: #00ddfa;
+    border-radius: 10px;
+    height: 40px;
+    left: 325px;
+    cursor: pointer;
+    border-style: none;
+    position: absolute;
+    top: 132px;
+    width: 100px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipos-encontrados {
+      display: flex;
+      overflow-x: auto; /* Permite desplazamiento horizontal */
+      overflow-y: hidden; /* Oculta el desplazamiento vertical */
+      white-space: nowrap;
+      height: 200px;
+      position: relative;
+      top: 181px;
+      width: 440px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-card {
+    height: 146px;
+    left: 89px; 
+    margin-top: 30px;
+    width: 280px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-group-2 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 146px;
+    position: relative;
+    width: 260px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-classname-p {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 36px;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 190px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-oid {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 10px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    white-space: nowrap;
+    width: 260px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-serial-p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 24px;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    width: 84px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-location-icon {
+    height: 14px;
+    left: 95px;
+    color: #00ddfa;
+    position: absolute;
+    top: 53px;
+    width: 18px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-location-text {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 22px;
+    left: 113px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    width: 74px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-frequency-icon {
+    height: 14px;
+    left: 189px;
+    color: #00ddfa;
+    position: absolute;
+    top: 53px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-frequency-value {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 13px;
+    left: 208px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 50px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-name {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 11px;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 76px;
+    white-space: nowrap;
+    width: 259px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-oid {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 7px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 87px;
+    white-space: nowrap;
+    width: 260px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-client-icon {
+    height: 16px;
+    color: #00ddfa;
+    left: 4px;
+    position: absolute;
+    top: 103px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-client-name {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 22px;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 98px;
+    width: 69px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-icon {
+    height: 14px;
+    color: #00ddfa;
+    left: 95px;
+    position: absolute;
+    top: 104px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-address {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 17px;
+    left: 113px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    width: 74px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone-icon {
+    height: 14px;
+    color: #00ddfa;
+    left: 189px;
+    position: absolute;
+    top: 104px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone-value {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 208px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 107px;
+    width: 49px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-seleccionar-button {
+    background-color: #00ddfa;
+    border-radius: 5px;
+    height: 15px;
+    left: 47px;
+    border-style: none;
+    font-size: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 126px;
+    width: 170px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-eye-icon {
+    height: 19px;
+    left: 230px;
+    color: #00ddfa;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    width: 22px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-text-wrapper {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 438px;
+  }
+
+    
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-search-error-message {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 224px;
+    width: 438px;
+  }
+
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-selected {
+      height: 177px;
+      left: 11px;
+      position: absolute;
+      top: 200px; /* Posición por defecto cuando no hay búsqueda */
+      width: 418px;
+      transition: top 0.3s; /* Añade una transición para el cambio de posición */
+    }
+    
+    .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-selected.search-active {
+      top: 380px; /* Nueva posición cuando la búsqueda está activa */
+    }
+  
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-group-wrapper {
+    height: 145px;
+    left: 73px;
+    position: absolute;
+    top: 32px;
+    width: 290px;
+    transition: top 0.3s; /* Añade una transición para el cambio de posición */
+  
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-group-3 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 145px;
+    position: relative;
+    width: 270px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 35px;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 197px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-2 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 10px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+    width: 270px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-serial {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 24px;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 48px;
+    width: 88px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-location {
+    height: 14px;
+    color: #00ddfa;
+    left: 99px;
+    position: absolute;
+    top: 53px;
+    width: 18px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-location-value {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 21px;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    width: 77px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-frecuency {
+    height: 14px;
+    left: 196px;
+    color: #00ddfa;
+    position: absolute;
+    top: 53px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-frecuency-value {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 13px;
+    left: 216px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 52px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-name-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 11px;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    white-space: nowrap;
+    width: 269px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 7px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 86px;
+    white-space: nowrap;
+    width: 270px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-client {
+    height: 16px;
+    left: 5px;
+    color: #00ddfa;
+    position: absolute;
+    top: 102px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-client-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 22px;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 98px;
+    width: 72px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-img {
+    height: 14px;
+    left: 99px;
+    color: #00ddfa;
+    position: absolute;
+    top: 103px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    height: 17px;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 101px;
+    width: 77px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone {
+    height: 14px;
+    left: 196px;
+    color: #00ddfa;
+    position: absolute;
+    top: 103px;
+    width: 17px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 216px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 106px;
+    width: 52px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-eye {
+    height: 19px;
+    left: 239px;
+    color: #00ddfa;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    width: 23px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-confirmed-selection {
+    background-color: #00ddfa;
+    border-radius: 5px;
+    height: 15px;
+    left: 50px;
+    border-style: none;
+    font-size: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 126px;
+    width: 170px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-selected-2 {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 21px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 416px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-middle-separator {
+    height: 539px;
+    left: 487px;
+    object-fit: cover;
+    position: absolute;
+    top: 172px;
+    width: 5px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-section-2 {
+    height: 541px;
+    left: 517px;
+    position: absolute;
+    top: 176px;
+    width: 440px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-2 {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 37px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 416px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-div-2 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 40px;
+    border-style: none;
+    left: 0;
+    position: absolute;
+    top: 32px;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-3 {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top:0px;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-4 {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 82px;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-5 {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 243px;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-aprobar-icon {
+    height: 55px;
+    left: 129px;
+    color: #08da08;
+  
+    position: absolute;
+    top: 330px;
+    width: 55px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-aprobar-text {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 15px;
+    left: 114px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 390px;
+    white-space: nowrap;
+    width: 86px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-rechazar-icon {
+    height: 55px;
+    color: #da2808;
+    left: 233px;
+    position: absolute;
+    top: 330px;
+    width: 55px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-rechazar-text {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 15px;
+    left: 218px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 390px;
+    white-space: nowrap;
+    width: 86px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-overlap-6 {
+    height: 72px;
+    left: 9px;
+    position: absolute;
+    top: 414px;
+    width: 417px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-cancelar-button {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    border-style: none;
+    height: 42px;
+    left: 71px;
+    position: absolute;
+    cursor: pointer;
+    top: 210px;
+    width: 121px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-actualizar-button {
+    background-color: #00ddfa;
+    border-radius: 5px;
+    border-style: none;
+    height: 42px;
+    left: 226px;
+    cursor: pointer;
+    position: absolute;
+    top: 210px;
+    width: 121px;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipos-list {
+      display: flex; /* Alinea los elementos de forma flexible */
+      flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
+      overflow-x: auto; /* Permite desplazamiento horizontal */
+      padding: 0; /* Elimina el padding por defecto */
+      margin: 0; /* Elimina el margen por defecto */
+      list-style-type: none; /* Elimina los estilos por defecto de lista */
+  }
+  
+  
+  /* Este estilo es para cada LI individual, que contiene la tarjeta del equipo */
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-equipo-card-list {
+      flex: 0 0 auto; /* Los elementos no crecerán o encogerán y tendrán un ancho automático basado en su contenido */
+      margin-right: 10px; /* Espacio a la derecha de cada tarjeta */
+      /* margin-right es opcional dependiendo de si quieres un espacio entre las tarjetas */
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-confirmation-div {
+  
+      height: 20px;
+      width: 430px;
+      top: 250px;
+      left: 10px;
+      position: relative;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-confirmation-yes {
+      position: relative;
+      height: 42px;
+      width: 121px;
+      left: 90px;
+      top: 10px;
+      border-radius: 5px;
+      border-style: none;
+      cursor: pointer;
+      background-color: #00ddfa;
+  }
+  
+  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-confirmation-no {
+      position: relative;
+      height: 42px;
+      width: 121px;
+      left: 100px;
+      top: 10px;
+      border-radius: 5px;
+      border-style: none;
+      cursor: pointer;
+      background-color: #d9d9d9;
+  }

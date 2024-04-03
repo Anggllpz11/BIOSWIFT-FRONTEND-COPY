@@ -1,0 +1,103 @@
+.ClasesEquiposCard-box {
+    height: 184px;
+    width: 565px;
+  }
+  
+  .ClasesEquiposCard-box .ClasesEquiposCard-overlap-group-wrapper {
+    height: 184px;
+    left: 0;
+    top: 0;
+    width: 569px;
+  }
+  
+  .ClasesEquiposCard-box .ClasesEquiposCard-overlap-group {
+    background-size: 100% 100%;
+    height: 96px;
+    width: 510px;
+    background-color: #ffffffd9;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .ClasesEquiposCard-box .ClasesEquiposCard-overlap {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 96px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 123px;
+  }
+  
+  .ClasesEquiposCard-box .ClasesEquiposCard-marcaequipo-icon {
+    height: 96px;
+    left: 14px;
+    color: #00ddfa;
+    position: absolute;
+    top: 0px;
+    width: 96px;
+  }
+  
+  .ClasesEquiposCard-box .ClasesEquiposCard-marcaequipo-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 149px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 329px;
+    height: 48px;
+  }
+  
+  .ClasesEquiposCard-box .ClasesEquiposCard-marcaequipo-id {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 149px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 57px;
+    width: 329px;
+  }
+  
+    .ClasesEquiposCard-cards-list{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+      gap:2rem;
+      margin:4rem 5vw;
+      padding:0;
+      list-style: none;
+      
+    }
+  
+    .ClasesEquiposCard-Container-Card{
+      width: 900px;
+      height: 100%;
+      display:grid;
+      grid-template-columns: repeat(2, 1fr); /* Hace que haya 3 tarjetas por fila */
+      gap: 10rem; /* Espaciado entre las tarjetas */
+      row-gap: 5%;
+      margin:2rem 2vw;
+      padding:0;
+      list-style: none
+    }
+  
+  
+  .ClasesEquiposCard-container{
+      width: 1200px;
+      height: 100%;
+  }
+
+
+  .ClasesEquiposPage-loggedIn-p{
+    text-align: center;
+    color: #00ddfa;
+  }

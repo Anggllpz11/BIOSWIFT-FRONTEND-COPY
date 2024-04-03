@@ -1,0 +1,65 @@
+.SearchSolicitudesServicios-section{
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  top: 7%;
+  left: 50%;
+} 
+
+.SearchSolicitudesServicios-section-container{
+    width: 100%;
+    position: fixed;
+    height: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a0a0a0;
+  }
+  
+  .SearchSolicitudesServicios-input[type=text]{
+    position: relative;
+    padding: 15px 30px 15px 10px;
+    width: 120px;
+    color: #00ddfa;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 1rem;
+    background:#1c1c1c ;
+    transition: width 0.4s ease;
+    outline: none;
+    
+    &:focus{ width: 300px; }
+  }
+  .SearchSolicitudesServicios-IconButton{
+    position: relative;
+    left: -37px;
+    color:#00ddfa;
+  }
+
+  .SearchSolicitudesServicios-icon-search{
+    height: 25px;
+    width: 25px;
+    color: #00ddfa;
+    border-radius: 25px;
+ }
+
+ .SolicitudesServiciosPages-Container-Card-Results{
+  width: 100%;
+  height: 100%;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr); /* Hace que haya 3 tarjetas por fila */
+  gap: 0.5%; /* Espaciado entre las tarjetas */
+  row-gap: 5%;
+  margin: 3rem 2vw;
+  position: relative;
+  top: 40px; 
+  left: -180px;
+}
+
+ 

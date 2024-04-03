@@ -1,0 +1,323 @@
+.OrdenCard-container {
+  height: 234px;
+  position: relative;
+  width: 418px;
+}
+
+.OrdenCard-container .OrdenCard-ordenes-pages {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 234px;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  width: 418px;
+}
+
+.OrdenCard-container .OrdenCard-overlap {
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 423px;
+}
+
+.OrdenCard-container .OrdenCard-header {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 418px;
+}
+
+.OrdenCard-container .OrdenCard-rectangle {
+  background-color: #d9d9d9;
+  height: 14px;
+  position: relative;
+  top: 75px;
+  width: 418px;
+}
+
+.OrdenCard-container .OrdenCard-header-info {
+  height: 78px;
+  left: 5px;
+  position: absolute;
+  top: 9px;
+  width: 418px;
+}
+
+.OrdenCard-container .OrdenCard-servicio-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 30px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 327px;
+}
+
+.OrdenCard-container .OrdenCard-creation-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 12px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.OrdenCard-container .OrdenCard-oid-orden {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 11px;
+  left: 111px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-estado {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 34px;
+}
+
+.OrdenCard-container .OrdenCard-estado-abierta {
+  height: 36px;
+  left: 0;
+  color: #08da08;
+  position: absolute;
+  top: 1px;
+  width: 34px;
+}
+
+.OrdenCard-container .OrdenCard-estado-cerrada {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  color: #636b6f;
+  top: 1px;
+  width: 34px;
+}
+
+.OrdenCard-container .OrdenCard-estado-anulada {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  color: #da2808;
+  top: 1px;
+  width: 34px;
+}
+
+.OrdenCard-container .OrdenCard-username {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 11px;
+  left: 290px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 66px;
+  width: 94px;
+}
+
+.OrdenCard-container .OrdenCard-update-icon {
+  height: 20px;
+  left: 390px;
+  position: absolute;
+  color: #00ddfa;
+  top: 59px;
+  width: 20px;
+}
+
+.OrdenCard-container .OrdenCard-add-icon {
+  height: 12px;
+  left: 394px;
+  color: #00ddfa;
+  position: absolute;
+  top: 66px;
+  width: 12px;
+}
+
+.OrdenCard-container .OrdenCard-overlap-group {
+  height: 123px;
+  left: 5px;
+  position: absolute;
+  top: 106px;
+  width: 208px;
+}
+
+.OrdenCard-container .OrdenCard-separator {
+  height: 111px;
+  left: 205px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.OrdenCard-container .OrdenCard-equipo-info {
+  height: 123px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 208px;
+}
+
+.OrdenCard-container .OrdenCard-info-title {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  height: 11px;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 200px;
+}
+
+.OrdenCard-container .OrdenCard-oid-equipo {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  height: 11px;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-serialnumber {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  width: 196px;
+}
+
+.OrdenCard-container .OrdenCard-sede-info {
+  height: 123px;
+  left: 213px;
+  position: absolute;
+  top: 106px;
+  width: 208px;
+}
+
+.OrdenCard-container .OrdenCard-info-sede-title {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  height: 11px;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-oid-sede {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  height: 11px;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 66px;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-cliente-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 39px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  width: 196px;
+}
+
+.SolicitudServicioPages-cards-list{
+  list-style: none
+}
+
+.OrdenesPages-Container-Card{
+  width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(4, 2fr); /* Hace que haya 3 tarjetas por fila */
+    gap: 0.5%; /* Espaciado entre las tarjetas */
+    row-gap: 5%;
+    margin:3rem 2vw;
+    padding:0;
+    list-style: none;
+    position: relative;
+    top: -130px; 
+}
+
+.OrdenesPages-li{
+  list-style: none;
+}

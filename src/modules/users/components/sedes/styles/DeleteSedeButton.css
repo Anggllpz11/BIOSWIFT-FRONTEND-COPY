@@ -1,0 +1,286 @@
+/* Reemplazar .DeleteUser con .DeleteSede */
+.DeleteSede-checkbox-input {
+    cursor: url(http://k003.kiwi6.com/hotlink/vp054ir5gt/c1.png) 32 32, auto;
+    cursor: -webkit-image-set(url(http://k003.kiwi6.com/hotlink/vp054ir5gt/c1.png) 1x,url(http://k003.kiwi6.com/hotlink/z6fy599487/c2.png) 2x) 32 32, auto;
+  }
+  
+  /* Reemplazar .DeleteUser con .DeleteSede */
+  .DeleteSede-checkbox-input:active {
+    cursor: url(http://k003.kiwi6.com/hotlink/3p6w4icbzt/c1a.png) 32 32, auto;
+    cursor: -webkit-image-set( url(http://k003.kiwi6.com/hotlink/3p6w4icbzt/c1a.png) 1x, url(http://k003.kiwi6.com/hotlink/6ma7828al1/c2a.png) 2x ) 32 32, auto;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-checkbox-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    margin: 0;
+    opacity: 0;
+    z-index: 3;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-bin-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: -29px auto 0 auto;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-lid {
+    position: relative;
+    width: 42px;
+    height: 4px;
+    left: 5px;
+    border-radius: 4px;
+    top: 10px;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-lid:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: 0;
+    left: 0;
+    width: 10px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-box {
+    position: relative;
+    height: 35px;
+    width: 33px;
+    margin-top: 12px;
+    border-radius: 0 0 8px 8px;
+    left: 10px;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-box-inner {
+    position: absolute;
+    top: 4px;
+    width: 80%;
+    height: 80%;
+    left: 2px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-bin-lines {
+    position: relative;
+    top: 7px;
+    margin: 0 auto;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-bin-lines,
+  #DeleteSede-bin-lines:before,
+  #DeleteSede-bin-lines:after {
+    width: 3px;
+    height: 16px;
+    border-radius: 4px;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-bin-lines:before,
+  #DeleteSede-bin-lines:after {
+    content: "";
+    position: absolute;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-bin-lines:before {
+    left: -10px;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-bin-lines:after {
+    left: 10px;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-layer {
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    background-color: #00ddfa;
+    border-radius: 50%;
+    transition: 0.25s ease all;
+    z-index: 1;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-lid,
+  #DeleteSede-lid:before,
+  #DeleteSede-box,
+  #DeleteSede-bin-lines,
+  #DeleteSede-bin-lines:before,
+  #DeleteSede-bin-lines:after {
+    background-color: #00ddfa;
+    transition: 0.2s ease background-color;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-lid,
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-lid:before,
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-box,
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-box-inner {
+    background-color: #555555;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-bin-lines,
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-bin-lines:before,
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-bin-icon #DeleteSede-bin-lines:after {
+    background-color: #ffffff;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-checkbox-input:checked + #DeleteSede-bin-icon #DeleteSede-box {
+    animation: shake 0.2s ease 0.1s;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-checkbox-input:checked + #DeleteSede-bin-icon #DeleteSede-lid {
+    animation: lift-up 0.8s ease 0.1s, shake_u 0.8s ease 0.1s,
+      shake_l 0.2s ease 0.8s;
+  }
+  
+  /* Reemplazar #DeleteUser con #DeleteSede */
+  #DeleteSede-checkbox-input:checked ~ #DeleteSede-layer {
+    width: 26px;
+    height: 26px;
+  }
+  
+
+  /***********************************************/
+
+@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top:-125px;
+    left: 455px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+}
+
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 845px){
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+  
+  
+}
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: -50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+ 
+  
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+ 
+  
+}
+/* Extra large devices (large laptops and desktop, 1200px and up */
+@media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+ 
+}

@@ -1,0 +1,345 @@
+.SolicitudServicioCard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 418px;
+  position: relative;
+  height: 234px;
+  /* left: -10px;
+  top: 20px; */
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-div {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 234px;
+  top: 30px;
+  cursor: pointer;
+  right: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 418px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-overlap-group {
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 423px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-header {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 418px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-rectangle {
+  background-color: #d9d9d9;
+  height: 14px;
+  position: relative;
+  top: 75px;
+  width: 418px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-header-info {
+  height: 78px;
+  left: 5px;
+  position: absolute;
+  top: 9px;
+  width: 418px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-servicio-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  height: 30px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 327px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-creation-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 12px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-oid-solicitud {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 11px;
+  left: 111px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-estado-pendiente {
+  height: 36px;
+  left: 0;
+  color: #dac508;
+  position: absolute;
+  top: 1px;
+  width: 34px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-estado-aprobada {
+  height: 36px;
+  left: 0;
+  color: #08da08;
+  position: absolute;
+  top: 1px;
+  width: 34px;
+}
+.SolicitudServicioCard-container .SolicitudServicioCard-estado-rechazada {
+  height: 36px;
+  left: 0;
+  color: #da2808;
+  position: absolute;
+  top: 1px;
+  width: 34px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-username {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 11px;
+  left: 300px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 66px;
+  width: 94px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-update-icon {
+  height: 12px;
+  left: 395px;
+  color: #00ddfa;
+  position: absolute;
+  top: 66px;
+  width: 15px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-overlap {
+  height: 124px;
+  left: 5px;
+  position: absolute;
+  top: 106px;
+  width: 416px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-separator {
+  background-color: #d9d9d9;
+  height: 111px;
+  left: 205px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-equipo-info {
+  height: 124px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 208px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-info-title {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 11px;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 188px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-equipo-class {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  width: 200px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-oid-equipo {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 11px;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 188px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  width: 196px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-sede-info {
+  height: 124px;
+  left: 208px;
+  position: absolute;
+  top: 0;
+  width: 208px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-info-sede-title {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 11px;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 188px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-sede-name {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 48px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  width: 200px;
+}
+
+.SolicitudServicioCard-container .SolicitudServicioCard-oid-sede {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 11px;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 188px;
+}
+
+.SolicitudesServiciosPages-Container-Card{
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr); /* Hace que haya 3 tarjetas por fila */
+    gap: 0.5%; /* Espaciado entre las tarjetas */
+    row-gap: 5%;
+    margin: 3rem 2vw;
+    position: relative;
+    top: -20px; 
+    left: -150px;
+  }
+
+
+.SolicitudesServiciosPages-container{
+    width: 1350px;
+	  height: 100%;
+}
+
+.SolicitudServicioPages-cards-list{
+    list-style: none
+}
+
+
+
+/* SOLICITUDES PAGINATION CSS */
+
+.SolicitudesPagination-pagination-controls {
+  display: flex;
+  position: fixed;
+  top: 3%;
+  left: 25%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  z-index: 1000;
+}
+
+.SolicitudesPagination-IconButton {
+  margin: 0 10px;
+  z-index: 1;
+}
+
+.SolicitudesPagination-ArrowBackIosNewIcon,
+.SolicitudesPagination-ArrowForwardIosIcon {
+  color: #00ddfa;
+}
+
+.SolicitudesPagination-page-number {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}

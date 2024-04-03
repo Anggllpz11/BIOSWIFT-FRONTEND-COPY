@@ -1,0 +1,55 @@
+/* .DashboarCuadroTareas-Primary{
+    padding: 300px 0px 0px 500px;
+    display: flex;
+    justify-content: end;
+    align-items:start;
+  }
+  
+  hr{
+    text-decoration: none;
+    color: #00ddfa;
+  }
+  
+  .DashboarCuadroTareas-Conternedor {
+      position: absolute;
+      background-color: #28292d;
+      border: 1px solid black;
+      border-radius: 20px;
+      height: 300px;
+      width: 400px;
+      
+    
+    }
+    .DashboarCuadroTareas-Titulo{
+      margin: 10px;
+      text-align: center;
+      color: aqua;
+      border-radius: 20px;
+      width: 90%;
+      padding: 0px 10px 0px 10px;   
+      background-color: #1f1f1f; 
+    }
+    
+    
+    .DashboarCuadroTareas-Lista{
+      width: 80%;
+      list-style-type: none;
+      padding: auto;
+      margin: auto;
+      align-items: center; 
+      color: #00ddfa;
+    }
+    
+    .DashboarCuadroTareas-notification-item {
+      border: 1px solid black;
+      height: 300px;
+      width: 400px;
+      margin-bottom: 10px;
+      text-align-last: center;
+      list-style-type: disc;
+      background-color: #28292d;
+      border-radius: 20px;
+    
+      
+    }
+     */

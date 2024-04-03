@@ -1,0 +1,230 @@
+.EquipoCard-box {
+    height: 169px;
+    width: 551px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages {
+    height: 150px;
+    width: 534px;
+    left: 0;
+    top: 0;
+  }
+  
+  .EquipoCard-box .EquipoCard-overlap {
+    height: 150px;
+    position: relative;
+    width: 534px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages-card {
+    height: 150px;
+    left: 4px;
+    position: relative;
+    top: 9px;
+    width: 534px;
+  }
+  
+  .EquipoCard-box .EquipoCard-overlap-group {
+    background-color: #ffffff;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    width: 534px;
+  }
+  
+  .EquipoCard-box .EquipoCard-div {
+    background-color: #7f7b7b69;
+    color: #00ddfa;
+    height: 125px;
+    left: 15px;
+    position: absolute;
+    top: 12px;
+    width: 145px;
+  }
+  
+  .EquipoCard-box .EquipoCard-oid {
+    color: #636b6f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 185px;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 4px;
+    height: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .EquipoCard-box .EquipoCard-text-wrapper {
+    color: #00ddfa;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    left: 185px;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    height: 35px;
+    width: 300px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages-card-2 {
+    color: #636b6f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 232px;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 53px;
+    white-space: nowrap;
+    height: 33px;
+    width: 280px;
+    word-break: break-all; /* Permite que la palabra se rompa y continúe en la siguiente línea */
+    overflow-wrap: break-word; /* Alternativa a word-wrap para navegadores modernos */
+    white-space: normal; /* Asegura que el espacio en blanco se maneje normalmente */
+  }
+  
+  .EquipoCard-box .EquipoCard-overlap-2 {
+    height: 23px;
+    left: 186px;
+    position: absolute;
+    top: 75px;
+    width: 314px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages-card-3 {
+    color: #939ea3;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+    width: 45px;
+  }
+  
+
+  .EquipoCard-box .EquipoCard-equipospages-card-x {
+    color: #939ea3;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 186px;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 53px;
+    white-space: nowrap;
+    width: 45px;
+  }
+
+
+  .EquipoCard-box .EquipoCard-equipospages-card-4 {
+    color: #636b6f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 53px;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    height: 35px;
+    width: 250px;
+    word-break: break-all; /* Permite que la palabra se rompa y continúe en la siguiente línea */
+    overflow-wrap: break-word; /* Alternativa a word-wrap para navegadores modernos */
+    white-space: normal; /* Asegura que el espacio en blanco se maneje normalmente */
+  }
+  
+  .EquipoCard-box .EquipoCard-overlap-3 {
+    height: 20px;
+    left: 186px;
+    position: absolute;
+    top: 112px;
+    width: 171px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages-card-5 {
+    color: #939ea3;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 20px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages-card-6 {
+    color: #636b6f;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 32px;
+    letter-spacing: 0.02px;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    height: 30px;
+    width: 285px;
+    word-break: break-all; /* Permite que la palabra se rompa y continúe en la siguiente línea */
+    overflow-wrap: break-word; /* Alternativa a word-wrap para navegadores modernos */
+    white-space: normal; /* Asegura que el espacio en blanco se maneje normalmente */
+  }
+  
+  .EquipoCard-box .EquipoCard-check {
+    height: 39px;
+    color: #00fa4b;
+    left: 489px;
+    position: absolute;
+    top: 3px;
+    width: 39px;
+  }
+  
+  .EquipoCard-box .EquipoCard-equipospages-2 {
+    background-color: transparent;
+    height: 169px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 551px;
+  }
+  
+
+  .EquiposPages-cards-list{
+
+	list-style: none;
+  height: 0;
+  width: 0;
+  position: relative;
+	
+  }
+
+  .EquiposPages-Container-Card{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /* Hace que haya 3 tarjetas por fila */
+    gap: 1%; /* Espaciado entre las tarjetas */
+    row-gap: 5%;
+    margin:2rem 2vw;
+    right: 20%;
+    position: relative;
+    padding:0;
+    list-style: none
+  }
+
+
+.EquiposPages-container{
+    width: 1200px;
+	height: 100%;
+}

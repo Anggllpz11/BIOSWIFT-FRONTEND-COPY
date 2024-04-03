@@ -1,0 +1,134 @@
+.EditCampoButton-box-1 {
+  height: 762px;
+  width: 631px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-group {
+  height: 762px;
+  left: 0;
+  top: 0;
+  width: 639px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 762px;
+  position: relative;
+  width: 631px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 269px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 631px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-campo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 186px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 574px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-id-title {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  height: 24px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  white-space: nowrap;
+  width: 574px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-tipo-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 30px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 346px;
+  width: 543px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-tipo-input {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  height: 43px;
+  left: 93px;
+  position: absolute;
+  top: 399px;
+  width: 441px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-title-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 30px;
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 494px;
+  width: 543px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-title-input {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 43px;
+  border: none;
+  left: 98px;
+  position: absolute;
+  top: 547px;
+  width: 441px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-cancelar {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 52px;
+  left: 134px;
+  border: none;
+  position: absolute;
+  top: 649px;
+  width: 164px;
+}
+
+.EditCampoButton-box-1 .EditCampoButton-actualizar {
+  background-color: #00ddfa;
+  border-radius: 10px;
+  height: 52px;
+  left: 344px;
+  border: none;
+  position: absolute;
+  top: 649px;
+  width: 164px;
+}

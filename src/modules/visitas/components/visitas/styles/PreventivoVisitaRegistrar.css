@@ -1,0 +1,394 @@
+.PreventivoVisitaRegistrar-container {
+    /* ... tus otros estilos ... */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los hijos horizontalmente en el centro */
+    justify-content: flex-start; /* Alinea los hijos verticalmente desde el inicio */
+    padding-bottom: 10px; /* Espacio adicional en la parte inferior si es necesario */
+    margin: 10px;
+    height: 830px;
+}
+
+.PreventivoVisitaRegistrar-container .PreventivoVisitaRegistrar-date-icon {
+  color: #00ddfa;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 159px;
+  top: -807px;
+}
+
+.PreventivoVisitaRegistrar-container .PreventivoVisitaRegistrar-date-value {
+  color: #7C7C7C;
+  height: 31px;
+  width: 61px;
+  font-size: 10px;
+  position: relative;
+  top: -830px;
+  left: 202px;
+  text-align: center;
+}
+
+
+
+.PreventivoVisitaRegistrar-form{
+    height: 780px;
+    width: 510px;
+}
+
+
+.PreventivoVisitaRegistrar-actividad-preventivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los hijos horizontalmente en el centro */
+    justify-content: flex-start; /* Alinea los hijos verticalmente desde el inicio */
+    padding-bottom: 10px; /* Espacio adicional en la parte inferior si es necesario */
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overlap-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    height: auto; 
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 780px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-title-text {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 15px;
+  left: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  top: -5px;
+  width: 277px;
+  position: relative;
+  margin: 10px;
+}
+
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cualitativo-section {
+  height: 170px;
+  width: 443px;
+  margin: 10px;
+  
+}
+
+.PreventivoVisitaRegistrar-cualitativo-section > ul {
+  width: 0; /* Full width */
+  height: 0;
+  list-style: none; /* Remove list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overlap-group {
+    background-color: transparent;
+    height: 170px;
+    width: 443px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overflow-container {
+  background-color: #d9d9d9;
+  height: 136px;
+  width: 443px;
+  top: 32px;
+  position: absolute;
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cualitativo-titlet-wrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  background-size: 100% 100%;
+  height: 19px;
+  left: 141px;
+  position: absolute;
+  top: 6px;
+  width: 162px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-text-wrapper {
+  color: #000000;
+  background-color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 15px;
+  border-radius: 10px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 151px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-separator {
+    height: 138px;
+    left: 220px;
+    background-color: #ffffff;
+    object-fit: cover;
+    position: absolute;
+    top: 29px;
+    width: 2px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-container-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px 10px;
+  align-items: start;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-div {
+  height: 41px;
+  left: 11px;
+  position: relative;
+  list-style: none;
+  top: 5px;
+  width: 202px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 20px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 195px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-paso-b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 21px;
+  left: 0;
+  position: absolute;
+  border: none;
+  top: 35px;
+  width: 59px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-fallo-b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 21px;
+  left: 70px;
+  position: absolute;
+  border: none;
+  top: 35px;
+  width: 59px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-na-b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 21px;
+  left: 141px;
+  border: none;
+  position: absolute;
+  top: 35px;
+  width: 59px;
+}
+
+.PreventivoVisitaRegistrar-paso-b.active {
+  background-color: #00ff47;
+}
+
+.PreventivoVisitaRegistrar-fallo-b.active {
+  background-color: #ff0000;
+}
+
+.PreventivoVisitaRegistrar-na-b.active {
+  background-color: #fbff00;
+}
+
+
+
+/* MANTENIMIENTO SECTION */
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-mantenimiento-section {
+  height: 170px;
+  width: 443px;
+  margin: 10px;
+  
+}
+
+.PreventivoVisitaRegistrar-mantenimiento-section > ul {
+  width: 0; /* Full width */
+  height: 0;
+  list-style: none; /* Remove list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+
+
+
+
+
+/* CUANTITATIVO SECTION */
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cuantitativo-section {
+  height: 170px;
+  width: 443px;
+  margin: 10px;
+  
+}
+
+.PreventivoVisitaRegistrar-cuantitativo-section > ul {
+  width: 0; /* Full width */
+  height: 0;
+  list-style: none; /* Remove list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-otros-section {
+  height: 170px;
+  width: 443px;
+  margin: 10px;
+  
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-container-list-cuantitativo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px 10px;
+  align-items: start;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-div-cuantitativo {
+  height: 101px;
+  left: 11px;
+  position: relative;
+  list-style: none;
+  top: 5px;
+  width: 202px;
+}
+
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cuantitativo-medicion {
+  color: #757575;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 10px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 195px;
+  text-align: center;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cuantitativo-medicion-input {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  width: 195px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cuantitativo-paso-b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 21px;
+  left: 22px;
+  position: absolute;
+  border: none;
+  top: 70px;
+  width: 59px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cuantitativo-fallo-b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 21px;
+  left: 110px;
+  position: absolute;
+  border: none;
+  top: 70px;
+  width: 59px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-create-t-wrapper {
+  background-color: #00ddfa;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+  height: 33px;
+  left: 147px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  border: none;
+  width: 165px;
+}
+
+.PreventivoVisitaRegistrar-cuantitativo-paso-b.active {
+  background-color: #00ff47;
+}
+
+.PreventivoVisitaRegistrar-cuantitativo-fallo-b.active {
+  background-color: #ff0000;
+}
+
+.PreventivoVisitaRegistrar-cuantitativo-na-b.active {
+  background-color: #fbff00;
+}
+

@@ -1,0 +1,99 @@
+.EquipoDisponibleRegistrar-actividad {
+  height: auto;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-div {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  height: 237px;
+  position: relative;
+  width: 477px;
+  margin: 10px;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 26px;
+  left: 84px;
+  position: absolute;
+  border-radius: 10px;
+  top: 7px;
+  width: 309px;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-disponible-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 207px;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-disponible {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 26px;
+  left: 201px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 35px;
+  width: 80px;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-disponible-2 {
+  background-color: #d9d9d9;
+  text-align: center;
+  border-radius: 10px;
+  height: 114px;
+  left: 29px;
+  position: absolute;
+  border: none;
+  top: 71px;
+  width: 420px;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-overlap {
+  background-color: #00ddfa;
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 10px;
+  height: 33px;
+  left: 156px;
+  position: absolute;
+  top: 197px;
+  width: 165px;
+  cursor: pointer;
+}
+
+.EquipoDisponibleRegistrar-actividad .EquipoDisponibleRegistrar-crear-t {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 133px;
+}

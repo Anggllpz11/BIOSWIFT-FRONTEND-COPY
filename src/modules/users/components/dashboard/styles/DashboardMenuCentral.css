@@ -1,0 +1,672 @@
+.DashboardMenuCentral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.DashboardMenuCentral-LogoPrincipal{
+  padding: 0px;
+  border: 1px solid #05050500;
+  
+}
+
+.DashboardMenuCentral-logo{
+  order: 0;
+  padding: 10px;
+  margin: center;
+}
+
+
+.DashboardMenuCentral-title{
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+  color: aqua;
+  border-radius: 20px;
+  width: 100%;
+  padding: 0px;   
+  background-color: #1f1f1f;
+}
+
+.DashboardMenuCentral-p{
+  color: aqua;
+  margin-top: -10px !important;
+  margin-left: -3px !important;
+  margin-right: -3px !important;
+  margin-bottom: 0 !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 98px;
+  transition: color 0.1s;
+}
+.DashboardMenuCentral-p:hover{
+  color: #fff;
+}
+.DashboardMenuCentral-button{
+  padding: 0px 15px;
+  width: 115px !important;
+  height: 115px !important; 
+  border: none; 
+  cursor: pointer; 
+  margin: 20px; 
+  border-radius: 6px;
+  background-color: #1f1f1f;
+  transition: background-color 0.3s ease; 
+
+}
+.DashboardMenuCentral-button:hover {
+  color: #fff;
+  background-color: #00ddfa;
+  
+}
+
+.DashboardMenuCentral-nav {
+  width: 100vh;
+  position: relative;
+  text-align: center;
+  background-color: #28292d;
+  border-radius: 15px;
+  overflow-y: scroll;
+
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 5px;
+  }
+}
+
+/* Add the following styles for Firefox */
+.DashboardMenuCentral-nav {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+
+.DashboardMenuCentral-nav-ul{
+  height: 100%;
+  width: 100%;
+  padding: 30px 30px;
+  list-style-type: none;
+  margin: 10px;
+}
+.DashboardMenuCentral-nav-li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.DashboardMenuCentral-nav-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #00ddfa
+}
+.DashboardMenuCentral-nav-icon-i{
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 01px;
+  color: #8f8f8f;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.DashboardMenuCentral-icon{
+  height: 40px !important;
+  width: 40px !important;
+
+}
+
+
+.DashboardMenuCentral-add-icon {
+  /* Ajustar estos valores según tu diseño */
+  height: 30px !important;
+  width: 30px !important ;
+  border-radius: 50%;
+  position: absolute; /* o relative, dependiendo de la estructura de tu HTML */
+  top: 17px; /* Ajusta la posición vertical */
+  right: -2.2px; /* Ajusta la posición horizontal */
+  color: #00ddfa; /* O el color que desees */
+}
+
+.DashboardMenuCentral-add-icon:hover {
+  color: #fff;
+}
+
+.DashboardMenuCentral-closed-icon {
+  /* Ajustar estos valores según tu diseño */
+  height: 30px !important;
+  width: 30px !important ;
+  border-radius: 50%;
+  position: absolute; /* o relative, dependiendo de la estructura de tu HTML */
+  top: 17px; /* Ajusta la posición vertical */
+  right: -2.2px; /* Ajusta la posición horizontal */
+  color: #00ddfa; /* O el color que desees */
+}
+
+.DashboardMenuCentral-closed-icon:hover {
+  color: #fff;
+}
+/*//////////////////////////LINEAS DE CONTORNO//////////////////////////////////////*/
+
+.DashboardMenuCentral-a{
+  position: absolute;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+  left: 43%;
+  top:5%;
+  
+}
+.DashboardMenuCentral-a:nth-child(4){
+    filter: hue-rotate(110deg);
+}
+.DashboardMenuCentral-a span{
+    position: absolute;
+    display: block;
+}
+
+.DashboardMenuCentral-a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.DashboardMenuCentral-a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+.DashboardMenuCentral-a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+.DashboardMenuCentral-a span:nth-child(5){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    color: #03e9f4;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktop, 1200px and up */
+@media screen and  (min-device-width: 1200px)  {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .DashboardMenuCentral-LogoPrincipal{
+    padding: 0px;
+    border: 1px solid #05050500;
+    width:110px;
+    height: 100px;
+    position: absolute; 
+    top:  15% ;
+    left: 43%;
+   
+  }
+  .DashboardMenuCentral-logo-Ziriuz{
+    width:170px;
+    height:130px;
+  }
+  .DashboardMenuCentral-button{
+    height: 90px;
+    width: 90px;
+  }
+  .DashboardMenuCentral-nav{
+    height: 60vh;
+    width: 110vh;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    background-color:#28292d;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    top: 190px;
+    right:35px ;
+  }
+
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+
+  }
+  .DashboardMenuCentral-a{
+    position: absolute;
+    display: inline-block;
+    padding: 25px 25px;
+    margin: 5px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    left: -1px;
+    top: -115px;
+  }
+  
+  .acordeon {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    color: #00ddfa;
+    top: 10%;
+    
+  }
+
+.acordeon-content {
+  text-align: center;
+  max-height: 0;
+  background: #28292d;
+  border-radius: 15px;
+  -webkit-transition: max-height .35s;
+  transition: max-height .35s;
+  overflow: hidden;
+}
+
+.acordeon-content p {
+  margin: 15px;
+}
+
+.acordeon input {
+  display:none;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+input:checked ~ .acordeon-content {
+  max-height: 25em;
+}
+}
+
+/*----------------------------------------------------------------*/
+
+/* acordeon  */
+
+.acordeon-tabs { 
+  padding: 0;
+  margin: 0;
+}
+
+.acordeon {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  color: #00ddfa;
+  padding: 2%;
+}
+
+.acordeon label {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  justify-self: center;
+  display: block;
+  padding:0 0 0 1em;
+  background: #1f1f1f;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.acordeon-content {
+  text-align: center;
+  max-height: 0;
+  /* overflow: hidden; */
+  background: #28292d;
+  border-radius: 15px;
+  -webkit-transition: max-height .35s;
+  transition: max-height .35s;
+
+}
+
+.acordeon-content p {
+  margin: 15px;
+}
+.acordeon-core{
+  margin: 0;
+  padding: 0;
+}
+.acordeon input {
+  display:none;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+
+
+label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 5em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+
+}
+input:checked ~ .acordeon-content {
+  max-height: 100%;
+}
+
+input[type=checkbox] + label::after {
+  content: "▼";
+}
+
+input[type=checkbox]:checked + label::after {
+  -webkit-transform: rotate(340deg);
+  transform: rotate(315deg);
+}
+
+
+
+/* @media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+    padding: 10px;
+    border: 1px solid #05050500;
+    width:70px;
+    height: 80px;
+    position: absolute; 
+    top:  0% ;
+    left: 90px;
+  }
+
+  .DashboardMenuCentral-logo-Ziriuz{
+    width:150px;
+    height:100px;
+  }
+  .DashboardMenuCentral-button{
+    height: 50px;
+    width: 50px;
+  }
+  .DashboardMenuCentral-nav{
+    height: 68vh;
+    width: 30vh;
+    position: absolute;
+    text-align: center;
+    background-color:#28292d;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right:45px ;
+    overflow-y: scroll;
+   
+  } 
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+
+  }
+  .DashboardMenuCentral-nav-ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .DashboardMenuCentral-a{
+    position: absolute;
+    display: inline-block;
+    padding: 25px 25px;
+    margin: 5px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    left:-28%;
+    top: 25%;
+  }
+  .acordeon-content {
+    text-align: center;
+    max-height: 0;
+    background: #28292d;
+    border-radius: 15px;
+    -webkit-transition: max-height .35s;
+    transition: max-height .35s;
+    overflow: hidden;
+  }
+  
+}
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 845px){
+  .DashboardMenuCentral-LogoPrincipal{
+    padding: 0px;
+    border: 1px solid #05050500;
+    width:80px;
+    height: 90px;
+    position: relative; 
+    top:-150px ;
+    left: -100px;
+  }
+  .DashboardMenuCentral-logo-Ziriuz{
+    width:130px;
+    height:80px;
+  }
+  .DashboardMenuCentral-button{
+    height: 40px;
+    width: 40px;
+    
+  }
+  .DashboardMenuCentral-nav{
+    height: 200px;
+    width: 80vh;
+    position: relative;
+    text-align: center;
+    background-color:#28292d;
+    border-radius: 30px;
+    top: -120px;
+
+  }
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+
+  }
+  .acordeon-content {
+    text-align: center;
+    max-height: 0;
+    background: #28292d;
+    border-radius: 15px;
+    -webkit-transition: max-height .35s;
+    transition: max-height .35s;
+    overflow: hidden;
+  }
+}
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  .DashboardMenuCentral-LogoPrincipal{
+    padding: 0px;
+    border: 1px solid #05050500;
+    width:110px;
+    height: 100px;
+    position: relative; 
+    top:  -200px ;
+    left: -175px;
+   
+  }
+  .DashboardMenuCentral-logo-Ziriuz{
+    width:170px;
+    height:130px;
+  }
+  .DashboardMenuCentral-button{
+    height: 90px;
+    width: 90px;
+  }
+
+input:checked ~ .acordeon-content {
+  max-height: 25em;
+}
+.DashboardMenuCentral-nav{
+  height: 60vh;
+  width: 110vh;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  background-color:#28292d;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  top: 190px;
+  right:35px ;
+  overflow-y: scroll;
+
+ 
+}
+.DashboardMenuCentral-nav-li{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5px;
+
+}
+.DashboardMenuCentral-a{
+  position: absolute;
+  display: inline-block;
+  padding: 25px 25px;
+  margin: 5px;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+  left: -1px;
+  top: -115px;
+}
+::-webkit-scrollbar{
+  color: #00ddfa;
+}
+.acordeon {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  color: #00ddfa;
+  top: 10%;
+  
+}
+
+.acordeon-content {
+text-align: center;
+max-height: 0;
+background: #28292d;
+border-radius: 15px;
+-webkit-transition: max-height .35s;
+transition: max-height .35s;
+overflow: hidden;
+}
+.acordeon {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  color: #00ddfa;
+  top: 10%;
+  
+}
+
+.acordeon-content {
+text-align: center;
+max-height: 0;
+background: #28292d;
+border-radius: 15px;
+-webkit-transition: max-height .35s;
+transition: max-height .35s;
+overflow: hidden;
+}
+} */

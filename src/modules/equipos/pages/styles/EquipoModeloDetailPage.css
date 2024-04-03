@@ -1,0 +1,272 @@
+.EquipoModeloDetailPage-box {
+  height: 463px;
+  width: 709px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-equipodetailpage {
+  height: 463px;
+  left: 0;
+  top: 0;
+  width: 727px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-group {
+  background-color: #537895d9;
+  border-radius: 5px;
+  height: 463px;
+  position: relative;
+  width: 709px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 210px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 709px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 275px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 68px;
+  width: 379px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-div {
+  height: 47px;
+  left: 388px;
+  position: absolute;
+  top: 126px;
+  width: 237px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 196px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-money {
+  height: 35px;
+  left: 0;
+  color: #636b6f;
+  position: absolute;
+  top: 6px;
+  width: 35px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-machine-learning-wrapper {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 210px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 248px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-machine-learning {
+  height: 183px;
+  left: 18px;
+  color: #636b6f;
+  position: absolute;
+  top: 14px;
+  width: 212px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-2 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 275px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 385px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-edit {
+  height: 31px;
+  left: 667px;
+  color: #636b6f;
+  position: absolute;
+  cursor: pointer;
+  top: 14px;
+  width: 30px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-delete {
+  height: 31px;
+  left: 667px;
+  color: #636b6f;
+  position: absolute;
+  cursor: pointer;
+  top: 60px;
+  width: 30px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-2 {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 210px;
+  left: 30px;
+  position: absolute;
+  top: 230px;
+  width: 305px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-3 {
+  height: 84px;
+  left: 14px;
+  position: absolute;
+  top: 10px;
+  width: 279px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-2 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  width: 279px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-3 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  width: 218px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-eye {
+  height: 27px;
+  left: 0;
+  position: absolute;
+  color: #636b6f;
+  top: 0;
+  width: 26px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-3 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 138px;
+  width: 149px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-billboard {
+  height: 27px;
+  left: 79px;
+  color: #636b6f;
+  position: absolute;
+  top: 138px;
+  width: 26px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-4 {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 210px;
+  left: 376px;
+  position: absolute;
+  top: 230px;
+  width: 305px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-4 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 71px;
+  width: 275px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-4 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  width: 218px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-img {
+  height: 27px;
+  left: 91px;
+  color: #636b6f;
+  position: absolute;
+  top: 138px;
+  width: 26px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-eye-2 {
+  height: 27px;
+  left: 12px;
+  color: #636b6f;
+  position: absolute;
+  top: 11px;
+  width: 26px;
+}
+
+.EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-5 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 129px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 138px;
+  width: 149px;
+}

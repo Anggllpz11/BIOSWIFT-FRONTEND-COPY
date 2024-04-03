@@ -1,0 +1,25 @@
+.DashboardGafica-title{
+    margin: 10px;
+    text-align: center;
+    color: aqua;
+    border-radius: 20px;
+    width: 90%;
+    padding: 0px 10px 0px 10px;   
+    background-color: #1f1f1f; 
+  }
+  .DashboardGafica-grafica{
+    padding:  25px ;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .DashboardGafica-container {
+    background-color: #28292d;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+   
+
+  }
+  

@@ -1,0 +1,22 @@
+.RegisterCampo-button-redirec-container{
+    
+    position: fixed;
+    left: 70%;
+    top: 12%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.RegisterCampo-button-redirect{
+    top: -95px;
+    border-radius: 150px;
+    color:#00ddfa;
+    background-color: rgba(32, 32, 32,0.6);
+    padding: 5px;
+    height: 55px ;
+    width:55px ;
+}
+

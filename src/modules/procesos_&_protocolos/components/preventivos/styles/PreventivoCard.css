@@ -1,0 +1,181 @@
+.box {
+  height: 157px;
+  width: 432px;
+}
+
+.box .preventivo-card {
+  height: 157px;
+  left: 0;
+  top: 0;
+  width: 448px;
+}
+
+.box .overlap-group {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 157px;
+  position: relative;
+  width: 432px;
+}
+
+.box .overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 157px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.box .icon {
+  height: 140px;
+  left: 6px;
+  position: absolute;
+  top: 8px;
+  width: 138px;
+}
+
+.box .title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 274px;
+}
+
+.box .id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  width: 263px;
+}
+
+.box .div {
+  height: 78px;
+  left: 155px;
+  position: absolute;
+  top: 67px;
+  width: 91px;
+}
+
+.box .codigo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 91px;
+}
+
+.box .codigo-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 53px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 91px;
+}
+
+.box .separator {
+  background-color: #636b6f61;
+  height: 85px;
+  left: 250px;
+  position: absolute;
+  top: 60px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.box .overlap-2 {
+  height: 78px;
+  left: 255px;
+  position: absolute;
+  top: 67px;
+  width: 84px;
+}
+
+.box .version-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 84px;
+}
+
+.box .text-wrapper {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 53px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 80px;
+}
+
+.box .separator-2 {
+  background-color: #636b6f61;
+  height: 85px;
+  left: 344px;
+  position: absolute;
+  top: 60px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.box .overlap-3 {
+  height: 78px;
+  left: 349px;
+  position: absolute;
+  top: 67px;
+  width: 80px;
+}
+
+.box .fecha-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 80px;
+}

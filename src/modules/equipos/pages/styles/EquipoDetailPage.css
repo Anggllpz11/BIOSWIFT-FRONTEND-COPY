@@ -1,0 +1,769 @@
+.EquipoDetailPage-box {
+    height: 725px;
+    width: 1084px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-complete-details {
+    height: 725px;
+    left: 0;
+    top: 0;
+    width: 1144px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-group {
+    background-color: #53789587;
+    border-radius: 5px;
+    height: 725px;
+    position: relative;
+    width: 1084px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 195px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1084px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-modelo-name {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 268px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 33px;
+    width: 252px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-check-funcionamiento {
+    height: 41px;
+    color: #10a415;
+    left: 209px;
+    position: absolute;
+    top: 25px;
+    width: 50px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-machine-icon {
+    height: 162px;
+    color: #636b6f;
+    left: 13px;
+    position: absolute;
+    top: 10px;
+    width: 177px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-serie-header {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 268px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    width: 150px;
+  }
+
+  .EquipoDetailPage-box .EquipoDetailPage-mtto {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 268px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 155px;
+    width: 175px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-activo-fijo {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 155px;
+    width: 250px;
+  }
+
+  .EquipoDetailPage-box .EquipoDetailPage-sap-id {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 740px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 155px;
+    width: 340px;
+  }
+  
+
+  .EquipoDetailPage-box .EquipoDetailPage-price-header {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    width: 230px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-equipo-id-header {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 740px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    width: 340px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-edit-icon-header {
+    height: 44px;
+    left: 892px;
+    color: #00ddfa;
+    cursor: pointer;
+    position: absolute;
+    top: 21px;
+    width: 45px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-delete-icon-header {
+    height: 44px;
+    left: 975px;
+    color: #00ddfa;
+    cursor: pointer;
+    position: absolute;
+    top: 21px;
+    width: 45px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-div {
+    background-color: #ffffffd9;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    height: 172px;
+    left: 25px;
+    position: absolute;
+    top: 254px;
+    width: 547px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-separator {
+    background-color: #636b6f61;
+    height: 100px;
+    left: 263px;
+    position: absolute;
+    top: 64px;
+    transform: rotate(180deg);
+    width: 2px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-name {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 500px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-id {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 178px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 187px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-direccion-sede-title {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 74px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 151px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-address {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 87px;
+    width: 187px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-ubicacion-equipo {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 76px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 119px;
+    width: 151px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-text-wrapper {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 142px;
+    width: 187px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-icon {
+    height: 26px;
+    left: 32px;
+    color: #00ddfa;
+    position: absolute;
+    top: 123px;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-location-icon {
+    height: 26px;
+    left: 32px;
+    color: #00ddfa;
+    position: absolute;
+    top: 72px;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-telefono {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 328px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    width: 172px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-email {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 328px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 121px;
+    width: 172px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-telefono-icon {
+    height: 26px;
+    left: 291px;
+    color: #00ddfa;
+    position: absolute;
+    top: 72px;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-sede-email-icon {
+    height: 26px;
+    left: 281px;
+    color: #00ddfa;
+    position: absolute;
+    top: 119px;
+    width: 42px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-2 {
+    background-color: #ffffffd9;
+    background-size: 100% 100%;
+    height: 93px;
+    left: 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 457px;
+    width: 547px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-frecuencia-title {
+    -webkit-text-stroke: 1px #636b6f1a;
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 221px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-img {
+    height: 47px;
+    left: 15px;
+    color: #00ddfa;
+    position: absolute;
+    top: 34px;
+    width: 39px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-frecuencia-time {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 444px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 11px;
+    width: 96px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-frecuencia {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 212px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 52px;
+    width: 311px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-3 {
+    background-color: #ffffffd9;
+    background-size: 100% 100%;
+    height: 93px;
+    left: 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 581px;
+    width: 547px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-serie-title {
+    -webkit-text-stroke: 1px #636b6f1a;
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 221px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-serie-number {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 444px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 46px;
+    width: 96px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-4 {
+    background-color: #ffffffd9;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    height: 172px;
+    left: 599px;
+    position: absolute;
+    top: 254px;
+    width: 465px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-separator {
+    background-color: #636b6f61;
+    height: 100px;
+    left: 222px;
+    position: absolute;
+    top: 64px;
+    transform: rotate(180deg);
+    width: 2px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-name {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 439px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-id {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 130px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 203px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-5 {
+    height: 52px;
+    left: 32px;
+    position: absolute;
+    top: 64px;
+    width: 180px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-nit-title {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 130px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-6 {
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 180px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-nit {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    width: 160px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-nit-icon {
+    height: 26px;
+    left: 0;
+    color: #00ddfa;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-address-title {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 119px;
+    width: 148px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-address {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 138px;
+    width: 150px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-location-icon {
+    height: 26px;
+    left: 34px;
+    color: #00ddfa;
+    position: absolute;
+    top: 123px;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-telefono-icon {
+    height: 26px;
+    left: 247px;
+    color: #00ddfa;
+    position: absolute;
+    top: 72px;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-telefono {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 279px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    width: 173px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-email {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 279px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 121px;
+    width: 175px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-client-email-icon {
+    height: 26px;
+    left: 247px;
+    color: #00ddfa;
+    position: absolute;
+    top: 116px;
+    width: 20px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-7 {
+    background-color: #ffffffd9;
+    background-size: 100% 100%;
+    height: 93px;
+    left: 599px;
+    border-radius: 5px;
+    position: absolute;
+    top: 457px;
+    width: 465px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-8 {
+    height: 73px;
+    left: 26px;
+    position: absolute;
+    top: 9px;
+    width: 222px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-funcionamiento {
+    background-color: #636b6f61;
+    height: 72px;
+    left: 220px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(180deg);
+    width: 2px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-text-wrapper-2 {
+    -webkit-text-stroke: 1px #636b6f1a;
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    left: -10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 221px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-notas-icon {
+    height: 47px;
+    left: 1px;
+    color: #636b6f;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    width: 200px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-notas-title {
+    -webkit-text-stroke: 1px #636b6f1a;
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 272px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 190px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-notas-p {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 273px;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 190px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-9 {
+    background-color: #ffffffd9;
+    background-size: 100% 100%;
+    height: 93px;
+    left: 599px;
+    border-radius: 5px;
+    position: absolute;
+    top: 581px;
+    width: 465px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-overlap-10 {
+    height: 70px;
+    left: 18px;
+    position: absolute;
+    top: 12px;
+    width: 221px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-temperature-icon {
+    height: 47px;
+    left: 1px;
+    position: absolute;
+    color: #00ddfa;
+    top: 22px;
+    width: 39px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-temperature-grades {
+    color: #636b6f;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 367px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 46px;
+    width: 96px;
+  }
+
+  .EquipoDetailPage-box .EquipoDetailPage-see-sede {
+    color: #636b6f;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    left: 520px;
+  }
+  
+  .EquipoDetailPage-box .EquipoDetailPage-see-client {
+    color: #636b6f;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    left: 440px;
+  }
+
+  .EquipoDetailPage-box .EquipoDetailPage-see-modelo {
+    color: #636b6f;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+    left: 195px;
+  }
+  
+  

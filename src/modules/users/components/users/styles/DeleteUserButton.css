@@ -1,0 +1,326 @@
+.DeleteUser-checkbox-input {
+  cursor: url(http://k003.kiwi6.com/hotlink/vp054ir5gt/c1.png) 32 32, auto;
+  cursor: -webkit-image-set(url(http://k003.kiwi6.com/hotlink/vp054ir5gt/c1.png) 1x,url(http://k003.kiwi6.com/hotlink/z6fy599487/c2.png) 2x) 32 32, auto;
+}
+
+
+.DeleteUser-checkbox-input:active {
+  cursor: url(http://k003.kiwi6.com/hotlink/3p6w4icbzt/c1a.png) 32 32, auto;
+  cursor: -webkit-image-set( url(http://k003.kiwi6.com/hotlink/3p6w4icbzt/c1a.png) 1x, url(http://k003.kiwi6.com/hotlink/6ma7828al1/c2a.png) 2x ) 32 32, auto;
+}
+
+#DeleteUser-app-cover {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  left: 600px;
+  width: 50px;
+  height: 50px;
+  margin: -600px auto 0 auto;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px #feeeed;
+  overflow: hidden;
+  
+}
+
+#DeleteUser-checkbox-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin: 0;
+  opacity: 0;
+  z-index: 3;
+}
+
+#DeleteUser-bin-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: -29px auto 0 auto;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#DeleteUser-lid {
+  position: relative;
+  width: 42px;
+  height: 4px;
+  left: 5px;
+  border-radius: 4px;
+  top: 10px;
+}
+
+#DeleteUser-lid:before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0;
+  left: 0;
+  width: 10px;
+  height: 6px;
+  margin: 0 auto;
+  border-radius: 10px 10px 0 0;
+}
+
+#DeleteUser-box {
+  position: relative;
+  height: 35px;
+  width:33px ;
+  margin-top: 12px;
+  border-radius: 0 0 8px 8px;
+  left: 10px;
+}
+
+#DeleteUser-box-inner {
+  position: absolute;
+  top: 4px;
+  width: 80%;
+  height: 80%;
+  left: 2px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+#DeleteUser-bin-lines {
+  position: relative;
+  top: 7px;
+  margin: 0 auto;
+}
+
+#DeleteUser-bin-lines,
+#DeleteUser-bin-lines:before,
+#DeleteUser-bin-lines:after {
+  width: 3px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+#DeleteUser-bin-lines:before,
+#DeleteUser-bin-lines:after {
+  content: "";
+  position: absolute;
+}
+
+#DeleteUser-bin-lines:before {
+  left: -10px;
+}
+
+#DeleteUser-bin-lines:after {
+  left: 10px;
+}
+
+#DeleteUser-layer {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 0;
+  height: 0;
+  background-color: #00ddfa;
+  border-radius: 50%;
+  transition: 0.25s ease all;
+  z-index: 1;
+}
+
+#DeleteUser-lid,
+#DeleteUser-lid:before,
+#DeleteUser-box,
+#DeleteUser-bin-lines,
+#DeleteUser-bin-lines:before,
+#DeleteUser-bin-lines:after {
+  background-color: #00ddfa;
+  transition: 0.2s ease background-color;
+}
+
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-lid,
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-lid:before,
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-box,
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-box-inner {
+  background-color: #555555;
+}
+
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-bin-lines,
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-bin-lines:before,
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-bin-icon #DeleteUser-bin-lines:after {
+  background-color: #ffffff;
+}
+
+#DeleteUser-checkbox-input:checked + #DeleteUser-bin-icon #DeleteUser-box {
+  animation: shake 0.2s ease 0.1s;
+}
+
+#DeleteUser-checkbox-input:checked + #DeleteUser-bin-icon #DeleteUser-lid {
+  animation: lift-up 0.8s ease 0.1s, shake_u 0.8s ease 0.1s,
+    shake_l 0.2s ease 0.8s;
+}
+
+#DeleteUser-checkbox-input:checked ~ #DeleteUser-layer {
+  width: 26px;
+  height: 26px;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotateZ(3deg);
+  }
+  25% {
+    transform: rotateZ(0);
+  }
+  75% {
+    transform: rotateZ(-3deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+@keyframes lift-up {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -35px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes shake_u {
+  0% {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-15deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  75% {
+    transform: rotateZ(15deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+@keyframes shake_l {
+  0% {
+    transform: rotateZ(0);
+  }
+  80% {
+    transform: rotateZ(3deg);
+  }
+  90% {
+    transform: rotateZ(-3deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+/***********************************************/
+
+@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top:-125px;
+    left: 455px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+}
+
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 845px){
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+  
+  
+}
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: -50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+ 
+  
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+ 
+  
+}
+/* Extra large devices (large laptops and desktop, 1200px and up */
+@media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
+  #DeleteUser-app-cover {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    margin: -600px auto 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #feeeed;
+    overflow: hidden;
+    
+  }
+  
+ 
+}
