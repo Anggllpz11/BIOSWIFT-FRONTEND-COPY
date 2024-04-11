@@ -5,11 +5,17 @@
   --text-color: #a0a0a0;
 }
 
+.SedesPages-container-card {
+width: 300px;
+height: 280px;
+}
+
+.SedesPages-card-section {
+  height: 280px;
+  width: 300px;
+}
 .SedesPages-cards-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 4rem 5vw;
   padding: 0;
   list-style: none;
 }
@@ -130,19 +136,22 @@
 }
 
 .SedesPages-container {
-  width: 1200px;
+  width: 100%;
   height: 100%;
 }
 
 .SedesPages-Container-Card {
-  width: 1200px;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 2rem 3vw;
-  padding: 0;
-  list-style: none;
+  width: 1360px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(316px, 1fr));
+    grid-gap: 2rem;
+    gap: 2rem;
+    margin: 2rem 3vw;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    left: 250px;
 }
 
 /**************************************************/
