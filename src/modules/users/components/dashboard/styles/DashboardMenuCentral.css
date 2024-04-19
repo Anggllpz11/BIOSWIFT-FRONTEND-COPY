@@ -68,7 +68,6 @@
 
 .DashboardMenuCentral-Block {
   position: relative;
-  top: 300px;
 }
 
 .DashboardMenuCentral-nav {
@@ -454,22 +453,23 @@ input[type=checkbox]:checked + label::after {
 
 
 
-@media screen and (min-device-width: 300px) and (max-device-width: 1199px) {
+@media screen and (min-device-width: 300px) and (max-device-width: 1025px) {
 
   .DashboardMenuCentral-LogoPrincipal{
-    padding: 10px;
     border: 1px solid #05050500;
-    width:70px;
+    width: 70px;
     height: 80px;
-    position: absolute; 
-    top:  0% ;
-    left: 90px;
+    position: absolute;
+    top: 55px;
+    left: 420px;
   }
 
   .DashboardMenuCentral-logo-Ziriuz{
     width:150px;
     height:100px;
   }
+
+  .DashboardMenuCentral-logo
   .DashboardMenuCentral-button{
     height: 50px;
     width: 50px;
@@ -477,7 +477,8 @@ input[type=checkbox]:checked + label::after {
 
   .DashboardMenuCentral-Block {
     position: relative !important;
-    top: 300px !important; 
+    top: 95px !important; 
+    right: 45px !important;
   }
 
   .DashboardMenuCentral-nav{
