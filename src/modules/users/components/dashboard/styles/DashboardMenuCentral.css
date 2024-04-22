@@ -7,6 +7,8 @@
   align-content: space-between;
 }
 
+
+
 .DashboardMenuCentral-LogoPrincipal{
   padding: 0px;
   border: 1px solid #05050500;
@@ -482,7 +484,7 @@ input[type=checkbox]:checked + label::after {
   }
 
   .DashboardMenuCentral-nav{
-    width: 920px;
+    width: 940px;
     height: auto;
     max-height: 900px;
     position: relative;
@@ -536,52 +538,85 @@ input[type=checkbox]:checked + label::after {
 }
 
 
-/*@media screen and (min-device-width: 600px) and (max-device-width: 845px){
-  .DashboardMenuCentral-LogoPrincipal{
-    padding: 0px;
-    border: 1px solid #05050500;
-    width:80px;
-    height: 90px;
-    position: relative; 
-    top:-150px ;
-    left: -100px;
-  }
-  .DashboardMenuCentral-logo-Ziriuz{
-    width:130px;
-    height:80px;
-  }
-  .DashboardMenuCentral-button{
-    height: 40px;
-    width: 40px;
-    
-  }
-  .DashboardMenuCentral-nav{
-    height: 200px;
-    width: 80vh;
-    position: relative;
-    text-align: center;
-    background-color:#28292d;
-    border-radius: 30px;
-    top: -120px;
+@media screen and (min-device-width: 300px) and (max-device-width: 440px){
 
+  .DashboardMenuCentral-LogoPrincipal{
+    border: 1px solid #05050500;
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: 60px;
+    left: 110px;
   }
+
+  .DashboardMenuCentral-logo-Ziriuz{
+    width:150px;
+    height:100px;
+  }
+
+  .DashboardMenuCentral-button{
+    height: 50px;
+    width: 50px;
+  }
+
+  .DashboardMenuCentral-Block {
+    position: relative !important;
+    top: 95px !important; 
+    right: 45px !important;
+  }
+
+  .DashboardMenuCentral-nav{
+    width: 310px;
+        height: auto;
+        max-height: 300px;
+        position: relative;
+        top: 10px;
+        left: 22px;
+        text-align: center;
+        background-color: rgb(40, 41, 45);
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+        border-radius: 15px;
+  } 
   .DashboardMenuCentral-nav-li{
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px;
 
+  }
+  .DashboardMenuCentral-nav-ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .DashboardMenuCentral-a{
+    position: absolute;
+        display: inline-block;
+        color: #03e9f4;
+        padding: 1px;
+        margin: 1px 1px 1px 1px !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        top: 25%;
   }
   .acordeon-content {
     text-align: center;
     max-height: 0;
+    overflow: hidden;
     background: #28292d;
     border-radius: 15px;
-    -webkit-transition: max-height .35s;
     transition: max-height .35s;
-    overflow: hidden;
   }
+  
 }
-@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+/*@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
   .DashboardMenuCentral-LogoPrincipal{
     padding: 0px;
     border: 1px solid #05050500;
