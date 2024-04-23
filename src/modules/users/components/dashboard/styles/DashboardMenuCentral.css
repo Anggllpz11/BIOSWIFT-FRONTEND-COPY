@@ -271,97 +271,6 @@
 
 /* Extra large devices (large laptops and desktop, 1200px and up */
 
-@media screen and  (min-device-width: 1026px) {
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  .DashboardMenuCentral-LogoPrincipal{
-   width: 0px; 
-   height: 0px;
-  }
-  
-  .DashboardMenuCentral-logo{
-    position: relative;
-        padding: 1px;
-        margin: 1px;
-        top: -335px;
-        left: 665px;
-  }
-  .DashboardMenuCentral-button{
-    height: 90px;
-    width: 90px;
-  }
-  .DashboardMenuCentral-nav{
-    height: 60vh;
-    width: 110vh;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-    background-color:#28292d;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    top: 190px;
-    right:35px ;
-  }
-
-  .DashboardMenuCentral-nav-li{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 5px;
-
-  }
-  .DashboardMenuCentral-a{
-    position: absolute;
-    display: inline-block;
-    padding: 5px 90px;
-    margin: 5px 5px 92px 5px;
-    color: #03e9f4;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 4px;
-    overflow: hidden;
-    top: 50px;
-    right: 520px;
-  }
-  
-  .acordeon {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    color: #00ddfa;
-    top: 10%;
-    
-  }
-
-.acordeon-content {
-  text-align: center;
-  max-height: 0;
-  background: #28292d;
-  border-radius: 15px;
-  -webkit-transition: max-height .35s;
-  transition: max-height .35s;
-  overflow: hidden;
-}
-
-.acordeon-content p {
-  margin: 15px;
-}
-
-.acordeon input {
-  display:none;
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}
-
-input:checked ~ .acordeon-content {
-  max-height: 25em;
-}
-}
 
 /*----------------------------------------------------------------*/
 
@@ -403,7 +312,7 @@ input:checked ~ .acordeon-content {
   border-radius: 15px;
   -webkit-transition: max-height .35s;
   transition: max-height .35s;
-
+  
 }
 
 .acordeon-content p {
@@ -433,7 +342,7 @@ label::after {
   text-align: center;
   -webkit-transition: all .35s;
   transition: all .35s;
-
+  
 }
 input:checked ~ .acordeon-content {
   max-height: 100%;
@@ -448,6 +357,82 @@ input[type=checkbox]:checked + label::after {
   transform: rotate(315deg);
 }
 
+@media screen and  (min-device-width: 1026px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+    width: 0px;
+    height: 0px;
+    }
+  
+    .DashboardMenuCentral-logo{
+      position: relative;
+          padding: 1px;
+          margin: 1px;
+          top: -335px;
+          left: 465px;
+    }
+    .DashboardMenuCentral-button{
+      height: 50px;
+      width: 50px;
+    }
+  
+    .DashboardMenuCentral-Block {
+      position: relative !important;
+      top: 95px !important; 
+      right: 45px !important;
+    }
+  
+    .DashboardMenuCentral-nav{
+      width: 950px;
+      height: auto;
+      max-height: 900px;
+      position: relative;
+      top: 10px;
+      left: 22px;
+      text-align: center;
+      background-color: rgb(40, 41, 45);
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      border-radius: 15px;
+    } 
+    .DashboardMenuCentral-nav-li{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 10px;
+  
+    }
+    .DashboardMenuCentral-nav-ul{
+      height: 100%;
+      width: 100%;
+      padding: 10px 10px;
+      list-style-type: none;
+      margin: 10px;
+    }
+    .DashboardMenuCentral-a{
+      position: absolute;
+          display: inline-block;
+          padding: 5px 90px;
+          margin: 5px 5px 92px 5px;
+          color: #03e9f4;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.5s;
+          letter-spacing: 4px;
+          overflow: hidden;
+          top: 50px;
+          right: 320px;
+    }
+    .acordeon-content {
+      text-align: center;
+      max-height: 0;
+      overflow: hidden;
+      background: #28292d;
+      border-radius: 15px;
+      transition: max-height .35s;
+    }
+}
 
 
 @media screen and (min-device-width: 821px) and (max-device-width: 1025px) {
