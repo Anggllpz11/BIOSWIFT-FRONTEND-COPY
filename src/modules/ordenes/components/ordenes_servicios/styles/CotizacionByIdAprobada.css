@@ -1,0 +1,733 @@
+.CotizacionByIdAprobada-box {
+    height: 373px;
+    left: 588px;
+    top: 163px;
+    width: 391px;
+    position: relative;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-register-container {
+  height: 373px;
+  left: 0;
+  top: 0;
+  width: 391px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-register-cotizacion {
+  height: 290px;
+  left: 0;
+  top: 80px;
+  width: 391px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  overflow-y: scroll; /* Habilita el scroll vertical */
+  overflow-x: hidden;
+  scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+  scrollbar-color:  #636b6f61 transparent; /* Firefox */
+}
+
+/* Para Chrome, Safari y Edge */
+.RegisterCotizacionOrden-box\ .CotizacionByIdAprobada-register-cotizacion::-webkit-scrollbar {
+  width: 3px; /* Ajusta el ancho del scrollbar */
+}
+
+.RegisterCotizacionOrden-box\ .CotizacionByIdAprobada-register-cotizacion::-webkit-scrollbar-track {
+  background-color: transparent;
+
+}
+
+.RegisterCotizacionOrden-box\ .CotizacionByIdAprobada-register-cotizacion::-webkit-scrollbar-thumb {
+  background-color: transparent;
+    border-radius: 3px;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 357px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-title-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-back-button {
+  color: #00ddfa;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  cursor: pointer;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-mensaje-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: -29px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-mensaje-value {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 23px;
+  position: relative;
+  top: -23px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-condicion-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-condicion-value {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 23px;
+  position: relative;
+  top: 3px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-id-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 20px;
+  }
+  
+  .CotizacionByIdAprobada-box .CotizacionByIdAprobada-id-value{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 18px;
+  }
+
+  .CotizacionByIdAprobada-box .CotizacionByIdAprobada-estado-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 37px;
+  }
+  
+  .CotizacionByIdAprobada-box .CotizacionByIdAprobada-estado-value{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 33px;
+  }
+  
+  
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-client-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 214px;
+    top: -46px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-client-name{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 214px;
+    top: -49px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-orden-id-t {
+  position: relative;
+  color: #000000;
+  font-size: 12px;
+  height: auto;
+  width: 162px;
+  left: 214px;
+  top: -46px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-orden-id{
+  position: relative;
+  color: #6b6b6b;
+  font-size: 12px;
+  height: auto;
+  width: 162px;
+  left: 214px;
+  top: -49px;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-select {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 29px;
+  left: 23px;
+  position: relative;
+  top: 25px;
+  width: 325px;
+  border: none;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-selected-div {
+  width: 370px;
+  height: 76px;
+  position: relative;
+  background-color: #ffffff;
+  top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-selected-title {
+    font-size: 16px;
+    width: 149px;
+    height: auto;
+    color: #00ddfa;
+    position: absolute;
+    top: 2px;
+    text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-selected-value {
+    font-size: 12px;
+    width: 149px;
+    height: 47px;
+    color: #000000;
+    position: absolute;
+    top: 25px;
+    background-color: #d9d9d9;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-cantidad-title {
+  font-size: 16px;
+  width: 70px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 164px;
+  top: 2px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-valoru-title {
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 239px;
+  top: 2px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-valoru-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-repuestos-remove-icon {
+  font-size: 13px;
+    width: 30px;
+    height: 30px;
+    color: #fa0000;
+    position: absolute;
+    left: 335px;
+    top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-div {
+  width: 370px;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  top: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-add-icon {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  color: #00ddfa;
+  left: 300px;
+  top: 13px;
+  cursor: pointer;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-section {
+  width: 370px;
+  height: 76px;
+  position: relative;
+  background-color: #ffffff;
+  top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-description-title {
+    font-size: 16px;
+    width: 146px;
+    height: auto;
+    color: #00ddfa;
+    position: absolute;
+    top: 2px;
+    text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-description-input {
+  font-size: 13px;
+  width: 145px;
+  height: 40px;
+  background-color: #d9d9d9;
+  color: #000000;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  top: 28px;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-cantidad-title {
+  font-size: 16px;
+  width: 70px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 164px;
+  top: 2px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-valoru-title {
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 239px;
+  top: 2px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-valoru-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-items-remove-icon {
+  font-size: 13px;
+    width: 30px;
+    height: 30px;
+    color: #fa0000;
+    position: absolute;
+    left: 335px;
+    top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-firma {
+  width: 370px;
+  height: 201px;
+  position: relative;
+  background-color: #ffffff;
+  top: 65px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-firma-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-firma-username {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-aprobar-button {
+    width: 25px;
+    height: 25px;
+    color: #2afa00;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 10px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-aprobar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-rechazar-button {
+    width: 25px;
+    height: 25px;
+    color: #fa0000;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 103px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-rechazar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 134px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-enviar-button {
+    width: 25px;
+    height: 25px;
+    color: #f6fa00;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 111px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-enviar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 140px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-imprimir-button {
+    width: 25px;
+    height: 25px;
+    color: #0e2b8a;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 209px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-imprimir-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 239px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-img-value {
+  position: relative;
+  top: 30px;
+  width: auto;
+  height: auto;
+  background-color: #d9d9d9;
+  left: 29px;
+  border-radius: 10px;
+}
+
+.CotizacionByIdAprobada-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.CotizacionByIdAprobada-modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.CotizacionByIdAprobada-modal-content-title {
+  color: #00ddfa;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdAprobada-textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.CotizacionByIdAprobada-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.CotizacionByIdAprobada-modal-cancel-button {
+  height: 40px;
+  width: 80px;
+  background-color: #d9d9d9;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.CotizacionByIdAprobada-close-observacion-button {
+  height: 40px;
+  width: 120px;
+  background-color: #00ddfa;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-modal-download-icon {
+  color: #00ddfa;
+  position: relative;
+  cursor: pointer;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  left: -170px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-modal-cancel-icon {
+  color: #d9d9d9;
+  position: relative;
+  cursor: pointer;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  left: -325px;
+}
+
+.CotizacionByIdAprobada-box .CotizacionByIdAprobada-observacion-estado-t {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    white-space: nowrap;
+    width: 316px;
+  }
+  
+  .CotizacionByIdAprobada-box .CotizacionByIdAprobada-observacion-estado-value {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 95px;
+    left: 23px;
+    position: relative;
+    top: 76px;
+    width: 324px;
+    border: none;
+    text-align: center;
+  }

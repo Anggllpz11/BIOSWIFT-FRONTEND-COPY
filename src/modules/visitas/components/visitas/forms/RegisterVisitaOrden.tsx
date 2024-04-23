@@ -40,13 +40,7 @@ const RegisterVisitaOrden: React.FC<{ onCancel: () => void, idOrden: string }> =
   const [selectedProtocolos, setSelectedProtocolos] = useState<string[]>([]);
   const [duracion, setDuracion] = useState('');
 
-
-  const [loading, setLoading] = useState(false);
-  const [visitaRegistrada, setVisitaRegistrada] = useState(false);
-
   const [visitaId, setVisitaId] = useState('');
-
-  const navigate = useNavigate();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -188,7 +182,6 @@ const RegisterVisitaOrden: React.FC<{ onCancel: () => void, idOrden: string }> =
 
   return (
     <div className='RegisterVisita-div'>
-      <h2>REGISTRAR NUEVA VISITA</h2>
       <form onSubmit={handleSubmit}>
         <div className="RegisterVisitaOrden-visita-nueva">
           <div className="RegisterVisitaOrden-div">

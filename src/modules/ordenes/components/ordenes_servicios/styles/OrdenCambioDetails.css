@@ -1,0 +1,264 @@
+.OrdenCambioDetails-box {
+  height: 375px;
+  position: relative;
+  width: 391px;
+  left: 588px;
+  top: 163px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-ver-cambio {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 375px;
+  left: 0;
+  top: 0;
+  width: 391px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-header {
+  background-color: transparent;
+  height: 39px;
+  left: 17px;
+  position: absolute;
+  top: 21px;
+  width: 359px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 39px;
+  position: relative;
+  width: 357px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-header-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 205px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-geninfo {
+  height: 132px;
+  left: 34px;
+  position: absolute;
+  top: 92px;
+  width: 332px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 132px;
+  position: relative;
+  width: 324px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-substate-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 148px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-substate-value {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 42px;
+  width: 148px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-separator {
+  height: 132px;
+  left: 162px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+  background-color: #d9d9d9;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-comments-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 169px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 148px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-comments-value {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 169px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 42px;
+  width: 148px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-register-info {
+  height: 96px;
+  left: 17px;
+  position: absolute;
+  top: 247px;
+  width: 367px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-div {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 96px;
+  position: relative;
+  width: 357px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-register-infot {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 357px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-user-icon {
+  height: 25px;
+  left: 17px;
+  position: absolute;
+  top: 36px;
+  width: 25px;
+  color: #00ddfa;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-username-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  width: 127px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-email-icon {
+  height: 25px;
+  left: 17px;
+  position: absolute;
+  top: 67px;
+  width: 25px;
+  color: #00ddfa;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-emai-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 127px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-separator-register {
+  height: 60px;
+  left: 179px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 1px;
+  background-color: #d9d9d9;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-telephone-icon {
+  height: 25px;
+  left: 189px;
+  position: absolute;
+  top: 36px;
+  width: 25px;
+  color: #00ddfa;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-telephone-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 217px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  width: 127px;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-date-icon {
+  height: 25px;
+  left: 189px;
+  position: absolute;
+  top: 67px;
+  width: 25px;
+  color: #00ddfa;
+}
+
+.OrdenCambioDetails-box .OrdenCambioDetails-date-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 217px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 127px;
+}

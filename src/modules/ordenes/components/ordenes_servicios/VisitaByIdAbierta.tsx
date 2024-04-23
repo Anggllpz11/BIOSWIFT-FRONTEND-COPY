@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getVisitaById } from '../../../visitas/services/visitasService';
+import { getVisitaById, updateVisita } from '../../../visitas/services/visitasService';
 import { useSessionStorage } from '../../hooks/useSessionStorage';
 
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
@@ -28,12 +28,14 @@ interface VisitaByIdAbiertaProps {
 const VisitaByIdAbierta: React.FC<VisitaByIdAbiertaProps> = ({ idVisita, onClose }) => {
   const [visita, setVisita] = useState<any>(null);
   const token = useSessionStorage('sessionJWTToken');
+  const userId = useSessionStorage('userId');
+
   const [showEstadoSection, setShowEstadoSection] = useState<boolean>(true); 
   const [mostrarActividadesEjecutar, setMostrarActividadesEjecutar] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [showCloseModal, setShowCloseModal] = useState(false);
   const [closeObservations, setCloseObservations] = useState('');
-
+  
   
   useEffect(() => {
     if (token && idVisita) {
@@ -45,6 +47,29 @@ const VisitaByIdAbierta: React.FC<VisitaByIdAbiertaProps> = ({ idVisita, onClose
         .catch(error => console.error('Error al obtener la visita por ID:', error));
     }
   }, [token, idVisita]); // Dependencia añadida para detectar cambios en idVisita
+
+  const handleCloseVisita = async () => {
+    const now = new Date();
+    const fechaCierre = `${now.getFullYear()}-${(now.getMonth() + 1).toString().padStart(2, '0')}-${now.getDate().toString().padStart(2, '0')} ${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
+    console.log(fechaCierre);
+    const visitaData = {
+      id_visita_estado: "65c560c4cb319b5fbc4220d7", // Estado de visita cerrada
+      observacion_aprobacion: closeObservations, // Observaciones del modal
+      id_cerrador: userId, // ID del usuario que cierra la visita
+      fecha_cierre: fechaCierre,
+    };
+
+    try {
+      await updateVisita(token, idVisita, visitaData);
+      // Aquí puedes optar por cerrar el modal y notificar al usuario del éxito
+      setShowCloseModal(false);
+      window.alert(`Visita con ID: ${idVisita} cerrada satisfactoriamente`);
+      window.location.reload();
+    } catch (error) {
+      console.error('Error al actualizar la visita:', error);
+      // Manejar el error, posiblemente notificar al usuario
+    }
+  };
 
   // Manejador para el clic del botón de play/pausa
   const handleIconClick = () => {
@@ -99,7 +124,7 @@ const VisitaByIdAbierta: React.FC<VisitaByIdAbiertaProps> = ({ idVisita, onClose
                           />
                           <div className="VisitaByIdAbierta-modal-actions">
                             <button className="VisitaByIdAbierta-modal-cancel-button" onClick={() => setShowCloseModal(false)}>Cancelar</button>
-                            <button className="VisitaByIdAbierta-close-observacion-button" onClick={() => { /* Aquí la lógica para cerrar la visita con las observaciones */ }}>Cerrar Visita</button>
+                            <button className="VisitaByIdAbierta-close-observacion-button" onClick={handleCloseVisita}>Cerrar Visita</button>
                           </div>
                         </div>
                       </div>

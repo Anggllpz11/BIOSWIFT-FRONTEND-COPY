@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { login } from '../../services/authService';
 import { AxiosResponse } from 'axios';
-import ZiriuzLogo from './img/ziriuzLogoPNG.png';
+import BiosWiftLoginLogo from './img/bioswift-login-logo.png';
 import { Visibility, VisibilityOff } from '@mui/icons-material'; // Importar íconos de Material Icons
 
 // Define Schema of validation with Yup
@@ -38,7 +38,7 @@ const LogInForm: React.FC = () => {
   return (
     <div>
       <div>
-        <img src={ZiriuzLogo} alt="ZiriuzLogoWithLeters" className="LoginForm-ZiriuzLogo" />
+        <img src={BiosWiftLoginLogo} alt="ZiriuzLogoWithLeters" className="LoginForm-ZiriuzLogo" />
         <br></br>
       </div>
       <Formik
@@ -56,6 +56,9 @@ const LogInForm: React.FC = () => {
                     await sessionStorage.setItem('userRoles', JSON.stringify([response.data.roleName]));
                       // Almacena el userId en el sessionStorage
                     await sessionStorage.setItem('userId', response.data.userId);
+
+                    await sessionStorage.setItem('userName', response.data.username);
+
                     navigate('/home');
                   } else {
                     throw new Error('Error generating Login token');

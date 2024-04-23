@@ -132,7 +132,8 @@ const PruebaElectricaRegister: React.FC<PruebaElectricaRegisterProps> = ({ idVis
       return;
     }
 
-    const formattedDateCreated = new Date().toISOString().replace('T', ' ').slice(0, 19);
+    const now = new Date();
+    const formattedDateCreated = `${now.getFullYear()}-${(now.getMonth() + 1).toString().padStart(2, '0')}-${now.getDate().toString().padStart(2, '0')} ${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
     const nuevaActividad = {
       id_protocolo: '65a93e0689a02ef211e75ed7', // Protocolo de prueba eléctrica
       prueba_electrica: pruebasElectricas.map(prueba => ({

@@ -219,7 +219,8 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   // Proceder con la lógica de envío del formulario...
 
   setIsLoading(true);
-  const formattedDateCreated = new Date().toISOString().replace('T', ' ').slice(0, 19);
+  const now = new Date();
+  const formattedDateCreated = `${now.getFullYear()}-${(now.getMonth() + 1).toString().padStart(2, '0')}-${now.getDate().toString().padStart(2, '0')} ${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
   const visitaActual = await getVisitaById(token, idVisita);
 
   const actividadPreventiva = {

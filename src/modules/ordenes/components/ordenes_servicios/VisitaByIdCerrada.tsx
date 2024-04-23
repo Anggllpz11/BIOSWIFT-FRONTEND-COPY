@@ -122,7 +122,9 @@ const VisitaByIdCerrada: React.FC<VisitaByIdAbiertaProps> = ({ idVisita, onClose
                           <div className="VisitaByIdAbierta-observacion-value">{visita && visita.observacion_aprobacion || 'N/A'}</div>
                         </div>
                         <div className="VisitaByIdAbierta-aproved-t">CERRADA POR:</div>
-                        <div className="VisitaByIdAbierta-aprobador-value">{visita.id_aprobador && visita.id_aprobador.username || 'N/A'}</div>
+                        <div className="VisitaByIdAbierta-aprobador-value">{visita.id_cerrador && visita.id_cerrador.username || 'N/A'}</div>
+                        <div className="VisitaByIdAbierta-date-closed">{visita && visita.fecha_cierre || 'N/A'}</div>
+
                       </div>
                     </div>
                     <div className="VisitaByIdAbierta-creation-div">

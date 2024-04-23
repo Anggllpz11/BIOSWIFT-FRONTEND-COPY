@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/DashboardMenuCentral.css';
-import BiosWiftDashboardLogo from './img/BIOSWIFT MENU.png'
+import BiosWiftDashboardLogo from './img/bioswift-menuCentral-logo.png'
 import { useNavigate } from 'react-router-dom';
 import DashboardMenuCentralGenerales  from './DashboardMenuCentralGenerales';
 import DashboardMenuCentralEquipos from '../../../equipos/components/dashboard_equipos/DashboardMenuCentralEquipos';

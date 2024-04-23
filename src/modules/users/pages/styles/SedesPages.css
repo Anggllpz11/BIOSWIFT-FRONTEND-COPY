@@ -6,14 +6,15 @@
 }
 
 .SedesPages-container-card {
-width: 300px;
-height: 280px;
+  height: 280px;
+  width: 300px;
 }
 
 .SedesPages-card-section {
   height: 280px;
   width: 300px;
 }
+
 .SedesPages-cards-list {
   display: grid;
   padding: 0;
@@ -141,17 +142,15 @@ height: 280px;
 }
 
 .SedesPages-Container-Card {
-  width: 1360px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(316px, 1fr));
-    grid-gap: 2rem;
-    gap: 2rem;
-    margin: 2rem 3vw;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    left: 250px;
+  width: 1200px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(316px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  margin: 2rem 3vw;
+  padding: 0;
+  list-style: none;
 }
 
 /**************************************************/

@@ -1,0 +1,456 @@
+.cotizacionespdf-box {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cotizacionespdf-box .div {
+  background-color: #ffffff;
+  height: 842px;
+  position: relative;
+  width: 595px;
+}
+
+.cotizacionespdf-box .memco-logo {
+    height: 103px;
+    left: 21px;
+    position: absolute;
+    top: 32px;
+    width: 272px;
+}
+
+.cotizacionespdf-box .overlap-group {
+  background-color: #00ddfa;
+  height: 61px;
+  left: 375px;
+  position: absolute;
+  top: 45px;
+  width: 205px;
+}
+
+.cotizacionespdf-box .cotizacion-title {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 19px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.cotizacionespdf-box .memco-info {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 89px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 135px;
+  width: 272px;
+}
+
+.cotizacionespdf-box .cotizacion-id {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 19px;
+  left: 324px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 133px;
+  width: 176px;
+}
+
+.cotizacionespdf-box .fecha-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 19px;
+  left: 362px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 152px;
+  width: 138px;
+}
+
+.cotizacionespdf-box .date-created {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 19px;
+  left: 362px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 171px;
+  width: 138px;
+}
+
+.cotizacionespdf-box .bioswiftqr {
+  height: 64px;
+  left: 511px;
+  object-fit: cover;
+  position: absolute;
+  top: 131px;
+  width: 65px;
+}
+
+.cotizacionespdf-box .greeting {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 268px;
+  white-space: nowrap;
+  width: 199px;
+}
+
+.cotizacionespdf-box .client-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 289px;
+  white-space: nowrap;
+  width: 199px;
+}
+
+.cotizacionespdf-box .client-nit {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 310px;
+  white-space: nowrap;
+  width: 199px;
+}
+
+.cotizacionespdf-box .body {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 342px;
+  white-space: nowrap;
+  width: 341px;
+}
+
+.cotizacionespdf-box .overlap {
+  background-color: #00ddfa;
+  height: 40px;
+  left: 16px;
+  position: absolute;
+  top: 376px;
+  width: 563px;
+}
+
+.cotizacionespdf-box .costos-t {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 23px;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 323px;
+}
+
+.cotizacionespdf-box .costos-titles {
+  height: 23px;
+  left: 16px;
+  position: absolute;
+  top: 420px;
+  width: 563px;
+}
+
+.cotizacionespdf-box .cantidad-t {
+  background-color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 53px;
+}
+
+.cotizacionespdf-box .reference-t {
+  background-color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  height: 23px;
+  left: 65px;
+  position: absolute;
+  top: 0;
+  width: 99px;
+}
+
+.cotizacionespdf-box .description-t {
+  background-color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  height: 23px;
+  left: 176px;
+  position: absolute;
+  top: 0;
+  width: 205px;
+}
+
+.cotizacionespdf-box .valor-t {
+  background-color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  height: 23px;
+  left: 393px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.cotizacionespdf-box .total-t {
+  background-color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  height: 23px;
+  left: 484px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.cotizacionespdf-box .repuestos-list {
+  height: 23px;
+  left: 16px;
+  position: relative;
+  top: 451px;
+  width: 563px;
+  margin-bottom: 15px;
+}
+
+.cotizacionespdf-box .cantidad-value {
+  background-color: #00000075;
+  color: #FFFFFF; 
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 53px;
+  text-align: center;
+  white-space: normal; /* Permite que el texto se ajuste a líneas múltiples */
+  overflow-wrap: break-word; /* Asegura que las palabras se rompan si es necesario */
+  overflow: hidden; /* Oculta el texto que se desborde */
+  padding: 4px; /* Añade un poco de relleno para que el texto no toque los bordes */
+}
+
+.cotizacionespdf-box .reference-value {
+  background-color: #00000075;
+  color: #FFFFFF; 
+  font-size: 10px;
+  height: 33px; 
+  position: absolute;
+  left: 65px;
+  top: 0;
+  width: 99px;
+  text-align: center;
+  white-space: normal; /* Permite que el texto se ajuste a líneas múltiples */
+  overflow-wrap: break-word; /* Asegura que las palabras se rompan si es necesario */
+  overflow: hidden; /* Oculta el texto que se desborde */
+  padding: 4px; /* Añade un poco de relleno para que el texto no toque los bordes */
+}
+
+.cotizacionespdf-box .description-value {
+  background-color: #00000075;
+  color: #FFFFFF;
+  font-size: 11px;
+  height: 33px;
+  left: 176px;
+  position: absolute;
+  top: 0;
+  width: 205px;
+  text-align: center;
+  white-space: normal; /* Permite que el texto se ajuste a líneas múltiples */
+  overflow-wrap: break-word; /* Asegura que las palabras se rompan si es necesario */
+  overflow: hidden; /* Oculta el texto que se desborde */
+  padding: 4px; /* Añade un poco de relleno para que el texto no toque los bordes */
+}
+
+.cotizacionespdf-box .valor-value {
+  background-color: #00000075;
+  color: #FFFFFF;
+  font-size: 11px;
+  left: 393px;
+  position: absolute;
+  top: 0;
+  height: 33px;
+  width: 79px;
+  text-align: center;
+  white-space: normal; /* Permite que el texto se ajuste a líneas múltiples */
+  overflow-wrap: break-word; /* Asegura que las palabras se rompan si es necesario */
+  overflow: hidden; /* Oculta el texto que se desborde */
+  padding: 4px; /* Añade un poco de relleno para que el texto no toque los bordes */
+}
+
+.cotizacionespdf-box .total-value {
+  background-color: #00000075;
+  color: #FFFFFF;
+  font-size: 11px;
+  left: 484px;
+  position: absolute;
+  top: 0;
+  height: 33px;
+  width: 79px;
+  text-align: center;
+  white-space: normal; /* Permite que el texto se ajuste a líneas múltiples */
+  overflow-wrap: break-word; /* Asegura que las palabras se rompan si es necesario */
+  overflow: hidden; /* Oculta el texto que se desborde */
+  padding: 4px; /* Añade un poco de relleno para que el texto no toque los bordes */
+}
+
+.cotizacionespdf-box .overlap-2 {
+  height: 33px;
+  left: 402px;
+  position: relative;
+  top: 456px;
+  width: 200px;
+}
+
+.cotizacionespdf-box .total-rectangle {
+  background-color: #00ddfa;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 89px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 30px;
+}
+
+.cotizacionespdf-box .triangle {
+  height: 33px;
+  left: 88px;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.cotizacionespdf-box .totalsiniva {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 9px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.cotizacionespdf-box .total-cotizacion {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 20px;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 8px;
+  width: 80px;
+}
+
+.cotizacionespdf-box .time-period {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 18px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 683px;
+  width: 429px;
+}
+
+.cotizacionespdf-box .cordially {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 18px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 714px;
+  width: 429px;
+}
+
+.cotizacionespdf-box .firma-img {
+  height: 70px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  top: 737px;
+  width: 233px;
+}
+
+.cotizacionespdf-box .firma-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 18px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 810px;
+  width: 429px;
+}

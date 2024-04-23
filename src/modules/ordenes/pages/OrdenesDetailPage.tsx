@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect, Fragment, useCallback } from 'react';
 import { getOrdenById } from '../services/ordenesService';
 import DashboardMenuLateral from '../../users/components/dashboard/DashboardMenulateral';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -16,6 +16,8 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import BlockOutlinedIcon from '@mui/icons-material/BlockOutlined';
 import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
+import CambiosOrden from '../components/ordenes_servicios/CambiosOrden';
+import CotizacionesOrden from '../components/ordenes_servicios/CotizacionesOrden';
 
 
 const OrdenDetailPage: React.FC = () => {
@@ -24,32 +26,31 @@ const OrdenDetailPage: React.FC = () => {
   const [orden, setOrden] = useState<Orden | null>(null);
   const [loading, setLoading] = useState(true);
   const [isEditing, setIsEditing] = useState(false);
-  const [currentView, setCurrentView] = useState('solicitudServicio'); // Estado para controlar la vista actual
+  const [currentView, setCurrentView] = useState<'solicitudServicio' | 'visitasOrden' | 'cambiosOrden' | 'cotizacionesOrden'>('solicitudServicio');
+
+
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (!loggedIn) {
-      return;
-    }
 
-    if (!id) {
-      console.error('ID de la orden no encontrado en la URL');
-      return;
-    }
 
-    const fetchOrden = async () => {
+    const fetchOrden = useCallback(async () => {
+      if (!loggedIn || !id) return;
+    
+      setLoading(true);
       try {
         const token = loggedIn;
         const result = await getOrdenById(token, id);
         setOrden(result);
-        setLoading(false);
       } catch (error) {
         console.error('Error al obtener detalles de la orden:', error);
+      } finally {
+        setLoading(false);
       }
-    };
+    }, [loggedIn, id]); 
 
-    fetchOrden();
-  }, [loggedIn, id]);
+    useEffect(() => {
+      fetchOrden();
+    }, [fetchOrden]);
 
   const handleEditSuccess = () => {
     console.log('Orden editada con éxito');
@@ -57,16 +58,33 @@ const OrdenDetailPage: React.FC = () => {
   };
 
   const handleNextView = () => {
-    if (currentView === 'solicitudServicio') {
-      setCurrentView('visitasOrden');
+    switch (currentView) {
+      case 'solicitudServicio':
+        setCurrentView('visitasOrden');
+        break;
+      case 'visitasOrden':
+        setCurrentView('cambiosOrden');
+        break;
+      case 'cambiosOrden':
+        setCurrentView('cotizacionesOrden'); 
+        break;
     }
   };
-
+  
   const handlePreviousView = () => {
-    if (currentView === 'visitasOrden') {
-      setCurrentView('solicitudServicio');
+    switch (currentView) {
+      case 'visitasOrden':
+        setCurrentView('solicitudServicio');
+        break;
+      case 'cambiosOrden':
+        setCurrentView('visitasOrden');
+        break;
+      case 'cotizacionesOrden':
+        setCurrentView('cambiosOrden');
+        break;
     }
   };
+  
 
   const renderEstadoIcon = (estado: string) => {
     switch (estado) {
@@ -111,6 +129,19 @@ const OrdenDetailPage: React.FC = () => {
                   {currentView === 'visitasOrden' && orden && orden.ids_visitas && (
                     <VisitasOrden visitas={orden.ids_visitas} idOrden={orden._id} /> // Añade el prop idOrden aquí
                   )}
+
+                  {currentView === 'cambiosOrden' && orden && (
+                    <CambiosOrden idOrden={orden._id} cambios={orden.orden_cambios || []} onReloadNeeded={fetchOrden} />
+                  )}
+
+                  {currentView === 'cotizacionesOrden' && orden && (
+                    <CotizacionesOrden idOrden={orden._id}
+                    idCliente={orden && orden.id_solicitud_servicio && orden.id_solicitud_servicio.id_equipo && orden.id_solicitud_servicio.id_equipo.id_sede.id_client && orden.id_solicitud_servicio.id_equipo.id_sede.id_client._id || 'N/A'}
+                    nombreCliente={orden && orden.id_solicitud_servicio && orden.id_solicitud_servicio.id_equipo && orden.id_solicitud_servicio.id_equipo.id_sede.id_client && orden.id_solicitud_servicio.id_equipo.id_sede.id_client.client_name || 'N/A'}
+                    
+                    />
+                  )}
+
 
                 </div>
               </div>

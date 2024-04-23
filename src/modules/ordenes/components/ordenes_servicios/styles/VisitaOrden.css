@@ -200,7 +200,7 @@
 .VisitasOrden-visitas .VisitasOrden-visita-card {
   height: 94px;
   left: 12px;
-  cursor: pointer;
+  /* cursor: pointer; */
   list-style: none;
   position: relative;
   top: 8px;
@@ -222,13 +222,14 @@
   font-size: 12px;
   font-weight: 400;
   height: 18px;
-  left: 92px;
+  left: 112px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 6px;
-  width: 252px;
+  width: 210px;
+  cursor: pointer;
 }
 
 .VisitasOrden-visitas .VisitasOrden-separator {
@@ -355,7 +356,7 @@
 
 .VisitasOrden-visitas .VisitasOrden-created-icon-add {
   height: 11px;
-  left: 233px;
+  left: 234px;
   color: #00ddfa;
   position: absolute;
   top: 39px;
@@ -408,4 +409,15 @@
   top: 36px;
   cursor: pointer;
   color: #00ddfa;
+}
+
+.VisitasOrden-visitas .VisitasOrden-addVisita-edit-button{
+
+  color: #00ddfa;
+  position: relative;
+  left: 332px;
+  height: 20px;
+  width: 20px;
+  top: 3px;
+  cursor: pointer;
 }

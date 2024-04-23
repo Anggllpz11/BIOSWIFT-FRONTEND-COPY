@@ -3,7 +3,7 @@ export type Orden = {
   id_solicitud_servicio?: any;
   id_orden_estado?: any;
   ids_visitas?: any[];
-  ids_orden_sub_estados?: any[];
+  orden_cambios?: OrdenCambio[];
   id_creador?: any;
   id_cerrador?: any;
   ids_fallas_acciones?: any[];
@@ -25,5 +25,18 @@ export type Orden = {
   observaciones_cierre?: string;
   total?: number;
   solicitar_dado_baja?: boolean;
+};
+
+// Definiendo el tipo para un cambio individual en la orden
+export type OrdenCambio = {
+  _id?: string;
+  ids_orden_sub_estado?: {
+    _id?: string;
+    id_orden_estado?: any;
+    sub_estado?: string;
+  }; // Asumiendo que es un string, ajusta según tu modelo
+  id_creador?: any; // Asumiendo que es un string, ajusta según tu modelo
+  date_created?: string;
+  comentario?: string;
 };
 

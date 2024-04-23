@@ -15,6 +15,8 @@ import VisitaByIdOrden from './VisitaByIdOrden';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import useUserRoleVerifier from '../../hooks/useUserRoleVerifier';
 import RegisterVisitaOrden from '../../../visitas/components/visitas/forms/RegisterVisitaOrden';
+import EditIcon from '@mui/icons-material/Edit';
+import EditVisitaOrden from '../../../visitas/components/visitas/forms/EditVisitaOrden';
 
 interface VisitasOrdenProps {
   visitas: any[];
@@ -26,16 +28,23 @@ const VisitasOrden: React.FC<VisitasOrdenProps> = ({ visitas, idOrden }) => {
   const [selectedVisitaId, setSelectedVisitaId] = useState<string | null>(null);
   const [showRegisterVisita, setShowRegisterVisita] = useState(false);
   const isAdmin = useUserRoleVerifier(['administrador']);
+  const [showEditVisita, setShowEditVisita] = useState(false);
+  const [showVisitaById, setShowVisitaById] = useState(false);
+  const [selectedVisitaTipo, setSelectedVisitaTipo] = useState<'edit' | 'view' | null>(null); // New state
+
 
   const handleVisitaClick = (id: string | null) => {
     setSelectedVisitaId(id);
-  };
-  
-  const handleVisitaCreated = async () => {
-    // Aquí, podrías volver a buscar los detalles de la orden para obtener la lista actualizada de visitas
-    // O cualquier otra lógica que necesites ejecutar después de que una visita se haya creado y añadido a la orden
+    setSelectedVisitaTipo('view'); // Show VisitaByIdOrden when a visit is clicked
+    setShowRegisterVisita(false);
+
   };
 
+  const handleEditVisitaClick = (visita: any) => {
+    setSelectedVisitaId(visita._id);
+    setSelectedVisitaTipo('edit'); // Show EditVisitaOrden when editing a visit
+    setShowRegisterVisita(false);
+  };
   // Function to filter visitas by estado
   const [filtro, setFiltro] = useState<string | null>(null);
   const filtrarVisitas = () => {
@@ -58,6 +67,10 @@ const VisitasOrden: React.FC<VisitasOrdenProps> = ({ visitas, idOrden }) => {
   };
   const handleAddVisitaClick = () => {
     setShowRegisterVisita(true); // Mostrar el formulario al hacer clic en el ícono de añadir visita
+    setSelectedVisitaId(null);
+    setSelectedVisitaTipo(null); 
+
+
   };
 
   const handleCancel = () => {
@@ -87,9 +100,10 @@ const VisitasOrden: React.FC<VisitasOrdenProps> = ({ visitas, idOrden }) => {
               <div className="VisitasOrden-visitas-list">
                 <ul>
                   {filtrarVisitas().map((visita, index) => (
-                    <li className="VisitasOrden-visita-card" key={index} onClick={() => handleVisitaClick(visita._id)}>
+                    <li className="VisitasOrden-visita-card" key={index}>
                       <div className="VisitasOrden-overlap-group-2">
-                        <div className="VisitasOrden-oid-card">ID: {visita._id}</div>
+                      <EditIcon className='VisitasOrden-addVisita-edit-button'  onClick={() => handleEditVisitaClick(visita)}/>
+                        <div className="VisitasOrden-oid-card" onClick={() => handleVisitaClick(visita._id)}>ID: {visita._id}</div>
                         <div className="VisitasOrden-separator"/>
                         <div className="VisitasOrden-separator-card"/>
 
@@ -112,16 +126,20 @@ const VisitasOrden: React.FC<VisitasOrdenProps> = ({ visitas, idOrden }) => {
               </div>
             </div>
           </div>
+
+
           {isAdmin && (
-         <AddCircleIcon className='VisitasOrden-addVisita-button' onClick={handleAddVisitaClick}/>
+            <AddCircleIcon className='VisitasOrden-addVisita-button' onClick={handleAddVisitaClick}/>
 
           )}
-           {showRegisterVisita && <RegisterVisitaOrden onCancel={handleCancel} idOrden={idOrden} />} 
+
+          {showRegisterVisita && <RegisterVisitaOrden onCancel={handleCancel} idOrden={idOrden} />} 
+          {selectedVisitaId && selectedVisitaTipo === 'edit' && <EditVisitaOrden idOrden={idOrden} visita={visitas.find(visita => visita._id === selectedVisitaId)} onCancel={() => setSelectedVisitaTipo(null)} />}
         </div>
       </div>
 
       {/* ESPACIO DE RENDERIZADO DE VisitaByIdOrden.tsx  */}
-      {selectedVisitaId && <VisitaByIdOrden idVisita={selectedVisitaId} onVisitaSelect={handleVisitaClick}/>}
+      {selectedVisitaId && selectedVisitaTipo === 'view' && <VisitaByIdOrden idVisita={selectedVisitaId} onVisitaSelect={handleVisitaClick}/>}
 
     </div>
   );

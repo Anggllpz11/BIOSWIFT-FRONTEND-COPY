@@ -1,3 +1,12 @@
+.RegisterVisita-div{
+  margin: 0;
+  height: 0;
+}
+
+.RegisterVisita-div form{
+  margin: 0;
+  height: 0;
+}
 
 
 .RegisterVisitaOrden-visita-nueva {
@@ -9,7 +18,7 @@
   left: 430px;
   margin: 0;
   padding: 0;
-  top: 105px;
+  top: 141px;
   width:563px;
 }
 

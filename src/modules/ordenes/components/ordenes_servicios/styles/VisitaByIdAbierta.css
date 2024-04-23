@@ -372,13 +372,15 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 10px;
   font-weight: 400;
-  left: 38px;
-  letter-spacing: 0;
-  line-height: normal;
   position: absolute;
+  left: 38px;
   top: 77px;
-  width: 88px;
+  max-width: 108px; /* Establece un ancho máximo para el contenedor */
+  height: auto; /* Permite que el contenedor crezca verticalmente según el contenido */
+  white-space: normal; /* Esto permitirá que el texto envuelva */
+  overflow-wrap: break-word; /* Asegura que las palabras se rompan correctamente */
 }
+
 
 .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-telephone-icon {
   height: 20px;
@@ -620,6 +622,21 @@
   position: absolute;
   text-align: center;
   top: 67px;
+  white-space: nowrap;
+  width: 83px;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-date-closed {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 7px;
+  font-weight: 400;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 76px;
   white-space: nowrap;
   width: 83px;
 }

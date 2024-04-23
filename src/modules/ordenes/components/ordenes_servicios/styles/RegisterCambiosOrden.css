@@ -1,0 +1,125 @@
+.RegisterCambioOrden-box {
+    height: 373px;
+    left: 588px;
+    top: 163px;
+    width: 391px;
+    position: relative;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-register-cambio {
+  height: 373px;
+  left: 0;
+  top: 0;
+  width: 391px;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 373px;
+  position: relative;
+  width: 391px;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 357px;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-title-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-select-input {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 82px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-subestado-li {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 33px;
+  left: 34px;
+  position: absolute;
+  top: 113px;
+  width: 324px;
+  border: none;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-comments-i {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 188px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-comments-t {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 34px;
+  position: absolute;
+  top: 219px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.RegisterCambioOrden-box .RegisterCambioOrden-register-button {
+    background-color: #00ddfa;
+    border-radius: 10px;
+    height: 32px;
+    left: 199px;
+    position: absolute;
+    top: 327px;
+    width: 138px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.RegisterCambioOrden-box .RegisterCambioOrden-cancel-button {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 32px;
+    left: 80px;
+    position: absolute;
+    top: 327px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+  }

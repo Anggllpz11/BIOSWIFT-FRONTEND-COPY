@@ -1,0 +1,706 @@
+.CotizacionByIdPendiente-box {
+    height: 373px;
+    left: 588px;
+    top: 163px;
+    width: 391px;
+    position: relative;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-register-container {
+  height: 373px;
+  left: 0;
+  top: 0;
+  width: 391px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-register-cotizacion {
+  height: 290px;
+  left: 0;
+  top: 80px;
+  width: 391px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  overflow-y: scroll; /* Habilita el scroll vertical */
+  overflow-x: hidden;
+  scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+  scrollbar-color:  #636b6f61 transparent; /* Firefox */
+}
+
+/* Para Chrome, Safari y Edge */
+.RegisterCotizacionOrden-box\ .CotizacionByIdPendiente-register-cotizacion::-webkit-scrollbar {
+  width: 3px; /* Ajusta el ancho del scrollbar */
+}
+
+.RegisterCotizacionOrden-box\ .CotizacionByIdPendiente-register-cotizacion::-webkit-scrollbar-track {
+  background-color: transparent;
+
+}
+
+.RegisterCotizacionOrden-box\ .CotizacionByIdPendiente-register-cotizacion::-webkit-scrollbar-thumb {
+  background-color: transparent;
+    border-radius: 3px;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 357px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-title-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-back-button {
+  color: #00ddfa;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  cursor: pointer;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-mensaje-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: -29px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-mensaje-value {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 23px;
+  position: relative;
+  top: -23px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-condicion-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-condicion-value {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 23px;
+  position: relative;
+  top: 3px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-id-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 20px;
+  }
+  
+  .CotizacionByIdPendiente-box .CotizacionByIdPendiente-id-value{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 18px;
+  }
+
+  .CotizacionByIdPendiente-box .CotizacionByIdPendiente-estado-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 37px;
+  }
+  
+  .CotizacionByIdPendiente-box .CotizacionByIdPendiente-estado-value{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 33px;
+  }
+  
+  
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-client-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 214px;
+    top: -46px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-client-name{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 214px;
+    top: -49px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-orden-id-t {
+  position: relative;
+  color: #000000;
+  font-size: 12px;
+  height: auto;
+  width: 162px;
+  left: 214px;
+  top: -46px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-orden-id{
+  position: relative;
+  color: #6b6b6b;
+  font-size: 12px;
+  height: auto;
+  width: 162px;
+  left: 214px;
+  top: -49px;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-select {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 29px;
+  left: 23px;
+  position: relative;
+  top: 25px;
+  width: 325px;
+  border: none;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-selected-div {
+  width: 370px;
+  height: 76px;
+  position: relative;
+  background-color: #ffffff;
+  top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-selected-title {
+    font-size: 16px;
+    width: 149px;
+    height: auto;
+    color: #00ddfa;
+    position: absolute;
+    top: 2px;
+    text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-selected-value {
+    font-size: 12px;
+    width: 149px;
+    height: 47px;
+    color: #000000;
+    position: absolute;
+    top: 25px;
+    background-color: #d9d9d9;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-cantidad-title {
+  font-size: 16px;
+  width: 70px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 164px;
+  top: 2px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-valoru-title {
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 239px;
+  top: 2px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-valoru-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-repuestos-remove-icon {
+  font-size: 13px;
+    width: 30px;
+    height: 30px;
+    color: #fa0000;
+    position: absolute;
+    left: 335px;
+    top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-div {
+  width: 370px;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  top: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-add-icon {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  color: #00ddfa;
+  left: 300px;
+  top: 13px;
+  cursor: pointer;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-section {
+  width: 370px;
+  height: 76px;
+  position: relative;
+  background-color: #ffffff;
+  top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-description-title {
+    font-size: 16px;
+    width: 146px;
+    height: auto;
+    color: #00ddfa;
+    position: absolute;
+    top: 2px;
+    text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-description-input {
+  font-size: 13px;
+  width: 145px;
+  height: 40px;
+  background-color: #d9d9d9;
+  color: #000000;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  top: 28px;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-cantidad-title {
+  font-size: 16px;
+  width: 70px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 164px;
+  top: 2px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-valoru-title {
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 239px;
+  top: 2px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-valoru-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-items-remove-icon {
+  font-size: 13px;
+    width: 30px;
+    height: 30px;
+    color: #fa0000;
+    position: absolute;
+    left: 335px;
+    top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-firma {
+  width: 370px;
+  height: 201px;
+  position: relative;
+  background-color: #ffffff;
+  top: 65px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-firma-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-firma-username {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-aprobar-button {
+    width: 25px;
+    height: 25px;
+    color: #2afa00;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 10px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-aprobar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-rechazar-button {
+    width: 25px;
+    height: 25px;
+    color: #fa0000;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 103px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-rechazar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 134px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-enviar-button {
+    width: 25px;
+    height: 25px;
+    color: #f6fa00;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 209px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-enviar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 240px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-imprimir-button {
+    width: 25px;
+    height: 25px;
+    color: #0e2b8a;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 300px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-imprimir-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 331px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-img-value {
+  position: relative;
+  top: 30px;
+  width: auto;
+  height: auto;
+  background-color: #d9d9d9;
+  left: 29px;
+  border-radius: 10px;
+}
+
+.CotizacionByIdPendiente-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.CotizacionByIdPendiente-modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.CotizacionByIdPendiente-modal-content-title {
+  color: #00ddfa;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.CotizacionByIdPendiente-textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.CotizacionByIdPendiente-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.CotizacionByIdPendiente-modal-cancel-button {
+  height: 40px;
+  width: 80px;
+  background-color: #d9d9d9;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.CotizacionByIdPendiente-close-observacion-button {
+  height: 40px;
+  width: 120px;
+  background-color: #00ddfa;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-modal-download-icon {
+  color: #00ddfa;
+  position: relative;
+  cursor: pointer;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  left: -170px;
+}
+
+.CotizacionByIdPendiente-box .CotizacionByIdPendiente-modal-cancel-icon {
+  color: #d9d9d9;
+  position: relative;
+  cursor: pointer;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  left: -325px;
+}

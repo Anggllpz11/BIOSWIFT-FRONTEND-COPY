@@ -1,0 +1,334 @@
+.CotizacionesOrden-cotizaciones-orden {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 205px;
+    width: 100%;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 205px;
+    height: 566px;
+    overflow: hidden;
+    position: relative;
+    width: 1006px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-header {
+    background-color: transparent;
+    height: 124px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1008px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 124px;
+    position: relative;
+    width: 1006px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-cambios-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 42px;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 842px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-overlap {
+    height: 397px;
+    left: 30px;
+    position: absolute;
+    top: 148px;
+    width: 539px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resumen-section {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 397px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 538px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resumen-header {
+    height: 45px;
+    left: 23px;
+    position: relative;
+    top: 18px;
+    width: 494px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-overlap-group-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 45px;
+    position: relative;
+    width: 492px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resumen-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 21px;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    white-space: nowrap;
+    width: 221px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-add-icon {
+    height: 30px;
+    color: #00ddfa;
+    left: 457px;
+    position: absolute;
+    top: 7px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resume-list {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 297px;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    width: 539px;
+    overflow-y: scroll; /* Habilita el scroll vertical */
+    overflow-x: hidden;
+    scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+    scrollbar-color:  #636b6f61 transparent; /* Firefox */
+  }
+  
+  /* Para Chrome, Safari y Edge */
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resume-list::-webkit-scrollbar {
+    width: 3px; /* Ajusta el ancho del scrollbar */
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resume-list::-webkit-scrollbar-track {
+    background-color: transparent;
+  
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-resume-list::-webkit-scrollbar-thumb {
+    background-color: transparent;
+      border-radius: 3px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-cambio-card {
+    height: 92px;
+    left: 26px;
+    position: relative;
+    top: 17px;
+    width: 494px;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-overlap-group-3 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 92px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 455px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-subestado-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 17px;
+    left: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 281px;
+  }
+
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-mensaje-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    text-align: center;
+    height: 0px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-subestado-comments {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-separator {
+    height: 92px;
+    left: 304px;
+    background-color: #d9d9d9;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-registered-by {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 17px;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 134px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-username {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    white-space: nowrap;
+    width: 134px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-date-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 17px;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 52px;
+    width: 134px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-date-value {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    white-space: nowrap;
+    width: 134px;
+  }
+  
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-open-icon {
+    height: 28px;
+    left: 458px;
+    position: absolute;
+    top: 32px;
+    width: 24px;
+    color: #00ddfa;
+    cursor: pointer;
+  }
+
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-edit-icon {
+    height: 20px;
+    left: 462px;
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    color: #00ddfa;
+    cursor: pointer;
+  }
+
+
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-estado-icono-pendiente {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #dac508;
+    cursor: pointer;
+  }
+
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-estado-icono-aprobada {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #08da08;
+    cursor: pointer;
+  }
+
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-estado-icono-rechazada {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #da2808;
+    cursor: pointer;
+  }
+
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-estado-separator {
+    height: 92px;
+    left: 91px;
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    background-color: #d9d9d9;
+    cursor: pointer;
+  }
+  

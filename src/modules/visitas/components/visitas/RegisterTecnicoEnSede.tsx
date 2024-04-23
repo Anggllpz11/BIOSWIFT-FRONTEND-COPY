@@ -71,11 +71,12 @@ const RegisterTecnicoEnSede: React.FC<RegisterTecnicoEnSedeProps> = ({ idVisita,
     return true;
   };
 
+  const now = new Date();
+  const formattedDateCreated = `${now.getFullYear()}-${(now.getMonth() + 1).toString().padStart(2, '0')}-${now.getDate().toString().padStart(2, '0')} ${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    const formattedDateCreated = new Date().toISOString().replace('T', ' ').slice(0, 19);
     const nuevaActividad = {
       actividades: [{
         id_protocolo: idProtocolo,
