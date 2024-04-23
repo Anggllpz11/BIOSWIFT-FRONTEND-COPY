@@ -271,7 +271,7 @@
 
 /* Extra large devices (large laptops and desktop, 1200px and up */
 
-@media screen and  (min-device-width: 1200px)  {
+@media screen and  (min-device-width: 1026px) {
   *{
     margin: 0;
     padding: 0;
@@ -279,6 +279,14 @@
   .DashboardMenuCentral-LogoPrincipal{
    width: 0px; 
    height: 0px;
+  }
+  
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 665px;
   }
   .DashboardMenuCentral-button{
     height: 90px;
@@ -442,7 +450,7 @@ input[type=checkbox]:checked + label::after {
 
 
 
-@media screen and (min-device-width: 300px) and (max-device-width: 1025px) {
+@media screen and (min-device-width: 821px) and (max-device-width: 1025px) {
 
   .DashboardMenuCentral-LogoPrincipal{
   width: 0px;
@@ -450,8 +458,11 @@ input[type=checkbox]:checked + label::after {
   }
 
   .DashboardMenuCentral-logo{
-    width: 0px;
-  height: 0px;
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 465px;
   }
   .DashboardMenuCentral-button{
     height: 50px;
@@ -465,7 +476,7 @@ input[type=checkbox]:checked + label::after {
   }
 
   .DashboardMenuCentral-nav{
-    width: 940px;
+    width: 750px;
     height: auto;
     max-height: 900px;
     position: relative;
@@ -504,7 +515,7 @@ input[type=checkbox]:checked + label::after {
         letter-spacing: 4px;
         overflow: hidden;
         top: 50px;
-        right: 520px;
+        right: 320px;
   }
   .acordeon-content {
     text-align: center;
@@ -517,19 +528,20 @@ input[type=checkbox]:checked + label::after {
   
 }
 
-
-@media screen and (min-device-width: 300px) and (max-device-width: 440px){
+@media screen and (min-device-width: 600px) and (max-device-width: 820px) {
 
   .DashboardMenuCentral-LogoPrincipal{
-    width: 0px;
+  width: 0px;
   height: 0px;
   }
 
-  .DashboardMenuCentral-Logo{
-    width:150px;
-    height:100px;
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 665px;
   }
-
   .DashboardMenuCentral-button{
     height: 50px;
     width: 50px;
@@ -542,18 +554,18 @@ input[type=checkbox]:checked + label::after {
   }
 
   .DashboardMenuCentral-nav{
-    width: 310px;
-        height: auto;
-        max-height: 300px;
-        position: relative;
-        top: 10px;
-        left: 22px;
-        text-align: center;
-        background-color: rgb(40, 41, 45);
-        overflow-y: auto;
-        scrollbar-width: thin;
-        scrollbar-color: transparent transparent;
-        border-radius: 15px;
+    width: 640px;
+    height: auto;
+    max-height: 900px;
+    position: relative;
+    top: 10px;
+    left: 22px;
+    text-align: center;
+    background-color: rgb(40, 41, 45);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 15px;
   } 
   .DashboardMenuCentral-nav-li{
     display: flex;
@@ -580,8 +592,6 @@ input[type=checkbox]:checked + label::after {
         transition: 0.5s;
         letter-spacing: 4px;
         overflow: hidden;
-        top: 50px;
-        right: 520px;
   }
   .acordeon-content {
     text-align: center;
@@ -593,6 +603,161 @@ input[type=checkbox]:checked + label::after {
   }
   
 }
+
+@media screen and (min-device-width: 380px) and (max-device-width: 599px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+  width: 0px;
+  height: 0px;
+  }
+
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 665px;
+  }
+  .DashboardMenuCentral-button{
+    height: 50px;
+    width: 50px;
+  }
+
+  .DashboardMenuCentral-Block {
+    position: relative !important;
+    top: 95px !important; 
+    right: 45px !important;
+  }
+
+  .DashboardMenuCentral-nav{
+    width: 320px;
+    height: auto;
+    max-height: 900px;
+    position: relative;
+    top: 10px;
+    left: 22px;
+    text-align: center;
+    background-color: rgb(40, 41, 45);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 15px;
+  } 
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+
+  }
+  .DashboardMenuCentral-nav-ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .DashboardMenuCentral-a{
+    position: absolute;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+  }
+  .acordeon-content {
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    background: #28292d;
+    border-radius: 15px;
+    transition: max-height .35s;
+  }
+  
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 379px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+  width: 0px;
+  height: 0px;
+  }
+
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -205px;
+        left: 655px;
+  }
+  .DashboardMenuCentral-button{
+    height: 50px;
+    width: 50px;
+  }
+
+  .DashboardMenuCentral-Block {
+    position: relative !important;
+    top: 95px !important; 
+    right: 45px !important;
+  }
+
+  .DashboardMenuCentral-nav{
+    width: 310px;
+    height: auto;
+    max-height: 900px;
+    position: relative;
+    top: 1px;
+    left: 22px;
+    text-align: center;
+    background-color: rgb(40, 41, 45);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 15px;
+  } 
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+
+  }
+  .DashboardMenuCentral-nav-ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .DashboardMenuCentral-a{
+    position: absolute;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+  }
+  .acordeon-content {
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    background: #28292d;
+    border-radius: 15px;
+    transition: max-height .35s;
+  }
+  
+}
+
+
+
 /*@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
   .DashboardMenuCentral-LogoPrincipal{
     padding: 0px;
