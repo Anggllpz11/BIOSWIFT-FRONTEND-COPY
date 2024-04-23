@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/DashboardMenuCentral.css';
-import ZiriuzDashboardLogo from './img/ziriuzDashboardLogo.png'
+import BiosWiftDashboardLogo from './img/BIOSWIFT MENU.png'
 import { useNavigate } from 'react-router-dom';
 import DashboardMenuCentralGenerales  from './DashboardMenuCentralGenerales';
 import DashboardMenuCentralEquipos from '../../../equipos/components/dashboard_equipos/DashboardMenuCentralEquipos';
@@ -16,7 +16,7 @@ const DashboardMenuCentral = () => {
               <section className="DashboardMenuCentral-LogoPrincipal">
                   <div className="DashboardMenuCentral-logo">
                           <a className="DashboardMenuCentral-a" href="">
-                              <img  src={ZiriuzDashboardLogo} alt="" width = "250px" height = "150px" />
+                              <img  src={BiosWiftDashboardLogo} alt="" width = "130px" height = "200px" />
                               <span></span>
                               <span></span>
                               <span></span>

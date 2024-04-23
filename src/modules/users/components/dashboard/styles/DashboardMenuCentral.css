@@ -10,15 +10,14 @@
 
 
 .DashboardMenuCentral-LogoPrincipal{
-  padding: 0px;
-  border: 1px solid #05050500;
+  width: 0px;
+  height: 0px;
   
 }
 
 .DashboardMenuCentral-logo{
-  order: 0;
-  padding: 10px;
-  margin: center;
+  width: 0px;
+  height: 0px;
 }
 
 
@@ -178,18 +177,17 @@
 
 .DashboardMenuCentral-a{
   position: absolute;
-  display: inline-block;
-  padding: 25px 30px;
-  margin: 40px;
-  color: #03e9f4;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.5s;
-  letter-spacing: 4px;
-  overflow: hidden;
-  margin-right: 50px;
-  left: 43%;
-  top:5%;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        top: 50px;
+        right: 520px;
   
 }
 .DashboardMenuCentral-a:nth-child(4){
@@ -279,18 +277,8 @@
     padding: 0;
   }
   .DashboardMenuCentral-LogoPrincipal{
-    padding: 0px;
-    border: 1px solid #05050500;
-    width:110px;
-    height: 100px;
-    position: absolute; 
-    top:  15% ;
-    left: 43%;
-   
-  }
-  .DashboardMenuCentral-logo-Ziriuz{
-    width:170px;
-    height:130px;
+   width: 0px; 
+   height: 0px;
   }
   .DashboardMenuCentral-button{
     height: 90px;
@@ -320,17 +308,16 @@
   .DashboardMenuCentral-a{
     position: absolute;
     display: inline-block;
-    padding: 25px 25px;
-    margin: 5px;
+    padding: 5px 90px;
+    margin: 5px 5px 92px 5px;
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-right: 50px;
-    left: -1px;
-    top: -115px;
+    top: 50px;
+    right: 520px;
   }
   
   .acordeon {
@@ -458,20 +445,14 @@ input[type=checkbox]:checked + label::after {
 @media screen and (min-device-width: 300px) and (max-device-width: 1025px) {
 
   .DashboardMenuCentral-LogoPrincipal{
-    border: 1px solid #05050500;
-    width: 70px;
-    height: 80px;
-    position: absolute;
-    top: 55px;
-    left: 420px;
+  width: 0px;
+  height: 0px;
   }
 
-  .DashboardMenuCentral-logo-Ziriuz{
-    width:150px;
-    height:100px;
+  .DashboardMenuCentral-logo{
+    width: 0px;
+  height: 0px;
   }
-
-  .DashboardMenuCentral-logo
   .DashboardMenuCentral-button{
     height: 50px;
     width: 50px;
@@ -513,18 +494,17 @@ input[type=checkbox]:checked + label::after {
   }
   .DashboardMenuCentral-a{
     position: absolute;
-    display: inline-block;
-    padding: 25px 25px;
-    margin: 5px;
-    color: #03e9f4;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 4px;
-    overflow: hidden;
-    margin-right: 50px;
-    left:-28%;
-    top: 25%;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        top: 50px;
+        right: 520px;
   }
   .acordeon-content {
     text-align: center;
@@ -541,15 +521,11 @@ input[type=checkbox]:checked + label::after {
 @media screen and (min-device-width: 300px) and (max-device-width: 440px){
 
   .DashboardMenuCentral-LogoPrincipal{
-    border: 1px solid #05050500;
-    width: 70px;
-    height: 80px;
-    position: absolute;
-    top: 60px;
-    left: 110px;
+    width: 0px;
+  height: 0px;
   }
 
-  .DashboardMenuCentral-logo-Ziriuz{
+  .DashboardMenuCentral-Logo{
     width:150px;
     height:100px;
   }
@@ -596,15 +572,16 @@ input[type=checkbox]:checked + label::after {
   .DashboardMenuCentral-a{
     position: absolute;
         display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
         color: #03e9f4;
-        padding: 1px;
-        margin: 1px 1px 1px 1px !important;
         text-decoration: none;
         text-transform: uppercase;
         transition: 0.5s;
         letter-spacing: 4px;
         overflow: hidden;
-        top: 25%;
+        top: 50px;
+        right: 520px;
   }
   .acordeon-content {
     text-align: center;
