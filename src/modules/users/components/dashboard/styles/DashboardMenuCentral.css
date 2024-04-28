@@ -138,6 +138,8 @@
 }
 
 .DashboardMenuCentral-icon{
+  position: absolute;
+  right: 2px;
   height: 40px !important;
   width: 40px !important;
 
