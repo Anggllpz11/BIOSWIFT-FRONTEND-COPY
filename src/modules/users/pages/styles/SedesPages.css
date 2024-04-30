@@ -142,15 +142,14 @@
 }
 
 .SedesPages-Container-Card {
-  width: 1200px;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(316px, 1fr));
-  grid-gap: 2rem;
-  gap: 2rem;
-  margin: 2rem 3vw;
-  padding: 0;
-  list-style: none;
+  width: 1310px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1px));
+    gap: 30px;
+    margin: 2px 4px 2px 2px;
+    padding: 10px;
+    list-style: none;
 }
 
 /**************************************************/

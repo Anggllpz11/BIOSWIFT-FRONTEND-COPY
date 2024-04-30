@@ -660,3 +660,50 @@
   width: 349px;
 }
 }
+
+@media screen and (min-width:700px) and (max-width: 1000px) {
+  /*VISITAS*/
+
+  .VisitasOrden-visitas .VisitasOrden-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 205px;
+    height: 566px;
+    overflow-y: auto; /* O 'scroll' si prefieres una barra de desplazamiento siempre visible */
+    position: relative;
+    width: 615px;
+    left: 26px;
+  }
+  
+  
+.VisitasOrden-visitas .VisitasOrden-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 124px;
+    position: relative;
+    width: 685px;
+    left: 0px;
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-visita-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 842px;
+    left: -60px;
+}
+
+
+
+
+
+
+}
+  

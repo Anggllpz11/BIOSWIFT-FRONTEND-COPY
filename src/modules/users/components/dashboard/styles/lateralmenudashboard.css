@@ -65,8 +65,10 @@ text-decoration: none;
 
 .DashboardMenuLateral-icon {
   width: 20px;
-  height: 20px; 
-  color:#00ddfa;
+    height: 20px;
+    color: #00ddfa;
+    position: absolute;
+    right: 146px;
   
 }
 
@@ -76,6 +78,7 @@ text-decoration: none;
   width: 120px;
   height: 20px;
   font-family: "Mulish", sans-serif;
+  margin: 8px 0px 0px 14px;
   /* text-decoration: ; */
 }
 
