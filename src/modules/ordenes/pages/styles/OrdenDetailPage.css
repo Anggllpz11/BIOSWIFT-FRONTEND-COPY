@@ -2953,6 +2953,14 @@
 
 @media screen and (min-width: 250px) and (max-width: 599px) {
 
+.OrdenDetailPage-box .OrdenDetailPage-overlap {
+    height: 820px;
+    left: 3px;
+    position: relative;
+    width: 1226px;
+    overflow-y: auto;
+}
+
 /*MAIN TITLE*/
 
 .OrdenDetailPage-box .OrdenDetailPage-overlap-group {
@@ -3031,7 +3039,7 @@
   height: 498px;
   overflow: hidden;
   position: relative;
-  width: 308px !important;
+  width: 308px;
   left: 22px;
 }
 
@@ -3048,6 +3056,16 @@
   text-align: center;
   top: 28px;
   width: 842px;
+}
+
+.OrdenDetailPage-box .OrdenDetailPage-container {
+  background-color: #53789587;
+  border-radius: 10px;
+  height: 627px;
+  left: 473px;
+  position: absolute;
+  top: 0;
+  width: 324px;
 }
 
 

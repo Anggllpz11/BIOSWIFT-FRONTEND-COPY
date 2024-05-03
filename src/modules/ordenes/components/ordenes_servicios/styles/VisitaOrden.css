@@ -989,5 +989,184 @@
   width: 271px;
 }
 
+/*INFORMACION TARJETAS*/
+
+
+.VisitasOrden-visitas .VisitasOrden-separator {
+  height: 77px;
+  left: 39px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-inicio-icon {
+  height: 18px;
+  left: 43px;
+  color: #00ddfa;
+  position: absolute;
+  top: 33px;
+  width: 19px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-inicio-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 37px;
+  width: 102px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-tecnico-icon {
+  height: 18px;
+  left: 44px;
+  color: #00ddfa;
+  position: absolute;
+  top: 63px;
+  width: 19px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-tecnico-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 103px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-created-icon {
+  height: 18px;
+  left: 157px;
+  color: #00ddfa;
+  position: absolute;
+  top: 33px;
+  width: 18px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-created-icon-add {
+  height: 11px;
+  left: 161px;
+  color: #00ddfa;
+  position: absolute;
+  top: 39px;
+  width: 11px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-created-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  height: 17px;
+  left: 178px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 38px;
+  width: 102px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-user-icon {
+  height: 18px;
+  color: #00ddfa;
+  left: 157px;
+  position: absolute;
+  top: 63px;
+  width: 19px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-user-creator {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  left: 178px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  width: 101px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-separator-card {
+  height: 56px;
+  left: 153px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-oid-card {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 18px;
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 210px;
+  cursor: pointer;
+}
+
+/*STATE ICON*/
+
+.VisitasOrden-visitas .VisitasOrden-estado-cerrado {
+  height: 30px;
+  left: -6px;
+  position: absolute;
+  top: 33px;
+  width: 53px;
+  color: #555555;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estado-abierto {
+  height: 30px;
+  left: -6px;
+  position: absolute;
+  top: 33px;
+  width: 53px;
+  color: #08da08;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estado-pendiente {
+  height: 30px;
+  left: -6px;
+  position: absolute;
+  top: 33px;
+  width: 53px;
+  color: #dac508;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estado-rechazado {
+  height: 30px;
+  left: -6px;
+  position: absolute;
+  top: 33px;
+  width: 53px;
+  color: #da2808;
+}
+
+
 }
 
