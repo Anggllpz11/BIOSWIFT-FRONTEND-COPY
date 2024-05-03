@@ -469,10 +469,22 @@
   width: 941px;
 }
   
+.VisitasOrden-visitas .VisitasOrden-visitas-list {
+  background-color: #d9d9d9;
+  height: 319px;
+  position: absolute;
+  top: 66px;
+  width: 399px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #636b6f61 transparent;
+}
+
 .VisitasOrden-visitas .VisitasOrden-div {
   background-color: #ffffff;
   border-radius: 10px;
-  top: 205px;
+  top: 188px;
   height: 566px;
   overflow: hidden;
   position: relative;
@@ -591,6 +603,15 @@
   top: 58px;
   width: 349px;
 }
+
+.VisitasOrden-visitas .VisitasOrden-all-visitas {
+  height: 398px;
+  left: 238px;
+  position: absolute;
+  top: 147px;
+  width: 407px;
+}
+
 }
 
 @media screen and (min-width:700px) and (max-width: 819px) {
@@ -607,6 +628,19 @@
     left: 26px;
   
   }
+
+  .VisitasOrden-visitas .VisitasOrden-visitas-list {
+    background-color: #d9d9d9;
+    height: 319px;
+    left: 85px;
+    position: absolute;
+    top: 66px;
+    width: 399px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #636b6f61 transparent;
+}
   
   /* Para Chrome, Safari y Edge */
   .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar {
@@ -755,6 +789,204 @@
   position: absolute;
   top: 9px;
   width: 383px;
+}
+
+}
+
+@media screen and (min-width:250px) and (max-width: 600px) {
+
+  .VisitasOrden-visitas .VisitasOrden-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 121px;
+    height: 498px;
+    overflow: hidden;
+    position: relative;
+    width: 308px;
+    left: 22px;
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-visita-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 42px;
+    left: -254px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 842px;
+  }
+
+  .VisitasOrden-visitas .VisitasOrden-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 75px;
+    position: relative;
+    width: 1006px;
+}
+
+/*VISITAS*/
+
+.VisitasOrden-visitas .VisitasOrden-all-visitas {
+  height: 398px;
+  left: 12px;
+  position: absolute;
+  top: 86px;
+  width: 407px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 398px;
+  position: relative;
+  width: 288px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-navbar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 47px;
+  left: 7px;
+  position: absolute;
+  top: 9px;
+  width: 275px;
+}
+
+/*ESTADO DE VISITA*/
+
+.VisitasOrden-visitas .VisitasOrden-pendiente-t {
+  color: #dac508;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 26px;
+  left: -4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 88px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-abierta-t {
+  color: #08da08;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 26px;
+  left: 200px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 88px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-cerrada-title {
+  color: #555555;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 26px;
+  left: 139px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 88px;
+  cursor: pointer;
+}
+
+.VisitasOrden-visitas .VisitasOrden-rechazada-t {
+  color: #da2808;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 26px;
+  left: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 88px;
+  cursor: pointer;
+}
+
+/*SEPARADORES*/
+
+.VisitasOrden-visitas .VisitasOrden-estados {
+  height: 34px;
+  left: 77px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-estados-separator {
+  height: 34px;
+  left: 152px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-img {
+  height: 34px;
+  left: 215px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+/*AJUSTE TARJETAS*/
+
+.VisitasOrden-visitas .VisitasOrden-visitas-list {
+  background-color: #d9d9d9;
+  height: 319px;
+  left: 0;
+  position: absolute;
+  top: 66px;
+  width: 284px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #636b6f61 transparent;
+}
+
+.VisitasOrden-visitas .VisitasOrden-visita-card {
+  height: 94px;
+  left: 12px;
+  list-style: none;
+  position: relative;
+  top: 6px;
+  left: 7px;
+  width: 365px;
+  margin-bottom: 10px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap-group-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 94px;
+  position: relative;
+  width: 271px;
 }
 
 }

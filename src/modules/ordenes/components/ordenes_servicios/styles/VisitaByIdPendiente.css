@@ -926,13 +926,30 @@
   width: 70px;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1400px) {
+@media screen and (min-width: 950px) and (max-width: 1400px) {
 
   .VisitaByIdPendiente-visita-pendiente {
     background-color: transparent;
     justify-content: center;
     left: 363px;
-    top: 795px;
+    top: 760px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 563px;
+    height: 444px;
+}
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+  .VisitaByIdPendiente-visita-pendiente {
+    background-color: transparent;
+    justify-content: center;
+    left: 363px;
+    top: 780px;
     margin: 0;
     padding: 0;
     position: absolute;

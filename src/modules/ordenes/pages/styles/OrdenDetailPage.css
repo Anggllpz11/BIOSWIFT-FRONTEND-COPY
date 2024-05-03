@@ -1956,7 +1956,7 @@
 }
 }
   
-@media screen and (min-width: 300px) and (max-width: 1019px){
+@media screen and (min-width: 600px) and (max-width: 1019px){
 
   .OrdenDetailPage-box .OrdenDetailPage-overlap {
     height: 820px;
@@ -2949,4 +2949,108 @@
   z-index: 10;
 }
   
+}
+
+@media screen and (min-width: 250px) and (max-width: 599px) {
+
+/*MAIN TITLE*/
+
+.OrdenDetailPage-box .OrdenDetailPage-overlap-group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+    width: 308px;
+    left: 481px;
+    top: 7px;
+  
+}
+
+.OrdenDetailPage-box .OrdenDetailPage-orden-id {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 43px;
+  left: -11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  width: 366px;
+}
+
+.OrdenDetailPage-box .OrdenDetailPage-check-icon-estado-abierta {
+  height: 40px;
+  left: -9px;
+  color: #08da08;
+  position: absolute;
+  top: 31px;
+  width: 80px;
+}
+
+.OrdenDetailPage-box .OrdenDetailPage-date-icon {
+  height: 18px;
+  color: #636b6f;
+  left: 170px;
+  position: absolute;
+  top: 79px;
+  width: 30px;
+}
+
+.OrdenDetailPage-box .OrdenDetailPage-add-date-icon {
+  height: 17px;
+  color: #636b6f;
+  left: 172px;
+  position: absolute;
+  top: 82px;
+  width: 26px;
+}
+
+.OrdenDetailPage-box .OrdenDetailPage-date-created {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 30px;
+  left: 201px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 84px;
+  width: 203px;
+}
+
+/*VISITAS*/
+
+.VisitasOrden-visitas .VisitasOrden-div {
+  background-color: #ffffff;
+  border-radius: 10px;
+  top: 121px;
+  height: 498px;
+  overflow: hidden;
+  position: relative;
+  width: 308px !important;
+  left: 22px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-visita-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 42px;
+  left: -254px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: 842px;
+}
+
+
+/*MENU VISITA*/
+
 }
