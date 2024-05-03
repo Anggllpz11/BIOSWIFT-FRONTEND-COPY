@@ -1429,11 +1429,20 @@
 
 @media screen and (min-width: 1020px) and (max-width: 1200px){
 
+  .OrdenDetailPage-box .OrdenDetailPage-overlap {
+    height: 820px;
+    left: 3px;
+    position: relative;
+    width: 1226px;
+    overflow-y: auto;
+}
+
 /*ORDEN DE SERVICIO*/
   .OrdenDetailPage-box .OrdenDetailPage-container {
     background-color: #53789587;
     border-radius: 10px;
-    height: 785px;
+    height: auto;
+    min-height: 1236px;
     left: 165px;
     position: absolute;
     top: 0;
@@ -1947,13 +1956,22 @@
 }
 }
   
-@media screen and (min-width: 760px) and (max-width: 1000px){
+@media screen and (min-width: 300px) and (max-width: 1019px){
+
+  .OrdenDetailPage-box .OrdenDetailPage-overlap {
+    height: 820px;
+    left: 3px;
+    position: relative;
+    width: 1226px;
+    overflow-y: auto;
+}
 
   /*ORDEN DE SERVICIO*/
     .OrdenDetailPage-box .OrdenDetailPage-container {
       background-color: #53789587;
       border-radius: 10px;
-      height: 785px;
+      height: auto;
+      min-height: 1236px;
       left: 297px;
       position: absolute;
       top: 0;

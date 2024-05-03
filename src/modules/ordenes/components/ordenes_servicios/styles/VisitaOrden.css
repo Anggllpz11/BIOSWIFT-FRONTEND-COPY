@@ -513,74 +513,6 @@
   cursor: pointer;
   color: #00ddfa;
 }
-/*VISTA SELECCIONADA ABIERTA*/
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-div {
-  /* background-image: url(./container.svg); */
-  background-size: 100% 100%;
-  background-color: #d9d9d9;
-  border-radius: 10px;
-  height: 412px;
-  position: relative;
-  width: 402px!important;
-  left: 102px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
-  background-color: #d9d9d9;
-  border-radius: 10px;
-  height: 353px;
-  left: 0;
-  position: absolute;
-  top: 59px;
-  width: 402px!important;
-  overflow-y: auto;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap-group {
-  background-color: #ffffff;
-  border-radius: 10px;
-  height: 34px;
-  position: relative;
-  width: 322px!important;
-  left: 23px!important;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title {
-  color: #00ddfa;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 12px!important;
-  font-weight: 400;
-  height: 18px;
-  left: -54px!important;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 11px;
-  white-space: nowrap;
-  width: 435px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-close-icon {
-  height: 21px!important;
-  color: #555555;
-  left: 367px!important;
-  cursor: pointer;
-  position: absolute;
-  top: 9px!important;
-  width: 30px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-execute-icon {
-  height: 21px!important;
-  color: #08da08;
-  left: 367px!important;
-  cursor: pointer;
-  position: absolute;
-  top: 34px!important;
-  width: 30px;
-}
 
 .TecnicoEnSede-box {
   height: 316px;
@@ -661,8 +593,7 @@
 }
 }
 
-
-@media screen and (min-width:700px) and (max-width: 1000px) {
+@media screen and (min-width:700px) and (max-width: 819px) {
   /*VISITAS*/
 
   .VisitasOrden-visitas .VisitasOrden-div {
@@ -670,10 +601,26 @@
     border-radius: 10px;
     top: 205px;
     height: 566px;
-    overflow-y: auto; /* O 'scroll' si prefieres una barra de desplazamiento siempre visible */
+    overflow-y: auto; 
     position: relative;
     width: 615px;
     left: 26px;
+  
+  }
+  
+  /* Para Chrome, Safari y Edge */
+  .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar {
+    width: 3px; /* Ajusta el ancho del scrollbar */
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar-track {
+    background-color: transparent;
+  
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar-thumb {
+    background-color: transparent;
+      border-radius: 3px;
   }
   
   
@@ -698,7 +645,117 @@
     text-align: center;
     top: 41px;
     width: 842px;
-    left: -60px;
-  }
+    left: -96px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 398px;
+  position: relative;
+  width: 534px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-all-visitas {
+  height: 398px;
+  left: 37px;
+  position: absolute;
+  top: 147px;
+  width: 534px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-navbar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 47px;
+  left: 82px;
+  position: absolute;
+  top: 9px;
+  width: 383px;
+}
 
 }
+
+@media screen and (min-width:819px) and (max-width: 1000px) {
+  /*VISITAS*/
+
+  .VisitasOrden-visitas .VisitasOrden-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 205px;
+    height: 566px;
+    overflow-y: auto; 
+    position: relative;
+    width: 615px;
+    left: 37px;
+  
+  }
+  
+
+  .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar {
+    width: 3px; 
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar-track {
+    background-color: transparent;
+  
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-div::-webkit-scrollbar-thumb {
+    background-color: transparent;
+      border-radius: 3px;
+  }
+  
+  
+.VisitasOrden-visitas .VisitasOrden-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 124px;
+    position: relative;
+    width: 685px;
+    left: 0px;
+  }
+  
+  .VisitasOrden-visitas .VisitasOrden-visita-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 842px;
+    left: -96px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 398px;
+  position: relative;
+  width: 534px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-all-visitas {
+  height: 398px;
+  left: 37px;
+  position: absolute;
+  top: 147px;
+  width: 534px;
+}
+
+.VisitasOrden-visitas .VisitasOrden-navbar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 47px;
+  left: 82px;
+  position: absolute;
+  top: 9px;
+  width: 383px;
+}
+
+}
+

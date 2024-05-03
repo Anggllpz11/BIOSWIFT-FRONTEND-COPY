@@ -1059,4 +1059,75 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1300px) {
 
+  .VisitaByIdAbierta-visita-abierta {
+    background-color: transparent;
+    justify-content: center;
+    left: 363px;
+    top: 795px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 563px;
+    height: 428px;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 318px;
+  left: 0;
+  position: absolute;
+  top: 59px;
+  width: 563px;
+  overflow-y: auto;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-div {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 390px;
+  position: relative;
+  width: 563px;
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 899px) {
+
+  .VisitaByIdAbierta-visita-abierta {
+    background-color: transparent;
+    justify-content: center;
+    left: 363px;
+    top: 795px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 563px;
+    height: 428px;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 318px;
+  left: 0;
+  position: absolute;
+  top: 59px;
+  width: 563px;
+  overflow-y: auto;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-div {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 390px;
+  position: relative;
+  width: 563px;
+}
+}
+  
