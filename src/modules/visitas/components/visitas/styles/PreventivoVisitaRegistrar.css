@@ -392,3 +392,70 @@
   background-color: #fbff00;
 }
 
+@media screen and (min-width: 300px) and (max-width: 699px ) {
+
+  .PreventivoVisitaRegistrar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin: 10px;
+    height: 830px;
+    width: 300px;
+}
+
+.PreventivoVisitaRegistrar-form {
+  height: 780px;
+  width: 300px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overlap-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: auto;
+  width: 300px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 780px;
+  width: 300px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-title-text {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 15px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  top: -15px;
+  width: 277px;
+  position: relative;
+  margin: 10px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-cualitativo-section {
+  height: 170px;
+  width: 278px;
+  margin: 10px;
+}
+
+.PreventivoVisitaRegistrar-actividad-preventivo .PreventivoVisitaRegistrar-overlap-group {
+  background-color: transparent;
+  height: 170px;
+  width: 278px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+}
