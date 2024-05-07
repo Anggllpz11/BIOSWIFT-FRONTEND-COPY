@@ -21,3 +21,33 @@
     color: #00ddfa;
     background-color: #ffffff;
 }
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+/*EJECUTAR TITLE*/
+
+    .ActividadesEjecutar-title {
+    position: relative;
+        top: 614px;
+        left: 7px;
+        height: 25px;
+        width: 300px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 10px;
+        color: #00ddfa;
+        background-color: #ffffff;
+    }
+
+    .ActividadesEjecutar-container {
+        height: auto;
+        width: 550px;
+        position: absolute;
+        top: 640px;
+        left: -119px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

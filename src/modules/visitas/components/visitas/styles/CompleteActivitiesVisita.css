@@ -298,3 +298,45 @@ width: 270px;
   width: 30px;
   color: #00ddfa;
 }
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+  .CompleteActivitiesVisita-visita-actividad .EquipoDisponibilidad-overlap-group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 57px;
+    left: 72px;
+    position: relative;
+    top: 0;
+    width: 299px;
+} 
+
+.CompleteActivitiesVisita-visita-actividad .EquipoDisponibilidad-actividad-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 13px;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 272px;
+}
+
+.CompleteActivitiesVisita-visita-actividad .EquipoDisponibilidad-actividad-select {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  height: 23px;
+  left: 10px;
+  position: absolute;
+  top: 24px;
+  width: 270px;
+}
+
+}
