@@ -199,3 +199,116 @@
     border: none;
     cursor: pointer;
 }
+
+@media screen and (min-width: 300px) and (max-width: 699px ) {
+
+.PruebaElectricaRegister-box {
+    height: 560px;
+    width: 233px;
+    margin: 10px;
+}
+
+.PruebaElectricaRegister-actividad-prueba {
+  height: 511px;
+  width: 227px;
+  margin: 10px;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-div {
+  height: 558px;
+  position: relative;
+  width: 227px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  top: -15px;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-form-container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 469px;
+  left: 8px;
+  position: absolute;
+  top: 34px;
+  width: 211px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-container-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 102px 1px;
+  align-items: start;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-title-section {
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 11px;
+  width: 200px;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-form-t-wrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 26px;
+  position: relative;
+  width: 157px;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-form-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 22px;
+  left: -15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 190px;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-prueba-electrica-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 15px;
+  left: -20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 272px;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-line {
+  height: 0px;
+  left: 223px;
+  object-fit: cover;
+  position: absolute;
+  top: 80px;
+  width: 3px;
+  background-color: #ffffff;
+}
+
+.PruebaElectricaRegister-actividad-prueba .PruebaElectricaRegister-button {
+  height: 30px;
+  width: 159px;
+  background-color: #00ddfa;
+  color: #ffffff;
+  position: relative;
+  left: 37px;
+  top: 518px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+}

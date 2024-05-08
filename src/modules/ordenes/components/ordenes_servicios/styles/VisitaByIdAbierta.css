@@ -1060,7 +1060,7 @@
 }
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
-
+  
   .VisitaByIdAbierta-visita-abierta {
     background-color: transparent;
     justify-content: center;
@@ -1071,66 +1071,66 @@
     position: absolute;
     width: 563px;
     height: 428px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
-  background-color: #d9d9d9;
-  border-radius: 10px;
-  height: 318px;
-  left: 0;
-  position: absolute;
-  top: 59px;
-  width: 563px;
-  overflow-y: auto;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title-cerrada {
-  color: #00ddfa;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 18px !important;
-  font-weight: 400;
-  height: 18px;
-  left: -15px !important;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 7px !important;
-  white-space: nowrap;
-  width: 498px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap-group-cerrada {
-  background-color: #ffffff;
-  border-radius: 10px;
-  height: 34px;
-  position: relative;
-  width: 465px!important;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdCerrada-back-icon {
-  height: 30px;
-  color: #00ddfa;
-  left: 515px!important;
-  cursor: pointer;
-  position: absolute;
-  top: 19px;
-  width: 30px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-div {
-  /* background-image: url(./container.svg); */
-  background-size: 100% 100%;
-  background-color: #d9d9d9;
-  border-radius: 10px;
-  height: 390px;
-  position: relative;
-  width: 563px;
-}
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 318px;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 563px;
+    overflow-y: auto;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title-cerrada {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px !important;
+    font-weight: 400;
+    height: 18px;
+    left: -15px !important;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px !important;
+    white-space: nowrap;
+    width: 498px;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap-group-cerrada {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 34px;
+    position: relative;
+    width: 465px!important;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdCerrada-back-icon {
+    height: 30px;
+    color: #00ddfa;
+    left: 515px!important;
+    cursor: pointer;
+    position: absolute;
+    top: 19px;
+    width: 30px;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-div {
+    /* background-image: url(./container.svg); */
+    background-size: 100% 100%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 390px;
+    position: relative;
+    width: 563px;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 899px) {
-
+  
   .VisitaByIdAbierta-visita-abierta {
     background-color: transparent;
     justify-content: center;
@@ -1141,22 +1141,22 @@
     position: absolute;
     width: 563px;
     height: 428px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
-  background-color: #d9d9d9;
-  border-radius: 10px;
-  height: 318px;
-  left: 0;
-  position: absolute;
-  top: 59px;
-  width: 563px;
-  overflow-y: auto;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title-cerrada {
-  color: #00ddfa;
-  font-family: "Inter-Regular", Helvetica;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 318px;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 563px;
+    overflow-y: auto;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title-cerrada {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
   font-size: 18px !important;
   font-weight: 400;
   height: 18px;
@@ -1198,20 +1198,20 @@
   width: 563px;
 }
 }
-  
+
 @media screen and (min-width: 300px) and (max-width: 699px ){
   
   .VisitaByIdAbierta-visita-abierta {
-      background-color: transparent;
-      /* display: flex; */
-      /* flex-direction: row; */
-      justify-content: center;
-      left: 477px;
-      top: 640px;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      width: 273px;
+    background-color: transparent;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    left: 477px;
+    top: 640px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 273px;
   }
   
   .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
@@ -1223,8 +1223,8 @@
     top: 59px;
     width: 314px;
     overflow-x: hidden;
-}
-
+  }
+  
   
   .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-div {
     /* background-image: url(./container.svg); */
@@ -1281,6 +1281,36 @@
     width: 191px;
   }
   
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-execute-icon {
+    height: 20px;
+    color: #08da08;
+    left: 279px;
+    cursor: pointer;
+    position: absolute;
+    top: 33px;
+    width: 30px;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-close-icon {
+    height: 20px;
+    color: #555555;
+    left: 279px;
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    width: 30px;
+  }
+  
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-pause-icon {
+    height: 20px;
+    color: #dac508;
+    left: 279px;
+    cursor: pointer;
+    position: absolute;
+    top: 33px;
+    width: 30px;
+  }
+
   .ActividadesVisitas-title {
     position: relative;
     top: 607px;
@@ -1305,7 +1335,40 @@
     align-items: center;
 }
   
-  /*TECNICO EN SEDE*/
+/*button and lines*/
+
+.VisitaByIdAbierta-switch {
+  position: relative;
+  display: inline-block;
+  top: 57px;
+  left: 123px;
+  width: 34px;
+  height: 18px;
+}
+
+.VisitaByIdAbierta-slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 11px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-ellipse {
+  border: 1px solid;
+  border-color: #d9d9d9;
+  border-radius: 8.25px / 5.83px;
+  height: 12px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+/*TECNICO EN SEDE*/
   
   
   
@@ -1337,7 +1400,7 @@
   .TecnicoEnSede-box .TecnicoEnSede-tecsede-title-2 {
     color: #00ddfa;
     font-family: "Inter-Regular", Helvetica;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     height: 15px;
     left: 25px;
@@ -1377,39 +1440,6 @@
     position: absolute;
   }
 
-  /*button and lines*/
-  
-  .VisitaByIdAbierta-switch {
-    position: relative;
-    display: inline-block;
-    top: 57px;
-    left: 123px;
-    width: 34px;
-    height: 18px;
-  }
-  
-  .VisitaByIdAbierta-slider:before {
-    position: absolute;
-    content: "";
-    height: 12px;
-    width: 11px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-    border-radius: 50%;
-  }
-  
-  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-ellipse {
-    border: 1px solid;
-    border-color: #d9d9d9;
-    border-radius: 8.25px / 5.83px;
-    height: 12px;
-    left: 2px;
-    position: absolute;
-    top: 0;
-    width: 12px;
-  }
   
   /*EQUIPO EN SEDE*/
   
@@ -1603,33 +1633,5 @@ margin-bottom: 174px;
   position: absolute;
 }
 
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-execute-icon {
-  height: 20px;
-  color: #08da08;
-  left: 279px;
-  cursor: pointer;
-  position: absolute;
-  top: 33px;
-  width: 30px;
-}
 
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-close-icon {
-  height: 20px;
-  color: #555555;
-  left: 279px;
-  cursor: pointer;
-  position: absolute;
-  top: 13px;
-  width: 30px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-pause-icon {
-  height: 20px;
-  color: #dac508;
-  left: 279px;
-  cursor: pointer;
-  position: absolute;
-  top: 33px;
-  width: 30px;
-}
 }
