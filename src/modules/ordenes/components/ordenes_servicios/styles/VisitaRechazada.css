@@ -849,3 +849,219 @@
 }
 
   }
+
+  @media screen and (min-width: 300px) and (max-width: 699px){
+  
+    .VisitaByIdRechazada-visita-rechazada {
+      background-color: transparent;
+      /* display: flex; */
+      /* flex-direction: row; */
+      justify-content: center;
+      left: 477px;
+      top: 640px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      width: 273px;
+    }
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap {
+      background-color: #d9d9d9;
+      border-radius: 10px;
+      height: 265px;
+      left: 1px;
+      position: absolute;
+      top: 59px;
+      width: 314px;
+      overflow-x: hidden;
+    }
+    
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-div {
+      /* background-image: url(./container.svg); */
+      background-size: 100% 100%;
+      background-color: #d9d9d9;
+      border-radius: 10px;
+      height: 375px;
+      position: relative;
+      width: 315px;
+    }
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-group {
+      background-color: #ffffff;
+      border-radius: 10px;
+      height: 34px;
+      position: relative;
+      width: 236px;
+      left: 21px;
+    }
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-visita-title {
+      color: #00ddfa;
+      font-family: "Inter-Regular", Helvetica;
+      font-size: 9px;
+      font-weight: 400;
+      height: 18px;
+      left: 5px;
+      letter-spacing: 0;
+      line-height: normal;
+      position: absolute;
+      text-align: center;
+      top: 12px;
+      white-space: nowrap;
+      width: 229px;
+    }
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-4 {
+      background-color: #ffffff;
+      border-radius: 10px;
+      height: 87px;
+      position: relative;
+      left: -259px;
+      top: 315px;
+      width: 191px;
+    }
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-overlap-6 {
+      background-color: #ffffff;
+      border-radius: 10px;
+      height: 181px;
+      position: relative;
+      top: 300px;
+      left: -259px;
+      width: 191px;
+    }
+    
+    .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-img-2-rechazada {
+      height: 25px;
+      left: 81px;
+      color: #dac508;
+      position: absolute;
+      top: 18px;
+      width: 30px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-decline-icon {
+    height: 25px;
+    left: 82px;
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    color: #da2808;
+    width: 30px;
+}
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-separator-estado {
+    height: 1px;
+    left: 0;
+    background-color: #d9d9d9;
+    object-fit: cover;
+    position: absolute;
+    top: 46px;
+    width: 191px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-decline-t {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 9px;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 63px;
+    white-space: nowrap;
+    width: 63px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-aprove-icon {
+    height: 25px;
+    left: 106px;
+    position: absolute;
+    cursor: pointer;
+    color: #08da08;
+    top: 57px;
+    width: 30px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-aprove-t {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 9px;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 63px;
+    white-space: nowrap;
+    width: 63px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-creation-div {
+    height: 181px;
+    left: 64px;
+    position: absolute;
+    top: 455px;
+    width: 207px;
+  }
+  
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-text-wrapper {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9px;
+    font-weight: 400;
+    height: 18px;
+    left: -6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    white-space: nowrap;
+    width: 250px;
+  }
+
+  .VisitaByIdRechazada-visita-rechazada .VisitaByIdRechazada-rechazada-t {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 6px;
+    font-weight: 400;
+    height: 5px;
+    left: 71px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    white-space: nowrap;
+    width: 50px;
+}
+
+.VisitaByIdRechazada-switch {
+  position: relative;
+  display: inline-block;
+  top: 57px;
+  left: 121px;
+  width: 49px;
+  height: 21px;
+}
+
+.VisitaByIdRechazada-slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+  }
+  
