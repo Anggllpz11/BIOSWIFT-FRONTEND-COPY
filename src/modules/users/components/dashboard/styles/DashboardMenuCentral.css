@@ -7,16 +7,17 @@
   align-content: space-between;
 }
 
+
+
 .DashboardMenuCentral-LogoPrincipal{
-  padding: 0px;
-  border: 1px solid #05050500;
+  width: 0px;
+  height: 0px;
   
 }
 
 .DashboardMenuCentral-logo{
-  order: 0;
-  padding: 10px;
-  margin: center;
+  width: 0px;
+  height: 0px;
 }
 
 
@@ -64,6 +65,10 @@
   color: #fff;
   background-color: #00ddfa;
   
+}
+
+.DashboardMenuCentral-Block {
+  position: relative;
 }
 
 .DashboardMenuCentral-nav {
@@ -133,8 +138,6 @@
 }
 
 .DashboardMenuCentral-icon{
-  position: absolute;
-  right: 2px;
   height: 40px !important;
   width: 40px !important;
 
@@ -174,18 +177,17 @@
 
 .DashboardMenuCentral-a{
   position: absolute;
-  display: inline-block;
-  padding: 25px 30px;
-  margin: 40px;
-  color: #03e9f4;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.5s;
-  letter-spacing: 4px;
-  overflow: hidden;
-  margin-right: 50px;
-  left: 43%;
-  top:5%;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        top: 50px;
+        right: 520px;
   
 }
 .DashboardMenuCentral-a:nth-child(4){
@@ -268,31 +270,30 @@
 }
 
 /* Extra large devices (large laptops and desktop, 1200px and up */
-@media screen and  (min-device-width: 1200px)   {
+
+@media screen and  (min-device-width: 1026px) {
   *{
     margin: 0;
     padding: 0;
   }
   .DashboardMenuCentral-LogoPrincipal{
-    padding: 0px;
-    border: 1px solid #05050500;
-    width:110px;
-    height: 100px;
-    position: absolute; 
-    top:  15% ;
-    left: 43%;
-   
+   width: 0px; 
+   height: 0px;
   }
-  .DashboardMenuCentral-logo-Ziriuz{
-    width:170px;
-    height:130px;
+  
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 665px;
   }
   .DashboardMenuCentral-button{
     height: 90px;
     width: 90px;
   }
   .DashboardMenuCentral-nav{
-    height: 60vh;
+    height: 44vh;
     width: 110vh;
     padding: 10px;
     position: relative;
@@ -315,17 +316,16 @@
   .DashboardMenuCentral-a{
     position: absolute;
     display: inline-block;
-    padding: 25px 25px;
-    margin: 5px;
+    padding: 5px 90px;
+    margin: 5px 5px 92px 5px;
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-right: 50px;
-    left: -1px;
-    top: -115px;
+    top: 50px;
+    right: 520px;
   }
   
   .acordeon {
@@ -362,7 +362,7 @@ input:checked ~ .acordeon-content {
   max-height: 25em;
 }
 }
- 
+
 /*----------------------------------------------------------------*/
 
 /* acordeon  */
@@ -450,39 +450,44 @@ input[type=checkbox]:checked + label::after {
 
 
 
-/* @media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+@media screen and (min-device-width: 821px) and (max-device-width: 1025px) {
 
   .DashboardMenuCentral-LogoPrincipal{
-    padding: 10px;
-    border: 1px solid #05050500;
-    width:70px;
-    height: 80px;
-    position: absolute; 
-    top:  0% ;
-    left: 90px;
+  width: 0px;
+  height: 0px;
   }
 
-  .DashboardMenuCentral-logo-Ziriuz{
-    width:150px;
-    height:100px;
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 465px;
   }
   .DashboardMenuCentral-button{
     height: 50px;
     width: 50px;
   }
+
+  .DashboardMenuCentral-Block {
+    position: relative !important;
+    top: 95px !important; 
+    right: 45px !important;
+  }
+
   .DashboardMenuCentral-nav{
-    height: 68vh;
-    width: 30vh;
-    position: absolute;
+    width: 750px;
+    height: auto;
+    max-height: 900px;
+    position: relative;
+    top: 10px;
+    left: 22px;
     text-align: center;
-    background-color:#28292d;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    top: 30%;
-    right:45px ;
-    overflow-y: scroll;
-   
+    background-color: rgb(40, 41, 45);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 15px;
   } 
   .DashboardMenuCentral-nav-li{
     display: flex;
@@ -500,78 +505,280 @@ input[type=checkbox]:checked + label::after {
   }
   .DashboardMenuCentral-a{
     position: absolute;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        top: 50px;
+        right: 320px;
+  }
+  .acordeon-content {
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    background: #28292d;
+    border-radius: 15px;
+    transition: max-height .35s;
+  }
+  
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 820px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+  width: 0px;
+  height: 0px;
+  }
+
+  .DashboardMenuCentral-logo{
+    position: relative;
+        padding: 1px;
+        margin: 1px;
+        top: -335px;
+        left: 665px;
+  }
+  .DashboardMenuCentral-button{
+    height: 50px;
+    width: 50px;
+  }
+
+  .DashboardMenuCentral-Block {
+    position: relative !important;
+    top: 95px !important; 
+    right: 45px !important;
+  }
+
+  .DashboardMenuCentral-nav{
+    width: 640px;
+    height: auto;
+    max-height: 900px;
+    position: relative;
+    top: 10px;
+    left: 22px;
+    text-align: center;
+    background-color: rgb(40, 41, 45);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 15px;
+  } 
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+
+  }
+  .DashboardMenuCentral-nav-ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .DashboardMenuCentral-a{
+    position: absolute;
+        display: inline-block;
+        padding: 5px 90px;
+        margin: 5px 5px 92px 5px;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+  }
+  .acordeon-content {
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    background: #28292d;
+    border-radius: 15px;
+    transition: max-height .35s;
+  }
+  
+}
+
+@media screen and (min-device-width: 380px) and (max-device-width: 599px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+    width: 0px;
+    height: 0px;
+    }
+  
+    .DashboardMenuCentral-logo {
+      position: relative;
+      padding: 1px;
+      margin: 1px;
+      top: -335px;
+      left: 655px;
+  }
+    .DashboardMenuCentral-button{
+      height: 50px;
+      width: 50px;
+    }
+  
+    .DashboardMenuCentral-Block {
+      position: relative !important;
+      top: 95px !important; 
+      right: 45px !important;
+    }
+  
+    .DashboardMenuCentral-nav {
+      width: 310px;
+      height: auto;
+      max-height: 300px;
+      position: relative;
+      top: 205px;
+      left: 37px;
+      text-align: center;
+      background-color: rgb(40, 41, 45);
+      overflow-y: auto;
+      overflow-x: hidden;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      border-radius: 15px;
+  }
+    .DashboardMenuCentral-nav-li{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 10px;
+  
+      .acordeon {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        color: #00ddfa;
+        padding: 2%;
+        left: 12px;
+    }
+  
+    }
+    .DashboardMenuCentral-nav-ul{
+      height: 100%;
+      width: 100%;
+      padding: 10px 10px;
+      list-style-type: none;
+      margin: 10px;
+    }
+    .DashboardMenuCentral-a {
+      position: absolute;
+      display: inline-block;
+      padding: 5px 90px;
+      margin: 5px 5px 5px 5px;
+      color: #03e9f4;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.5s;
+      letter-spacing: 4px;
+      overflow: hidden;
+  }
+    .acordeon-content {
+      text-align: center;
+      max-height: 0;
+      overflow: hidden;
+      background: #28292d;
+      border-radius: 15px;
+      transition: max-height .35s;
+    }
+    
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 379px) {
+
+  .DashboardMenuCentral-LogoPrincipal{
+  width: 0px;
+  height: 0px;
+  }
+
+  .DashboardMenuCentral-logo {
+    position: relative;
+    padding: 1px;
+    margin: 1px;
+    top: -335px;
+    left: 655px;
+}
+  .DashboardMenuCentral-button{
+    height: 50px;
+    width: 50px;
+  }
+
+  .DashboardMenuCentral-Block {
+    position: relative !important;
+    top: 95px !important; 
+    right: 45px !important;
+  }
+
+  .DashboardMenuCentral-nav {
+    width: 310px;
+    height: auto;
+    max-height: 300px;
+    position: relative;
+    top: 205px;
+    left: 37px;
+    text-align: center;
+    background-color: rgb(40, 41, 45);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 15px;
+}
+  .DashboardMenuCentral-nav-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    .acordeon {
+      height: 100%;
+      position: relative;
+      width: 100%;
+      color: #00ddfa;
+      padding: 2%;
+      left: 12px;
+  }
+
+  }
+  .DashboardMenuCentral-nav-ul{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .DashboardMenuCentral-a {
+    position: absolute;
     display: inline-block;
-    padding: 25px 25px;
-    margin: 5px;
+    padding: 5px 90px;
+    margin: 5px 5px 5px 5px;
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-right: 50px;
-    left:-28%;
-    top: 25%;
-  }
+}
   .acordeon-content {
     text-align: center;
     max-height: 0;
+    overflow: hidden;
     background: #28292d;
     border-radius: 15px;
-    -webkit-transition: max-height .35s;
     transition: max-height .35s;
-    overflow: hidden;
   }
   
 }
 
 
-@media screen and (min-device-width: 600px) and (max-device-width: 845px){
-  .DashboardMenuCentral-LogoPrincipal{
-    padding: 0px;
-    border: 1px solid #05050500;
-    width:80px;
-    height: 90px;
-    position: relative; 
-    top:-150px ;
-    left: -100px;
-  }
-  .DashboardMenuCentral-logo-Ziriuz{
-    width:130px;
-    height:80px;
-  }
-  .DashboardMenuCentral-button{
-    height: 40px;
-    width: 40px;
-    
-  }
-  .DashboardMenuCentral-nav{
-    height: 200px;
-    width: 80vh;
-    position: relative;
-    text-align: center;
-    background-color:#28292d;
-    border-radius: 30px;
-    top: -120px;
 
-  }
-  .DashboardMenuCentral-nav-li{
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 10px;
-
-  }
-  .acordeon-content {
-    text-align: center;
-    max-height: 0;
-    background: #28292d;
-    border-radius: 15px;
-    -webkit-transition: max-height .35s;
-    transition: max-height .35s;
-    overflow: hidden;
-  }
-}
-@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+/*@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
   .DashboardMenuCentral-LogoPrincipal{
     padding: 0px;
     border: 1px solid #05050500;

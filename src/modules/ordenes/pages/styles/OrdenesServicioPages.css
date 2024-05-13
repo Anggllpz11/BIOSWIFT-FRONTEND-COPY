@@ -315,7 +315,7 @@
     padding:0;
     list-style: none;
     position: relative;
-    top: -130px; 
+    top: -12px; 
 }
 
 .OrdenCard-box{
@@ -326,7 +326,29 @@ width: 418px;
   list-style: none;
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1810px) {
+
+  .OrdenesPages-Container-Card {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 0.5%;
+    gap: 0.5%;
+    grid-row-gap: 5%;
+    row-gap: 5%;
+    margin: 3rem 2vw;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: -12px;
+}
+
+
+
+}
+
+@media only screen and (min-device-width: 940px) and (max-device-width: 1366px) {
 
   .OrdenesPages-Container-Card{
     width: 96%;
@@ -340,13 +362,13 @@ width: 418px;
         padding: 0px;
         list-style: none;
         position: relative;
-        top: 0px;
+        top: 80px;
         left: 20px;
   }
   .RegisterEquipo-button-redirec-container {
     position: fixed;
-    left: 70%;
-    top: 176px;
+    left: 63%;
+    top: 133px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -359,3 +381,423 @@ width: 418px;
   }
 
 }
+
+@media only screen and (min-device-width: 425px) and (max-device-width: 939px) {
+
+  .OrdenesPages-Container-Card{
+    width: 91%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 420px);
+        grid-gap: 29px;
+        gap: 29px;
+        grid-row-gap: 35px;
+        grid-row-gap: 39px;
+        row-gap: 39px;
+        margin: 20px;
+        padding: 0px;
+        list-style: none;
+        position: relative;
+        top: -40px;
+        left: 20px;
+  }
+  .RegisterEquipo-button-redirec-container {
+    position: relative;
+    left: 63%;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    width: 56px;
+    height: 55px;
+}
+
+.SearchEquipos-section {
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: flex;
+  top: 15%;
+  left: 50%;
+}
+
+.SearchEquipos-section-container {
+  width: 100%;
+  position: relative;
+  height: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a0a0a0;
+  left: -230px;
+  top: -33px;
+}
+
+.OrdenCard-container .OrdenCard-header {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.OrdenCard-container .OrdenCard-overlap {
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.OrdenCard-container .OrdenCard-creation-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 12px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.OrdenCard-container .OrdenCard-oid-orden {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 11px;
+  left: 111px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-username {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 11px;
+  left: 245px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 66px;
+  width: 94px;
+}
+
+.OrdenCard-container .OrdenCard-update-icon {
+  height: 17px;
+  left: 345px;
+  position: absolute;
+  color: #00ddfa;
+  top: 61px;
+  width: 20px;
+}
+
+.OrdenCard-container .OrdenCard-add-icon {
+  height: 12px;
+  left: 349px;
+  color: #00ddfa;
+  position: absolute;
+  top: 66px;
+  width: 12px;
+}
+
+.OrdenCard-container .OrdenCard-rectangle {
+  background-color: #d9d9d9;
+  height: 14px;
+  position: relative;
+  top: 76px;
+  width: 370px;
+}
+
+.OrdenCard-container {
+  height: 234px;
+  position: relative;
+  width: 418px;
+  left: 29px;
+}
+
+.OrdenCard-container .OrdenCard-ordenes-pages {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 234px;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  width: 370px;
+}
+
+.OrdenCard-container .OrdenCard-sede-info {
+  height: 123px;
+  left: 191px;
+  position: absolute;
+  top: 106px;
+  width: 208px;
+}
+
+.OrdenCard-container .OrdenCard-cliente-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 39px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  width: 136px;
+}
+
+.OrdenCard-box{
+  width: 370px;
+  }
+
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 424px) {
+
+  .OrdenesPages-Container-Card{
+    width: 91%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 420px);
+        grid-gap: 29px;
+        gap: 29px;
+        grid-row-gap: 35px;
+        grid-row-gap: 39px;
+        row-gap: 39px;
+        margin: 20px;
+        padding: 0px;
+        list-style: none;
+        position: relative;
+        top: -40px;
+        left: 20px;
+  }
+  .RegisterEquipo-button-redirec-container {
+    position: relative;
+    left: 63%;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    width: 56px;
+    height: 55px;
+}
+
+.SearchEquipos-section {
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: flex;
+  top: 15%;
+  left: 50%;
+}
+
+.SearchEquipos-section-container {
+  width: 100%;
+  position: relative;
+  height: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a0a0a0;
+  left: -230px;
+  top: -33px;
+}
+
+.OrdenCard-container .OrdenCard-header {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 317px;
+}
+
+.OrdenCard-container .OrdenCard-header-info {
+  height: 78px;
+  left: -50px;
+  position: absolute;
+  top: 9px;
+  width: 418px;
+}
+
+.OrdenCard-container .OrdenCard-overlap {
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.OrdenCard-container .OrdenCard-creation-date {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 12px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.OrdenCard-container .OrdenCard-oid-orden {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 11px;
+  left: 111px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.OrdenCard-container .OrdenCard-username {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 11px;
+  left: 245px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 66px;
+  width: 94px;
+}
+
+.OrdenCard-container .OrdenCard-update-icon {
+  height: 17px;
+  left: 345px;
+  position: absolute;
+  color: #00ddfa;
+  top: 61px;
+  width: 20px;
+}
+
+.OrdenCard-container .OrdenCard-add-icon {
+  height: 12px;
+  left: 349px;
+  color: #00ddfa;
+  position: absolute;
+  top: 66px;
+  width: 12px;
+}
+
+.OrdenCard-container .OrdenCard-rectangle {
+  background-color: #d9d9d9;
+  height: 14px;
+  position: relative;
+  top: 76px;
+  width: 317px;
+}
+
+.OrdenCard-container {
+  height: 234px;
+  position: relative;
+  width: 418px;
+  left: 56px;
+}
+
+.OrdenCard-container .OrdenCard-estado-abierta {
+  height: 36px;
+  left: 60px;
+  color: #08da08;
+  position: absolute;
+  top: 1px;
+  width: 34px;
+}
+
+.OrdenCard-container .OrdenCard-ordenes-pages {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 234px;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  width: 317px;
+}
+
+.OrdenCard-container .OrdenCard-overlap-group {
+  height: 123px;
+  left: -26px;
+  position: absolute;
+  top: 106px;
+  width: 208px;
+}
+
+.OrdenCard-container .OrdenCard-sede-info {
+  height: 123px;
+  left: 140px;
+  position: absolute;
+  top: 106px;
+  width: 208px;
+}
+
+.OrdenCard-container .OrdenCard-separator {
+  height: 111px;
+  left: 179px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.OrdenCard-container .OrdenCard-cliente-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 39px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  width: 136px;
+}
+
+.OrdenCard-box{
+  width: 370px;
+  }
+
+}
+
