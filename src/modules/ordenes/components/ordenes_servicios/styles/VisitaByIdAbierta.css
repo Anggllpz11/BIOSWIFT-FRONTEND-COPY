@@ -941,7 +941,6 @@
 
 /* STYLES CERRADA */
 
-
 .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-estado-icon-cerrada {
   height: 35px;
   left: 5px;
@@ -1213,7 +1212,42 @@
     position: absolute;
     width: 273px;
   }
+
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap-group-cerrada {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 34px;
+    width: 262px !important;
+    position: relative;
+    left: -3px !important;
+  }
   
+  .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title-cerrada {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px !important;
+    font-weight: 400;
+    height: 18px;
+    left: -116px !important;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+    width: 498px;
+}
+
+.VisitaByIdAbierta-visita-abierta .VisitaByIdCerrada-back-icon {
+  height: 30px;
+  color: #00ddfa;
+  left: 278px !important;
+  cursor: pointer;
+  position: absolute;
+  top: 19px;
+  width: 30px;
+}
+
   .VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap {
     background-color: #d9d9d9;
     border-radius: 10px;
@@ -1472,7 +1506,7 @@
 .EquipoDisponibilidadVer-box .EquipoDisponibilidadVer-tecsede-title-2 {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   height: 15px;
   left: 25px;

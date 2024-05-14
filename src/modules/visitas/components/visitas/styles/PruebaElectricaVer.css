@@ -218,3 +218,88 @@
     position: absolute;
     left: 356px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 699px ) {
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-div {
+  height: 932px;
+  position: relative;
+  width: 305px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  top: 100px;
+  left: 71px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-form-container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 870px;
+  left: 3px;
+  position: absolute;
+  top: 50px;
+  width: 299px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-title-section {
+  height: 26px;
+  left: 29px;
+  position: absolute;
+  top: 11px;
+  width: 214px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-container-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 102px 1px;
+  align-items: start;
+  position: relative;
+  left: 31px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-form-container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 870px;
+  left: 18px;
+  position: absolute;
+  top: 55px;
+  width: 269px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-date {
+  color: #00ddfa;
+  height: 17px;
+  width: 20px;
+  position: absolute;
+  left: 104px;
+  top: 33px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-prueba-electrica-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 15px;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 272px;
+}
+
+.PruebaElectricaVer-actividad-prueba .PruebaElectricaVer-date-value {
+  color: #7C7C7C;
+  height: 31px;
+  width: 100px;
+  font-size: 10px;
+  position: relative;
+  top: 35px;
+  left: 122px;
+  text-align: center;
+}
+}

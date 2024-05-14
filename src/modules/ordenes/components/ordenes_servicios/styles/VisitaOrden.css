@@ -49,40 +49,6 @@
   width: 842px;
 }
 
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-visita-title-cerrada {
-  color: #00ddfa;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 12px!important;
-  font-weight: 400;
-  height: 42px;
-  left: -86px!important;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 11px!important;
-  width: 842px;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdAbierta-overlap-group-cerrada {
-  background-color: #ffffff;
-    border-radius: 10px;
-    height: 34px;
-    position: relative;
-    width: 324px!important;
-    left: 23px!important;
-}
-
-.VisitaByIdAbierta-visita-abierta .VisitaByIdCerrada-back-icon {
-  height: 30px;
-  color: #00ddfa;
-  left: 369px!important;
-  cursor: pointer;
-  position: absolute;
-  top: 19px;
-  width: 30px;
-}
-
 .VisitasOrden-visitas .VisitasOrden-all-visitas {
   height: 398px;
   left: 12px;

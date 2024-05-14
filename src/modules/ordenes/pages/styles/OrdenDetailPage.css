@@ -3061,14 +3061,182 @@
 .OrdenDetailPage-box .OrdenDetailPage-container {
   background-color: #53789587;
   border-radius: 10px;
-  height: 627px;
-  left: 473px;
+  height: 777px;
+  left: 475px;
   position: absolute;
-  top: 0;
-  width: 324px;
+  top: 4px;
+  width: 320px;
+}
+
+/*MENU VISITA*/
+
+.SolicitudServicioComponent-solicitudes {
+  display: flex;
+  top: 30px;
+  left: 481px;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  width: 308px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 71px;
+  position: relative;
+  width: 308px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-solicitud-id {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  left: 55px;
+  letter-spacing: 0;
+  cursor: pointer;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 200px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-geninfo-section {
+  height: 146px;
+  left: 9px;
+  position: absolute;
+  top: 79px;
+  width: 292px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-overlap {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 146px;
+  position: relative;
+  }
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-geninfo-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 24px;
+    left: -50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 400px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-service-icon {
+  height: 19px;
+  color: #00ddfa;
+  left: 5px;
+  position: absolute;
+  top: 55px;
+  width: 28px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-service-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  width: 127px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-created-icon {
+  height: 19px;
+  left: 5px;
+  color: #00ddfa;
+  position: absolute;
+  top: 95px;
+  width: 28px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-created-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left:33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  width: 127px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-geninfo-separator {
+  height: 88px;
+  left: 157px;
+  background-color: #636b6f61;
+  object-fit: cover;
+  position: absolute;
+  top: 42px;
+  width: 2px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-aviso-icon {
+  height: 19px;
+  left: 165px;
+  color: #00ddfa;
+  position: absolute;
+  top: 55px;
+  width: 28px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-aviso-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 195px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+  width: 131px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-observacion-icon {
+  height: 19px;
+  left: 166px;
+  color: #00ddfa;
+  position: absolute;
+  top: 95px;
+  width: 28px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-observacion-value {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+ font-size: 16px;
+font-weight: 400;
+ height: 40px;
+  left: 55px;
+    letter-spacing: 0;
+        cursor: pointer;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 10px;
+        width: 200px;
 }
 
 
-/*MENU VISITA*/
 
 }
