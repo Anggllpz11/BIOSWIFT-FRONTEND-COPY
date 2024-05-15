@@ -449,124 +449,45 @@ input[type=checkbox]:checked + label::after {
 }
 
 
-
-@media screen and (min-device-width: 821px) and (max-device-width: 1025px) {
+@media screen and (min-device-width: 600px) and (max-device-width: 1025px) {
 
   .DashboardMenuCentral-LogoPrincipal{
   width: 0px;
   height: 0px;
   }
 
-  .DashboardMenuCentral-logo{
+  .DashboardMenuCentral-logo {
     position: relative;
-        padding: 1px;
-        margin: 1px;
-        top: -335px;
-        left: 465px;
-  }
-  .DashboardMenuCentral-button{
-    height: 50px;
-    width: 50px;
-  }
-
-  .DashboardMenuCentral-Block {
-    position: relative !important;
-    top: 95px !important; 
-    right: 45px !important;
-  }
-
-  .DashboardMenuCentral-nav{
-    width: 750px;
-    height: auto;
-    max-height: 900px;
-    position: relative;
-    top: 10px;
-    left: 22px;
-    text-align: center;
-    background-color: rgb(40, 41, 45);
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
-    border-radius: 15px;
-  } 
-  .DashboardMenuCentral-nav-li{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 10px;
-
-  }
-  .DashboardMenuCentral-nav-ul{
-    height: 100%;
-    width: 100%;
-    padding: 10px 10px;
-    list-style-type: none;
-    margin: 10px;
-  }
-  .DashboardMenuCentral-a{
-    position: absolute;
-        display: inline-block;
-        padding: 5px 90px;
-        margin: 5px 5px 92px 5px;
-        color: #03e9f4;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.5s;
-        letter-spacing: 4px;
-        overflow: hidden;
-        top: 50px;
-        right: 320px;
-  }
-  .acordeon-content {
-    text-align: center;
-    max-height: 0;
-    overflow: hidden;
-    background: #28292d;
-    border-radius: 15px;
-    transition: max-height .35s;
-  }
-  
+    padding: 1px;
+    margin: 1px;
+    top: -464px;
+    left: 350px;
 }
 
-@media screen and (min-device-width: 600px) and (max-device-width: 820px) {
-
-  .DashboardMenuCentral-LogoPrincipal{
-  width: 0px;
-  height: 0px;
-  }
-
-  .DashboardMenuCentral-logo{
-    position: relative;
-        padding: 1px;
-        margin: 1px;
-        top: -335px;
-        left: 665px;
-  }
   .DashboardMenuCentral-button{
     height: 50px;
     width: 50px;
   }
 
   .DashboardMenuCentral-Block {
-    position: relative !important;
-    top: 95px !important; 
-    right: 45px !important;
-  }
+    position: fixed !important;
+    left: 83px !important;
+    top: 413px !important;
+}
 
-  .DashboardMenuCentral-nav{
+  .DashboardMenuCentral-nav {
     width: 640px;
     height: auto;
-    max-height: 900px;
+    max-height: 575px;
     position: relative;
-    top: 10px;
-    left: 22px;
     text-align: center;
     background-color: rgb(40, 41, 45);
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
     border-radius: 15px;
-  } 
+}
+
   .DashboardMenuCentral-nav-li{
     display: flex;
     flex-direction: column;
@@ -581,18 +502,20 @@ input[type=checkbox]:checked + label::after {
     list-style-type: none;
     margin: 10px;
   }
-  .DashboardMenuCentral-a{
-    position: absolute;
-        display: inline-block;
-        padding: 5px 90px;
-        margin: 5px 5px 92px 5px;
-        color: #03e9f4;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.5s;
-        letter-spacing: 4px;
-        overflow: hidden;
-  }
+
+  .DashboardMenuCentral-a {
+    position: relative;
+    display: inline-block;
+    padding: 5px 90px;
+    margin: 5px 5px 5px 5px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+}
+
   .acordeon-content {
     text-align: center;
     max-height: 0;
@@ -604,7 +527,7 @@ input[type=checkbox]:checked + label::after {
   
 }
 
-@media screen and (min-device-width: 380px) and (max-device-width: 599px) {
+@media screen and (min-device-width: 450px) and (max-device-width: 599px) {
 
   .DashboardMenuCentral-LogoPrincipal{
     width: 0px;
@@ -624,9 +547,7 @@ input[type=checkbox]:checked + label::after {
     }
   
     .DashboardMenuCentral-Block {
-      position: relative !important;
-      top: 95px !important; 
-      right: 45px !important;
+      position: fixed !important;
     }
   
     .DashboardMenuCentral-nav {
@@ -690,7 +611,7 @@ input[type=checkbox]:checked + label::after {
     
 }
 
-@media screen and (min-device-width: 200px) and (max-device-width: 379px) {
+@media screen and (min-device-width: 200px) and (max-device-width: 449px) {
 
   .DashboardMenuCentral-LogoPrincipal{
   width: 0px;
@@ -701,8 +622,8 @@ input[type=checkbox]:checked + label::after {
     position: relative;
     padding: 1px;
     margin: 1px;
-    top: -335px;
-    left: 655px;
+    top: -199px;
+    left: 333px;
 }
   .DashboardMenuCentral-button{
     height: 50px;
@@ -720,8 +641,8 @@ input[type=checkbox]:checked + label::after {
     height: auto;
     max-height: 300px;
     position: relative;
-    top: 205px;
-    left: 37px;
+    top: 6px;
+    left: 24px;
     text-align: center;
     background-color: rgb(40, 41, 45);
     overflow-y: auto;
@@ -754,7 +675,7 @@ input[type=checkbox]:checked + label::after {
     margin: 10px;
   }
   .DashboardMenuCentral-a {
-    position: absolute;
+    position: relative;
     display: inline-block;
     padding: 5px 90px;
     margin: 5px 5px 5px 5px;

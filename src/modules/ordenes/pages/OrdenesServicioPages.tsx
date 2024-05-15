@@ -44,7 +44,6 @@ const OrdenesPages: React.FC = () => {
   return (
     <div className='OrdenesPages-container'>
       <DashboardMenuLateral />
-      <RegisterEquipoButton /> {/* Renderiza el botón de registro de órdenes */}
       <SearchEquipos // Renderiza el componente SearchOrdenes
         showSearchResults={showSearchResults}
         setShowSearchResults={setShowSearchResults}
