@@ -49,5 +49,21 @@
     border-radius: 25px;
  }
 
+ @media screen and (min-width: 943px) {
 
+  .SearchEquipos-section-container {
+    width: 100%;
+    position: relative;
+    height: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a0a0a0;
+    top: -116px;
+    left: -126px;
+  }
+
+ }
  

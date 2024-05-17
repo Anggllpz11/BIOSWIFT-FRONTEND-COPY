@@ -1,8 +1,9 @@
 .OrdenDetailPage-box {
+  position: relative;
+  left: 26px;
   height: 791px;
   width: 1229px;
   background-color: transparent;
-
 }
 
 .OrdenDetailPage-loading-overlay {
@@ -259,7 +260,7 @@
 
 .SolicitudServicioComponent-solicitudes {
   display: flex;
-  top: 201px;
+  top: 115px;
   position: relative;
   flex-direction: row;
   justify-content: center;
@@ -1520,7 +1521,7 @@
   color: #da2808;
 }
 
-@media screen and (min-width: 1020px) and (max-width: 1200px){
+@media screen and (min-width: 1020px) and (max-width: 1274px){
 
   .OrdenDetailPage-box .OrdenDetailPage-overlap {
     height: 820px;
@@ -1827,6 +1828,14 @@
   width: 173px;
 }
 
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-client-info {
+  height: 127px;
+  left: -25px;
+  position: absolute;
+  top: 0;
+  width: 537px;
+}
+
 /*EQUIPO*/
 
 .SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-equipo-info {
@@ -2049,17 +2058,19 @@
 }
 }
   
-@media screen and (min-width: 600px) and (max-width: 1019px){
+@media screen and (min-width: 742px) and (max-width: 1019px){
 
   .OrdenDetailPage-box .OrdenDetailPage-overlap {
     height: 820px;
-    left: 3px;
+    left: -28px;
     position: relative;
     width: 1226px;
     overflow-y: auto;
 }
 
   /*ORDEN DE SERVICIO*/
+
+  
     .OrdenDetailPage-box .OrdenDetailPage-container {
       background-color: #53789587;
       border-radius: 10px;
@@ -2138,6 +2149,13 @@
   
   /*SOLICITUD DE SERVICIO*/
   
+  .SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-client-info {
+    height: 127px;
+    left: -25px;
+    position: absolute;
+    top: 0;
+    width: 537px;
+}
   
   .SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-div {
     background-color: #ffffff;
@@ -3041,10 +3059,82 @@
   width: 70px;
   z-index: 10;
 }
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-line-4 {
+  height: 1px;
+  left: 110px;
+  object-fit: cover;
+  position: absolute;
+  background-color: #537895;
+  top: 5px;
+  width: 145px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-line-5 {
+  height: 1px;
+  left: 270px;
+  object-fit: cover;
+  background-color: #537895;
+  position: absolute;
+  top: 5px;
+  width: 134px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-line-3 {
+  height: 1px;
+  left: 271px;
+  background-color: #537895;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 135px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-line-2 {
+  height: 1px;
+  left: 113px;
+  background-color: #537895;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 143px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-overlap-wrapper {
+  height: 12px;
+  left: -110px;
+  position: absolute;
+  top: 286px;
+  width: 525px;
+}
+
+.SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-separator-info-2 {
+  height: 12px;
+  left: -112px;
+  position: absolute;
+  top: 127px;
+  width: 525px;
+}
   
 }
 
-@media screen and (min-width: 250px) and (max-width: 599px) {
+@media screen and (min-width: 250px) and (max-width: 741px) {
+
+  .OrdenDetailPage-box {
+    position: relative;
+    left: 0px !important;
+    height: 791px;
+    width: 1229px;
+    background-color: transparent;
+  }
+
+  .SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-client-info {
+    height: 127px;
+    left: -25px;
+    position: absolute;
+    top: 0;
+    width: 537px;
+}
 
 
   .SolicitudServicioComponent-solicitudes .SolicitudServicioComponent-div {
