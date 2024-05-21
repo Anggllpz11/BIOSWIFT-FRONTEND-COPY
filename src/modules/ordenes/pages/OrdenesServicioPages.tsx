@@ -56,6 +56,15 @@ const OrdenesPages: React.FC = () => {
             <OrdenCard key={orden._id} orden={orden} onClick={() => navigateToOrdenDetail(orden._id)} />
           ))
         )}
+
+        <div className='OrdenesPages-Container-Card'> </div>
+        <ul className='OrdenesPages-cards-list' onClick={oClick}>
+        <li className='OrdenesPages-li'>
+        <div className="OrdenCard-container">
+
+        </div>
+        </li>
+      </ul>
       </div>
     </div>
   );
