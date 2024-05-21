@@ -5,7 +5,6 @@ import './styles/OrdenesServicioPages.css';
 import { Orden } from '../utils/types/Orden.type';
 import { useNavigate } from 'react-router-dom';
 import OrdenCard from '../components/ordenes_servicios/OrdenCard';
-import RegisterEquipoButton from '../../equipos/components/equipos/RegisterEquipoButton';
 import SearchEquipos from '../../equipos/components/searchEquiposTools/SearchEquipos';
 import { useSessionStorage } from '../../users/hooks/useSessionStorage';
 // import SearchOrdenes from '../components/searchOrdenesTools/SearchOrdenes'; // Importa SearchOrdenes
@@ -56,15 +55,6 @@ const OrdenesPages: React.FC = () => {
             <OrdenCard key={orden._id} orden={orden} onClick={() => navigateToOrdenDetail(orden._id)} />
           ))
         )}
-
-        <div className='OrdenesPages-Container-Card'> </div>
-        <ul className='OrdenesPages-cards-list' onClick={oClick}>
-        <li className='OrdenesPages-li'>
-        <div className="OrdenCard-container">
-
-        </div>
-        </li>
-      </ul>
       </div>
     </div>
   );

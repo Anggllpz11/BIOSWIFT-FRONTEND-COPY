@@ -34,4 +34,16 @@
     cursor: pointer;
 }
 
+@media screen and (min-width: 1400px ) and (max-width:2800px) {
 
+.RegisterEquipo-button-redirec-container {
+    position: fixed;
+    left: 85%;
+    top: 4%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+}
+}
