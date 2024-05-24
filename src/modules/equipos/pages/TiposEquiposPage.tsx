@@ -43,25 +43,27 @@ const TiposEquiposPage = () => {
       <DashboardMenuLateral />
       {loggedIn ? (
         <div>
-          <RegisterTipoEquipoButton />
-          <SearchTiposEquipos // Renderiza el componente SearchTiposEquipos
-            showSearchResults={showSearchResults} // Inicialmente, no muestra los resultados de la búsqueda
-            setShowSearchResults={setShowSearchResults} // Esta función no se utiliza inicialmente
-          />
-          <div className='TipoEquipoCard-Container-Card'>
+          <div className='TipoEquipoCard-Container-card'>
+            <RegisterTipoEquipoButton />
+            <SearchTiposEquipos // Renderiza el componente SearchTiposEquipos
+              showSearchResults={showSearchResults} // Inicialmente, no muestra los resultados de la búsqueda
+              setShowSearchResults={setShowSearchResults} // Esta función no se utiliza inicialmente
+            />
+            <div className='TipoEquipoCard-Container-Card'>
 
-          {showSearchResults ? (
-            <p></p>
-          ) : (
-              tiposEquipos.map((tipoEquipo) => (
-                  <TipoEquipoCard
-                    key={tipoEquipo._id}
-                    tipoEquipo={tipoEquipo}
-                    onViewDetails={() => handleViewDetails(tipoEquipo._id)}
-                  />
-              ))
-          )}
-          </div>
+            {showSearchResults ? (
+              <p></p>
+            ) : (
+                tiposEquipos.map((tipoEquipo) => (
+                    <TipoEquipoCard
+                      key={tipoEquipo._id}
+                      tipoEquipo={tipoEquipo}
+                      onViewDetails={() => handleViewDetails(tipoEquipo._id)}
+                    />
+                ))
+            )}
+            </div>
+          </div>  
       </div>
       ) : (
         <p>Please log in to view data.</p>

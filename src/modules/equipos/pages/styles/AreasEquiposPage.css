@@ -2,49 +2,53 @@
     height: 96px;
     width: 510px;
   }
+
+  .AreasEquiposCard-container {
+    width: 88%;
+    height: 324px;
+    position: relative;
+    top: -330px;
+}
   .AreasEquiposCard-box .AreasEquiposCard-overlap-group-wrapper {
-  
     height: 96px;
-    width: 510px;
-    left: 0;
-    top: 0;
+    width: 406px;
   }
-  .AreasEquiposCard-box .AreasEquiposCard-overlap-group {
   
+  .AreasEquiposCard-box .AreasEquiposCard-overlap-group {
     background-size: 100% 100%;
     height: 96px;
-    width: 510px;
+    width: 406px;
     background-color: #ffffffd9;
     cursor: pointer;
     position: relative;
     border-radius: 10px;
-  }
+}
   .AreasEquiposCard-box .AreasEquiposCard-overlap {
-  
-    background-color: #ffffffd9;
-    border-radius: 5px;
-    height: 96px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 135px;
-  }
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 96px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 103px;
+  border-radius: 5px 70px 64px 14px;
+}
   
   .AreasEquiposCard-box .AreasEquiposCard-marcaequipo-icon {
-    height: 96px;
-    left: 14px;
-    color: #00ddfa;
-    position: absolute;
-    top: 0;
-    width: 96px;
-  }
+  height: 86px;
+  left: -1px;
+  color: #00ddfa;
+  position: absolute;
+  top: 6px;
+  width: 96px;
+}
   
   .AreasEquiposCard-box .AreasEquiposCard-marcaequipo-title {
     color: #00ddfa;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
-    left: 149px;
+    left: 79px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -52,49 +56,44 @@
     top: 9px;
     width: 329px;
     height: 48px;
-  }
+}
   
-  .AreasEquiposCard-box .AreasEquiposCard-marcaequipo-id {
-    color: #636b6f;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 149px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 57px;
-    width: 329px;
-  }
+.AreasEquiposCard-box .AreasEquiposCard-marcaequipo-id {
+  color: #636b6f;
+  word-break: break-all;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 104px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 57px;
+  width: 302px;
+  height: 38px;
+}
   
-    .AreasEquiposCard-cards-list{
-      display:grid;
-      grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-      gap:2rem;
-      margin:2rem 2vw;
-      padding:0;
-      list-style: none;
-      
-    }
+  .AreasEquiposCard-cards-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    gap: 2rem;
+    width: 406px;
+    padding: 0;
+    list-style: none;
+}
   
-    .AreasEquiposCard-Container-Card{
-      width: 900px;
-      height: 100%;
-      display:grid;
-      grid-template-columns: repeat(3, 3fr); /* Hace que haya 3 tarjetas por fila */
-      gap: 10rem; /* Espaciado entre las tarjetas */
+    .AreasEquiposCard-Container-Card {
+      width: 100%;
+      height: 203px;
+      display: grid;
+      grid-template-columns: repeat(4, 4fr);
+      gap: 1rem;
       row-gap: 5%;
-      /* margin:2rem 2vw; */
-      margin: 0;
-      padding:0;
       list-style: none;
       position: relative;
-      left: -20%;
-    }
-  
-  
-  .AreasEquiposCard-container{
-      width: 1200px;
-      height: 100%;
+      left: 0%;
+      top: 65px;
   }
+  

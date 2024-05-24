@@ -304,22 +304,30 @@
   list-style: none
 }
 
-.OrdenesPages-Container-Card{
+.OrdenesPages-container-Card {
+  position: fixed;
+  left: 90px;
+  top: 140px;
   width: 100%;
-    height: 100%;
-    display:grid;
-    grid-template-columns: repeat(4, 2fr); /* Hace que haya 3 tarjetas por fila */
-    gap: 0.5%; /* Espaciado entre las tarjetas */
-    row-gap: 5%;
-    margin:3rem 2vw;
-    padding:0;
-    list-style: none;
-    position: relative;
-    top: -12px; 
+  height: 100%;
 }
 
-.OrdenCard-box{
-width: 418px;
+.OrdenesPages-Container-Card {
+  width: 93%;
+  height: 79%;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 2%;
+  row-gap: 5%;
+  list-style: none;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.OrdenCard-box {
+  width: 418px;
+  height: 234px;
 }
 
 .OrdenesPages-li{

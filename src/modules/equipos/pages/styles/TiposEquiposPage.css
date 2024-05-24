@@ -1,99 +1,106 @@
 .TipoEquipoCard-box {
-    height: 184px;
-    width: 565px;
-  }
-  
-  .TipoEquipoCard-box .TipoEquipoCard-overlap-group-wrapper {
-    height: 184px;
-    left: 0;
-    top: 0;
-    width: 569px;
-  }
-  
-  .TipoEquipoCard-box .TipoEquipoCard-overlap-group {
-    background-size: 100% 100%;
-    height: 96px;
-    width: 510px;
-    background-color: #ffffffd9;
-    cursor: pointer;
-    position: relative;
-    border-radius: 10px;
-  }
-  
-  .TipoEquipoCard-box .TipoEquipoCard-overlap {
-    background-color: #ffffffd9;
-    border-radius: 5px;
-    height: 96px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 123px;
-  }
-  
-  .TipoEquipoCard-box .TipoEquipoCard-marcaequipo-icon {
-    height: 96px;
-    left: 14px;
-    color: #00ddfa;
-    position: absolute;
-    top: 0px;
-    width: 96px;
-  }
-  
-  .TipoEquipoCard-box .TipoEquipoCard-marcaequipo-title {
-    color: #00ddfa;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 149px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 9px;
-    width: 329px;
-    height: 48px;
-  }
-  
-  .TipoEquipoCard-box .TipoEquipoCard-marcaequipo-id {
-    color: #636b6f;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 149px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 57px;
-    width: 329px;
-  }
-  
-    .TipoEquipoCard-cards-list{
-      display:grid;
-      grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-      gap:2rem;
-      margin:4rem 5vw;
-      padding:0;
-      list-style: none;
-      
-    }
-  
-    .TipoEquipoCard-Container-Card{
-      width: 900px;
-      position: relative;
-      height: 100%;
-      left: -20%;
-      display:grid;
-      grid-template-columns: repeat(2, 1fr); /* Hace que haya 3 tarjetas por fila */
-      gap: 10rem; /* Espaciado entre las tarjetas */
-      row-gap: 5%;
-      margin:2rem 2vw;
-      padding:0;
-      list-style: none
-    }
-  
-  
-  .TipoEquipoCard-container{
-      width: 1200px;
-      height: 100%;
-  }
+  height: 96px;
+  width: 510px;
+}
+
+.TipoEquipoCard-container {
+  width: 88%;
+  height: 324px;
+  position: relative;
+  top: -330px;
+}
+
+.TipoEquipoCard-box .TipoEquipoCard-overlap-group-wrapper {
+  height: 96px;
+  width: 406px;
+}
+
+.TipoEquipoCard-box .TipoEquipoCard-overlap-group {
+  background-size: 100% 100%;
+  height: 96px;
+  width: 406px;
+  background-color: #ffffffd9;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+}
+
+.TipoEquipoCard-box .TipoEquipoCard-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 96px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 103px;
+  border-radius: 5px 70px 64px 14px;
+}
+
+.TipoEquipoCard-box .TipoEquipoCard-marcaequipo-icon {
+  height: 86px;
+  left: -1px;
+  color: #00ddfa;
+  position: absolute;
+  top: 6px;
+  width: 96px;
+}
+
+.TipoEquipoCard-box .TipoEquipoCard-marcaequipo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 79px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 329px;
+  height: 48px;
+}
+
+.TipoEquipoCard-box .TipoEquipoCard-marcaequipo-id {
+  color: #636b6f;
+  word-break: break-all;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 104px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 57px;
+  width: 302px;
+  height: 38px;
+}
+
+.TipoEquipoCard-cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  width: 406px;
+  padding: 0;
+  list-style: none;
+}
+
+.TipoEquipoCard-Container-Card {
+  width: 100%;
+  height: 203px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 1rem;
+  row-gap: 5%;
+  list-style: none;
+  position: relative;
+  left: 0%;
+  top: 65px;
+}
+
+.TipoEquipoCard-Container-card {
+
+ position: relative;
+ top: -270px;
+}

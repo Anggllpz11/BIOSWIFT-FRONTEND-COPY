@@ -28,9 +28,9 @@ const OrdenCard: React.FC<OrdenCardProps> = ({ orden, onClick }) => {
   };
 
   return (
-    <div key={orden._id} className='OrdenCard-box'>
-      <ul className='OrdenesPages-cards-list' onClick={onClick}>
-        <li className='OrdenesPages-li'>
+    <li key={orden._id} className='OrdenCard-box'>
+      <div className='OrdenesPages-cards-list' onClick={onClick}>
+        <div className='OrdenesPages-li'>
         <div className="OrdenCard-container">
             <div className="OrdenCard-ordenes-pages">
               <div className="OrdenCard-overlap">
@@ -67,9 +67,9 @@ const OrdenCard: React.FC<OrdenCardProps> = ({ orden, onClick }) => {
               </div>
             </div>
           </div>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+    </li>
   );
 };
 

@@ -47,7 +47,8 @@ const OrdenesPages: React.FC = () => {
         showSearchResults={showSearchResults}
         setShowSearchResults={setShowSearchResults}
       />
-      <div className='OrdenesPages-Container-Card'>
+      <div className='OrdenesPages-container-Card'>
+      <ul className='OrdenesPages-Container-Card'>
         {showSearchResults ? (
           <p></p>
         ) : (
@@ -55,6 +56,7 @@ const OrdenesPages: React.FC = () => {
             <OrdenCard key={orden._id} orden={orden} onClick={() => navigateToOrdenDetail(orden._id)} />
           ))
         )}
+      </ul>
       </div>
     </div>
   );
