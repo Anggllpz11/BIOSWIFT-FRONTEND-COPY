@@ -77,6 +77,10 @@
   width: 334px;
 }
 
+.CampoDetailPage-overlap-group-container{
+
+  background-color: #d9d9d9;
+}
 
 .CamposPages-Container-Card{
     width: 100%;
@@ -89,3 +93,14 @@
     padding:0;
     list-style: none
   }
+
+  .CamposCard-overlap-group-icon {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 84px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 121px;
+    border-radius: 17px 74px 57px 3px;
+}

@@ -132,19 +132,19 @@
 }
 
 .ClientsPages-Container-Card {
-  width: 1360px;
+  width: 66%;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, minmax(300px, 1fr));
   grid-gap: 1rem;
+  grid-gap: 1rem;
   gap: 1rem;
   margin: 5px;
   padding: 0;
-  list-style: none;
+  list-style: none; 
   position: relative;
-  left: 150px;
+  left: 329px;
 }
-
 /**************************************************/
 
 @media screen and (min-device-width: 412px) and (max-device-width: 914px) {

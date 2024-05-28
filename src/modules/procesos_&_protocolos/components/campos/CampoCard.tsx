@@ -16,13 +16,16 @@ const CamposCard: React.FC<CamposCardProps> = ({ campo, onClick }) => {
       <div className="CamposCard-campo-card">
           <div className="CamposCard-box-1">
             <div className="CamposCard-campos-container">
-              <div className="CamposCard-overlap-group">
+                <div className="CamposCard-overlap-group">
+              <div className='CamposCard-overlap-group-icon'>
                 <FormatListBulletedOutlinedIcon className="CamposCard-icon"/>
-                <div className="CamposCard-overlap">
+                  <div className="CamposCard-overlap">
+                
                   <div className="CamposCard-title">{campo.title}</div>
                   <div className="CamposCard-id">ID: {campo._id}</div>
+                  </div>
+                  <div className="CamposCard-tipo">TIPO: {campo.id_tipo.nombre}</div>
                 </div>
-                <div className="CamposCard-tipo">TIPO: {campo.id_tipo.nombre}</div>
               </div>
             </div>
           </div>

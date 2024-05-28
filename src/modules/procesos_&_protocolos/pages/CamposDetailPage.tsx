@@ -64,21 +64,22 @@ const CampoDetailPage: React.FC = () => {
           <div>Cargando...</div>
         ) : (
           campo && (
-            
-               <div className="CampoDetailPage-box">
-                  <div className="CampoDetailPage-campobyid-container">
-                    <div className="CampoDetailPage-overlap-group">
-                      <div className="CampoDetailPage-overlap">
-                        <FormatListBulletedOutlinedIcon className="CampoDetailPage-icon"/>
-                      </div>
-                      <div className="CampoDetailPage-title">{campo.title}</div>
-                      <div className="CampoDetailPage-id">ID: {campo._id}</div>
-                      <div className="CampoDetailPage-tipo">TIPO: {campo.id_tipo.nombre}</div>
-                      <EditOutlinedIcon className="CampoDetailPage-edit-icon" onClick={() => setIsEditing(true)}/>
-                      <DeleteCampoButton campoId={id || ''} title={campo ? campo.title : ''}/>
+            <div className="CampoDetailPage-box">
+              <div className="CampoDetailPage-campobyid-container">
+                <div className="CampoDetailPage-overlap-group">
+                  <div className='CampoDetailPage-overlap-container'>
+                    <div className="CampoDetailPage-overlap">
+                      <FormatListBulletedOutlinedIcon className="CampoDetailPage-icon"/>
                     </div>
                   </div>
+                  <div className="CampoDetailPage-title">{campo.title}</div>
+                  <div className="CampoDetailPage-id">ID: {campo._id}</div>
+                  <div className="CampoDetailPage-tipo">TIPO: {campo.id_tipo.nombre}</div>
+                  <EditOutlinedIcon className="CampoDetailPage-edit-icon" onClick={() => setIsEditing(true)}/>
+                  <DeleteCampoButton campoId={id || ''} title={campo ? campo.title : ''}/>
                 </div>
+              </div>
+            </div>
           )
         )
       )}

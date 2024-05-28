@@ -14,7 +14,7 @@
 .PreventivoCard-box .PreventivoCard-overlap-group {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 137px;
+  height: 104px;
   position: relative;
   width: 387px;
 }
@@ -22,19 +22,20 @@
 .PreventivoCard-box .PreventivoCard-overlap {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 137px;
+  height: 104px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 135px;
+  width: 121px;
+  border-radius: 18px 74px 57px 1px;
 }
 
 .PreventivoCard-box .PreventivoCard-icon {
-  height: 123px;
-  left: 5px;
+  height: 106px;
+  left: -5px;
   color: #00ddfa;
   position: absolute;
-  top: 7px;
+  top: 0px;
   width: 124px;
 }
 
@@ -43,7 +44,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 139px;
+  left: 130px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -57,7 +58,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 10px;
   font-weight: 400;
-  left: 143px;
+  left: 133px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -68,7 +69,7 @@
 
 .PreventivoCard-box .PreventivoCard-div {
   height: 68px;
-  left: 139px;
+  left: 127px;
   position: absolute;
   top: 59px;
   width: 82px;
@@ -105,17 +106,17 @@
 
 .PreventivoCard-box .PreventivoCard-separator {
   background-color: #636b6f61;
-  height: 75px;
-  left: 224px;
+  height: 45px;
+  left: 212px;
   position: absolute;
-  top: 52px;
+  top: 56px;
   transform: rotate(180deg);
   width: 1px;
 }
 
 .PreventivoCard-box .PreventivoCard-overlap-2 {
   height: 68px;
-  left: 228px;
+  left: 223px;
   position: absolute;
   top: 59px;
   width: 75px;
@@ -152,17 +153,17 @@
 
 .PreventivoCard-box .PreventivoCard-separator-2 {
   background-color: #636b6f61;
-  height: 75px;
-  left: 308px;
+  height: 45px;
+  left: 304px;
   position: absolute;
-  top: 52px;
+  top: 57px;
   transform: rotate(180deg);
   width: 1px;
 }
 
 .PreventivoCard-box .PreventivoCard-overlap-3 {
   height: 68px;
-  left: 312px;
+  left: 310px;
   position: absolute;
   top: 59px;
   width: 72px;
