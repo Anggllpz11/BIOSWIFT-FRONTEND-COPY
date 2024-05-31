@@ -7,29 +7,30 @@
 }
 
 .ClientsPages-cards-list {
-  height: 280px;
-    width: 300px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
-    gap: 1rem;
-    margin: 5px;
-    padding: 0;
-    list-style: none;
+  height: 70vh; /* Convertido de 280px a vh */
+  width: 30%; /* Aproximadamente 300px a porcentaje */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); /* Convertido de 300px a porcentaje */
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin: 0.5%; /* Aproximadamente 5px a porcentaje */
+  padding: 0;
+  list-style: none;
 }
 
 .ClientsPages-card {
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 10%; /* Convertido de 20px a porcentaje */
+  padding: 0.5%; /* Aproximadamente 5px a porcentaje */
   position: relative;
   display: block;
-  height: 280px;
-  width: 300px;
-  border-radius: calc(var(--curve) * 1px);
+  height: 70vh; /* Convertido de 280px a vh */
+  width: 30%; /* Aproximadamente 300px a porcentaje */
+  border-radius: calc(var(--curve) * 1%); /* Convertido de 1px a 1% */
   overflow: hidden;
   text-decoration: none;
   background-image: linear-gradient(to top, #093f2d 0%, #53956c 100%);
 }
+
 
 .ClientsPages-card-ClientImage {
   align-self: center;

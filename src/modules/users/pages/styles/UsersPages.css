@@ -5,18 +5,13 @@
   --text-color:#a0a0a0;
 }
 
-.UsersPages-cards-list{
-	display:grid;
-	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-	gap:2rem;
-	margin-top: 2rem; /* Ajusta el valor para bajar el contenedor */
-  	margin-bottom: 0rem; /* Ajusta el valor para reducir la parte inferior del contenedor */
-  	margin-left: 2vw; /* Ajusta el valor para la margen izquierda */
- 	 margin-right: 2vw; /* Ajusta el valor para la margen derecha */
-	padding:0;
-	list-style: none;
-	
-  }
+.UsersPages-cards-list {
+    display: grid;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
   .UsersPages-card {
 	
 	border-radius:  20px;
@@ -24,7 +19,8 @@
 	position: relative;
 	display: block;
 	height: 280px;
-	width: 300px;
+	width: auto;
+	max-width: 100%;
 	border-radius: calc(var(--curve) * 1px);
 	overflow: hidden;
 	text-decoration: none;
@@ -55,18 +51,19 @@
 	-ms-transform: translateY(0);
 	-o-transform: translateY(0);
   }
-  .UsersPages-card-header{
+  
+  .UsersPages-card-header {
 	position: relative;
-	display:flex;
+	display: flex;
 	align-items: center;
-	gap:1rem;
-	border-radius: 20px;  
+	gap: 1rem;
+	border-radius: 20px;
 	background-color: var(--surface-color);
-	padding:10px;
-	transform: translateY(-100%); 
+	padding: 10px;
+	transform: translateY(-100%);
 	transition: 0.0s ease-in-out;
-	
-  }
+}
+
   .card__arc{
 	width:2em;
 	height:3em;
@@ -134,139 +131,134 @@
 	height: 100%;
 	}
 
-	.UserPages-Container-Card{
-	width: 1200px;
-	height: 100%;
-	display:grid;
-	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-	gap:2rem;
-	margin-top: 6rem; /* Ajusta el valor para bajar el contenedor */
-  	margin-bottom: 0rem; /* Ajusta el valor para reducir la parte inferior del contenedor */
-  	margin-left: 1vw; /* Ajusta el valor para la margen izquierda */
-  	margin-right: 1vw; /* Ajusta el valor para la margen derecha */
-	padding:0;
-	list-style: none
+	.UserPages-Container-Card {
+		width: 100%;
+		height: 100%;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 2rem;
+		margin: 10px;
+		padding: 0;
+		list-style: none;
+		position: relative;
 	}
-
-	@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
 	
-		.UserPages-Container-Card{
-			width: 90%;
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-			padding:0;
-			list-style: none
-		}
-		.UsersPages-card {
-			align-self: center;
-			border-radius:  20px;
-			padding: 5px;
-			position: relative;
-			left: 50px;
-			height: 170px;
-			width: 200px;
-			border-radius: calc(var(--curve) * 1px);
-			overflow: hidden;
-			text-decoration: none;
-			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-		
-		}
-	  }
-	  
-	  
-	  
-	  @media screen and (min-device-width: 600px) and (max-device-width: 845px){
-	   
-		.UsersPages-cards-list{
-			display:grid;
-			grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-			gap:2rem;
-			margin:4rem 5vw;
-			padding:0;
-			list-style: none;
-			
-		  }
-		  .UsersPages-card {
-			border-radius:  20px;
-			padding: 5px;
-			position: relative;
-			display: block;
-			height: 280px;
-			width: 300px;
-			border-radius: calc(var(--curve) * 1px);
-			overflow: hidden;
-			text-decoration: none;
-			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-		}
-	  }
-	  @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-		.UserPages-Container-Card{
-			width: 90%;
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-			padding:0;
-			list-style: none
-		}
-		.UsersPages-card {
-			align-self: center;
-			border-radius:  20px;
-			padding: 5px;
-			position: relative;
-			left: 50px;
-			height: 220px;
-			width: 250px;
-			border-radius: calc(var(--curve) * 1px);
-			overflow: hidden;
-			text-decoration: none;
-			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-		
-		}
-	  }
-	  
-	  @media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
-	  
-		.UsersPages-cards-list{
-			display:grid;
-			grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-			gap:2rem;
-			margin:4rem 5vw;
-			padding:0;
-			list-style: none;
-			
-		  }
-		  .UsersPages-card {
-			border-radius:  20px;
-			padding: 5px;
-			position: relative;
-			display: block;
-			height: 280px;
-			width: 300px;
-			border-radius: calc(var(--curve) * 1px);
-			overflow: hidden;
-			text-decoration: none;
-			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-		
-			
-		}
-	  }
-	  
-	  @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
-	   
-		.usercard {
-		  width: 360px;
-		  height: 500px;
-		  margin: auto;
-		  overflow-y: auto;
+	@media screen and  (min-device-width:(1200px)) and (max-device-width: 1920px) {
+	 
+	  .UsersPages-cards-list {
+		  display: grid;
+		  padding: 0;
+		  list-style: none;
 		  position: relative;
-		  z-index: 1;
-		  overflow-x: hidden;
-		  background-color: rgba(255, 255, 255, 1);
-		  display: flex;
-		  transition: 0.3s;
-		  flex-direction: column;
-		  border-radius: 10px;
-		  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
-		}
+		  width: 100%;
 	  }
+
+	  .UserPages-Container-Card {
+		  width: 100%;
+		  height: 100%;
+		  display: grid;
+		  grid-template-columns: repeat(5, 1fr);
+		  grid-gap: 2rem;
+		  gap: 2rem;
+		  margin: 10px;
+		  padding: 0;
+		  list-style: none;
+		  position: relative;
+	  }
+
+	  .UsersPages-card {
+		  border-radius: 20px;
+		  padding: 5px;
+		  position: relative;
+		  display: block;
+		  height: 280px;
+		  width: auto;
+		  max-width: 100%;
+		  min-width: 80%;
+		  border-radius: calc(var(--curve)* 1px);
+		  overflow: hidden;
+		  text-decoration: none;
+		  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+	  }
+
+	}
+	@media screen and (min-device-width: 800px) and (max-device-width: 1199px) {
+		
+		.UsersPages-cards-list {
+			display: grid;
+			padding: 0;
+			list-style: none;
+			position: relative;
+			width: 80%;
+		}
+		
+		.UserPages-Container-Card {
+			width: 80%;
+			height: 100%;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: 2rem;
+			gap: 2rem;
+			margin: 10px;
+			padding: 0;
+			list-style: none;
+			position: relative;
+		}
+		
+		.UsersPages-card {
+			border-radius: 20px;
+			padding: 5px;
+			position: relative;
+			display: block;
+			height: 280px;
+			width: auto;
+			max-width: 80%;
+			border-radius: calc(var(--curve)* 1px);
+			overflow: hidden;
+			text-decoration: none;
+			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+		}
+		
+	}
+	
+	@media screen and (min-device-width: 400px) and (max-device-width: 799px) {
+
+	  .UsersPages-cards-list {
+		  display: grid;
+		  gap: 2rem;
+		  padding: 0;
+		  list-style: none;
+		  position: relative;
+		  width: 20%;
+	  }
+
+	  .UserPages-Container-Card {
+		  width: 20%;
+		  height: 100%;
+		  display: grid;
+		  grid-template-columns: repeat(1, 1fr);
+		  grid-gap: 2rem;
+		  gap: 2rem;
+		  margin: 10px;
+		  padding: 0;
+		  list-style: none;
+		  position: relative;
+	  }
+
+	  .UsersPages-card {
+		  border-radius: 20px;
+		  padding: 5px;
+		  position: relative;
+		  display: block;
+		  height: 280px;
+		  width: auto;
+		  max-width: 20%;
+		  border-radius: calc(var(--curve)* 1px);
+		  overflow: hidden;
+		  text-decoration: none;
+		  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+	  }
+
+	}
+	
+	

@@ -355,7 +355,7 @@ input:checked ~ .acordeon-content {
 }
 
 input[type=checkbox] + label::after {
-  content: "↓";
+  content: "▼";
 }
 
 input[type=checkbox]:checked + label::after {
