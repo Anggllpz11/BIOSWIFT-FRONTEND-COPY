@@ -137,6 +137,7 @@
 .clientcard-button {
   border: none;
   outline: none;
+  font-size: 2vh;
   background: #00ddfa;
   padding: 1.1vh 2.5vh; /* Aproximadamente 11px y 25px */
   width: 10vh; /* Aproximadamente 100px */
@@ -180,10 +181,11 @@
   border: none;
   outline: none;
   background: #00ddfa;
-  padding: 1.1vh 2.5vh; /* Aproximadamente 11px y 25px */
-  width: 10vh; /* Aproximadamente 100px */
-  margin: 1vh 0.5vh 1vh 0; /* Aproximadamente 10px, 5px, 10px, 0 */
-  border-radius: 0.4vh; /* Aproximadamente 4px */
+  font-size: 1.2vh;
+  padding: 1.1vh 2.5vh;
+  width: 10vh;
+  margin: 1vh 0.5vh 1vh 0;
+  border-radius: 0.4vh;
   font-weight: 600;
   cursor: pointer;
   color: #09203f;

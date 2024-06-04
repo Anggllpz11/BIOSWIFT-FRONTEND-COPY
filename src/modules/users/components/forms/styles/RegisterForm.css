@@ -1,92 +1,75 @@
-
-  
-
-.RegisterForm-box
-{
+.RegisterForm-box {
     position: relative;
-    width: 732px;
-    height: 520px;
+    width: 73.2vh; /* Aproximadamente 732px */
+    height: 52vh; /* Aproximadamente 520px */
     background: #1c1c1c30;
-    border-radius: 10px;
-   
-}
-
-
-.RegisterForm-form
-{
+    border-radius: 1vh; /* Aproximadamente 10px */
+  }
+  
+  .RegisterForm-form {
     position: relative;
-    width: 732px;
-    height: 500px;
-    border-radius: 8px;
+    width: 73.2vh; /* Aproximadamente 732px */
+    height: 50vh; /* Aproximadamente 500px */
+    border-radius: 0.8vh; /* Aproximadamente 8px */
     background: #ffffff;
     z-index: 10;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-   
-}
-
-.RegisterForm-title-div
-{
+  }
+  
+  .RegisterForm-title-div {
     position: relative;
-    width: 732px;
-    height: 100px;
-    border-radius: 5px;
+    width: 73.2vh; /* Aproximadamente 732px */
+    height: 10vh; /* Aproximadamente 100px */
+    border-radius: 0.5vh; /* Aproximadamente 5px */
     background: #d9d9d9;
     z-index: 10;
-    padding: 10px 30px 0px 65px;
+    padding: 1vh 3vh 0 6.5vh; /* Aproximadamente 10px 30px 0px 65px */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-   
-}
-
-.RegisterForm-form h2
-{   color: #00ddfa;
+  }
+  
+  .RegisterForm-form h2 {
+    color: #00ddfa;
     font-family: "Inter-Regular", Helvetica;
-    font-size: 24px;
+    font-size: 2.4vh; /* Aproximadamente 24px */
     font-weight: 400;
-    left: 180px;
+    left: 18vh; /* Aproximadamente 180px */
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 36px;
-    width: 409px;
-}
-
-
-
-
-.RegisterForm-inputBox
-{
+    top: 3.6vh; /* Aproximadamente 36px */
+    width: 40.9vh; /* Aproximadamente 409px */
+  }
+  
+  .RegisterForm-inputBox {
     position: relative;
-    width: 300px;
-    margin-top: 35px;
-
+    width: 30vh;
+    margin-top: 3.5vh;
 }
-
-
-.RegisterForm-Field
-{
+  
+.RegisterForm-Field {
     position: relative;
     width: 100%;
-    padding: 20px 10px 10px;
+    padding: 3vh 1vh 1vh;
     background: transparent;
     border: none;
     outline: none;
     color: #23242a;
-    font-size: 1em;
+    font-size: 1.6vh;
     letter-spacing: 0.05em;
     z-index: 10;
 }
-
-.RegisterForm-Field-clave{
+  
+  .RegisterForm-Field-clave {
     position: relative;
     width: 100%;
-    padding: 20px 10px 10px;
+    padding: 2vh 1vh 1vh; /* Aproximadamente 20px 10px 10px */
     background: #00ddfa;
     border: none;
     outline: none;
@@ -94,96 +77,83 @@
     font-size: 1em;
     letter-spacing: 0.05em;
     z-index: 10;
-    border-radius: 4px;
-}
-.RegisterForm-Field-clave:valid ~ span,
-.RegisterForm-Field-clave:focus ~ span
-{
+    border-radius: 0.4vh; /* Aproximadamente 4px */
+  }
+  
+  .RegisterForm-Field-clave:valid ~ span,
+  .RegisterForm-Field-clave:focus ~ span {
     color: #00ddfa;
-    transform: translateX(0px) translateY(-34px);
+    transform: translateX(0px) translateY(-3.4vh); /* Aproximadamente -34px */
     font-size: 0.75em;
-}
-
-
-.RegisterForm-inputBox span
-{
+  }
+  
+  .RegisterForm-inputBox span {
     position: absolute;
     left: 0;
-    padding: 20px 0px 10px;
+    padding: 2vh 0 1vh; /* Aproximadamente 20px 0px 10px */
     font-size: 1em;
     color: #8f8f8f;
     pointer-events: none;
     letter-spacing: 0.05em;
     transition: 0.5s;
-}
-
-
-.RegisterForm-Field:valid ~ span,
-.RegisterForm-Field:focus ~ span
-{
+  }
+  
+  .RegisterForm-Field:valid ~ span, .RegisterForm-Field:focus ~ span {
     color: #636b6f;
-    transform: translateX(0px) translateY(-34px);
-    font-size: 0.75em;
+    transform: translateX(0px) translateY(-3.4vh);
+    font-size: 1.4vh;
 }
-
-
-.RegisterForm-inputBox i
-{
+  
+  .RegisterForm-inputBox i {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 2px;
+    height: 0.2vh; /* Aproximadamente 2px */
     background: #d9d9d9;
-    border-radius: 4px;
+    border-radius: 0.4vh; /* Aproximadamente 4px */
     transition: 0.5s;
     pointer-events: none;
     z-index: 9;
-}
-
-.RegisterForm-Field:valid ~ i,
-.RegisterForm-Field:focus ~ i
-{
-    height: 44px;
-
-}
-
-
-.RegisterForm-button[type="submit"]
-{
+  }
+  
+  .RegisterForm-Field:valid ~ i,
+  .RegisterForm-Field:focus ~ i {
+    height: 4.4vh; /* Aproximadamente 44px */
+  }
+  
+  .RegisterForm-button[type="submit"] {
     background: #00ddfa;
     border-color: transparent;
-    height: 36px;
-    width: 100px;
-    border-radius: 4px;
+    height: 3.6vh; /* Aproximadamente 36px */
+    width: 10vh; /* Aproximadamente 100px */
+    border-radius: 0.4vh; /* Aproximadamente 4px */
     font-family: "Inter-Regular", Helvetica;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1.2vh; /* Aproximadamente 12px */
     cursor: pointer;
     position: relative;
-    top: -151px;
-    left: 240px;
-}
-
-.RegisterForm-button[type="submit"]:active
-{
+    top: -15.1vh; /* Aproximadamente -151px */
+    left: 24vh; /* Aproximadamente 240px */
+  }
+  
+  .RegisterForm-button[type="submit"]:active {
     opacity: 0.8;
-}
-
-
-
-.Columna-1{
+  }
+  
+  .Columna-1 {
     position: relative;
-    left: 45px;
-    height: 500px;
+    left: 4.5vh; /* Aproximadamente 45px */
+    height: 50vh; /* Aproximadamente 500px */
     float: right;
     width: 50%;
-}
-
-.Columna-2{
+  }
+  
+  .Columna-2 {
     position: relative;
-    left: 25px;
-    height: 500px;
+    left: 2.5vh; /* Aproximadamente 25px */
+    height: 50vh; /* Aproximadamente 500px */
     float: right;
     width: 50%;
-}
+  }
+  

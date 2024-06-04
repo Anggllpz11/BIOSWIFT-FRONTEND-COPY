@@ -1,31 +1,31 @@
 .EquipoModeloDetailPage-box {
-  height: 463px;
-  width: 709px;
+  height: 42.87vh; /* 463px */
+  width: 65.65vh; /* 709px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-equipodetailpage {
-  height: 463px;
+  height: 42.87vh; /* 463px */
   left: 0;
   top: 0;
-  width: 727px;
+  width: 67.31vh; /* 727px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-group {
   background-color: #537895d9;
   border-radius: 5px;
-  height: 463px;
+  height: 42.87vh; /* 463px */
   position: relative;
-  width: 709px;
+  width: 65.65vh; /* 709px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 210px;
+  height: 19.44vh; /* 210px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 709px;
+  width: 65.65vh; /* 709px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id {
@@ -33,21 +33,21 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 14px;
   font-weight: 400;
-  left: 275px;
+  left: 25.46vh; /* 275px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 68px;
-  width: 379px;
+  top: 6.3vh; /* 68px */
+  width: 35.09vh; /* 379px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-div {
-  height: 47px;
-  left: 388px;
+  height: 4.35vh; /* 47px */
+  left: 35.93vh; /* 388px */
   position: absolute;
-  top: 126px;
-  width: 237px;
+  top: 11.67vh; /* 126px */
+  width: 21.94vh; /* 237px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper {
@@ -55,40 +55,40 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 41px;
+  left: 3.8vh; /* 41px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 14px;
-  width: 196px;
+  top: 1.3vh; /* 14px */
+  width: 18.15vh; /* 196px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-money {
-  height: 35px;
+  height: 3.24vh; /* 35px */
   left: 0;
   color: #636b6f;
   position: absolute;
-  top: 6px;
-  width: 35px;
+  top: 0.56vh; /* 6px */
+  width: 3.24vh; /* 35px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-machine-learning-wrapper {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 210px;
+  height: 19.44vh; /* 210px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 248px;
+  width: 22.96vh; /* 248px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-machine-learning {
-  height: 183px;
-  left: 18px;
+  height: 16.94vh; /* 183px */
+  left: 1.67vh; /* 18px */
   color: #636b6f;
   position: absolute;
-  top: 14px;
-  width: 212px;
+  top: 1.3vh; /* 14px */
+  width: 19.63vh; /* 212px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-2 {
@@ -96,51 +96,51 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 275px;
+  left: 25.46vh; /* 275px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 15px;
-  width: 385px;
+  top: 1.39vh; /* 15px */
+  width: 35.65vh; /* 385px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-edit {
-  height: 31px;
-  left: 667px;
+  height: 2.87vh; /* 31px */
+  left: 61.76vh; /* 667px */
   color: #636b6f;
   position: absolute;
   cursor: pointer;
-  top: 14px;
-  width: 30px;
+  top: 1.3vh; /* 14px */
+  width: 2.78vh; /* 30px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-delete {
-  height: 31px;
-  left: 667px;
+  height: 2.87vh; /* 31px */
+  left: 61.76vh; /* 667px */
   color: #636b6f;
   position: absolute;
   cursor: pointer;
-  top: 60px;
-  width: 30px;
+  top: 5.56vh; /* 60px */
+  width: 2.78vh; /* 30px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-2 {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 210px;
-  left: 30px;
+  height: 19.44vh; /* 210px */
+  left: 2.78vh; /* 30px */
   position: absolute;
-  top: 230px;
-  width: 305px;
+  top: 21.3vh; /* 230px */
+  width: 28.24vh; /* 305px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-3 {
-  height: 84px;
-  left: 14px;
+  height: 7.78vh; /* 84px */
+  left: 1.3vh; /* 14px */
   position: absolute;
-  top: 10px;
-  width: 279px;
+  top: 0.93vh; /* 10px */
+  width: 25.83vh; /* 279px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-2 {
@@ -153,8 +153,8 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 59px;
-  width: 279px;
+  top: 5.46vh; /* 59px */
+  width: 25.83vh; /* 279px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-3 {
@@ -162,22 +162,22 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 25px;
+  left: 2.31vh; /* 25px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 23px;
-  width: 218px;
+  top: 2.13vh; /* 23px */
+  width: 20.19vh; /* 218px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-eye {
-  height: 27px;
+  height: 2.5vh; /* 27px */
   left: 0;
   position: absolute;
   color: #636b6f;
   top: 0;
-  width: 26px;
+  width: 2.41vh; /* 26px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-3 {
@@ -185,31 +185,31 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 14px;
   font-weight: 400;
-  left: 117px;
+  left: 10.83vh; /* 117px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 138px;
-  width: 149px;
+  top: 12.78vh; /* 138px */
+  width: 13.8vh; /* 149px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-billboard {
-  height: 27px;
-  left: 79px;
+  height: 2.5vh; /* 27px */
+  left: 7.31vh; /* 79px */
   color: #636b6f;
   position: absolute;
-  top: 138px;
-  width: 26px;
+  top: 12.78vh; /* 138px */
+  width: 2.41vh; /* 26px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-overlap-4 {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 210px;
-  left: 376px;
+  height: 19.44vh; /* 210px */
+  left: 34.83vh; /* 376px */
   position: absolute;
-  top: 230px;
-  width: 305px;
+  top: 21.3vh; /* 230px */
+  width: 28.24vh; /* 305px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-4 {
@@ -217,13 +217,13 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 11px;
   font-weight: 400;
-  left: 16px;
+  left: 1.48vh; /* 16px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 71px;
-  width: 275px;
+  top: 6.57vh; /* 71px */
+  width: 25.46vh; /* 275px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-4 {
@@ -231,31 +231,31 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 46px;
+  left: 4.26vh; /* 46px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 34px;
-  width: 218px;
+  top: 3.15vh; /* 34px */
+  width: 20.19vh; /* 218px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-img {
-  height: 27px;
-  left: 91px;
+  height: 2.5vh; /* 27px */
+  left: 8.43vh; /* 91px */
   color: #636b6f;
   position: absolute;
-  top: 138px;
-  width: 26px;
+  top: 12.78vh; /* 138px */
+  width: 2.41vh; /* 26px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-eye-2 {
-  height: 27px;
-  left: 12px;
+  height: 2.5vh; /* 27px */
+  left: 1.11vh; /* 12px */
   color: #636b6f;
   position: absolute;
-  top: 11px;
-  width: 26px;
+  top: 1.02vh; /* 11px */
+  width: 2.41vh; /* 26px */
 }
 
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-5 {
@@ -263,10 +263,10 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 14px;
   font-weight: 400;
-  left: 129px;
+  left: 11.94vh; /* 129px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 138px;
-  width: 149px;
+  top: 12.78vh; /* 138px */
+  width: 13.8vh; /* 149px */
 }
