@@ -31,7 +31,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 14px;
+  font-size: 1.4vh;
   font-weight: 400;
   left: 25.46vh; /* 275px */
   letter-spacing: 0;
@@ -53,7 +53,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 1.6vh;
   font-weight: 400;
   left: 3.8vh; /* 41px */
   letter-spacing: 0;
@@ -94,7 +94,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-2 {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 400;
   left: 25.46vh; /* 275px */
   letter-spacing: 0;
@@ -146,7 +146,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-2 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 11px;
+  font-size: 1.1vh;
   font-weight: 400;
   left: 0;
   letter-spacing: 0;
@@ -160,7 +160,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-3 {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 1.6vh;
   font-weight: 400;
   left: 2.31vh; /* 25px */
   letter-spacing: 0;
@@ -183,7 +183,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-3 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 14px;
+  font-size: 1.4vh;
   font-weight: 400;
   left: 10.83vh; /* 117px */
   letter-spacing: 0;
@@ -215,7 +215,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-4 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 11px;
+  font-size: 1.1vh;
   font-weight: 400;
   left: 1.48vh; /* 16px */
   letter-spacing: 0;
@@ -229,7 +229,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-text-wrapper-4 {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 1.6vh;
   font-weight: 400;
   left: 4.26vh; /* 46px */
   letter-spacing: 0;
@@ -261,7 +261,7 @@
 .EquipoModeloDetailPage-box .EquipoModeloDetailPage-client-id-5 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 14px;
+  font-size: 1.4vh;
   font-weight: 400;
   left: 11.94vh; /* 129px */
   letter-spacing: 0;
