@@ -1,85 +1,84 @@
 .MarcaEquipoDetailPage-box {
-    height: 210px;
-    width: 709px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap-group-wrapper {
-    height: 210px;
-    left: 0;
-    top: 0;
-    width: 713px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap-group {
-    background-color: #ffffffd9;
-    border-radius: 5px;
-    height: 210px;
-    position: relative;
-    width: 709px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap {
-    background-color: #ffffffd9;
-    border-radius: 5px;
-    height: 210px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 248px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-icon {
-    height: 183px;
-    left: 18px;
-    color: #00ddfa;
-    position: absolute;
-    top: 14px;
-    width: 212px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-title {
-    color: #00ddfa;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 302px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 62px;
-    width: 385px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-id {
-    color: #636b6f;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 302px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 115px;
-    width: 379px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-edit {
-    height: 31px;
-    left: 608px;
-    color: #00ddfa;
-    position: absolute;
-    top: 14px;
-    width: 30px;
-  }
-  
-  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-delete {
-    height: 31px;
-    left: 656px;
-    position: absolute;
-    color: #00ddfa;
-    top: 14px;
-    width: 31px;
-  }
-  
+  height: 19.44vh; /* 210px / 1080px * 100 */
+  width: 36.93vw; /* 709px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap-group-wrapper {
+  height: 19.44vh;
+  left: 0;
+  top: 0;
+  width: 37.14vw; /* 713px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap-group {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 19.44vh;
+  position: relative;
+  width: 36.93vw;
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 19.44vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12.92vw; /* 248px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-icon {
+  height: 16.94vh; /* 183px / 1080px * 100 */
+  left: 0.94vw; /* 18px / 1920px * 100 */
+  color: #00ddfa;
+  position: absolute;
+  top: 1.30vh; /* 14px / 1080px * 100 */
+  width: 11.04vw; /* 212px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.85vh; /* 20px / 1080px * 100 */
+  font-weight: 400;
+  left: 15.73vw; /* 302px / 1920px * 100 */
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5.74vh; /* 62px / 1080px * 100 */
+  width: 20.05vw; /* 385px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.30vh; /* 14px / 1080px * 100 */
+  font-weight: 400;
+  left: 15.73vw; /* 302px / 1920px * 100 */
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10.65vh; /* 115px / 1080px * 100 */
+  width: 19.74vw; /* 379px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-edit {
+  height: 2.87vh; /* 31px / 1080px * 100 */
+  left: 31.67vw; /* 608px / 1920px * 100 */
+  color: #00ddfa;
+  position: absolute;
+  top: 1.30vh;
+  width: 1.56vw; /* 30px / 1920px * 100 */
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-delete {
+  height: 2.87vh; /* 31px / 1080px * 100 */
+  left: 34.17vw; /* 656px / 1920px * 100 */
+  position: absolute;
+  color: #00ddfa;
+  top: 1.30vh;
+  width: 1.61vw; /* 31px / 1920px * 100 */
+}
