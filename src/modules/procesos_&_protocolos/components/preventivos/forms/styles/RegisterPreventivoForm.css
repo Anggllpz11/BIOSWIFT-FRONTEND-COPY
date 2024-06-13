@@ -267,6 +267,7 @@
   position: relative;
   top: 1vh;
   width: 50.5vh;
+  font-size: 2vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-result {
@@ -369,6 +370,7 @@
   position: relative;
   top: 1vh;
   width: 50.5vh;
+  font-size: 2vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-result {
@@ -550,6 +552,7 @@
   position: relative;
   top: 1vh;
   width: 50.5vh;
+  font-size: 2vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-result {
@@ -642,6 +645,7 @@
   position: relative;
   top: 3vh;
   width: 50.5vh;
+  font-size: 2vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-result-2 {

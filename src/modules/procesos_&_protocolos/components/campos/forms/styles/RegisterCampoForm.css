@@ -67,6 +67,7 @@
   position: absolute;
   top: 32.6vh;
   width: 44.1vh;
+  font-size: 2vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-title-p {
@@ -93,6 +94,7 @@
   position: absolute;
   top: 44.7vh;
   width: 44.1vh;
+  font-size: 2vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-cancelar {
@@ -104,6 +106,7 @@
   position: absolute;
   top: 53vh;
   width: 16.4vh;
+  font-size: 2vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-registrar {
@@ -115,4 +118,5 @@
   position: absolute;
   top: 53vh;
   width: 16.4vh;
+  font-size: 2vh;
 }
