@@ -1,118 +1,118 @@
 .RegisterCampoForm-box {
-  height: 622px;
-  width: 631px;
+  height: 62.2vh;
+  width: 63.1vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-register-campo {
-  height: 622px;
+  height: 62.2vh;
   left: 0;
   top: 0;
-  width: 637px;
+  width: 63.7vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-overlap-group {
   background-color: #ffffff;
   border-radius: 10px;
-  height: 622px;
+  height: 62.2vh;
   position: relative;
-  width: 631px;
+  width: 63.1vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-overlap {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 220px;
+  height: 22vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 631px;
+  width: 63.1vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-campo-title {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 36px;
+  font-size: 3.6vh;
   font-weight: 400;
-  height: 152px;
-  left: 32px;
+  height: 15.2vh;
+  left: 3.2vh;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 90px;
-  width: 574px;
+  top: 9vh;
+  width: 57.4vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-tipo-p {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 400;
-  height: 25px;
-  left: 42px;
+  height: 2.5vh;
+  left: 4.2vh;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 282px;
-  width: 543px;
+  top: 28.2vh;
+  width: 54.3vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-tipo-input {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 35px;
+  height: 3.5vh;
   border: none;
-  left: 93px;
+  left: 9.3vh;
   position: absolute;
-  top: 326px;
-  width: 441px;
+  top: 32.6vh;
+  width: 44.1vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-title-p {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 400;
-  height: 25px;
-  left: 47px;
+  height: 2.5vh;
+  left: 4.7vh;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 403px;
-  width: 543px;
+  top: 40.3vh;
+  width: 54.3vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-title-input {
   background-color: #d9d9d9;
   border-radius: 10px;
   border: none;
-  height: 35px;
-  left: 98px;
+  height: 3.5vh;
+  left: 9.8vh;
   position: absolute;
-  top: 447px;
-  width: 441px;
+  top: 44.7vh;
+  width: 44.1vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-cancelar {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 42px;
-  left: 134px;
+  height: 4.2vh;
+  left: 13.4vh;
   border: none;
   position: absolute;
-  top: 530px;
-  width: 164px;
+  top: 53vh;
+  width: 16.4vh;
 }
 
 .RegisterCampoForm-box .RegisterCampoForm-registrar {
   background-color: #00ddfa;
   border-radius: 10px;
-  height: 42px;
-  left: 344px;
+  height: 4.2vh;
+  left: 34.4vh;
   border: none;
   position: absolute;
-  top: 530px;
-  width: 164px;
+  top: 53vh;
+  width: 16.4vh;
 }

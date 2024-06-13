@@ -1,98 +1,98 @@
 .CampoDetailPage-box {
-  height: 167px;
-  width: 374px;
+  height: 16.7vh;
+  width: 37.4vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-campobyid-container {
-  height: 167px;
+  height: 16.7vh;
   left: 0;
   top: 0;
-  width: 380px;
+  width: 38vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-overlap-group {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 167px;
+  height: 16.7vh;
   position: relative;
-  width: 374px;
+  width: 37.4vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-overlap {
   background-color: #ffffff;
   border-radius: 10px;
-  height: 167px;
+  height: 16.7vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 96px;
+  width: 9.6vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-icon {
-  height: 96px;
-  left: 2px;
+  height: 9.6vh;
+  left: 0.2vh;
   color: #00ddfa;
   position: absolute;
-  top: 33px;
-  width: 91px;
+  top: 3.3vh;
+  width: 9.1vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-title {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 1.6vh;
   font-weight: 400;
-  left: 103px;
+  left: 10.3vh;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 38px;
-  width: 264px;
+  top: 3.8vh;
+  width: 26.4vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 10px;
+  font-size: 1vh;
   font-weight: 400;
-  left: 103px;
+  left: 10.3vh;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 90px;
-  width: 264px;
+  top: 9vh;
+  width: 26.4vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-tipo {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 12px;
+  font-size: 1.2vh;
   font-weight: 400;
-  left: 103px;
+  left: 10.3vh;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 117px;
-  width: 264px;
+  top: 11.7vh;
+  width: 26.4vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-edit-icon {
-  height: 22px;
-  left: 307px;
+  height: 2.2vh;
+  left: 30.7vh;
   color: #00ddfa;
   position: absolute;
-  top: 3px;
-  width: 22px;
+  top: 0.3vh;
+  width: 2.2vh;
 }
 
 .CampoDetailPage-box .CampoDetailPage-delete-icon {
-  height: 22px;
-  left: 337px;
+  height: 2.2vh;
+  left: 33.7vh;
   color: #00ddfa;
   position: absolute;
-  top: 3px;
-  width: 22px;
+  top: 0.3vh;
+  width: 2.2vh;
 }
