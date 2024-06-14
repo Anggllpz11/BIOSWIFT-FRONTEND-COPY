@@ -171,6 +171,21 @@
     width: 281px;
   }
 
+  .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-oid {
+    color: #d9d9d9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    text-align: center;
+    height: 0px;
+  }
+  
   .CotizacionesOrden-cotizaciones-orden .CotizacionesOrden-mensaje-title {
     color: #00ddfa;
     font-family: "Inter-Regular", Helvetica;
@@ -180,7 +195,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 17px;
     width: 200px;
     text-align: center;
     height: 0px;
@@ -195,7 +210,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 27px;
+    top: 29px;
     width: 200px;
     text-align: center;
     height: 60px;

@@ -304,25 +304,147 @@
   list-style: none
 }
 
+.OrdenesPages-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.OrdenesPages-loading-overlay {
+  color: #00ddfa;
+}
+
+
+.OrdenesPages-filters-container {
+  background-color: #ffffff;
+  width: 94%;
+  position: absolute;
+  height: 7%;
+  top: 3%;
+  left: 3%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+
+.OrdenesPages-document-count {
+  color: #000000;
+  width: auto;
+  position: absolute;
+  height: auto;
+  top: 19%;
+  left: 29.5%;
+  margin: 0.5%;
+}
+
+.OrdenesPages-totalItems {
+  font-size: 1vw;
+}
+
+.OrdenesPages-highlight {
+  color: #00ddfa;
+}
+
+.OrdenesPages-title {
+  color: #00ddfa;
+  font-size: 2vw;
+  width: auto;
+  position: absolute;
+  height: auto;
+  top: 7%;
+  left: 40%;
+  margin: 0.2%;
+}
+
+.OrdenesPages-filters-icon {
+  color: #d9d9d9;
+  width: 3vh !important;
+  position: absolute;
+  height: 3vh !important;
+  top: 30%;
+  left: 64%;
+  cursor: pointer;
+}
+
+.OrdenesPages-filters-icon:hover {
+  color: #00ddfa;
+
+}
+
+.OrdenesPages-xls-title {
+  color: #00ddfa;
+  font-size: 2vh;
+  width: auto;
+  position: absolute;
+  height: auto;
+  top: 23%;
+  left: 70%;
+  margin: 0.2%;
+  cursor: pointer;
+}
+
+.OrdenesPages-xls-title:hover {
+  color: #000000;
+
+}
+
+.OrdenesPages-select-items {
+  color: #00ddfa;
+  font-size: 2vh;
+  width: auto;
+  position: absolute;
+  height: auto;
+  top: 23%;
+  left: 75%;
+  margin: 0.2%;
+  cursor: pointer;
+}
+
+.OrdenesPages-select-items:hover {
+  color: #000000;
+
+}
+
+
+
+
 .OrdenesPages-container-Card {
   position: fixed;
-  left: 90px;
-  top: 140px;
+  left: 3%;
+  top: 13%;
   width: 100%;
   height: 100%;
 }
 
-.OrdenesPages-Container-Card {
-  width: 93%;
-  height: 79%;
+.OrdenesPages-ul-cards {
+  padding: 1%;
+  width: 95%;
+  height: 86%;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   gap: 2%;
   row-gap: 5%;
   list-style: none;
   position: relative;
-  overflow-y: auto;
+  overflow-y: scroll; /* Habilita el scroll vertical */
   overflow-x: hidden;
+  scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+  scrollbar-color:  #636b6f61 transparent; /* Firefox */
+}
+
+/* Para Chrome, Safari y Edge */
+.OrdenesPages-ul-cards::-webkit-scrollbar {
+  width: 3px; /* Ajusta el ancho del scrollbar */
+}
+
+.OrdenesPages-ul-cards::-webkit-scrollbar-track {
+  background-color: transparent;
+
+}
+
+.OrdenesPages-ul-cards::-webkit-scrollbar-thumb {
+  background-color: transparent;
+    border-radius: 3px;
 }
 
 .OrdenCard-box {
@@ -336,7 +458,7 @@
 
 @media only screen and (min-device-width: 1367px) and (max-device-width: 1810px) {
 
-  .OrdenesPages-Container-Card {
+  .OrdenesPages-ul-cards {
     width: 100%;
     height: 100%;
     display: grid;
@@ -358,7 +480,7 @@
 
 @media only screen and (min-device-width: 940px) and (max-device-width: 1366px) {
 
-  .OrdenesPages-Container-Card{
+  .OrdenesPages-ul-cards{
     width: 96%;
         height: 100%;
         display: grid;
@@ -392,7 +514,7 @@
 
 @media only screen and (min-device-width: 425px) and (max-device-width: 939px) {
 
-  .OrdenesPages-Container-Card{
+  .OrdenesPages-ul-cards{
     width: 91%;
         height: 100%;
         display: grid;
@@ -584,7 +706,7 @@
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 424px) {
 
-  .OrdenesPages-Container-Card{
+  .OrdenesPages-ul-cards{
     width: 91%;
         height: 100%;
         display: grid;
@@ -808,4 +930,3 @@
   }
 
 }
-

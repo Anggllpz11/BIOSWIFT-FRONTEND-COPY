@@ -13,7 +13,7 @@
   .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap-group {
     background-color: #ffffffd9;
     border-radius: 5px;
-    height: 139px;
+    height: 158px;
     position: relative;
     width: 563px;
   }
@@ -21,7 +21,7 @@
   .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap {
     background-color: #ffffffd9;
     border-radius: 5px;
-    height: 139px;
+    height: 157px;
     left: 0;
     position: absolute;
     top: 0;
@@ -217,48 +217,4 @@
 .RepuestosEquiposPages-container{
     width: 1200px;
 	height: 100%;
-}
-
-@media screen and (min-width:1000px) and (max-width: 2800px) {
-
-  .RepuestoEquipoCard-box-2 .RepuestoEquipoCard-screw {
-    height: 167px;
-    left: 5px;
-    color: #00ddfa;
-    position: absolute;
-    top: -11px;
-    width: 134px;
-}
-
-.RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap {
-  background-color: #ffffffd9;
-  border-radius: 5px;
-  height: 139px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 146px;
-}
-
-.RepuestoEquipoCard-box-2 .RepuestoEquipoCard-div {
-  height: 164px;
-  left: 163px;
-  position: absolute;
-  top: 12px;
-  width: 383px;
-}
-
-.RepuestoEquipoCard-box-2 .RepuestoEquipoCard-repuestos-equipos {
-  height: 139px;
-  width: 500px;
-}
-
-.RepuestoEquipoCard-box-2 .RepuestoEquipoCard-overlap-group {
-  background-color: #ffffffd9;
-  border-radius: 5px;
-  height: 139px;
-  position: relative;
-  width: 500px;
-}
-  
 }

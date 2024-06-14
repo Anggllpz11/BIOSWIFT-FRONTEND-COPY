@@ -145,7 +145,6 @@
   width: 1200px;
   height: 100%;
   display: grid;
-  left: 28vh;
   grid-template-columns: repeat(4, minmax(316px, 1fr));
   grid-gap: 2rem;
   gap: 2rem;
@@ -156,3 +155,127 @@
   top: 50px;
 }
 
+/**************************************************/
+
+@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+	
+  .SedesPages-Container-Card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    list-style: none
+  }
+  .SedesPages-card {
+    align-self: center;
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+    height: 170px;
+    width: 200px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+  }
+  }
+  
+  
+  
+  @media screen and (min-device-width: 600px) and (max-device-width: 845px){
+   
+    .SedesPages-Container-Card{
+      width: 90%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding:0;
+      list-style: none
+    }
+    .SedesPages-card {
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    height: 280px;
+    width: 300px;
+    left: 300px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  }
+  }
+  @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  .SedesPages-Container-Card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    list-style: none
+  }
+  .SedesPages-card {
+    align-self: center;
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    left: 190px;
+    height: 220px;
+    width: 250px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+  }
+  }
+  
+  @media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
+  
+  .SedesPages-cards-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:2rem;
+    margin:4rem 5vw;
+    padding:0;
+    list-style: none;
+    
+    }
+    .SedesPages-card {
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    height: 280px;
+    width: 300px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+    
+  }
+  }
+  
+  @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
+   
+  .SedesPages-card {
+    width: 360px;
+    height: 500px;
+    margin: auto;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  }

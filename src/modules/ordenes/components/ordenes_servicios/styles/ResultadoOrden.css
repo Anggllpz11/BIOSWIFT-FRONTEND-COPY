@@ -1,0 +1,356 @@
+.ResultadoOrden-orden {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 205px;
+    width: 100%;
+  }
+  
+  .ResultadoOrden-orden .ResultadoOrden-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 205px;
+    height: 566px;
+    overflow: hidden;
+    position: relative;
+    width: 1006px;
+  }
+  
+  .ResultadoOrden-orden .ResultadoOrden-header {
+    background-color: transparent;
+    height: 124px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1008px;
+  }
+  
+  .ResultadoOrden-orden .ResultadoOrden-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 124px;
+    position: relative;
+    width: 1006px;
+  }
+  
+  .ResultadoOrden-orden .ResultadoOrden-cambios-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 42px;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 842px;
+  }
+  
+  .resultOrden-box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .resultOrden-box .resultOrden-box-overlap-group {
+    background: #d9d9d9;
+    height: 397px;
+    position: relative;
+    width: 568px;
+    top: 151px;
+    border-radius: 10px;
+  }
+  
+  .resultOrden-box .resultOrden-box-sistema-falla {
+    height: 69px;
+    left: 23px;
+    position: absolute;
+    top: 32px;
+    width: 245px;
+  }
+  
+  .resultOrden-box .resultOrden-box-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 36px;
+    width: 243px;
+    border: none;
+    font-size: 12px;
+  }
+  
+  .resultOrden-box .resultOrden-box-text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    height: 30px;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 238px;
+  }
+  
+  .resultOrden-box .resultOrden-box-modos-falla-section {
+    height: 108px;
+    left: 23px;
+    position: absolute;
+    top: 115px;
+    width: 245px;
+  }
+  
+  .resultOrden-box .resultOrden-box-div-2 {
+    background-color: #7c7c7c;
+    border-radius: 10px;
+    height: auto;
+    left: 0;
+    position: relative;
+    top: 0px;
+    width: 222px;
+    list-style: none;
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 3px;
+    padding: 3px;
+  }
+
+  .resultOrden-box .resultOrden-remove-icon {
+    color: #da2808;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    left: 230px;
+  }
+
+  .resultOrden-box .resultOrden-ul{
+    height: 57px;
+    left: 0;
+    position: absolute;
+    top: 76px;
+    width: 263px;
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido es demasiado alto */
+  }
+
+  /* Estilos de barra de desplazamiento para navegadores WebKit como Chrome y Safari */
+  .resultOrden-box .resultOrden-ul::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .resultOrden-box .resultOrden-ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .resultOrden-box .resultOrden-ul::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; /* Puedes redondear los bordes del pulgar para que coincida con el contenedor */
+  }
+
+  .resultOrden-box .resultOrden-ul::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .resultOrden-box .resultOrden-box-causas-falla-section {
+    height: 108px;
+    left: 23px;
+    position: absolute;
+    top: 262px;
+    width: 245px;
+  }
+  
+  .resultOrden-box .resultOrden-box-separator {
+    background-color: #ffffff;
+    height: 397px;
+    left: 292px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+  
+  .resultOrden-box .resultOrden-box-acciones-ejecutadas {
+    height: 69px;
+    left: 306px;
+    position: absolute;
+    top: 32px;
+    width: 245px;
+  }
+  
+  .resultOrden-box .resultOrden-box-final-comments {
+    height: 95px;
+    left: 309px;
+    position: absolute;
+    top: 128px;
+    width: 243px;
+  }
+  
+  .resultOrden-box .resultOrden-box-final-comments-input {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 36px;
+    width: 241px;
+  }
+  
+  .resultOrden-box .resultOrden-box-dado-baja-section {
+    height: 86px;
+    left: 309px;
+    position: absolute;
+    top: 267px;
+    width: 240px;
+  }
+  
+  .resultOrden-box .resultOrden-box-dado-baja-t {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    height: 30px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 238px;
+  }
+  
+  .resultOrden-box .resultOrden-box-dado-baja-input {
+    height: 50px;
+    left: 11px;
+    position: absolute;
+    top: 36px;
+    width: 50px;
+  }
+
+  .resultOrden-box .resultOrden-update-button {
+    background-color: #00ddfa;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    position: absolute;
+    top: 350px;
+    left: 357px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* CHECKBOX STYLES */
+  .resultOrden-switch .resultOrden-darbaja-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  } 
+
+  .resultOrden-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left: 80px;
+    top: 30px;
+  }
+  
+  .resultOrden-switch .resultOrden-darbaja-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .resultOrden-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7C7C7C;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .resultOrden-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .resultOrden-darbaja-input:checked + .resultOrden-slider {
+    background-color: #00ddfa;
+  }
+  
+  .resultOrden-darbaja-input:focus + .resultOrden-slider {
+    box-shadow: 0 0 1px #00ddfa;
+  }
+  
+  .resultOrden-darbaja-input:checked + .resultOrden-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .resultOrden-slider.resultOrden-round {
+    border-radius: 34px;
+  }
+  
+  .resultOrden-slider.resultOrden-round:before {
+    border-radius: 50%;
+  }
+
+  /* CHECKBOX STYLES */
+
+  
+  /* OTROS RESULTADOS STYLES */
+
+
+  .resultOrden-box .resultOrdenOtros-box-final-comments {
+    height: 95px;
+    left: 160px;
+    position: absolute;
+    top: 75px;
+    width: 243px;
+  }
+
+  .resultOrden-box .resultOrdenOtros-box-dado-baja-section {
+    height: 86px;
+    left: 160px;
+    position: absolute;
+    top: 199px;
+    width: 240px;
+  }
+
+  .resultOrden-box .resultOrdenOtros-update-button {
+    background-color: #00ddfa;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    position: absolute;
+    top: 316px;
+    left: 217px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }

@@ -1,159 +1,319 @@
-.RegisterForm-box {
-    position: relative;
-    width: 73.2vh; /* Aproximadamente 732px */
-    height: 52vh; /* Aproximadamente 520px */
-    background: #1c1c1c30;
-    border-radius: 1vh; /* Aproximadamente 10px */
-  }
-  
-  .RegisterForm-form {
-    position: relative;
-    width: 73.2vh; /* Aproximadamente 732px */
-    height: 50vh; /* Aproximadamente 500px */
-    border-radius: 0.8vh; /* Aproximadamente 8px */
-    background: #ffffff;
-    z-index: 10;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .RegisterForm-title-div {
-    position: relative;
-    width: 73.2vh; /* Aproximadamente 732px */
-    height: 10vh; /* Aproximadamente 100px */
-    border-radius: 0.5vh; /* Aproximadamente 5px */
-    background: #d9d9d9;
-    z-index: 10;
-    padding: 1vh 3vh 0 6.5vh; /* Aproximadamente 10px 30px 0px 65px */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .RegisterForm-form h2 {
-    color: #00ddfa;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 2.4vh; /* Aproximadamente 24px */
-    font-weight: 400;
-    left: 18vh; /* Aproximadamente 180px */
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 3.6vh; /* Aproximadamente 36px */
-    width: 40.9vh; /* Aproximadamente 409px */
-  }
-  
-  .RegisterForm-inputBox {
-    position: relative;
-    width: 30vh;
-    margin-top: 3.5vh;
+.register-user {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
 }
-  
-.RegisterForm-Field {
-    position: relative;
-    width: 100%;
-    padding: 3vh 1vh 1vh;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #23242a;
-    font-size: 1.6vh;
-    letter-spacing: 0.05em;
-    z-index: 10;
+
+.register-user .div {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  height: 699px;
+  overflow: hidden;
+  position: relative;
+  width: 917px;
+  border-radius: 10px;
 }
-  
-  .RegisterForm-Field-clave {
-    position: relative;
-    width: 100%;
-    padding: 2vh 1vh 1vh; /* Aproximadamente 20px 10px 10px */
-    background: #00ddfa;
-    border: none;
-    outline: none;
-    color: #23242a;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    z-index: 10;
-    border-radius: 0.4vh; /* Aproximadamente 4px */
-  }
-  
-  .RegisterForm-Field-clave:valid ~ span,
-  .RegisterForm-Field-clave:focus ~ span {
-    color: #00ddfa;
-    transform: translateX(0px) translateY(-3.4vh); /* Aproximadamente -34px */
-    font-size: 0.75em;
-  }
-  
-  .RegisterForm-inputBox span {
-    position: absolute;
-    left: 0;
-    padding: 2vh 0 1vh; /* Aproximadamente 20px 0px 10px */
-    font-size: 1em;
-    color: #8f8f8f;
-    pointer-events: none;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
-  }
-  
-  .RegisterForm-Field:valid ~ span, .RegisterForm-Field:focus ~ span {
-    color: #636b6f;
-    transform: translateX(0px) translateY(-3.4vh);
-    font-size: 1.4vh;
+
+.register-user .header {
+  background-color: transparent;
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 919px;
 }
-  
-  .RegisterForm-inputBox i {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 0.2vh; /* Aproximadamente 2px */
-    background: #d9d9d9;
-    border-radius: 0.4vh; /* Aproximadamente 4px */
-    transition: 0.5s;
-    pointer-events: none;
-    z-index: 9;
-  }
-  
-  .RegisterForm-Field:valid ~ i,
-  .RegisterForm-Field:focus ~ i {
-    height: 4.4vh; /* Aproximadamente 44px */
-  }
-  
-  .RegisterForm-button[type="submit"] {
-    background: #00ddfa;
-    border-color: transparent;
-    height: 3.6vh; /* Aproximadamente 36px */
-    width: 10vh; /* Aproximadamente 100px */
-    border-radius: 0.4vh; /* Aproximadamente 4px */
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 300;
-    font-size: 1.2vh; /* Aproximadamente 12px */
-    cursor: pointer;
-    position: relative;
-    top: -15.1vh; /* Aproximadamente -151px */
-    left: 24vh; /* Aproximadamente 240px */
-  }
-  
-  .RegisterForm-button[type="submit"]:active {
-    opacity: 0.8;
-  }
-  
-  .Columna-1 {
-    position: relative;
-    left: 4.5vh; /* Aproximadamente 45px */
-    height: 50vh; /* Aproximadamente 500px */
-    float: right;
-    width: 50%;
-  }
-  
-  .Columna-2 {
-    position: relative;
-    left: 2.5vh; /* Aproximadamente 25px */
-    height: 50vh; /* Aproximadamente 500px */
-    float: right;
-    width: 50%;
-  }
-  
+
+.register-user .overlap-group {
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  height: 107px;
+  position: relative;
+  width: 917px;
+  border-radius: 10px;
+}
+
+.register-user .register-title {
+  -webkit-text-stroke: 1px #00ddfa33;
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 181px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  width: 553px;
+}
+
+.register-user .fullname-section {
+  height: 84px;
+  left: 10px;
+  position: absolute;
+  top: 153px;
+  width: 391px;
+}
+
+.register-user .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 385px;
+}
+
+.register-user .name-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 113px;
+}
+
+.register-user .name-input {
+  height: 36px;
+  left: 21px;
+  position: absolute;
+  top: 48px;
+  width: 166px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.register-user .lastname-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 113px;
+}
+
+.register-user .lastname-input {
+  height: 36px;
+  left: 219px;
+  position: absolute;
+  top: 48px;
+  width: 166px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.register-user .username-section {
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 262px;
+  width: 387px;
+}
+
+.register-user .input {
+  height: 36px;
+  left: 21px;
+  position: absolute;
+  top: 35px;
+  width: 364px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.register-user .cedula-section {
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 358px;
+  width: 387px;
+}
+
+.register-user .telephone-section {
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 454px;
+  width: 387px;
+}
+
+.register-user .repuesto-separator {
+  background-color: #636b6f61;
+  height: 488px;
+  left: 458px;
+  position: absolute;
+  top: 126px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.register-user .email-section {
+  height: 71px;
+  left: 509px;
+  position: absolute;
+  top: 153px;
+  width: 387px;
+}
+
+.register-user .aditional-section {
+  height: 71px;
+  left: 509px;
+  position: absolute;
+  top: 262px;
+  width: 387px;
+}
+
+.register-user .role-section {
+  height: 71px;
+  left: 509px;
+  position: absolute;
+  top: 371px;
+  width: 387px;
+}
+
+.register-user .tecnico-section {
+  height: 135px;
+  left: 530px;
+  position: absolute;
+  top: 457px;
+  width: 364px;
+}
+
+.register-user .type-section {
+  height: 64px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 159px;
+}
+
+.register-user .text-wrapper-2 {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 157px;
+}
+
+.register-user .input-2 {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 152px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.register-user .invima-section {
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 71px;
+  width: 159px;
+}
+
+.register-user .invima-input {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 151px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.register-user .title-section {
+  height: 64px;
+  left: 207px;
+  position: absolute;
+  top: 0;
+  width: 159px;
+}
+
+.register-user .location-section {
+  height: 64px;
+  left: 207px;
+  position: absolute;
+  top: 71px;
+  width: 159px;
+}
+
+.register-user .register-b {
+  height: 43px;
+  left: 500px;
+  position: absolute;
+  top: 633px;
+  width: 192px;
+  background-color: #00ddfa;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.register-user .overlap {
+  background-color: #00ddfa;
+  background-size: 100% 100%;
+  height: 43px;
+  position: relative;
+  width: 190px;
+}
+
+.register-user .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 22px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 145px;
+}
+
+.register-user .cancel-b {
+  height: 43px;
+  left: 228px;
+  position: absolute;
+  top: 633px;
+  width: 192px;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.register-user .cancel-text-wrapper {
+  /* background-image: url(./cancel-button.svg); */
+  background-size: 100% 100%;
+  height: 43px;
+  position: relative;
+  width: 190px;
+}

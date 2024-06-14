@@ -1,0 +1,806 @@
+.OrdenAbiertaCorrectivoPDF-box {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-wrapper {
+  background-color: #ffffff;
+  height: 842px;
+  overflow: hidden;
+  width: 595px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap {
+  height: 818px;
+  left: 21px;
+  position: relative;
+  top: 4px;
+  width: 589px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-header-group {
+  height: 188px;
+  left: 0;
+  position: absolute;
+  top: 33px;
+  width: 569px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-memco-logo {
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-group {
+  background-color: #00ddfa;
+  height: 61px;
+  left: 303px;
+  position: absolute;
+  top: 8px;
+  width: 256px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-orden-title {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 19px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+  width: 256px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-memco-info {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 89px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  width: 256px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-orden-id {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 19px;
+  left: 303px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 97px;
+  width: 176px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-fecha-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 19px;
+  left: 341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 116px;
+  width: 138px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-date-created {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 19px;
+  left: 341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 135px;
+  width: 138px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-bioswiftqr {
+  height: 64px;
+  left: 490px;
+  object-fit: cover;
+  position: absolute;
+  top: 96px;
+  width: 65px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-div {
+  height: 777px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 589px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-client-group {
+  height: 174px;
+  left: 0;
+  position: absolute;
+  top: 242px;
+  width: 191px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-div-wrapper {
+  background-color: #00ddfa;
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 173px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 34px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 173px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-client-namet {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 47px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-client-namev {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  width: 109px;
+  height: auto;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-sede-namet {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 82px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-sede-namev {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 85px;
+  height: auto;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-nit-valuet {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 117px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-nit-valuev {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 125px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-address-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 152px;
+  width: 60px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-address-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 161px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-solicitud-group {
+  height: 141px;
+  left: 192px;
+  position: absolute;
+  top: 242px;
+  width: 187px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-date-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 48px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-date-value {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 55px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-creator-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 83px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-creator-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 90px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-service-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-equipo-group {
+  height: 321px;
+  left: 382px;
+  position: absolute;
+  top: 242px;
+  width: 207px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-equipo-title {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 34px;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 171px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-2 {
+  height: 91px;
+  left: -1px;
+  position: absolute;
+  top: 48px;
+  width: 174px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-3 {
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-id-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-4 {
+  height: 49px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 174px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-id-value {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 131px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-equipo-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-equipo-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 42px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-marca-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-model-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 154px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-model-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 162px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-serie-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 190px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-serie-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 198px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-activo-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 226px;
+  width: 53px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-activo-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 234px;
+  width: 109px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-ubicacion-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 262px;
+  width: 64px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-ubucacion-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 270px;
+  width: 102px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-type-t {
+  -webkit-text-stroke: 1px #000000b2;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 21px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 298px;
+  width: 64px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-type-v {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 306px;
+  width: 102px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-opened-title {
+  color: #00000029;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  height: 56px;
+  left: -171px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 360px;
+  transform: rotate(-56deg);
+  white-space: nowrap;
+  width: 899px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-firmas-section {
+  height: 167px;
+  left: 0;
+  position: absolute;
+  top: 651px;
+  width: 554px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-firma-entrega-group {
+  height: 167px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-5 {
+  background-color: #00ddfa;
+  height: 29px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-entrega-t {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+  width: 96px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-group-2 {
+  height: 75px;
+  left: 4px;
+  position: absolute;
+  top: 44px;
+  width: 262px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-firma-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-firma-space {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+  width: 262px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-name-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 127px;
+  width: 73px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-cedula-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 147px;
+  width: 73px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-firma-recibe-group {
+  height: 167px;
+  left: 288px;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-recibe-t {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+  width: 96px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-overlap-6 {
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 44px;
+  width: 262px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-name {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 127px;
+  width: 73px;
+}
+
+.OrdenAbiertaCorrectivoPDF-box .OrdenAbiertaCorrectivoPDF-cedula {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 147px;
+  width: 73px;
+}

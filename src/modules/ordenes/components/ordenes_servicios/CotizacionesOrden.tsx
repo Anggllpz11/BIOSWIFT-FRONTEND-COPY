@@ -34,14 +34,13 @@ const CotizacionesOrden: React.FC<CambiosOrdenProps> = ({ idOrden, idCliente, no
   const token = useSessionStorage('sessionJWTToken'); 
   const [isLoading, setIsLoading] = useState(false);
 
-
   useEffect(() => {
     if (!idOrden || !token) return;
   
     setIsLoading(true); 
     setTimeout(() => { 
       getAllCotizaciones(token).then(data => {
-        const cotizacionesRelacionadas = data.filter((cotizacion: Cotizacion) => cotizacion.id_orden._id === idOrden);
+        const cotizacionesRelacionadas = data.filter((cotizacion: Cotizacion) => cotizacion.id_orden && cotizacion.id_orden._id === idOrden);
         setCotizaciones(cotizacionesRelacionadas);
         setIsLoading(false); 
       }).catch(error => {
@@ -51,12 +50,11 @@ const CotizacionesOrden: React.FC<CambiosOrdenProps> = ({ idOrden, idCliente, no
     }, 1000);
   }, [idOrden, token]);
   
-
   const reloadCotizaciones = () => {
     setIsLoading(true); 
     setTimeout(() => {
       getAllCotizaciones(token).then(data => {
-        const cotizacionesRelacionadas = data.filter((cotizacion: Cotizacion) => cotizacion.id_orden._id === idOrden);
+        const cotizacionesRelacionadas = data.filter((cotizacion: Cotizacion) => cotizacion.id_orden && cotizacion.id_orden._id === idOrden);
         setCotizaciones(cotizacionesRelacionadas);
         setIsLoading(false); 
       }).catch(error => {
@@ -65,6 +63,7 @@ const CotizacionesOrden: React.FC<CambiosOrdenProps> = ({ idOrden, idCliente, no
       });
     }, 1000);
   };
+  
   
   const handleAgregarClick = () => {
     setActiveView('register');
@@ -131,6 +130,7 @@ const handleEditClick = (idCotizacion: string) => {
                     <div className="CotizacionesOrden-overlap-group-3">
                       {renderEstadoIcono(cotizacion.id_estado.estado)}
                       <div className='CotizacionesOrden-estado-separator'></div>
+                      <div className='CotizacionesOrden-oid'>ID: {cotizacion._id}</div>
                       <div className='CotizacionesOrden-mensaje-title'>MENSAJE</div>
                       <div className="CotizacionesOrden-subestado-comments">{cotizacion.mensaje}</div>
                       <div className="CotizacionesOrden-separator"/>

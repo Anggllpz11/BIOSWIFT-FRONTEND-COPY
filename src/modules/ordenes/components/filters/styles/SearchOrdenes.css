@@ -1,0 +1,50 @@
+.SearchOrdenes-search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 6.5%;
+  right: 3%;
+}
+
+.SearchOrdenes-search-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.SearchOrdenes-search-icon-button {
+  color: #00ddfa;
+  z-index: 1;
+}
+
+.SearchOrdenes-search-icon {
+  height: 25px;
+  width: 25px;
+  color: #00ddfa;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.SearchOrdenes-search-input {
+  padding: 10px 15px;
+  color: #00ddfa;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 1rem;
+  background: #d9d9d9;
+  outline: none;
+  width: 0;
+  opacity: 0;
+  transition: width 0.4s ease, opacity 0.4s ease;
+  position: absolute;
+  right: 40px; /* Adjust the value to align the input to the left of the icon */
+}
+
+.SearchOrdenes-search-input.visible {
+  width: 240px; /* Adjust the width as needed */
+  opacity: 1;
+}

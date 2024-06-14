@@ -1,0 +1,657 @@
+.SolicitudDadoBajaByIdPendiente-box {
+    height: 373px;
+    left: 588px;
+    top: 163px;
+    width: 391px;
+    position: relative;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-register-container {
+  height: 227px;
+  left: 0;
+  top: 0;
+  width: 391px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-register-cotizacion {
+  height: 147px;
+  left: 0;
+  top: 80px;
+  width: 391px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+ 
+}
+
+
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 357px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-title-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-back-button {
+  color: #00ddfa;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  cursor: pointer;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-mensaje-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: -29px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-mensaje-value {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 23px;
+  position: relative;
+  top: -23px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-condicion-t {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-condicion-value {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 95px;
+  left: 23px;
+  position: relative;
+  top: 3px;
+  width: 324px;
+  border: none;
+  text-align: center;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-id-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 20px;
+  }
+  
+  .SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-id-value{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 18px;
+  }
+
+  .SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-estado-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 37px;
+  }
+  
+  .SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-estado-value{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 0;
+    top: 33px;
+  }
+  
+  
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-client-t {
+    position: relative;
+    color: #000000;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 214px;
+    top: -46px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-client-name{
+    position: relative;
+    color: #6b6b6b;
+    font-size: 12px;
+    height: auto;
+    width: 162px;
+    left: 214px;
+    top: -49px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-orden-id-t {
+  position: relative;
+  color: #000000;
+  font-size: 12px;
+  height: auto;
+  width: 162px;
+  left: 214px;
+  top: -46px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-orden-id{
+  position: relative;
+  color: #6b6b6b;
+  font-size: 12px;
+  height: auto;
+  width: 162px;
+  left: 214px;
+  top: -49px;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-select {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 29px;
+  left: 23px;
+  position: relative;
+  top: 25px;
+  width: 325px;
+  border: none;
+  text-align: center;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-selected-div {
+  width: 370px;
+  height: 76px;
+  position: relative;
+  background-color: #ffffff;
+  top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-selected-title {
+  font-size: 16px;
+  width: 68px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  top: 2px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-selected-value {
+  font-size: 10px;
+  width: 85px;
+  height: 46px;
+  color: #000000;
+  position: absolute;
+  top: 28px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-cantidad-title {
+  font-size: 16px;
+  width: 70px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 81px;
+  top: 2px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 32px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 95px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-valoru-title {
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 156px;
+  top: 2px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-valoru-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 168px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-repuestos-switch-label {
+  font-size: 15px;
+  width: 81px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 260px;
+  top: 3px;
+  }
+
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-div {
+  width: 370px;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  top: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-title {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-section {
+  width: 370px;
+  height: 76px;
+  position: relative;
+  background-color: #ffffff;
+  top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-description-title {
+  font-size: 15px;
+  width: 68px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  top: 2px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-description-input {
+  font-size: 10px;
+  width: 85px;
+  height: 46px;
+  color: #000000;
+  position: absolute;
+  top: 28px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-cantidad-title {
+  font-size: 15px;
+  width: 70px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 88px;
+  top: 2px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 32px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 102px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-valoru-title {
+  font-size: 15px;
+  width: 100px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 156px;
+  top: 2px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-items-valoru-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 70px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 168px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-firma {
+  width: 370px;
+  height: 201px;
+  position: relative;
+  background-color: #ffffff;
+  top: 65px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-firma-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-firma-username {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-aprobar-button {
+    width: 25px;
+    height: 25px;
+    color: #2afa00;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 104px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-aprobar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 134px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-rechazar-button {
+    width: 25px;
+    height: 25px;
+    color: #fa0000;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 188px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-rechazar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-enviar-button {
+    width: 25px;
+    height: 25px;
+    color: #f6fa00;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 209px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-enviar-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 240px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-imprimir-button {
+    width: 25px;
+    height: 25px;
+    color: #0e2b8a;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+    left: 300px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-imprimir-text {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  left: 331px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-img-value {
+  position: relative;
+  top: 30px;
+  width: auto;
+  height: auto;
+  background-color: #d9d9d9;
+  left: 29px;
+  border-radius: 10px;
+}
+
+.SolicitudDadoBajaByIdPendiente-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.SolicitudDadoBajaByIdPendiente-modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.SolicitudDadoBajaByIdPendiente-modal-content-title {
+  color: #00ddfa;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.SolicitudDadoBajaByIdPendiente-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-modal-cancel-button {
+  height: 40px;
+  width: 80px;
+  background-color: #d9d9d9;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.SolicitudDadoBajaByIdPendiente-close-observacion-button {
+  height: 40px;
+  width: 120px;
+  background-color: #00ddfa;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-modal-download-icon {
+  color: #00ddfa;
+  position: relative;
+  cursor: pointer;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  left: -170px;
+}
+
+.SolicitudDadoBajaByIdPendiente-box .SolicitudDadoBajaByIdPendiente-modal-cancel-icon {
+  color: #d9d9d9;
+  position: relative;
+  cursor: pointer;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  left: -325px;
+}
