@@ -1,0 +1,37 @@
+.orden-limitation-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 8px;
+  color: #00ddfa;
+  width: 16%;
+  position: absolute;
+  top: 15%;
+  left: 13%;
+  margin: 0.5%;
+  }
+  
+  .orden-limitation-label {
+    margin-right: 0.5vw;
+    color: #000000;
+    font-size: 1vw;
+    }
+  
+  .orden-limitation-select {
+    margin-right: 0.5vw;
+    padding: 0.2vw;
+    color: #00ddfa;
+    background-color: transparent;
+    border: 0.1vw solid #00ddfa;
+    border-radius: 0.3vw;
+  }
+  
+  .orden-limitation-input {
+    width: 3vw;
+    padding: 0.3vw;
+    color: #00ddfa;
+    background-color: transparent;
+    border: 0.1vw solid #00ddfa;
+    border-radius: 0.3vw;
+  }
+  

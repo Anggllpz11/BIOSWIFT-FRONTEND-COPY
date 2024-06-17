@@ -4,12 +4,10 @@ export type Orden = {
   id_orden_estado?: any;
   ids_visitas?: any[];
   orden_cambios?: OrdenCambio[];
+  resultado_orden?: ResultadoOrden;
   id_creador?: any;
   id_cerrador?: any;
-  ids_fallas_acciones?: any[];
-  ids_fallas_causas?: any[];
-  ids_falla_modos?: any[];
-  modos_fallas_ids?: any[];
+  id_anulador?: any;
   entrega?: {
     id_entrega?: any;
     firma?: any;
@@ -23,6 +21,8 @@ export type Orden = {
   creacion?: string;
   cierre?: string;
   observaciones_cierre?: string;
+  anulacion_date?: string;
+  observaciones_anulacion?: string;
   total?: number;
   solicitar_dado_baja?: boolean;
 };
@@ -34,9 +34,20 @@ export type OrdenCambio = {
     _id?: string;
     id_orden_estado?: any;
     sub_estado?: string;
-  }; // Asumiendo que es un string, ajusta según tu modelo
-  id_creador?: any; // Asumiendo que es un string, ajusta según tu modelo
+  }; 
+  id_creador?: any; 
   date_created?: string;
   comentario?: string;
 };
+
+export type ResultadoOrden = {
+  _id?: string;
+  id_fallo_sistema?: string;
+  ids_modos_fallos?: any;
+  ids_causas_fallos?: any;
+  comentarios_finales?: string;
+  solicitud_dar_baja?: boolean;
+  accion_ejecutada?: string;
+};
+
 

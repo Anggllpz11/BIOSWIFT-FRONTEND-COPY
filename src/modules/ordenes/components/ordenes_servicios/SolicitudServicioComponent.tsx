@@ -81,11 +81,6 @@ const SolicitudServicioComponent: React.FC<SolicitudServicioComponentProps> = ({
   };
   return (
     <div>
-      <p>ID Solicitud Servicio: {solicitudServicio._id || 'N/A'}</p>
-      <p>ID Creador: {solicitudServicio.id_creador._id || 'N/A'}</p>
-      <p>ID Servicio: {solicitudServicio.id_servicio._id || 'N/A'}</p>
-      <p>ID Equipo: {solicitudServicio.id_equipo._id || 'N/A'}</p>
-      {/* Agrega más detalles de la solicitud de servicio aquí si es necesario */}
       <div className="SolicitudServicioComponent-solicitudes">
             <div className="SolicitudServicioComponent-div">
               <header className="SolicitudServicioComponent-header">

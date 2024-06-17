@@ -45,10 +45,10 @@ const EditClaseEquipoButton: React.FC<EditClaseEquipoButtonProps> = ({ claseEqui
         <div className="EditClaseEquipoButton-register-marca">
           <div className="EditClaseEquipoButton-overlap-group">
             <div className="EditClaseEquipoButton-overlap">
-              <p className="EditClaseEquipoButton-register-marca-title">ACTUALIZAR TIPO DE EQUIPO</p>
+              <p className="EditClaseEquipoButton-register-marca-title">ACTUALIZAR CLASE DE EQUIPO</p>
               <p></p>
             </div>
-            <label className="EditClaseEquipoButton-register-marca-label">Ingrese el nombre del tipo de equipo que desea actualizar:</label>
+            <label className="EditClaseEquipoButton-register-marca-label">Ingrese el nombre de la clase de equipo que desea actualizar:</label>
             <input 
             className="EditClaseEquipoButton-register-marca-input"
             type="text"

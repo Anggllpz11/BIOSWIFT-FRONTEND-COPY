@@ -1,19 +1,16 @@
-.usercard-user-section {
+.usercard-user-section{
   color: #2b2c48;
   font-family: "Jost", sans-serif;
-  display: flex;
-  width: 100%;
-  height: 52vh;
-}
-
-.UserCard {
-  width: 100%;
-  height: 52vh;
+  display: flex;   
+  width: 18.75vw; /* 360px */
+  height: 77.78vh; /* 700px */
 }
 
 .usercard {
-  width: 100%;
-  height: 52vh;
+  width: 18.75vw; /* 360px */
+  height: 55.56vh; /* 500px */
+  margin: auto;
+  overflow-y: auto;
   position: relative;
   z-index: 1;
   overflow-x: hidden;
@@ -21,184 +18,178 @@
   display: flex;
   transition: 0.3s;
   flex-direction: column;
-  border-radius: 1vh; /* Aproximadamente 10px */
-  box-shadow: 0 0 0 0.8vh rgba(255, 255, 255, 0.2); /* Aproximadamente 8px */
+  border-radius: 0.52vw; /* 10px */
+  box-shadow: 0 0 0 0.42vw rgba(255, 255, 255, 0.2); /* 8px */
 }
-  
+
 .usercard-header {
   position: relative;
   display: flex;
-  height: 21vh;
+  height: 22.22vh; /* 200px */
   flex-shrink: 0;
   width: 100%;
   transition: 0.3s;
-}
 
-.usercard-section {
-  width: 36vh; /* Aproximadamente 360px */
-  height: 70vh; /* Aproximadamente 700px */
+  * {
+    transition: 0.3s;
+  }
 }
-
+.usercard-section{
+  width: 18.75vw; /* 360px */
+  height: 77.78vh; /* 700px */
+}
 .usercard-cover {
-  width: 93%;
-  height: 14vh;
+  width: 100%;
+  height: 19.56vh; /* 160px */
   position: absolute;
   will-change: top;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(to right, #00dbde 30%, #008afcb9 100%);
-  filter: blur(3vh); /* Aproximadamente 30px */
+  filter: blur(3.33vh); /* 30px */
   transform: scale(1.2);
   transition: 0.5s;
 }
 
 .usercard-Avatar {
-  width: 10vh; /* Aproximadamente 100px */
-  height: 10vh; /* Aproximadamente 100px */
-  box-shadow: 0 0.8vh 0.8vh rgba(0, 0, 0, 0.2); /* Aproximadamente 8px */
+  width: 5.21vw; /* 100px */
+  height: 11.11vh; /* 100px */
+  box-shadow: 0 0.42vw 0.42vw rgba(0, 0, 0, 0.2); /* 8px */
   border-radius: 50%;
   object-position: center;
   object-fit: cover;
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%) translateY(-6.4vh); /* Aproximadamente -64px */
+  transform: translateX(-50%) translateY(-7.11vh); /* -64px */
 }
 
 .usercard-fullname {
   position: absolute;
   bottom: 0;
-  font-size: 1.33vh;
+  font-size: 1.25vw; /* 24px */
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
-  transform: translateY(-1vh) translateX(-50%);
+  transform: translateY(-1.11vh) translateX(-50%); /* -10px */
   left: 50%;
-  padding: 1vh;
-  color: #09203f;
+  padding:1rem;
+  color:#09203f;
 }
 
 .usercard-jobtitle {
   position: absolute;
   bottom: 0;
-  font-size: 0.85vh;
+  font-size: 0.73vw; /* 14px */
   white-space: nowrap;
   font-weight: 500;
   opacity: 0.7;
-  padding: -1vh;
-  letter-spacing: 0.15vh;
+  padding: -1.11vh; /* -10px */
+  letter-spacing: 0.08vw; /* 1.5px */
   margin: 0;
   left: 50%;
-  transform: translateX(-50%) translateY(-0.7vh);
+  transform: translateX(-50%) translateY(-0.78vh); /* -7px */
   color: #636b6f;
 }
 
 .usercard-main {
-  height: 40vh;
+  height: 22.22vh; /* 200px */
   position: relative;
-  flex: 1 1;
+  flex: 1;
   display: flex;
-  padding-top: 2vh;
+  padding-top: 1.11vh; /* 10px */
   flex-direction: row;
 }
 
 .usercard-subtitle {
   font-weight: 700;
-  font-size: 1.5vh; /* Aproximadamente 15px */
-  margin-bottom: 0.8vh; /* Aproximadamente 8px */
+  font-size: 0.78vw; /* 15px */
+  margin-bottom: 0.89vh; /* 8px */
 }
 
 .usercard-content-1 {
-  padding: 0.5vh;
+  padding: 0.26vw; /* 5px */
   flex-direction: row;
-  width: 50%;
-  height: 20vh; /* Aproximadamente 200px */
+  width: 9.38vw; /* 50% de 360px = 180px */
+  height: 22.22vh; /* 200px */
   text-align: center;
 }
-
-.usercard-content-2 {
-  padding: 0.5vh;
+.usercard-content-2{
+  padding: 0.26vw; /* 5px */
   flex-direction: column;
-  width: 50%;
-  height: 20vh; /* Aproximadamente 200px */
+  width: 9.38vw; /* 50% de 360px = 180px */
+  height: 22.22vh; /* 200px */
   text-align: center;
 }
-
 .usercard-desc {
   line-height: 1.6;
   color: #636b6f;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 0.63vw; /* 12px */
   margin: 0;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
 }
-
-.usercard-buttons {
-  padding: 1vh; /* Aproximadamente 10px */
+.usercard-buttons{
+  padding: 1.11vh; /* 10px */
   display: flex;
   justify-content: center;
   align-items: center;
   color: #00ddfa;
 }
-
-.usercard-button {
+.usercard-button{
   border: none;
   outline: none;
-  font-size: 2vh;
   background: #00ddfa;
-  padding: 1.1vh 2.5vh;
-  width: 10vh;
-  margin-top: 1vh;
-  border-radius: 0.4vh;
+  padding: 1.22vh 1.3vw; /* 11px 25px */
+  width: 5.21vw; /* 100px */
+  margin-top: 1.11vh; /* 10px */
+  border-radius: 0.21vw; /* 4px */
   font-weight: 600;
+  font-size: 2vw;
   cursor: pointer;
 }
-
 .usercard-section {
   display: none;
+  &.is-active {
+    height: 22.22vh; /* 200px */
+    display: flex;
+    animation: fadeIn 0.6s both;
+  }
 }
 
-.usercard-section.is-active {
-  height: 20vh; /* Aproximadamente 200px */
-  display: flex;
-  animation: fadeIn 0.6s both;
-}
-
-.delete-button-user {
+.delete-button-user{
   margin-top: 0;
   position: relative;
-  left: -18vh; /* Aproximadamente -180px */
-  height: 3vh; /* Aproximadamente 30px */
-  width: 3vh; /* Aproximadamente 30px */
+  left: -9.38vw; /* 180px */
+  height: 3.33vh; /* 30px */
+  width: 1.56vw; /* 30px */
 }
 
 .usercard-edit-button {
   border: none;
   outline: none;
-  font-size: 1.2vh;
-  background: #00ddfa;
-  padding: 1.1vh 2.5vh;
-  width: 10vh;
-  margin: 1vh 0.5vh 1vh 0;
-  border-radius: 0.4vh;
+  background: #00ddfa; /* Color de fondo similar al botón "Editar" */
+  padding: 1.22vh 1.3vw; /* 11px 25px */
+  width: 5.21vw; /* 100px */
+  margin: 1.11vh 0.26vw 1.11vh 0; /* 10px 5px */
+  border-radius: 0.21vw; /* 4px */
   font-weight: 600;
   cursor: pointer;
-  color: #09203f;
-  transition: background 0.3s, color 0.3s;
+  color: #09203f; /* Color del texto */
+  transition: background 0.3s, color 0.3s; /* Transición suave para cambios de color */
 }
 
 .usercard-edit-button:hover {
-  background: #0099cc;
-  color: #fff;
+  background: #0099cc; /* Color de fondo cuando se pasa el mouse sobre el botón */
+  color: #fff; /* Color del texto cuando se pasa el mouse sobre el botón */
 }
 
 .usercard-buttons-edit {
-  padding: 1vh;
-  margin: 0.5vh;
-  height: 6vh;
-  position: absolute;
-  top: 23vh;
-  left: 7vh;
+  padding: 1.11vh; /* 10px */
+  height: 6.67vh; /* 60px */
+  margin-right: 5.21vw; /* 100px */
+  margin-left: -15.63vw; /* -300px */
+  margin-top: 22.22vh; /* 200px */
   display: flex;
   justify-content: center;
   align-items: center;

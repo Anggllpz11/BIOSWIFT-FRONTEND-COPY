@@ -1,0 +1,671 @@
+.RegisterSolicitudBodega-box {
+  height: 373px;
+  left: 588px;
+  top: 163px;
+  width: 391px;
+  position: relative;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-register-container {
+height: 373px;
+left: 0;
+top: 0;
+width: 391px;
+background-color: #d9d9d9;
+border-radius: 10px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-register-cotizacion {
+height: 314px;
+left: 0;
+top: 52px;
+width: 391px;
+background-color: #d9d9d9;
+border-radius: 10px;
+padding: 10px;
+position: relative;
+overflow-y: scroll; /* Habilita el scroll vertical */
+overflow-x: hidden;
+scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+scrollbar-color:  #636b6f61 transparent; /* Firefox */
+}
+
+/* Para Chrome, Safari y Edge */
+.RegisterSolicitudBodega-box\ .RegisterSolicitudBodega-register-cotizacion::-webkit-scrollbar {
+width: 3px; /* Ajusta el ancho del scrollbar */
+}
+
+.RegisterSolicitudBodega-box\ .RegisterSolicitudBodega-register-cotizacion::-webkit-scrollbar-track {
+background-color: transparent;
+
+}
+
+.RegisterSolicitudBodega-box\ .RegisterSolicitudBodega-register-cotizacion::-webkit-scrollbar-thumb {
+background-color: transparent;
+  border-radius: 3px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 357px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-edit-overlap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 11px;
+  position: absolute;
+  top: 15px;
+  width: 368px;
+  }
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-title-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 350px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-edit-title-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+  }
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-mensaje-t {
+color: #000000;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: relative;
+text-align: center;
+top: -29px;
+white-space: nowrap;
+width: 316px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-mensaje-value {
+background-color: #ffffff;
+border-radius: 10px;
+height: 95px;
+left: 23px;
+position: relative;
+top: -23px;
+width: 324px;
+border: none;
+text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-condicion-t {
+color: #000000;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: relative;
+text-align: center;
+top: 0px;
+white-space: nowrap;
+width: 316px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-condicion-value {
+background-color: #ffffff;
+border-radius: 10px;
+height: 95px;
+left: 23px;
+position: relative;
+top: 3px;
+width: 324px;
+border: none;
+text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-client-t {
+position: relative;
+color: #000000;
+font-size: 12px;
+height: auto;
+width: 162px;
+left: 0;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-client-name{
+position: relative;
+color: #ffffff;
+font-size: 12px;
+height: auto;
+width: 162px;
+left: 0;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-orden-id-t {
+position: relative;
+color: #000000;
+font-size: 12px;
+height: auto;
+width: 162px;
+left: 214px;
+top: -46px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-orden-id{
+position: relative;
+color: #ffffff;
+font-size: 12px;
+height: auto;
+width: 162px;
+left: 214px;
+top: -49px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-title {
+color: #000000;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: relative;
+text-align: center;
+top: 20px;
+white-space: nowrap;
+width: 316px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-select {
+background-color: #ffffff;
+border-radius: 10px;
+height: 29px;
+left: 23px;
+position: relative;
+top: 25px;
+width: 325px;
+border: none;
+text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-selected-div {
+width: 370px;
+height: 76px;
+position: relative;
+background-color: #ffffff;
+top: 30px;
+padding: 5px;
+border-radius: 10px;
+margin-bottom: 10px;
+margin-left: 3px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-selected-title {
+font-size: 16px;
+width: 68px;
+height: auto;
+color: #00ddfa;
+position: absolute;
+top: 2px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-selected-value {
+  font-size: 10px;
+  width: 85px;
+  height: 46px;
+  color: #000000;
+  position: absolute;
+  top: 28px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-cantidad-title {
+font-size: 16px;
+width: 70px;
+height: auto;
+color: #00ddfa;
+position: absolute;
+left: 81px;
+top: 2px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 32px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 95px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-valoru-title {
+font-size: 16px;
+width: 100px;
+height: auto;
+color: #00ddfa;
+position: absolute;
+left: 156px;
+top: 2px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-valoru-input {
+font-size: 13px;
+background-color: #d9d9d9;
+width: 70px;
+height: 30px;
+color: #000000;
+position: absolute;
+left: 168px;
+top: 30px;
+border: none;
+border-radius: 10px;
+text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-switch-label {
+  font-size: 15px;
+  width: 81px;
+  height: auto;
+  color: #00ddfa;
+  position: absolute;
+  left: 260px;
+  top: 3px;
+  }
+
+  /* SWITCH STYLES FOR REPUESTO */
+
+  .RegisterSolicitudBodega-repuestos-switch {
+    position: relative;
+    display: inline-block;
+    width: 57px;
+    height: 32px;
+    left: 263px;
+    top: 23px;
+  }
+  
+  .RegisterSolicitudBodega-repuestos-switch .RegisterSolicitudBodega-repuestos-switch-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .RegisterSolicitudBodega-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7C7C7C;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .RegisterSolicitudBodega-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .RegisterSolicitudBodega-repuestos-switch-input:checked + .RegisterSolicitudBodega-slider {
+    background-color: #00ddfa;
+  }
+  
+  .RegisterSolicitudBodega-repuestos-switch-input:focus + .RegisterSolicitudBodega-slider {
+    box-shadow: 0 0 1px #00ddfa;
+  }
+  
+  .RegisterSolicitudBodega-repuestos-switch-input:checked + .RegisterSolicitudBodega-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .RegisterSolicitudBodega-slider.RegisterSolicitudBodega-round {
+    border-radius: 34px;
+  }
+  
+  .RegisterSolicitudBodega-slider.RegisterSolicitudBodega-round:before {
+    border-radius: 50%;
+  }
+  /* NETX STYLES */
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-repuestos-remove-icon {
+font-size: 13px;
+  width: 30px;
+  height: 30px;
+  color: #fa0000;
+  position: absolute;
+  left: 335px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-div {
+width: 370px;
+height: auto;
+position: relative;
+background-color: transparent;
+top: 30px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-title {
+color: #000000;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: relative;
+text-align: center;
+top: 20px;
+white-space: nowrap;
+width: 316px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-add-icon {
+height: 30px;
+width: 30px;
+position: absolute;
+color: #00ddfa;
+left: 300px;
+top: 13px;
+cursor: pointer;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-section {
+width: 370px;
+height: 76px;
+position: relative;
+background-color: #ffffff;
+top: 30px;
+padding: 5px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-description-title {
+font-size: 15px;
+width: 68px;
+height: auto;
+color: #00ddfa;
+position: absolute;
+top: 2px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-description-input {
+font-size: 10px;
+width: 89px !important;
+height: 46px;
+background-color: #d9d9d9;
+color: #000000;
+position: absolute;
+border: none;
+border-radius: 10px;
+top: 28px;
+text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-cantidad-title {
+font-size: 15px;
+width: 70px;
+height: auto;
+color: #00ddfa;
+position: absolute;
+left: 98px;
+top: 2px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-cantidad-input {
+  font-size: 13px;
+  background-color: #d9d9d9;
+  width: 32px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  left: 112px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-valoru-title {
+font-size: 15px;
+width: 100px;
+height: auto;
+color: #00ddfa;
+position: absolute;
+left: 164px;
+top: 2px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-valoru-input {
+font-size: 13px;
+background-color: #d9d9d9;
+width: 70px;
+height: 30px;
+color: #000000;
+position: absolute;
+left: 180px;
+top: 30px;
+border: none;
+border-radius: 10px;
+}
+
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-items-remove-icon {
+font-size: 13px;
+  width: 30px;
+  height: 30px;
+  color: #fa0000;
+  position: absolute;
+  left: 335px;
+  top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma {
+width: 370px;
+height: 201px;
+position: relative;
+background-color: #ffffff;
+top: 65px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-title {
+color: #00ddfa;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: relative;
+text-align: center;
+top: 20px;
+white-space: nowrap;
+width: 316px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-username {
+color: #000000;
+font-family: "Inter-Regular", Helvetica;
+font-size: 14px;
+font-weight: 400;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 37px;
+white-space: nowrap;
+width: 316px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-img {
+height: 100px;
+width: 312px;
+position: relative;
+background-color: #d9d9d9;
+top: 36px;
+left: 28px;
+border-radius: 10px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-save-icon {
+width: 30px;
+height: 30px;
+color: #00ddfa;
+position: relative;
+top: 77px;
+cursor: pointer;
+left: -103px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-save-icon-active {
+width: 30px;
+height: 30px;
+color: #2afa00;
+position: relative;
+top: 77px;
+cursor: pointer;
+left: -103px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-clear-icon {
+width: 30px;
+height: 30px;
+color: #d9d9d9;
+position: relative;
+top: 41px;
+cursor: pointer;
+left: 133px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-edit-icon {
+width: 25px;
+height: 25px;
+color: #00ddfa;
+position: relative;
+top: -90px;
+cursor: pointer;
+left: 31px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-firma-cancel-icon {
+width: 25px;
+height: 25px;
+color: #fa0000;
+position: relative;
+top: -121px;
+cursor: pointer;
+left: 312px;
+}
+
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-register-button {
+width: 131px;
+height: 35px;
+background-color: #00ddfa;
+position: relative;
+top: 73px;
+cursor: pointer;
+left: 191px;
+border: none;
+border-radius: 10px;
+}
+
+.RegisterSolicitudBodega-box .RegisterSolicitudBodega-cancel-button {
+width: 131px;
+height: 35px;
+background-color: #ffffff;
+position: relative;
+top: 73px;
+cursor: pointer;
+left: -86px;
+border: none;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

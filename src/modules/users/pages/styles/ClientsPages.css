@@ -143,6 +143,137 @@
   padding: 0;
   list-style: none;
   position: relative;
-  left: 28vh;
+  left: 74px;
   top: 50px;
 }
+
+/**************************************************/
+
+@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+	
+  .ClientsPages-Container-Card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    list-style: none
+  }
+  .ClientsPages-card {
+    align-self: center;
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+    height: 170px;
+    width: 200px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+  }
+  }
+  
+  
+  
+  @media screen and (min-device-width: 600px) and (max-device-width: 845px){
+   
+  .ClientsPages-cards-list{
+    height: 280px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    gap: 2rem;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    
+    }
+    .ClientsPages-card {
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    height: 280px;
+    width: 300px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  }
+  }
+  @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  .ClientsPages-Container-Card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    list-style: none
+  }
+  .ClientsPages-card {
+    align-self: center;
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+    height: 220px;
+    width: 250px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+  }
+  }
+  
+  @media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
+  
+  .ClientsPages-cards-list{
+    height: 280px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+    
+    }
+    .ClientsPages-card {
+    border-radius:  20px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    height: 280px;
+    width: 300px;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+    
+  }
+  }
+  
+  @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
+   
+  .ClientsPages-card {
+    width: 360px;
+    height: 500px;
+    margin: auto;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  }

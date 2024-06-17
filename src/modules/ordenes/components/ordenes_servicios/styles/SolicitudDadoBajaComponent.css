@@ -1,0 +1,371 @@
+.SolicitudDadoBaja-solicitudes-orden {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 205px;
+    width: 100%;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 205px;
+    height: 566px;
+    overflow: hidden;
+    position: relative;
+    width: 1006px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-header {
+    background-color: transparent;
+    height: 124px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1008px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-overlap-group {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 124px;
+    position: relative;
+    width: 1006px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-cambios-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 42px;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 842px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-overlap {
+    height: 397px;
+    left: 30px;
+    position: absolute;
+    top: 148px;
+    width: 539px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resumen-section {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 397px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 538px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resumen-header {
+    height: 45px;
+    left: 23px;
+    position: relative;
+    top: 18px;
+    width: 494px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-overlap-group-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 45px;
+    position: relative;
+    width: 492px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resumen-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 21px;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    white-space: nowrap;
+    width: 221px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-add-icon {
+    height: 30px;
+    color: #00ddfa;
+    left: 457px;
+    position: absolute;
+    top: 7px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resume-list {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 297px;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    width: 539px;
+    overflow-y: scroll; /* Habilita el scroll vertical */
+    overflow-x: hidden;
+    scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+    scrollbar-color:  #636b6f61 transparent; /* Firefox */
+  }
+  
+  /* Para Chrome, Safari y Edge */
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resume-list::-webkit-scrollbar {
+    width: 3px; /* Ajusta el ancho del scrollbar */
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resume-list::-webkit-scrollbar-track {
+    background-color: transparent;
+  
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-resume-list::-webkit-scrollbar-thumb {
+    background-color: transparent;
+      border-radius: 3px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-cambio-card {
+    height: 92px;
+    left: 26px;
+    position: relative;
+    top: 17px;
+    width: 494px;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-overlap-group-3 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 92px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 455px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-subestado-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 17px;
+    left: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 281px;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-oid {
+    color: #d9d9d9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    text-align: center;
+    height: auto;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-mensaje-title {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    width: 200px;
+    text-align: center;
+    height: auto;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-subestado-comments {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 31px;
+    width: 200px;
+    text-align: center;
+    height: 59px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-separator {
+    height: 92px;
+    left: 304px;
+    background-color: #d9d9d9;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-registered-by {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 17px;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 134px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-username {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    white-space: nowrap;
+    width: 134px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-date-t {
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 17px;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 52px;
+    width: 134px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-date-value {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    white-space: nowrap;
+    width: 134px;
+  }
+  
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-open-icon {
+    height: 28px;
+    left: 458px;
+    position: absolute;
+    top: 32px;
+    width: 24px;
+    color: #00ddfa;
+    cursor: pointer;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-edit-icon {
+    height: 20px;
+    left: 462px;
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    color: #00ddfa;
+    cursor: pointer;
+  }
+
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-estado-icono-pendiente {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #dac508;
+    cursor: pointer;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-estado-icono-aprobada {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #08da08;
+    cursor: pointer;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-estado-icono-rechazada {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #da2808;
+    cursor: pointer;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-estado-icono-terminada {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #555555;
+    cursor: pointer;
+  }
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-estado-icono-despachada {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 60px;
+    color: #086ada;
+    cursor: pointer;
+  }
+
+
+
+  .SolicitudDadoBaja-solicitudes-orden .SolicitudDadoBaja-estado-separator {
+    height: 92px;
+    left: 91px;
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    background-color: #d9d9d9;
+    cursor: pointer;
+  }
+  

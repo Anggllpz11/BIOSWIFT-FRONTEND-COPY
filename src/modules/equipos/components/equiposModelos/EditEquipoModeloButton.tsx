@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { updateModeloEquipo } from '../../services/equiposModeloService';
 import { useSessionStorage } from '../../hooks/useSessionStorage';
-import './styles/EditEquipoButton.css'
+import './styles/EditModeloEquipoButton.css'
 import { useNavigate } from 'react-router-dom';
 import { searchClasesEquiposByKeyword, searchMarcasEquiposByKeyword } from '../../services/searchEquiposService';
 import { searchPreventivosByKeyword } from '../../../procesos_&_protocolos/services/searchProcesos&ProtocolosService';

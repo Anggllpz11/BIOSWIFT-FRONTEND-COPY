@@ -1,177 +1,276 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wgh@300;400;500;600;700;800;900&display=swap'); */
-
-
-
-
-
-
-.CreateSedeForm-box
-{
-    position: relative;
-    width: 400px;
-    height: 520px;
-    background: #1c1c1c;
-    border-radius: 8px;
-    overflow: hidden;
+.register-sede {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.CreateSedeForm-box::before
-{
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 400px;
-    height: 520px;
-    background: linear-gradient(0deg,transparent,
-    #00ddfa,#00ddfa);
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
+.register-sede .div {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  height: 802px;
+  overflow: hidden;
+  position: relative;
+  width: 917px;
+  border-radius: 10px;
 }
 
-.CreateSedeForm-box::after
-{
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 400px;
-    height: 520px;
-    background: linear-gradient(0deg,transparent,
-    #00ddfa,#00ddfa);
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-    animation-delay: -3s;
+.register-sede .header {
+  background-color: transparent;
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 919px;
 }
 
-@keyframes animate
-{
-    0%
-    {
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        transform: rotate(360deg);
-    }
+.register-sede .overlap-group {
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  height: 107px;
+  position: relative;
+  width: 917px;
+  border-radius: 10px;
 }
 
-
-.CreateSedeForm-form
-{
-    position: absolute;
-    inset: 2px;
-    border-radius: 8px;
-    background: #28292d;
-    z-index: 10;
-    padding: 50px 40px;
-    display: flex;
-    flex-direction:  column;    
+.register-sede .register-title {
+  -webkit-text-stroke: 1px #00ddfa33;
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 181px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  width: 553px;
 }
 
-.CreateSedeForm-form h2
-{
-    color:#00ddfa;
-    font-weight: 500;
-    text-align: center;
-    letter-spacing: 0.1em;
+.register-sede .client-section {
+  height: 109px;
+  left: 10px;
+  position: absolute;
+  top: 160px;
+  width: 387px;
 }
 
-
-.CreateSedeForm-inputBox
-{
-    position: relative;
-    width: 300px;
-    margin-top: 35px;
-
+.register-sede .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 385px;
 }
 
-/* .CreateSedeForm-inputBox{
-    position: relative;
-    display: flex;
-    align-items: center;
-} */
+.register-sede .client-search {
+  height: 36px;
+  left: 21px;
+  position: absolute;
+  top: 28px;
+  width: 364px;
+  background-color: #d9d9d9;
+  border: none; 
+  border-radius: 10px;
+}
 
-
-
+.register-sede .client-selected-div {
+  height: 85px;
+  width: auto;
+  position: relative;
+  top: 68px;
+  overflow-y: scroll;
+    overflow-x: hidden;
+    /* Style the scrollbar */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
   
-.CreateSedeForm-input
-{
-    position: relative;
-    width: 100%;
-    padding: 20px 10px 10px;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #23242a;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    z-index: 10;
+    /* WebKit (Chrome, Safari) */
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: #636b6f61;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #636b6f61;
+      border-radius: 5px;
+    }
 }
 
-.CreateSedeForm-inputBox span
-{
-    position: absolute;
-    left: 0;
-    padding: 20px 0px 10px;
-    font-size: 1em;
-    color: #8f8f8f;
-    pointer-events: none;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
+.register-sede .client-selected {
+  height: auto;
+  padding: 3px;
+  font-size: 12px;
+  text-align: center;
+  left: 21px;
+  position: relative;
+  width: 326px;
+  background-color: #7c7c7c;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  list-style: none;
 }
 
-
-.CreateSedeForm-inputBox input:valid ~ span,
-.CreateSedeForm-inputBox input:focus ~ span
-{
-    color: #00ddfa;
-    transform: translateX(0px) translateY(-34px);
-    font-size: 0.75em;
+.register-sede .name-section {
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 319px;
+  width: 387px;
 }
 
-
-
-.CreateSedeForm-inputBox i
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: #00ddfa;
-    border-radius: 4px;
-    transition: 0.5s;
-    pointer-events: none;
-    z-index: 9;
+.register-sede .img {
+  height: 36px;
+  left: 21px;
+  position: absolute;
+  top: 35px;
+  width: 364px;
+  background-color: #d9d9d9;
+  border: none; 
+  border-radius: 10px;
 }
 
-.CreateSedeForm-input:valid ~ i,
-.CreateSedeForm-input:focus ~ i
-{
-    height: 44px;
-
+.register-sede .address-section {
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 404px;
+  width: 387px;
 }
 
-
-
-
-
-.CreateSedeForm-button[type="submit"]
-{
-    border: none;
-    outline: none;
-    background: #00ddfa;
-    padding: 11px 25px;
-    width: 130px;
-    margin-left: 80px;
-    margin-top: 20px;
-    border-radius: 4px;
-    font-weight: 600;
-    cursor: pointer;
+.register-sede .municipio-section {
+  height: 121px;
+  left: 10px;
+  position: absolute;
+  top: 491px;
+  width: 387px;
 }
 
-.CreateSedeForm-button[type="submit"]:active
-{
-    opacity: 0.8;
+.register-sede .img-2 {
+  height: 36px;
+  left: 21px;
+  position: absolute;
+  top: 85px;
+  width: 364px;
+  background-color: #7c7c7c;
+  border: none; 
+  border-radius: 10px;
+}
+
+.register-sede .ordenes-section {
+  height: 121px;
+  left: 497px;
+  position: absolute;
+  top: 266px;
+  width: 387px;
+}
+
+.register-sede .preventivos-section {
+  height: 121px;
+  left: 497px;
+  position: absolute;
+  top: 415px;
+  width: 387px;
+}
+
+.register-sede .correctivos-section {
+  height: 121px;
+  left: 497px;
+  position: absolute;
+  top: 564px;
+  width: 387px;
+}
+
+.register-sede .sede-separator {
+  background-color: #636b6f61;
+  height: 599px;
+  left: 458px;
+  position: absolute;
+  top: 126px;
+  transform: rotate(180deg);
+  width: 1px;
+}
+
+.register-sede .email-section {
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 647px;
+  width: 387px;
+}
+
+.register-sede .telephone-section {
+  height: 71px;
+  left: 500px;
+  position: absolute;
+  top: 167px;
+  width: 387px;
+}
+
+.register-sede .register-b {
+  height: 43px;
+  left: 500px;
+  position: absolute;
+  top: 741px;
+  width: 192px;
+  background-color: #00ddfa;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.register-sede .overlap {
+  background-color: #00ddfa;
+  background-size: 100% 100%;
+  height: 43px;
+  position: relative;
+  width: 190px;
+}
+
+.register-sede .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 22px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 145px;
+}
+
+.register-sede .cancel-b {
+  height: 43px;
+  left: 228px;
+  position: absolute;
+  top: 741px;
+  width: 192px;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.register-sede .cancel-text-wrapper {
+  /* background-image: url(./cancel-button.svg); */
+  background-size: 100% 100%;
+  height: 43px;
+  position: relative;
+  width: 190px;
 }

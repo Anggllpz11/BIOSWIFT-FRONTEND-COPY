@@ -46,13 +46,12 @@
   
   @media screen and (min-device-width: 412px) and (max-device-width: 915px) {
     .SearchClients-section{
-      top: 20px;
-      left: 120px;
+      top: 50px;
+      left: 491px;
       background-color: #1c1c1c;
       height: 45px;
-      width: 130px;
+      width: 150px;
       border-radius: 1rem;
-     
     }
   
     .SearchClients-section-container{
@@ -157,11 +156,11 @@
   @media screen and (min-device-width: 1080px) {
    
     .SearchClients-section{
-      top: 50px;
-      left: 960px;
+      top: 47px;
+      left: 720px;
       background-color: #1c1c1c;
       height: 45px;
-      width: 150px;
+      width: 130px;
       border-radius: 1rem;
      
     }

@@ -1,7 +1,7 @@
 .CreateClient-button-redirect-container{
-    position: absolute;
-    left: 1200px;
-    top: 45px;
+  position: fixed;
+  left: 700px;
+  top: 43px;
 }
 
 
@@ -47,7 +47,7 @@
 @media screen and (min-device-width: 1080px)  {
   .CreateClient-button-redirect{
     position: absolute;
-    left: 220px;
+    left: 320px;
     top: 0rem;
   }
 } 

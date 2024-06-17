@@ -1,0 +1,167 @@
+.FiltersCamposToSelectOrdenes-box {
+  height: 543px;
+  width: 376px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-select-campos {
+  height: 543px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 380px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-overlap {
+  height: 543px;
+  position: relative;
+  width: 378px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 543px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 376px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-header-section {
+  height: 103px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 378px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 103px;
+  position: relative;
+  width: 376px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-header-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  white-space: nowrap;
+  width: 251px;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-campo-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 113px;
+  white-space: nowrap;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-visible-t {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 298px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 113px;
+  white-space: nowrap;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-campo-section {
+    height: 66%;
+    left: 0;
+    position: absolute;
+    top: 140px;
+    width: 378px;
+    overflow-y: scroll; /* Habilita el scroll vertical */
+    overflow-x: hidden;
+    scrollbar-width: thin; /* Ajusta el ancho del scrollbar para Firefox */
+    scrollbar-color:  #636b6f61 transparent; /* Firefox */
+  }
+  
+  /* Para Chrome, Safari y Edge */
+  .FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-campo-section::-webkit-scrollbar {
+    width: 3px; /* Ajusta el ancho del scrollbar */
+  }
+  
+  .FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-campo-section::-webkit-scrollbar-track {
+    background-color: transparent;
+  
+  }
+  
+  .FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-campo-section::-webkit-scrollbar-thumb {
+    background-color: transparent;
+      border-radius: 3px;
+  }
+
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-div {
+    background-color: #d9d9d9;
+    height: 27px;
+    position: relative;
+    width: 376px;
+    margin-bottom: 5%;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-campo-value {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21%;
+  white-space: nowrap;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-check-box {
+    position: relative;
+    left: 321px;
+    top: 0;
+    width: 3px;
+    height: 3px;
+  }
+  
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-cancel-button {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 27px;
+  left: 164px;
+  position: absolute;
+  top: 505px;
+  width: 97px;
+  border: none;
+  cursor: pointer;
+}
+
+.FiltersCamposToSelectOrdenes-box .FiltersCamposToSelectOrdenes-send-button {
+  background-color: #00ddfa;
+  border-radius: 10px;
+  height: 27px;
+  left: 266px;
+  position: absolute;
+  top: 505px;
+  width: 97px;
+  border: none;
+  cursor: pointer;
+}

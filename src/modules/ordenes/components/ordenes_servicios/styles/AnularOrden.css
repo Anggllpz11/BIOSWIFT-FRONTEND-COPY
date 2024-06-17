@@ -1,0 +1,64 @@
+
+.AnularOrden-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000; 
+}
+  
+  .AnularOrden-modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AnularOrden-modal-content-title {
+    color: #00ddfa;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  .AnularOrden-textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .AnularOrden-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .AnularOrden-modal-cancel-button {
+    height: 40px;
+    width: 80px;
+    background-color: #d9d9d9;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .AnularOrden-close-observacion-button {
+    height: 40px;
+    width: 120px;
+    background-color: #00ddfa;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }

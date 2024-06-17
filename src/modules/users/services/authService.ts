@@ -40,9 +40,7 @@ export const logoutService = () =>{
  * @param {string} email to register
  * @param {string} more_info to register
  */
-
 export const register = (
-  number: number,
   username: string,
   password: string,
   name: string,
@@ -70,7 +68,6 @@ export const register = (
 
   // Combinar los campos adicionales con el resto de la solicitud
   const body = {
-    number: number,
     username: username,
     password: password,
     name: name,
