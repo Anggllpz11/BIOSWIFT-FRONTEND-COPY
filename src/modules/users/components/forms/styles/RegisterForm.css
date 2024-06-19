@@ -93,6 +93,7 @@
   background-color: #d9d9d9;
   border-radius: 0.52vw; /* 10px */
   border: none;
+  font-size: 1.5vh;
 }
 
 .register-user .lastname-title {
@@ -117,6 +118,7 @@
   background-color: #d9d9d9;
   border-radius: 0.52vw; /* 10px */
   border: none;
+  font-size: 1.5vh;
 }
 
 .register-user .username-section {
@@ -136,6 +138,7 @@
   background-color: #d9d9d9;
   border-radius: 0.52vw; /* 10px */
   border: none;
+  font-size: 1.5vh;
 }
 
 .register-user .cedula-section {
@@ -226,6 +229,7 @@
   background-color: #d9d9d9;
   border-radius: 0.52vw; /* 10px */
   border: none;
+  font-size: 1.5vh;
 }
 
 .register-user .invima-section {
@@ -245,6 +249,7 @@
   background-color: #d9d9d9;
   border-radius: 0.52vw; /* 10px */
   border: none;
+  font-size: 1.5vh;
 }
 
 .register-user .title-section {
@@ -273,6 +278,7 @@
   cursor: pointer;
   border: none;
   border-radius: 0.52vw; /* 10px */
+  font-size: 1.5vh;
 }
 
 .register-user .overlap {
@@ -308,6 +314,7 @@
   cursor: pointer;
   border: none;
   border-radius: 0.52vw; /* 10px */
+  font-size: 1.5vh;
 }
 
 .register-user .cancel-text-wrapper {

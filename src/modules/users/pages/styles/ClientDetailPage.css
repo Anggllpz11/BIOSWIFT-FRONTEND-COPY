@@ -116,6 +116,7 @@
   width: 90%;
   height: 22.22vh; /* 200px */
   text-align: center;
+  font-size: 2vh;
 }
 
 .clientcard-desc {
@@ -167,29 +168,33 @@
 }
 
 .clientcard-buttons-edit {
-  padding: 1.11vh; /* 10px */
-  height: 6.67vh; /* 60px */
-  margin-right: 5.21vw; /* 100px */
-  margin-left: -9.9vw; /* -190px */
-  margin-top: 22.22vh; /* 200px */
+  padding: 1.11vh;
+  height: 6.67vh;
+  margin-right: 5.21vw;
+  margin-left: -15.63vw;
+  margin-top: 22.22vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #00ddfa;
+  position: relative;
+  left: 8vh;
+  top: 1.5vh;
 }
 
 .clientcard-edit-button {
   border: none;
   outline: none;
-  background: #00ddfa; /* Color de fondo similar al botón "Editar" */
-  padding: 1.22vh 1.3vw; /* 11px 25px */
-  width: 5.21vw; /* 100px */
-  margin: 1.11vh 0.26vw 1.11vh 0; /* 10px 5px */
-  border-radius: 0.21vw; /* 4px */
+  background: #00ddfa;
+  padding: 1.22vh 1.3vw;
+  width: 6.21vw;
+  margin: 1.11vh 0.26vw 1.11vh 0;
+  border-radius: 0.21vw;
   font-weight: 600;
   cursor: pointer;
-  color: #09203f; /* Color del texto */
-  transition: background 0.3s, color 0.3s; /* Transición suave para cambios de color */
+  color: #09203f;
+  font-size: 1.5vh;
+  transition: background 0.3s, color 0.3s;
 }
 
 .clientcard-edit-button:hover {
