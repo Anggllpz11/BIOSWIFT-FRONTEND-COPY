@@ -1,766 +1,766 @@
 .EquipoDetailPage-box {
-  height: 72.5vh; /* Aproximadamente 725px */
-  width: 108.4vh; /* Aproximadamente 1084px */
+  height: 80.56vh; /* 725px */
+  width: 56.45vw; /* 1084px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-complete-details {
-  height: 72.5vh; /* Aproximadamente 725px */
+  height: 80.56vh; /* 725px */
   left: 0;
   top: 0;
-  width: 114.4vh; /* Aproximadamente 1144px */
+  width: 59.58vw; /* 1144px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-group {
   background-color: #53789587;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 72.5vh; /* Aproximadamente 725px */
+  border-radius: 0.26vw; /* 5px */
+  height: 80.56vh; /* 725px */
   position: relative;
-  width: 108.4vh; /* Aproximadamente 1084px */
+  width: 56.45vw; /* 1084px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap {
   background-color: #ffffffd9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 19.5vh; /* Aproximadamente 195px */
+  border-radius: 0.26vw; /* 5px */
+  height: 21.67vh; /* 195px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 108.4vh; /* Aproximadamente 1084px */
+  width: 56.45vw; /* 1084px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-modelo-name {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 2vh; /* Aproximadamente 20px */
+  font-size: 1.04vw; /* 20px */
   font-weight: 400;
-  left: 26.8vh; /* Aproximadamente 268px */
+  left: 13.96vw; /* 268px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 3.3vh; /* Aproximadamente 33px */
-  width: 25.2vh; /* Aproximadamente 252px */
+  top: 3.67vh; /* 33px */
+  width: 13.02vw; /* 252px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-check-funcionamiento {
-  height: 4.1vh; /* Aproximadamente 41px */
+  height: 4.56vh; /* 41px */
   color: #10a415;
-  left: 20.9vh; /* Aproximadamente 209px */
+  left: 10.88vw; /* 209px */
   position: absolute;
-  top: 2.5vh; /* Aproximadamente 25px */
-  width: 5vh; /* Aproximadamente 50px */
+  top: 2.78vh; /* 25px */
+  width: 2.6vw; /* 50px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-machine-icon {
-  height: 16.2vh; /* Aproximadamente 162px */
+  height: 18vh; /* 162px */
   color: #636b6f;
-  left: 1.3vh; /* Aproximadamente 13px */
+  left: 0.68vw; /* 13px */
   position: absolute;
-  top: 1vh; /* Aproximadamente 10px */
-  width: 17.7vh; /* Aproximadamente 177px */
+  top: 1.11vh; /* 10px */
+  width: 9.21vw; /* 177px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-serie-header {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 26.8vh; /* Aproximadamente 268px */
+  left: 13.96vw; /* 268px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 10vh; /* Aproximadamente 100px */
-  width: 15vh; /* Aproximadamente 150px */
+  top: 11.11vh; /* 100px */
+  width: 7.81vw; /* 150px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-mtto {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 26.8vh; /* Aproximadamente 268px */
+  left: 13.96vw; /* 268px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 15.5vh; /* Aproximadamente 155px */
-  width: 17.5vh; /* Aproximadamente 175px */
+  top: 17.22vh; /* 155px */
+  width: 9.08vw; /* 175px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-activo-fijo {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 45vh; /* Aproximadamente 450px */
+  left: 23.26vw; /* 450px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 15.5vh; /* Aproximadamente 155px */
-  width: 25vh; /* Aproximadamente 250px */
+  top: 17.22vh; /* 155px */
+  width: 13.02vw; /* 250px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sap-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 74vh; /* Aproximadamente 740px */
+  left: 38.43vw; /* 740px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 15.5vh; /* Aproximadamente 155px */
-  width: 34vh; /* Aproximadamente 340px */
+  top: 17.22vh; /* 155px */
+  width: 31.37vw; /* 340px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-price-header {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 45vh; /* Aproximadamente 450px */
+  left: 23.26vw; /* 450px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 10vh; /* Aproximadamente 100px */
-  width: 23vh; /* Aproximadamente 230px */
+  top: 11.11vh; /* 100px */
+  width: 11.94vw; /* 230px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-equipo-id-header {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 74vh; /* Aproximadamente 740px */
+  left: 38.43vw; /* 740px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 10vh; /* Aproximadamente 100px */
-  width: 34vh; /* Aproximadamente 340px */
+  top: 11.11vh; /* 100px */
+  width: 31.37vw; /* 340px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-edit-icon-header {
-  height: 4.4vh; /* Aproximadamente 44px */
-  left: 89.2vh; /* Aproximadamente 892px */
+  height: 4.89vh; /* 44px */
+  left: 46.02vw; /* 892px */
   color: #00ddfa;
   cursor: pointer;
   position: absolute;
-  top: 2.1vh; /* Aproximadamente 21px */
-  width: 4.5vh; /* Aproximadamente 45px */
+  top: 2.33vh; /* 21px */
+  width: 2.34vw; /* 45px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-delete-icon-header {
-  height: 4.4vh; /* Aproximadamente 44px */
-  left: 97.5vh; /* Aproximadamente 975px */
+  height: 4.89vh; /* 44px */
+  left: 50.88vw; /* 975px */
   color: #00ddfa;
   cursor: pointer;
   position: absolute;
-  top: 2.1vh; /* Aproximadamente 21px */
-  width: 4.5vh; /* Aproximadamente 45px */
+  top: 2.33vh; /* 21px */
+  width: 2.34vw; /* 45px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-div {
   background-color: #ffffffd9;
   background-size: 100% 100%;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 17.2vh; /* Aproximadamente 172px */
-  left: 2.5vh; /* Aproximadamente 25px */
+  border-radius: 0.26vw; /* 5px */
+  height: 19.11vh; /* 172px */
+  left: 1.3vw; /* 25px */
   position: absolute;
-  top: 25.4vh; /* Aproximadamente 254px */
-  width: 54.7vh; /* Aproximadamente 547px */
+  top: 28.22vh; /* 254px */
+  width: 28.37vw; /* 547px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-separator {
   background-color: #636b6f61;
-  height: 10vh; /* Aproximadamente 100px */
-  left: 26.3vh; /* Aproximadamente 263px */
+  height: 11.11vh; /* 100px */
+  left: 13.65vw; /* 263px */
   position: absolute;
-  top: 6.4vh; /* Aproximadamente 64px */
+  top: 7.11vh; /* 64px */
   transform: rotate(180deg);
-  width: 0.2vh; /* Aproximadamente 2px */
+  width: 0.1vw; /* 2px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-name {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 1.5vh; /* Aproximadamente 15px */
+  left: 0.78vw; /* 15px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 1vh; /* Aproximadamente 10px */
-  width: 50vh; /* Aproximadamente 500px */
+  top: 1.11vh; /* 10px */
+  width: 26.04vw; /* 500px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.1vh; /* Aproximadamente 11px */
+  font-size: 0.57vw; /* 11px */
   font-weight: 400;
-  left: 17.8vh; /* Aproximadamente 178px */
+  left: 9.22vw; /* 178px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 4.1vh; /* Aproximadamente 41px */
-  width: 18.7vh; /* Aproximadamente 187px */
+  top: 4.56vh; /* 41px */
+  width: 9.53vw; /* 187px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-direccion-sede-title {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 7.4vh; /* Aproximadamente 74px */
+  left: 3.85vw; /* 74px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 6.4vh; /* Aproximadamente 64px */
-  width: 15.1vh; /* Aproximadamente 151px */
+  top: 7.11vh; /* 64px */
+  width: 7.85vw; /* 151px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-address {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.1vh; /* Aproximadamente 11px */
+  font-size: 0.57vw; /* 11px */
   font-weight: 400;
-  left: 6.2vh; /* Aproximadamente 62px */
+  left: 3.85vw; /* 74px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 8.7vh; /* Aproximadamente 87px */
-  width: 18.7vh; /* Aproximadamente 187px */
+  top: 9.67vh; /* 87px */
+  width: 9.53vw; /* 187px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-ubicacion-equipo {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 7.6vh; /* Aproximadamente 76px */
+  left: 3.94vw; /* 76px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 11.9vh; /* Aproximadamente 119px */
-  width: 15.1vh; /* Aproximadamente 151px */
+  top: 13.22vh; /* 119px */
+  width: 7.85vw; /* 151px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-text-wrapper {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.1vh; /* Aproximadamente 11px */
+  font-size: 0.57vw; /* 11px */
   font-weight: 400;
-  left: 6.2vh; /* Aproximadamente 62px */
+  left: 3.85vw; /* 74px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 14.2vh; /* Aproximadamente 142px */
-  width: 18.7vh; /* Aproximadamente 187px */
+  top: 15.78vh; /* 142px */
+  width: 9.53vw; /* 187px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 3.2vh; /* Aproximadamente 32px */
+  height: 2.89vh; /* 26px */
+  left: 1.66vw; /* 32px */
   color: #00ddfa;
   position: absolute;
-  top: 12.3vh; /* Aproximadamente 123px */
-  width: 2vh; /* Aproximadamente 20px */
+  top: 13.67vh; /* 123px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-location-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 3.2vh; /* Aproximadamente 32px */
+  height: 2.89vh; /* 26px */
+  left: 1.66vw; /* 32px */
   color: #00ddfa;
   position: absolute;
-  top: 7.2vh; /* Aproximadamente 72px */
-  width: 2vh; /* Aproximadamente 20px */
+  top: 8vh; /* 72px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-telefono {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 32.8vh; /* Aproximadamente 328px */
+  left: 16.96vw; /* 328px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 7.7vh; /* Aproximadamente 77px */
-  width: 17.2vh; /* Aproximadamente 172px */
+  top: 8.56vh; /* 77px */
+  width: 8.96vw; /* 172px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-email {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 32.8vh; /* Aproximadamente 328px */
+  left: 16.96vw; /* 328px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 12.1vh; /* Aproximadamente 121px */
-  width: 17.2vh; /* Aproximadamente 172px */
+  top: 13.44vh; /* 121px */
+  width: 8.96vw; /* 172px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-telefono-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 29.1vh; /* Aproximadamente 291px */
+  height: 2.89vh; /* 26px */
+  left: 15.04vw; /* 291px */
   color: #00ddfa;
   position: absolute;
-  top: 7.2vh; /* Aproximadamente 72px */
-  width: 2vh; /* Aproximadamente 20px */
+  top: 8vh; /* 72px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-sede-email-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 28.1vh; /* Aproximadamente 281px */
+  height: 2.89vh; /* 26px */
+  left: 14.53vw; /* 281px */
   color: #00ddfa;
   position: absolute;
-  top: 11.9vh; /* Aproximadamente 119px */
-  width: 4.2vh; /* Aproximadamente 42px */
+  top: 13.22vh; /* 119px */
+  width: 2.18vw; /* 42px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-2 {
   background-color: #ffffffd9;
   background-size: 100% 100%;
-  height: 9.3vh; /* Aproximadamente 93px */
-  left: 2.5vh; /* Aproximadamente 25px */
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  height: 10vh; /* 93px */
+  left: 1.3vw; /* 25px */
+  border-radius: 0.26vw; /* 5px */
   position: absolute;
-  top: 45.7vh; /* Aproximadamente 457px */
-  width: 54.7vh; /* Aproximadamente 547px */
+  top: 50.78vh; /* 457px */
+  width: 28.37vw; /* 547px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-frecuencia-title {
   -webkit-text-stroke: 1px #636b6f1a;
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 1.4vh; /* Aproximadamente 14px */
+  left: 0.73vw; /* 14px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 1vh; /* Aproximadamente 10px */
-  width: 22.1vh; /* Aproximadamente 221px */
+  top: 1.11vh; /* 10px */
+  width: 11.47vw; /* 221px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-img {
-  height: 4.7vh; /* Aproximadamente 47px */
-  left: 1.5vh; /* Aproximadamente 15px */
+  height: 5.22vh; /* 47px */
+  left: 0.78vw; /* 15px */
   color: #00ddfa;
   position: absolute;
-  top: 3.4vh; /* Aproximadamente 34px */
-  width: 3.9vh; /* Aproximadamente 39px */
+  top: 3.78vh; /* 34px */
+  width: 2.03vw; /* 39px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-frecuencia-time {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 44.4vh; /* Aproximadamente 444px */
+  left: 23vw; /* 444px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 1.1vh; /* Aproximadamente 11px */
-  width: 9.6vh; /* Aproximadamente 96px */
+  top: 1.22vh; /* 11px */
+  width: 4.99vw; /* 96px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-frecuencia {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 21.2vh; /* Aproximadamente 212px */
+  left: 11vw; /* 212px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 5.2vh; /* Aproximadamente 52px */
-  width: 31.1vh; /* Aproximadamente 311px */
+  top: 5.78vh; /* 52px */
+  width: 16.15vw; /* 311px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-3 {
   background-color: #ffffffd9;
   background-size: 100% 100%;
-  height: 9.3vh; /* Aproximadamente 93px */
-  left: 2.5vh; /* Aproximadamente 25px */
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  height: 10vh; /* 93px */
+  left: 1.3vw; /* 25px */
+  border-radius: 0.26vw; /* 5px */
   position: absolute;
-  top: 58.1vh; /* Aproximadamente 581px */
-  width: 54.7vh; /* Aproximadamente 547px */
+  top: 64.56vh; /* 581px */
+  width: 28.37vw; /* 547px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-serie-title {
   -webkit-text-stroke: 1px #636b6f1a;
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 1.6vh; /* Aproximadamente 16px */
+  left: 0.83vw; /* 16px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 1vh; /* Aproximadamente 10px */
-  width: 22.1vh; /* Aproximadamente 221px */
+  top: 1.11vh; /* 10px */
+  width: 11.47vw; /* 221px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-serie-number {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.5vh; /* Aproximadamente 15px */
+  font-size: 0.78vw; /* 15px */
   font-weight: 400;
-  left: 44.4vh; /* Aproximadamente 444px */
+  left: 23vw; /* 444px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 4.6vh; /* Aproximadamente 46px */
-  width: 9.6vh; /* Aproximadamente 96px */
+  top: 5.11vh; /* 46px */
+  width: 4.99vw; /* 96px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-4 {
   background-color: #ffffffd9;
   background-size: 100% 100%;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 17.2vh; /* Aproximadamente 172px */
-  left: 59.9vh; /* Aproximadamente 599px */
+  border-radius: 0.26vw; /* 5px */
+  height: 19.11vh; /* 172px */
+  left: 31.15vw; /* 599px */
   position: absolute;
-  top: 25.4vh; /* Aproximadamente 254px */
-  width: 46.5vh; /* Aproximadamente 465px */
+  top: 28.22vh; /* 254px */
+  width: 24.22vw; /* 465px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-separator {
   background-color: #636b6f61;
-  height: 10vh; /* Aproximadamente 100px */
-  left: 22.2vh; /* Aproximadamente 222px */
+  height: 11.11vh; /* 100px */
+  left: 11.52vw; /* 222px */
   position: absolute;
-  top: 6.4vh; /* Aproximadamente 64px */
+  top: 7.11vh; /* 64px */
   transform: rotate(180deg);
-  width: 0.2vh; /* Aproximadamente 2px */
+  width: 0.1vw; /* 2px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-name {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.8vh; /* Aproximadamente 18px */
+  font-size: 0.94vw; /* 18px */
   font-weight: 400;
-  left: 1.3vh; /* Aproximadamente 13px */
+  left: 0.68vw; /* 13px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 1vh; /* Aproximadamente 10px */
-  width: 43.9vh; /* Aproximadamente 439px */
+  top: 1.11vh; /* 10px */
+  width: 22.31vw; /* 439px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.1vh; /* Aproximadamente 11px */
+  font-size: 0.57vw; /* 11px */
   font-weight: 400;
-  left: 13vh; /* Aproximadamente 130px */
+  left: 6.8vw; /* 130px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 4.1vh; /* Aproximadamente 41px */
-  width: 20.3vh; /* Aproximadamente 203px */
+  top: 4.56vh; /* 41px */
+  width: 10.01vw; /* 203px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-5 {
-  height: 5.2vh; /* Aproximadamente 52px */
-  left: 3.2vh; /* Aproximadamente 32px */
+  height: 5.78vh; /* 52px */
+  left: 1.67vw; /* 32px */
   position: absolute;
-  top: 6.4vh; /* Aproximadamente 64px */
-  width: 18vh; /* Aproximadamente 180px */
+  top: 7.11vh; /* 64px */
+  width: 9.34vw; /* 180px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-nit-title {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 3vh; /* Aproximadamente 30px */
+  left: 1.56vw; /* 30px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 13vh; /* Aproximadamente 130px */
+  width: 6.77vw; /* 130px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-6 {
-  height: 4.8vh; /* Aproximadamente 48px */
+  height: 5.33vh; /* 48px */
   left: 0;
   position: absolute;
-  top: 0.4vh; /* Aproximadamente 4px */
-  width: 18vh; /* Aproximadamente 180px */
+  top: 0.44vh; /* 4px */
+  width: 9.34vw; /* 180px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-nit {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.1vh; /* Aproximadamente 11px */
+  font-size: 0.57vw; /* 11px */
   font-weight: 400;
-  left: 2vh; /* Aproximadamente 20px */
+  left: 1.04vw; /* 20px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 1.9vh; /* Aproximadamente 19px */
-  width: 16vh; /* Aproximadamente 160px */
+  top: 2.11vh; /* 19px */
+  width: 8.34vw; /* 160px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-nit-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
+  height: 2.89vh; /* 26px */
   left: 0;
   color: #00ddfa;
   position: absolute;
   top: 0;
-  width: 2vh; /* Aproximadamente 20px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-address-title {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 6.4vh; /* Aproximadamente 64px */
+  left: 3.08vw; /* 64px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 11.9vh; /* Aproximadamente 119px */
-  width: 14.8vh; /* Aproximadamente 148px */
+  top: 13.22vh; /* 119px */
+  width: 7.71vw; /* 148px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-address {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.1vh; /* Aproximadamente 11px */
+  font-size: 0.57vw; /* 11px */
   font-weight: 400;
-  left: 6.4vh; /* Aproximadamente 64px */
+  left: 3.08vw; /* 64px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 13.8vh; /* Aproximadamente 138px */
-  width: 15vh; /* Aproximadamente 150px */
+  top: 15.33vh; /* 138px */
+  width: 7.71vw; /* 150px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-location-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 3.4vh; /* Aproximadamente 34px */
+  height: 2.89vh; /* 26px */
+  left: 1.77vw; /* 34px */
   color: #00ddfa;
   position: absolute;
-  top: 12.3vh; /* Aproximadamente 123px */
-  width: 2vh; /* Aproximadamente 20px */
+  top: 13.67vh; /* 123px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-telefono-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 24.7vh; /* Aproximadamente 247px */
+  height: 2.89vh; /* 26px */
+  left: 12.8vw; /* 247px */
   color: #00ddfa;
   position: absolute;
-  top: 7.2vh; /* Aproximadamente 72px */
-  width: 2vh; /* Aproximadamente 20px */
+  top: 8vh; /* 72px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-telefono {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 27.9vh; /* Aproximadamente 279px */
+  left: 14.31vw; /* 279px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 7.7vh; /* Aproximadamente 77px */
-  width: 17.3vh; /* Aproximadamente 173px */
+  top: 8.56vh; /* 77px */
+  width: 8.96vw; /* 173px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-email {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 27.9vh; /* Aproximadamente 279px */
+  left: 14.31vw; /* 279px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 12.1vh; /* Aproximadamente 121px */
-  width: 17.5vh; /* Aproximadamente 175px */
+  top: 13.44vh; /* 121px */
+  width: 8.96vw; /* 175px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-client-email-icon {
-  height: 2.6vh; /* Aproximadamente 26px */
-  left: 24.7vh; /* Aproximadamente 247px */
+  height: 2.89vh; /* 26px */
+  left: 12.8vw; /* 247px */
   color: #00ddfa;
   position: absolute;
-  top: 11.6vh; /* Aproximadamente 116px */
-  width: 2vh; /* Aproximadamente 20px */
+  top: 12.89vh; /* 116px */
+  width: 1.04vw; /* 20px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-7 {
   background-color: #ffffffd9;
   background-size: 100% 100%;
-  height: 9.3vh; /* Aproximadamente 93px */
-  left: 59.9vh; /* Aproximadamente 599px */
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  height: 10vh; /* 93px */
+  left: 31.15vw; /* 599px */
+  border-radius: 0.26vw; /* 5px */
   position: absolute;
-  top: 45.7vh; /* Aproximadamente 457px */
-  width: 46.5vh; /* Aproximadamente 465px */
+  top: 50.78vh; /* 457px */
+  width: 24.22vw; /* 465px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-8 {
-  height: 7.3vh; /* Aproximadamente 73px */
-  left: 2.6vh; /* Aproximadamente 26px */
+  height: 8.11vh; /* 73px */
+  left: 1.35vw; /* 26px */
   position: absolute;
-  top: 0.9vh; /* Aproximadamente 9px */
-  width: 22.2vh; /* Aproximadamente 222px */
+  top: 1vh; /* 9px */
+  width: 11.56vw; /* 222px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-funcionamiento {
   background-color: #636b6f61;
-  height: 7.2vh; /* Aproximadamente 72px */
-  left: 22vh; /* Aproximadamente 220px */
+  height: 8vh; /* 72px */
+  left: 11.46vw; /* 220px */
   position: absolute;
-  top: 0.1vh; /* Aproximadamente 1px */
+  top: 0.11vh; /* 1px */
   transform: rotate(180deg);
-  width: 0.2vh; /* Aproximadamente 2px */
+  width: 0.1vw; /* 2px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-text-wrapper-2 {
   -webkit-text-stroke: 1px #636b6f1a;
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   text-align: center;
   font-weight: 400;
-  left: -1vh; /* Aproximadamente 10px */
+  left: -0.52vw; /* -10px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 0;
-  width: 22.1vh; /* Aproximadamente 221px */
+  width: 11.49vw; /* 221px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-notas-icon {
-  height: 4.7vh; /* Aproximadamente 47px */
-  left: 0.1vh; /* Aproximadamente 1px */
+  height: 5.22vh; /* 47px */
+  left: 0.05vw; /* 1px */
   color: #636b6f;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 0.62vw; /* 12px */
   text-align: center;
   position: absolute;
-  top: 3vh; /* Aproximadamente 30px */
-  width: 20vh; /* Aproximadamente 200px */
+  top: 3.33vh; /* 30px */
+  width: 10.42vw; /* 200px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-notas-title {
   -webkit-text-stroke: 1px #636b6f1a;
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.3vh; /* Aproximadamente 13px */
+  font-size: 0.68vw; /* 13px */
   font-weight: 400;
-  left: 27.2vh; /* Aproximadamente 272px */
+  left: 14.56vw; /* 272px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 0.9vh; /* Aproximadamente 9px */
-  width: 19vh; /* Aproximadamente 190px */
+  top: 1vh; /* 9px */
+  width: 9.88vw; /* 190px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-notas-p {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 0.62vw; /* 12px */
   font-weight: 400;
-  left: 27.3vh; /* Aproximadamente 273px */
-  height: 4vh; /* Aproximadamente 40px */
+  left: 14.62vw; /* 273px */
+  height: 4.44vh; /* 40px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 4.1vh; /* Aproximadamente 41px */
-  width: 19vh; /* Aproximadamente 190px */
+  top: 4.56vh; /* 41px */
+  width: 9.88vw; /* 190px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-9 {
   background-color: #ffffffd9;
   background-size: 100% 100%;
-  height: 9.3vh; /* Aproximadamente 93px */
-  left: 59.9vh; /* Aproximadamente 599px */
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  height: 10vh; /* 93px */
+  left: 31.15vw; /* 599px */
+  border-radius: 0.26vw; /* 5px */
   position: absolute;
-  top: 58.1vh; /* Aproximadamente 581px */
-  width: 46.5vh; /* Aproximadamente 465px */
+  top: 64.56vh; /* 581px */
+  width: 24.22vw; /* 465px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-overlap-10 {
-  height: 7vh; /* Aproximadamente 70px */
-  left: 1.8vh; /* Aproximadamente 18px */
+  height: 7.78vh; /* 70px */
+  left: 0.94vw; /* 18px */
   position: absolute;
-  top: 1.2vh; /* Aproximadamente 12px */
-  width: 22.1vh; /* Aproximadamente 221px */
+  top: 1.33vh; /* 12px */
+  width: 11.49vw; /* 221px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-temperature-icon {
-  height: 4.7vh; /* Aproximadamente 47px */
-  left: 0.1vh; /* Aproximadamente 1px */
+  height: 5.22vh; /* 47px */
+  left: 0.05vw; /* 1px */
   position: absolute;
   color: #00ddfa;
-  top: 2.2vh; /* Aproximadamente 22px */
-  width: 3.9vh; /* Aproximadamente 39px */
+  top: 2.44vh; /* 22px */
+  width: 2.03vw; /* 39px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-temperature-grades {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.5vh; /* Aproximadamente 15px */
+  font-size: 0.78vw; /* 15px */
   font-weight: 400;
-  left: 36.7vh; /* Aproximadamente 367px */
+  left: 18.98vw; /* 367px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 4.6vh; /* Aproximadamente 46px */
-  width: 9.6vh; /* Aproximadamente 96px */
+  top: 5.11vh; /* 46px */
+  width: 4.99vw; /* 96px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-see-sede {
   color: #636b6f;
-  height: 2vh; /* Aproximadamente 20px */
-  width: 2vh; /* Aproximadamente 20px */
+  height: 2.22vh; /* 20px */
+  width: 1.04vw; /* 20px */
   position: relative;
-  top: 0.5vh; /* Aproximadamente 5px */
+  top: 0.56vh; /* 5px */
   cursor: pointer;
-  left: 52vh; /* Aproximadamente 520px */
+  left: 27.08vw; /* 520px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-see-client {
   color: #636b6f;
-  height: 2vh; /* Aproximadamente 20px */
-  width: 2vh; /* Aproximadamente 20px */
+  height: 2.22vh; /* 20px */
+  width: 1.04vw; /* 20px */
   position: relative;
-  top: 0.5vh; /* Aproximadamente 5px */
+  top: 0.56vh; /* 5px */
   cursor: pointer;
-  left: 44vh; /* Aproximadamente 440px */
+  left: 22.92vw; /* 440px */
 }
 
 .EquipoDetailPage-box .EquipoDetailPage-see-modelo {
   color: #636b6f;
-  height: 2vh; /* Aproximadamente 20px */
-  width: 2vh; /* Aproximadamente 20px */
+  height: 2.22vh; /* 20px */
+  width: 1.04vw; /* 20px */
   position: relative;
-  top: -0.3vh; /* Aproximadamente 3px */
+  top: -0.33vh; /* -3px */
   cursor: pointer;
-  left: 19.5vh; /* Aproximadamente 195px */
+  left: 10.16vw; /* 195px */
 }

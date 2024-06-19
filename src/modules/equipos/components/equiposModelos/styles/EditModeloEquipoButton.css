@@ -28,6 +28,7 @@
   text-align: center;
   top: 7vh; /* Aproximadamente 70px */
   width: 73.5vh; /* Aproximadamente 735px */
+  font-size: 1.8vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-overlap {
@@ -89,6 +90,7 @@
   top: 16.4vh; /* Aproximadamente 164px */
   border-radius: 1vh; /* Aproximadamente 10px */
   width: 31vh; /* Aproximadamente 310px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-modelo-precio-title {
@@ -116,6 +118,7 @@
   position: absolute;
   top: 23.4vh; /* Aproximadamente 234px */
   width: 31vh; /* Aproximadamente 310px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-modelo-marca-title {
@@ -143,6 +146,7 @@
   border: none;
   top: 29.8vh; /* Aproximadamente 298px */
   width: 31vh; /* Aproximadamente 310px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-search-marca-results {
@@ -214,6 +218,7 @@
   border-radius: 1vh; /* Aproximadamente 10px */
   top: 16.4vh; /* Aproximadamente 164px */
   width: 31vh; /* Aproximadamente 310px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-search-clase-results {
@@ -285,6 +290,7 @@
   border-radius: 1vh; /* Aproximadamente 10px */
   top: 29vh; /* Aproximadamente 290px */
   width: 31vh; /* Aproximadamente 310px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-search-preventivo-results {
@@ -343,6 +349,7 @@
   top: 40.1vh; /* Aproximadamente 401px */
   width: 11.4vh; /* Aproximadamente 114px */
   cursor: pointer;
+  font-size: 1.6vh;
 }
 
 .EditEquipoModeloButton-box .EditEquipoModeloButton-modelo-registrar {
@@ -357,4 +364,5 @@
   top: 40.1vh; /* Aproximadamente 401px */
   width: 11.4vh; /* Aproximadamente 114px */
   cursor: pointer;
+  font-size: 1.6vh;
 }

@@ -1,89 +1,88 @@
 .EditEquipoButton-box {
-  height: 53.1vh; /* Aproximadamente 531px */
-  width: 73.2vh; /* Aproximadamente 732px */
+  height: 59.89vh; /* 531px */
+  width: 73.2vw; /* 732px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-form {
-  height: 53.1vh; /* Aproximadamente 531px */
+  height: 59.89vh; /* 531px */
   left: 0;
   top: 0;
-  width: 75.2vh; /* Aproximadamente 752px */
+  width: 75.2vw; /* 752px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-overlap-group {
   background-color: #ffffff;
-  border-radius: 1vh; /* Aproximadamente 10px */
-  height: 60.2vh; /* Aproximadamente 602px */
+  border-radius: 10px;
+  height: 67.13vh; /* 602px */
   position: relative;
-  width: 73.2vh; /* Aproximadamente 732px */
+  width: 73.2vw; /* 732px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-overlap {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 9.1vh; /* Aproximadamente 91px */
+  border-radius: 5px;
+  height: 10.11vh; /* 91px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 73.2vh; /* Aproximadamente 732px */
+  width: 73.2vw; /* 732px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 2.4vh; /* Aproximadamente 24px */
+  font-size: 3.6vh;
   font-weight: 400;
-  left: 16.2vh; /* Aproximadamente 162px */
+  left: 16.2vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 3.6vh; /* Aproximadamente 36px */
-  width: 40.9vh; /* Aproximadamente 409px */
+  top: 3.6vh;
+  width: 40.9vw;
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle {
   background-color: #00ddfa;
-  height: 47.7vh; /* Aproximadamente 477px */
-  left: 36.2vh; /* Aproximadamente 362px */
+  height: 53.8vh; /* 477px */
+  left: 36.2vw; /* 362px */
   position: absolute;
-  top: 10.9vh; /* Aproximadamente 109px */
+  top: 10.9vh; /* 109px */
   transform: rotate(180deg);
-  width: 0.1vh; /* Aproximadamente 1px */
-  font-size: 2vh;
+  width: 0.1vw; /* 1px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-div {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   box-shadow: none;
   font-weight: 400;
-  left: 4.7vh; /* Aproximadamente 47px */
+  left: 4.7vw; /* 47px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 12.1vh; /* Aproximadamente 121px */
-  width: 25.2vh; /* Aproximadamente 252px */
+  top: 12.1vh; /* 121px */
+  width: 25.2vw; /* 252px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-search-results-sede {
   background-color: transparent;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  left: 5vh; /* Aproximadamente 50px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 17.5vh; /* Aproximadamente 175px */
-  height: 6.5vh; /* Aproximadamente 65px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 17.5vh; /* 175px */
+  height: 6.5vh; /* 65px */
+  width: 28.6vw; /* 286px */
   overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
 }
 
 /* Estiliza la barra de desplazamiento en su totalidad */
 .EditEquipoButton-box .EditEquipoButton-search-results-sede::-webkit-scrollbar {
-  width: 1vh; /* Ajusta el ancho de la barra de desplazamiento, aproximadamente 10px */
+  width: 1vw; /* Ajusta el ancho de la barra de desplazamiento */
 }
 
 /* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
@@ -102,24 +101,23 @@
 }
 
 /* LOGICA BUSQUEDA MODELOS EQUIPOS */
-
 .EditEquipoButton-box .EditEquipoButton-search-results-modelo {
   background-color: transparent;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  left: 5vh; /* Aproximadamente 50px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 30vh; /* Aproximadamente 300px */
-  height: 6.5vh; /* Aproximadamente 65px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 30vh; /* 300px */
+  height: 6.5vh; /* 65px */
+  width: 28.6vw; /* 286px */
   overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
 }
 
 /* Estiliza la barra de desplazamiento en su totalidad */
 .EditEquipoButton-box .EditEquipoButton-search-results-modelo::-webkit-scrollbar {
-  width: 1vh; /* Ajusta el ancho de la barra de desplazamiento, aproximadamente 10px */
+  width: 1vw; /* Ajusta el ancho de la barra de desplazamiento */
 }
 
 /* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
@@ -139,40 +137,39 @@
 
 .EditEquipoButton-box .EditEquipoButton-search-item-modelo {
   background-color: #53789587;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   text-align: center;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   box-shadow: none;
   outline: none;
   cursor: pointer;
   border: none;
-  top: 0.3vh; /* Aproximadamente 3px */
-  height: 2vh; /* Aproximadamente 20px */
+  top: 0.3vh; /* 3px */
+  height: 2vh; /* 20px */
   list-style: none;
   position: relative;
-  margin-bottom: 0.2vh; /* Aproximadamente 2px */
-  width: 26.5vh; /* Aproximadamente 265px */
+  margin-bottom: 0.2vh; /* 2px */
+  width: 26.5vw; /* 265px */
 }
 
 /* LOGICA BUSQUEDA AREAS EQUIPOS */
-
 .EditEquipoButton-box .EditEquipoButton-search-results-areas {
   background-color: transparent;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  left: 5vh; /* Aproximadamente 50px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 42.5vh; /* Aproximadamente 425px */
-  height: 6.5vh; /* Aproximadamente 65px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 42.5vh; /* 425px */
+  height: 6.5vh; /* 65px */
+  width: 28.6vw; /* 286px */
   overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
 }
 
 /* Estiliza la barra de desplazamiento en su totalidad */
 .EditEquipoButton-box .EditEquipoButton-search-results-areas::-webkit-scrollbar {
-  width: 1vh; /* Ajusta el ancho de la barra de desplazamiento, aproximadamente 10px */
+  width: 1vw; /* Ajusta el ancho de la barra de desplazamiento */
 }
 
 /* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
@@ -192,40 +189,39 @@
 
 .EditEquipoButton-box .EditEquipoButton-search-item-areas {
   background-color: #53789587;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   text-align: center;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   box-shadow: none;
   outline: none;
   cursor: pointer;
   border: none;
-  top: 0.3vh; /* Aproximadamente 3px */
-  height: 2vh; /* Aproximadamente 20px */
+  top: 0.3vh; /* 3px */
+  height: 2vh; /* 20px */
   list-style: none;
   position: relative;
-  margin-bottom: 0.2vh; /* Aproximadamente 2px */
-  width: 26.5vh; /* Aproximadamente 265px */
+  margin-bottom: 0.2vh; /* 2px */
+  width: 26.5vw; /* 265px */
 }
 
 /* LOGICA BUSQUEDA TIPOS EQUIPOS */
-
 .EditEquipoButton-box .EditEquipoButton-search-results-tipos {
   background-color: transparent;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  left: 39.7vh; /* Aproximadamente 397px */
+  left: 39.7vw; /* 397px */
   position: absolute;
-  top: 17.5vh; /* Aproximadamente 175px */
-  height: 6.5vh; /* Aproximadamente 65px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 17.5vh; /* 175px */
+  height: 6.5vh; /* 65px */
+  width: 28.6vw; /* 286px */
   overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
 }
 
 /* Estiliza la barra de desplazamiento en su totalidad */
 .EditEquipoButton-box .EditEquipoButton-search-results-tipos::-webkit-scrollbar {
-  width: 1vh; /* Ajusta el ancho de la barra de desplazamiento, aproximadamente 10px */
+  width: 1vw; /* Ajusta el ancho de la barra de desplazamiento */
 }
 
 /* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
@@ -245,313 +241,314 @@
 
 .EditEquipoButton-box .EditEquipoButton-search-item-tipos {
   background-color: #53789587;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   text-align: center;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   box-shadow: none;
   outline: none;
   cursor: pointer;
   border: none;
-  top: 0.3vh; /* Aproximadamente 3px */
-  height: 2vh; /* Aproximadamente 20px */
+  top: 0.3vh; /* 3px */
+  height: 2vh; /* 20px */
   list-style: none;
   position: relative;
-  margin-bottom: 0.2vh; /* Aproximadamente 2px */
-  width: 26.5vh; /* Aproximadamente 265px */
+  margin-bottom: 0.2vh; /* 2px */
+  width: 26.5vw; /* 265px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-search-item-sede {
   background-color: #53789587;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   text-align: center;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   box-shadow: none;
   outline: none;
   cursor: pointer;
   border: none;
-  top: 0.3vh; /* Aproximadamente 3px */
-  height: 2vh; /* Aproximadamente 20px */
+  top: 0.3vh; /* 3px */
+  height: 2vh; /* 20px */
   list-style: none;
   position: relative;
-  margin-bottom: 0.2vh; /* Aproximadamente 2px */
-  width: 26.5vh; /* Aproximadamente 265px */
+  margin-bottom: 0.2vh; /* 2px */
+  width: 26.5vw; /* 265px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-2 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 5vh; /* Aproximadamente 50px */
+  height: 2.8vh; /* 28px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 14.6vh; /* Aproximadamente 146px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 14.6vh; /* 146px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-p {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 39.7vh; /* Aproximadamente 397px */
+  left: 39.7vw; /* 397px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 25.1vh; /* Aproximadamente 251px */
-  width: 25.2vh; /* Aproximadamente 252px */
+  top: 25.1vh; /* 251px */
+  width: 25.2vw; /* 252px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-3 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 2.8vh; /* Aproximadamente 28px */
+  border-radius: 5px;
+  height: 2.8vh; /* 28px */
   box-shadow: none;
   outline: none;
   border: none;
-  left: 39.7vh; /* Aproximadamente 397px */
+  left: 39.7vw; /* 397px */
   position: absolute;
-  top: 27.2vh; /* Aproximadamente 272px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 27.2vh; /* 272px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-2 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 39.7vh; /* Aproximadamente 397px */
+  left: 39.7vw; /* 397px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 32.1vh; /* Aproximadamente 321px */
-  width: 25.2vh; /* Aproximadamente 252px */
+  top: 32.1vh; /* 321px */
+  width: 25.2vw; /* 252px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-4 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 39.7vh; /* Aproximadamente 397px */
+  height: 2.8vh; /* 28px */
+  left: 39.7vw; /* 397px */
   position: absolute;
-  top: 35.8vh; /* Aproximadamente 358px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 35.8vh; /* 358px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-3 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 39.7vh; /* Aproximadamente 397px */
+  left: 39.7vw; /* 397px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 40.4vh; /* Aproximadamente 404px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 40.4vh; /* 404px */
+  width: 28.6vw; /* 286px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-5 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 39.7vh; /* Aproximadamente 397px */
+  height: 2.8vh; /* 28px */
+  left: 39.7vw; /* 397px */
   position: absolute;
-  top: 44vh; /* Aproximadamente 440px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 44vh; /* 440px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-4 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 5vh; /* Aproximadamente 50px */
+  left: 5vw; /* 50px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 24.6vh; /* Aproximadamente 246px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 24.6vh; /* 246px */
+  width: 28.6vw; /* 286px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-5 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 5vh; /* Aproximadamente 50px */
+  left: 5vw; /* 50px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 37.7vh; /* Aproximadamente 377px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 37.7vh; /* 377px */
+  width: 28.6vw; /* 286px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-6 {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 39.5vh; /* Aproximadamente 395px */
+  left: 39.5vw; /* 395px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 12.2vh; /* Aproximadamente 122px */
+  top: 12.2vh; /* 122px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-6 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 5vh; /* Aproximadamente 50px */
+  height: 2.8vh; /* 28px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 27vh; /* Aproximadamente 270px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 27vh; /* 270px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-7 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 5vh; /* Aproximadamente 50px */
+  height: 2.8vh; /* 28px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 39.5vh; /* Aproximadamente 395px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 39.5vh; /* 395px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-8 {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 39.5vh; /* Aproximadamente 395px */
+  height: 2.8vh; /* 28px */
+  left: 39.5vw; /* 395px */
   position: absolute;
-  top: 14.5vh; /* Aproximadamente 145px */
-  width: 28.6vh; /* Aproximadamente 286px */
-  font-size: 2vh;
+  top: 14.5vh; /* 145px */
+  width: 28.6vw; /* 286px */
+  font-size: 1.6vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-div-wrapper {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
-  height: 3.6vh; /* Aproximadamente 36px */
-  left: 43.8vh; /* Aproximadamente 438px */
+  border-radius: 5px;
+  height: 3.6vh;
+  left: 47.8vw;
   position: absolute;
-  top: 55.8vh; /* Aproximadamente 558px */
+  top: 58.8vh;
   cursor: pointer;
-  width: 10vh; /* Aproximadamente 100px */
+  width: 5.3vw;
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-7 {
-  color: #09203f;
-  background-color: #d9d9d9;
+  /* color: #09203f; */
+  background-color: transparent;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh;
   font-weight: 400;
   border-color: transparent;
-  left: 1.7vh; /* Aproximadamente 17px */
+  left: 0.5vw;
   cursor: pointer;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 1vh; /* Aproximadamente 10px */
+  top: 1vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-text-wrapper-8 {
-  color: #09203f;
-  background-color: #00ddfa;
+  background-color: transparent;
   border-color: transparent;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh;
   font-weight: 400;
-  left: 1.7vh; /* Aproximadamente 17px */
+  left: 0.7vw;
   cursor: pointer;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 1vh; /* Aproximadamente 10px */
+  top: 1vh;
 }
 
 .EditEquipoButton-box .EditEquipoButton-overlap-2 {
   background-color: #00ddfa;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   cursor: pointer;
-  height: 3.6vh; /* Aproximadamente 36px */
-  left: 55.2vh; /* Aproximadamente 552px */
+  height: 3.6vh;
+  left: 55.2vw;
   position: absolute;
-  top: 55.8vh; /* Aproximadamente 558px */
-  width: 10vh; /* Aproximadamente 100px */
+  top: 58.8vh;
+  width: 6vw;
 }
 
 .EditEquipoButton-box .EditEquipoButton-activo-fijo-label {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 39.7vh; /* Aproximadamente 397px */
+  left: 39.7vw; /* 397px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 48.7vh; /* Aproximadamente 487px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 48.7vh; /* 487px */
+  width: 28.6vw; /* 286px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-activo-fijo-input {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 39.7vh; /* Aproximadamente 397px */
+  font-size: 1.6vh; /* Nuevo font-size */
+  height: 2.8vh; /* 28px */
+  left: 39.7vw; /* 397px */
   position: absolute;
-  top: 51.5vh; /* Aproximadamente 515px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 51.5vh; /* 515px */
+  width: 28.6vw; /* 286px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-mtto-label {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.2vh; /* Aproximadamente 12px */
+  font-size: 1.6vh; /* Nuevo font-size */
   font-weight: 400;
-  left: 5.3vh; /* Aproximadamente 53px */
+  left: 5.3vw; /* 53px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 49.4vh; /* Aproximadamente 494px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 49.4vh; /* 494px */
+  width: 28.6vw; /* 286px */
 }
 
 .EditEquipoButton-box .EditEquipoButton-mtto-input {
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 2.8vh; /* Aproximadamente 28px */
-  left: 5vh; /* Aproximadamente 50px */
+  font-size: 1.6vh; /* Nuevo font-size */
+  height: 2.8vh; /* 28px */
+  left: 5vw; /* 50px */
   position: absolute;
-  top: 51.7vh; /* Aproximadamente 517px */
-  width: 28.6vh; /* Aproximadamente 286px */
+  top: 51.7vh; /* 517px */
+  width: 28.6vw; /* 286px */
 }
