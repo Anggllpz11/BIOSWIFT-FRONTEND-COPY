@@ -4,7 +4,7 @@
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-register-marca {
-  height: 22.04vh;
+  height: 22.04vh; /* 238px / 1080px * 100 */
   left: 0;
   top: 0;
   width: 24.48vw; /* 470px / 1920px * 100 */
@@ -17,9 +17,9 @@
   background-color: #ffffff;
   outline: none;
   border: none;
-  height: 22.04vh;
+  height: 22.04vh; /* 238px / 1080px * 100 */
   position: relative;
-  width: 24.27vw;
+  width: 24.27vw; /* 466px / 1920px * 100 */
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-overlap {
@@ -31,7 +31,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 24.27vw;
+  width: 24.27vw; /* 466px / 1920px * 100 */
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-register-marca-title {
@@ -74,6 +74,7 @@
   position: absolute;
   top: 13.33vh; /* 144px / 1080px * 100 */
   width: 17.97vw; /* 345px / 1920px * 100 */
+  font-size: 1.6vh;
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-registrar-button {
@@ -99,7 +100,7 @@
   outline: none;
   border: none;
   position: absolute;
-  top: 17.50vh;
+  top: 17.50vh; /* 189px / 1080px * 100 */
   font-size: 1.3vh;
   width: 4.11vw; /* 79px / 1920px * 100 */
 }

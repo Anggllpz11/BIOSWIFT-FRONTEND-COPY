@@ -1,84 +1,85 @@
 .AreaEquipoDetailPage-box {
-  height: 19.44vh; /* 210px / 1080px * 100 */
-  width: 65.65vh; /* 709px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-overlap-group-wrapper {
-  height: 19.44vh;
+  height: 19.44vh; /* 210px */
+  width: 36.93vw; /* 709px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-overlap-group-wrapper {
+  height: 19.44vh; /* 210px */
   left: 0;
   top: 0;
-  width: 65.93vh; /* 713px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-overlap-group {
+  width: 37.14vw; /* 713px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-overlap-group {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 19.44vh;
+  height: 19.44vh; /* 210px */
   position: relative;
-  width: 65.65vh;
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-overlap {
+  width: 36.93vw; /* 709px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-overlap {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 19.44vh;
+  height: 19.44vh; /* 210px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 22.96vh; /* 248px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-icon {
-  height: 16.94vh; /* 183px / 1080px * 100 */
-  left: 1.67vh; /* 18px / 1080px * 100 */
+  width: 12.92vw; /* 248px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-icon {
+  height: 16.94vh; /* 183px */
+  left: 0.94vw; /* 18px */
   color: #00ddfa;
   position: absolute;
-  top: 1.30vh; /* 14px / 1080px * 100 */
-  width: 19.63vh; /* 212px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-title {
+  top: 1.30vh; /* 14px */
+  width: 11.04vw; /* 212px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-title {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 2vh;
+  font-size: 3vh;
   font-weight: 400;
-  left: 27.96vh; /* 302px / 1080px * 100 */
+  left: 15.73vw; /* 302px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 5.74vh; /* 62px / 1080px * 100 */
-  width: 35.65vh; /* 385px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-id {
+  top: 5.74vh; /* 62px */
+  width: 20.05vw; /* 385px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.4vh;
+  font-size: 1.5vh;
   font-weight: 400;
-  left: 27.96vh;
+  left: 15.73vw; /* 302px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 10.65vh; /* 115px / 1080px * 100 */
-  width: 35.09vh; /* 379px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-edit {
-  height: 2.87vh; /* 31px / 1080px * 100 */
-  left: 56.30vh; /* 608px / 1080px * 100 */
+  top: 10.65vh; /* 115px */
+  width: 19.74vw; /* 379px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-edit {
+  height: 2.87vh; /* 31px */
+  left: 31.67vw; /* 608px */
   color: #00ddfa;
   position: absolute;
-  top: 1.30vh;
-  width: 2.78vh; /* 30px / 1080px * 100 */
-}
-
-.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-delete {
-  height: 2.87vh;
-  left: 60.74vh; /* 656px / 1080px * 100 */
+  top: 1.30vh; /* 14px */
+  width: 1.56vw; /* 30px */
+  }
+  
+  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-delete {
+  height: 2.87vh; /* 31px */
+  left: 34.17vw; /* 656px */
   position: absolute;
   color: #00ddfa;
-  top: 1.30vh;
-  width: 2.87vh;
-}
+  top: 1.30vh; /* 14px */
+  width: 1.61vw; /* 31px */
+  }
+  

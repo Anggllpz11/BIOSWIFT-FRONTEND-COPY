@@ -40,7 +40,7 @@
 .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-title {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.85vh; /* 20px / 1080px * 100 */
+  font-size: 3vh; /* 20px / 1080px * 100 */
   font-weight: 400;
   left: 15.73vw; /* 302px / 1920px * 100 */
   letter-spacing: 0;

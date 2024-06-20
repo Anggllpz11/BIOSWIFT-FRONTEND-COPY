@@ -1,106 +1,106 @@
 .RegisterTipoEquipoForm-box {
-  height: 23.8vh; /* Aproximadamente 238px */
-  width: 46.6vh; /* Aproximadamente 466px */
+  height: 22.04vh; /* 238px */
+  width: 24.27vw; /* 466px */
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-register-marca {
-  height: 23.8vh; /* Aproximadamente 238px */
+  height: 22.04vh; /* 238px */
   left: 0;
   top: 0;
-  width: 47vh; /* Aproximadamente 470px */
+  width: 24.48vw; /* 470px */
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-overlap-group {
   background-size: 100% 100%;
   box-shadow: none;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   background-color: #ffffff;
   outline: none;
   border: none;
-  height: 23.8vh; /* Aproximadamente 238px */
+  height: 22.04vh; /* 238px */
   position: relative;
-  width: 46.6vh; /* Aproximadamente 466px */
+  width: 24.27vw; /* 466px */
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-overlap {
   background-size: 100% 100%;
   background-color: #d9d9d9;
-  height: 6.9vh; /* Aproximadamente 69px */
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  height: 6.39vh; /* 69px */
+  border-radius: 5px;
   color: #00ddfa;
   left: 0;
   position: absolute;
   top: 0;
-  width: 46.6vh; /* Aproximadamente 466px */
+  width: 24.27vw; /* 466px */
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-register-marca-title {
-  -webkit-text-stroke: 0.1vh #00ddfa33; /* Aproximadamente 1px */
+  -webkit-text-stroke: 1px #00ddfa33;
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 2vh; /* Aproximadamente 20px */
+  font-size: 2.3vh;
   font-weight: 400;
-  left: 6.8vh; /* Aproximadamente 68px */
+  left: 3.54vw; /* 68px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 1.4vh; /* Aproximadamente 14px */
-  width: 32.7vh; /* Aproximadamente 327px */
+  top: 1.30vh; /* 14px */
+  width: 17.03vw; /* 327px */
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-register-marca-label {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 2vh; /* Aproximadamente 20px */
+  font-size: 2vh;
   font-weight: 400;
-  left: 0.6vh; /* Aproximadamente 6px */
+  left: 0.31vw; /* 6px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 9.1vh; /* Aproximadamente 91px */
-  width: 45.3vh; /* Aproximadamente 453px */
+  top: 8.43vh; /* 91px */
+  width: 23.59vw; /* 453px */
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-register-marca-input {
-  height: 3.6vh; /* Aproximadamente 36px */
-  left: 6vh; /* Aproximadamente 60px */
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  height: 3.33vh; /* 36px */
+  left: 3.13vw; /* 60px */
+  border-radius: 5px;
   background-color: #d9d9d9;
   box-shadow: none;
   outline: none;
   border: none;
   position: absolute;
-  top: 14.4vh; /* Aproximadamente 144px */
-  width: 34.5vh; /* Aproximadamente 345px */
-  font-size: 1.4vh;
+  top: 13.33vh; /* 144px */
+  width: 17.97vw; /* 345px */
+  font-size: 1.5vh;
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-registrar-button {
-  height: 3.6vh; /* Aproximadamente 36px */
-  left: 23.5vh; /* Aproximadamente 235px */
+  height: 3.33vh; /* 36px */
+  left: 12.24vw; /* 235px */
   background-color: #00ddfa;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: absolute;
-  top: 18.9vh; /* Aproximadamente 189px */
-  width: 7.9vh; /* Aproximadamente 79px */
-  font-size: 1.3vh;
+  top: 17.50vh; /* 189px */
+  width: 4.11vw; /* 79px */
+  font-size: 1.5vh;
 }
 
 .RegisterTipoEquipoForm-box .RegisterTipoEquipoForm-cancelar-button {
-  height: 3.6vh; /* Aproximadamente 36px */
-  left: 14.5vh; /* Aproximadamente 145px */
+  height: 3.33vh; /* 36px */
+  left: 7.55vw; /* 145px */
   background-color: #d9d9d9;
-  border-radius: 0.5vh; /* Aproximadamente 5px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: absolute;
-  top: 18.9vh; /* Aproximadamente 189px */
-  width: 7.9vh; /* Aproximadamente 79px */
-  font-size: 1.3vh;
+  top: 17.50vh; /* 189px */
+  width: 4.11vw; /* 79px */
+  font-size: 1.5vh;
 }
