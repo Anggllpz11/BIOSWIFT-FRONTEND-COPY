@@ -1,46 +1,47 @@
 .EditCampoButton-box-1 {
-  height: 76.2vh;
-  width: 63.1vh;
+  height: 70.56vh; /* 762px */
+  width: 32.86vw; /* 631px */
 }
 
 .EditCampoButton-box-1 .EditCampoButton-group {
-  height: 76.2vh;
+  height: 70.56vh; /* 762px */
   left: 0;
   top: 0;
-  width: 63.9vh;
+  width: 33.28vw; /* 639px */
 }
 
 .EditCampoButton-box-1 .EditCampoButton-overlap-group {
   background-color: #ffffff;
   border-radius: 10px;
-  height: 76.2vh;
+  height: 70.56vh; /* 762px */
   position: relative;
-  width: 63.1vh;
+  width: 32.86vw; /* 631px */
 }
 
 .EditCampoButton-box-1 .EditCampoButton-overlap {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 26.9vh;
+  height: 24.91vh; /* 269px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 63.1vh;
+  width: 32.86vw; /* 631px */
 }
 
 .EditCampoButton-box-1 .EditCampoButton-campo-title {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 3.6vh;
+  font-size: 36px;
   font-weight: 400;
-  height: 18.6vh;
-  left: 3.4vh;
+  height: 17.22vh; /* 186px */
+  left: 1.77vw; /* 34px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 2.5vh;
-  width: 57.4vh;
+  top: 2.31vh; /* 25px */
+  width: 29.90vw; /* 574px */
+  font-size: 3.6vh;
 }
 
 .EditCampoButton-box-1 .EditCampoButton-id-title {
@@ -48,15 +49,16 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 3vh;
   font-weight: 400;
-  height: 2.4vh;
-  left: 3.4vh;
+  height: 2.22vh; /* 24px */
+  left: 1.77vw; /* 34px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 17vh;
+  top: 15.74vh; /* 170px */
   white-space: nowrap;
-  width: 57.4vh;
+  width: 29.90vw; /* 574px */
+
 }
 
 .EditCampoButton-box-1 .EditCampoButton-tipo-p {
@@ -64,75 +66,77 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  height: 3vh;
-  left: 4.2vh;
+  height: 2.78vh; /* 30px */
+  left: 2.19vw; /* 42px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 34.6vh;
-  width: 54.3vh;
+  top: 32.04vh; /* 346px */
+  width: 28.28vw; /* 543px */
+ 
 }
 
 .EditCampoButton-box-1 .EditCampoButton-tipo-input {
   background-color: #d9d9d9;
   border-radius: 10px;
   border: none;
-  height: 4.3vh;
-  left: 9.3vh;
+  height: 3.98vh; /* 43px */
+  left: 4.84vw; /* 93px */
   position: absolute;
-  top: 39.9vh;
-  width: 44.1vh;
+  top: 36.94vh; /* 399px */
+  width: 22.97vw; /* 441px */
   font-size: 2vh;
 }
 
 .EditCampoButton-box-1 .EditCampoButton-title-p {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: 400;
-  height: 3vh;
-  left: 4.7vh;
+  height: 2.78vh; /* 30px */
+  left: 2.45vw; /* 47px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 49.4vh;
-  width: 54.3vh;
+  top: 45.74vh; /* 494px */
+  width: 28.28vw; /* 543px */
+  font-size: 2vh;
 }
 
 .EditCampoButton-box-1 .EditCampoButton-title-input {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 4.3vh;
+  height: 3.98vh; /* 43px */
   border: none;
-  left: 9.8vh;
+  left: 5.10vw; /* 98px */
   position: absolute;
-  top: 54.7vh;
-  width: 44.1vh;
+  top: 50.65vh; /* 547px */
+  width: 22.97vw; /* 441px */
   font-size: 2vh;
 }
 
 .EditCampoButton-box-1 .EditCampoButton-cancelar {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 5.2vh;
-  left: 13.4vh;
+  height: 4.81vh; /* 52px */
+  left: 6.98vw; /* 134px */
   border: none;
   position: absolute;
-  top: 64.9vh;
-  width: 16.4vh;
+  top: 60.09vh; /* 649px */
+  width: 8.54vw; /* 164px */
   font-size: 2vh;
 }
 
 .EditCampoButton-box-1 .EditCampoButton-actualizar {
   background-color: #00ddfa;
   border-radius: 10px;
-  height: 5.2vh;
-  left: 34.4vh;
+  height: 4.81vh; /* 52px */
+  left: 17.92vw; /* 344px */
   border: none;
   position: absolute;
-  top: 64.9vh;
-  width: 16.4vh;
+  top: 60.09vh; /* 649px */
+  width: 8.54vw; /* 164px */
   font-size: 2vh;
 }

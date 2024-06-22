@@ -1,40 +1,40 @@
 .CampoDetailPage-box {
-  height: 16.7vh;
-  width: 37.4vh;
+  height: 15.46vh; /* 167px */
+  width: 19.48vw; /* 374px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-campobyid-container {
-  height: 16.7vh;
+  height: 15.46vh; /* 167px */
   left: 0;
   top: 0;
-  width: 38vh;
+  width: 19.79vw; /* 380px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-overlap-group {
   background-color: #d9d9d9;
   border-radius: 10px;
-  height: 16.7vh;
+  height: 15.46vh; /* 167px */
   position: relative;
-  width: 37.4vh;
+  width: 19.48vw; /* 374px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-overlap {
   background-color: #ffffff;
   border-radius: 10px;
-  height: 16.7vh;
+  height: 15.46vh; /* 167px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 9.6vh;
+  width: 5vw; /* 96px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-icon {
-  height: 9.6vh;
-  left: 0.2vh;
+  height: 8.89vh; /* 96px */
+  left: 0.10vw; /* 2px */
   color: #00ddfa;
   position: absolute;
-  top: 3.3vh;
-  width: 9.1vh;
+  top: 3.06vh; /* 33px */
+  width: 4.74vw; /* 91px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-title {
@@ -42,13 +42,13 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.6vh;
   font-weight: 400;
-  left: 10.3vh;
+  left: 5.36vw; /* 103px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 3.8vh;
-  width: 26.4vh;
+  top: 3.52vh; /* 38px */
+  width: 13.75vw; /* 264px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-id {
@@ -56,13 +56,13 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1vh;
   font-weight: 400;
-  left: 10.3vh;
+  left: 5.36vw; /* 103px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 9vh;
-  width: 26.4vh;
+  top: 8.33vh; /* 90px */
+  width: 13.75vw; /* 264px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-tipo {
@@ -70,29 +70,30 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.2vh;
   font-weight: 400;
-  left: 10.3vh;
+  left: 5.36vw; /* 103px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 11.7vh;
-  width: 26.4vh;
+  top: 10.83vh; /* 117px */
+  width: 13.75vw; /* 264px */
+
 }
 
 .CampoDetailPage-box .CampoDetailPage-edit-icon {
-  height: 2.2vh;
-  left: 30.7vh;
+  height: 2.04vh; /* 22px */
+  left: 15.99vw; /* 307px */
   color: #00ddfa;
   position: absolute;
-  top: 0.3vh;
-  width: 2.2vh;
+  top: 0.28vh; /* 3px */
+  width: 1.15vw; /* 22px */
 }
 
 .CampoDetailPage-box .CampoDetailPage-delete-icon {
-  height: 2.2vh;
-  left: 33.7vh;
+  height: 2.04vh; /* 22px */
+  left: 17.55vw; /* 337px */
   color: #00ddfa;
   position: absolute;
-  top: 0.3vh;
-  width: 2.2vh;
+  top: 0.28vh; /* 3px */
+  width: 1.15vw; /* 22px */
 }
