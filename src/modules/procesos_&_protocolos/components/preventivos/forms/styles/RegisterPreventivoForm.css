@@ -1,48 +1,48 @@
 .RegisterPreventivoForm-box-1 {
-  height: 85.7vh;
-  width: 113.8vh;
+  height: 79.35vh; /* 857px */
+  width: 59.27vw; /* 1138px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-edit-preventivo {
-  height: 85.7vh;
+  height: 79.35vh; /* 857px */
   left: 0;
   top: 0;
-  width: 115vh;
+  width: 59.90vw; /* 1150px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-overlap {
   background-color: #ffffff;
   background-size: 100% 100%;
-  height: 85.7vh;
-  border-radius: 1vh;
+  height: 79.35vh; /* 857px */
+  border-radius: 10px;
   position: relative;
-  width: 113.8vh;
+  width: 59.27vw; /* 1138px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-overlap-group {
   background-color: #d9d9d9;
   background-size: 100% 100%;
-  height: 18.4vh;
-  border-radius: 1vh;
+  height: 17.04vh; /* 184px */
+  border-radius: 10px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 113.8vh;
+  width: 59.27vw; /* 1138px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-preventivo-title {
-  -webkit-text-stroke: 0.1vh #00ddfa33;
+  -webkit-text-stroke: 1px #00ddfa33;
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
   font-size: 4vh;
   font-weight: 400;
-  left: 1.3vh;
+  left: 0.68vw; /* 13px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 7vh;
-  width: 110.7vh;
+  top: 6.48vh; /* 70px */
+  width: 57.52vw; /* 1107px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-preventivo-id {
@@ -50,14 +50,14 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  height: 4.8vh;
-  left: 22.4vh;
+  height: 4.44vh; /* 48px */
+  left: 11.67vw; /* 224px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 11.2vh;
-  width: 69.2vh;
+  top: 10.37vh; /* 112px */
+  width: 36.04vw; /* 692px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-title-p {
@@ -65,26 +65,26 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 1.4vh;
+  left: 0.73vw; /* 14px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 26.3vh;
-  width: 54.3vh;
+  top: 24.35vh; /* 263px */
+  width: 28.28vw; /* 543px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-title-input {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   background-color: #d9d9d9;
   box-shadow: none;
   outline: none;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   border: none;
-  left: 2.9vh;
+  left: 1.51vw; /* 29px */
   position: absolute;
-  top: 30.1vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 27.38vh; /* 301px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-codigo-p {
@@ -92,26 +92,26 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 1.4vh;
+  left: 0.73vw; /* 14px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 38.5vh;
-  width: 54.3vh;
+  top: 35.65vh; /* 385px */
+  width: 28.28vw; /* 543px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-codigo-input {
-  height: 4.9vh;
-  left: 2.9vh;
+  height: 4.54vh; /* 49px */
+  left: 1.51vw; /* 29px */
   background-color: #d9d9d9;
   box-shadow: none;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   outline: none;
   border: none;
   position: absolute;
-  top: 42.3vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 39.17vh; /* 423px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-version-p {
@@ -119,26 +119,26 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 1.4vh;
+  left: 0.73vw; /* 14px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 50.7vh;
-  width: 54.3vh;
+  top: 47.04vh; /* 507px */
+  width: 28.28vw; /* 543px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-version-input {
-  height: 4.9vh;
-  left: 2.9vh;
+  height: 4.54vh; /* 49px */
+  left: 1.51vw; /* 29px */
   background-color: #d9d9d9;
   box-shadow: none;
+  border-radius: 5px;
   outline: none;
-  border-radius: 0.5vh;
   border: none;
   position: absolute;
-  top: 54.5vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 50.46vh; /* 545px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-date-p {
@@ -146,74 +146,91 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 1.4vh;
+  left: 0.73vw; /* 14px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 62.9vh;
-  width: 54.3vh;
+  top: 58.25vh; /* 629px */
+  width: 28.28vw; /* 543px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-date-input {
-  height: 4.9vh;
-  left: 2.9vh;
+  height: 4.54vh; /* 49px */
+  left: 1.51vw; /* 29px */
   background-color: #d9d9d9;
   box-shadow: none;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   outline: none;
   border: none;
   position: absolute;
-  top: 66.7vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 61.67vh; /* 667px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-separator {
   background-color: #636b6f61;
-  height: 63.6vh;
-  left: 56.8vh;
+  height: 58.89vh; /* 636px */
+  left: 29.58vw; /* 568px */
   position: absolute;
-  top: 20.3vh;
+  top: 18.80vh; /* 203px */
   transform: rotate(180deg);
-  width: 0.1vh;
+  width: 0.05vw; /* 1px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-div {
   background-color: transparent;
-  height: 59.3vh;
-  left: 57vh;
+  height: 54.91vh; /* 593px */
+  left: 29.69vw; /* 570px */
   position: absolute;
-  top: 25.3vh;
-  width: 56.5vh;
+  top: 23.43vh; /* 253px */
+  width: 29.43vw; /* 565px */
   overflow-y: scroll;
   overflow-x: hidden;
   /* Style the scrollbar */
   scrollbar-width: thin; /* Firefox */
   scrollbar-color: #636b6f61 #636b6f61; /* Firefox */
-}
 
-.RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-space {
-  height: 20vh;
-  left: 1.6vh;
-  position: relative;
-  top: 1.1vh;
-  width: 52.5vh;
-  overflow: auto;
-  overflow-y: scroll;
-  overflow-x: hidden;
-
-  /* Style the scrollbar */
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #636b6f61 #636b6f61; /* Firefox */
+  /* WebKit (Chrome, Safari) */
   &::-webkit-scrollbar {
-    width: 0.5vh;
+    width: 5px;
   }
+
   &::-webkit-scrollbar-track {
     background-color: #636b6f61;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: #636b6f61;
-    border-radius: 0.5vh;
+    border-radius: 5px;
+  }
+}
+
+.RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-space {
+  height: 18.52vh; /* 200px */
+  left: 0.83vw; /* 16px */
+  position: relative;
+  top: 1.02vh; /* 11px */
+  width: 27.34vw; /* 525px */
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
   }
 }
 
@@ -222,102 +239,118 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 0.7vh;
+  left: 0.36vw; /* 7px */
   letter-spacing: 0;
   line-height: normal;
   position: relative;
   top: 0;
-  width: 48.1vh;
+  width: 25.05vw; /* 481px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-x-wrapper {
   background-color: #d9d9d9;
   background-size: 100% 100%;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   position: relative;
-  margin-bottom: 0.5vh;
-  top: 1.5vh;
-  width: 50.5vh;
+  margin-bottom: 5px;
+  top: 1.39vh; /* 15px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-x {
-  height: 2vh;
-  left: 47.4vh;
+  height: 1.85vh; /* 20px */
+  left: 24.69vw; /* 474px */
   position: relative;
   cursor: pointer;
-  top: -2.3vh;
+  top: -2.13vh; /* -23px */
   color: #00ddfa;
-  width: 2.1vh;
+  width: 1.09vw; /* 21px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-selected {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   background-color: #d9d9d9;
   text-align: center;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: relative;
-  top: 1vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 0.93vh; /* 10px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-result {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   list-style: none;
   background-color: #5378957e;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   position: relative;
   cursor: pointer;
-  top: 3vh;
-  margin-bottom: 1.6vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 2.78vh; /* 30px */
+  margin-bottom: 16px;
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cuantitativo {
-  height: 6.8vh;
+  height: 6.30vh; /* 68px */
   left: 0;
   position: relative;
-  top: 2vh;
-  width: 50.3vh;
+  top: 1.85vh; /* 20px */
+  width: 26.20vw; /* 503px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cuantitativo-search {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   background-color: #d9d9d9;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   text-align: center;
   position: absolute;
-  top: 1.9vh;
-  width: 16.3vh;
+  top: 1.76vh; /* 19px */
+  width: 8.49vw; /* 163px */
+  font-size: 1.6vh;
 }
 
 /* MANTENIMIENTO STYLES */
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-space {
-  height: 20vh;
-  left: 1.6vh;
+  height: 18.52vh; /* 200px */
+  left: 0.83vw; /* 16px */
   position: relative;
-  top: 7.5vh;
-  width: 52.5vh;
+  top: 6.94vh; /* 75px */
+  width: 27.34vw; /* 525px */
   overflow-y: scroll;
   overflow-x: hidden;
   /* Style the scrollbar */
   scrollbar-width: thin; /* Firefox */
   scrollbar-color: #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-p {
@@ -325,66 +358,67 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 0.7vh;
+  left: 0.36vw; /* 7px */
   letter-spacing: 0;
   line-height: normal;
   position: relative;
   top: 0;
-  width: 48.1vh;
+  width: 25.05vw; /* 481px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-x-wrapper {
   background-color: #d9d9d9;
   background-size: 100% 100%;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   position: relative;
-  margin-bottom: 0.5vh;
-  top: 1.5vh;
-  width: 50.5vh;
+  margin-bottom: 5px;
+  top: 1.39vh; /* 15px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-x {
-  height: 2vh;
-  left: 47.4vh;
+  height: 1.85vh; /* 20px */
+  left: 24.69vw; /* 474px */
   position: relative;
-  top: -2.3vh;
+  top: -2.13vh; /* -23px */
   cursor: pointer;
   color: #00ddfa;
-  width: 2.1vh;
+  width: 1.09vw; /* 21px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-selected {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   background-color: #d9d9d9;
   text-align: center;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: relative;
-  top: 1vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 0.93vh; /* 10px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-mantenimiento-result {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   list-style: none;
   background-color: #5378957e;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   position: relative;
   cursor: pointer;
-  top: 3vh;
-  margin-bottom: 1.6vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 2.78vh; /* 30px */
+  margin-bottom: 16px;
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 /* CUANTITATIVOS STYLES */
@@ -394,111 +428,142 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 0.7vh;
+  left: 0.36vw; /* 7px */
   letter-spacing: 0;
   line-height: normal;
   position: relative;
   top: 0;
-  width: 48.1vh;
+  width: 25.05vw; /* 481px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cuantitativo-space {
-  height: 22vh;
-  left: 1.6vh;
+  height: 20.37vh; /* 220px */
+  left: 0.83vw; /* 16px */
   position: relative;
-  top: 15vh;
-  width: 52.5vh;
+  top: 13.89vh; /* 150px */
+  width: 27.34vw; /* 525px */
   overflow-y: scroll;
   overflow-x: hidden;
   /* Style the scrollbar */
   scrollbar-width: thin; /* Firefox */
   scrollbar-color: #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
 }
 
 .RegisterPreventivoForm-separator2 {
-  height: 0.1vh;
-  left: 4.5vh;
+  height: 0.09vh; /* 1px */
+  left: 2.34vw; /* 45px */
   background-color: #636b6f61;
   object-fit: cover;
   position: relative;
-  top: 11.5vh;
-  width: 45vh;
+  top: 10.65vh; /* 115px */
+  width: 23.44vw; /* 450px */
 }
 
 .RegisterPreventivoForm-separator3 {
-  height: 0.1vh;
-  left: 4.5vh;
+  height: 0.09vh; /* 1px */
+  left: 2.34vw; /* 45px */
   background-color: #636b6f61;
   object-fit: cover;
   position: relative;
-  top: 18.5vh;
-  width: 45vh;
+  top: 17.13vh; /* 185px */
+  width: 23.44vw; /* 450px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-img {
-  height: 4.9vh;
-  left: 17.1vh;
+  height: 4.54vh; /* 49px */
+  left: 8.90vw; /* 171px */
   background-color: #d9d9d9;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   text-align: center;
   position: absolute;
-  top: 1.9vh;
-  width: 8.5vh;
+  top: 1.76vh; /* 19px */
+  width: 4.43vw; /* 85px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cuantitativo-search-2 {
-  height: 4.9vh;
-  left: 26.4vh;
+  height: 4.54vh; /* 49px */
+  left: 13.75vw; /* 264px */
   background-color: #d9d9d9;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   text-align: center;
   position: absolute;
-  top: 1.9vh;
-  width: 8.5vh;
+  top: 1.76vh; /* 19px */
+  width: 4.43vw; /* 85px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cuantitativo-search-3 {
-  height: 4.9vh;
-  left: 35.7vh;
+  height: 4.54vh; /* 49px */
+  left: 18.59vw; /* 357px */
   background-color: #d9d9d9;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   text-align: center;
   position: absolute;
-  top: 1.9vh;
-  width: 8.5vh;
+  top: 1.76vh; /* 19px */
+  width: 4.43vw; /* 85px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-x-2 {
-  height: 2vh;
-  left: 46.5vh;
+  height: 1.85vh; /* 20px */
+  left: 24.74vw; /* 465px */
   cursor: pointer;
   position: absolute;
   color: #00ddfa;
-  top: 3.3vh;
-  width: 2.1vh;
+  top: 3.06vh; /* 33px */
+  width: 1.09vw; /* 21px */
 }
 
 /* OTROS STYLES */
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-space {
-  height: 20vh;
-  left: 1.6vh;
+  height: 18.52vh; /* 200px */
+  left: 0.83vw; /* 16px */
   position: relative;
-  top: 22vh;
-  width: 52.5vh;
+  top: 20.37vh; /* 220px */
+  width: 27.34vw; /* 525px */
   overflow-y: scroll;
   overflow-x: hidden;
   /* Style the scrollbar */
   scrollbar-width: thin; /* Firefox */
   scrollbar-color: #636b6f61 #636b6f61; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #636b6f61;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #636b6f61;
+    border-radius: 5px;
+  }
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-p {
@@ -506,67 +571,68 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 2vh;
   font-weight: 400;
-  left: 0.7vh;
+  left: 0.36vw; /* 7px */
   letter-spacing: 0;
   line-height: normal;
   position: relative;
   top: 0;
-  width: 48.1vh;
+  width: 25.05vw; /* 481px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-x-wrapper {
   background-color: #d9d9d9;
   background-size: 100% 100%;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   position: relative;
-  margin-bottom: 0.5vh;
-  top: 1.5vh;
-  width: 50.5vh;
+  margin-bottom: 5px;
+  top: 1.39vh; /* 15px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-x {
-  height: 2vh;
-  left: 47.4vh;
+  height: 1.85vh; /* 20px */
+  left: 24.69vw; /* 474px */
   position: relative;
-  top: -2.3vh;
+  top: -2.13vh; /* -23px */
   color: #00ddfa;
   cursor: pointer;
-  width: 2.1vh;
+  width: 1.09vw; /* 21px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-selected {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   background-color: #d9d9d9;
   text-align: center;
   cursor: pointer;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: relative;
-  top: 1vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 0.93vh; /* 10px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-otros-result {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   list-style: none;
   background-color: #5378957e;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   position: relative;
   cursor: pointer;
-  top: 3vh;
-  margin-bottom: 1.6vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 2.78vh; /* 30px */
+  margin-bottom: 16px;
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-text-wrapper {
@@ -574,15 +640,15 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.4vh;
   font-weight: 400;
-  height: 1.4vh;
-  left: 17.1vh;
+  height: 1.30vh; /* 14px */
+  left: 8.90vw; /* 171px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
   white-space: nowrap;
-  width: 8.5vh;
+  width: 4.43vw; /* 85px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-text-wrapper-2 {
@@ -590,15 +656,15 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.4vh;
   font-weight: 400;
-  height: 1.4vh;
-  left: 3.9vh;
+  height: 1.30vh; /* 14px */
+  left: 2.03vw; /* 39px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
   white-space: nowrap;
-  width: 8.5vh;
+  width: 4.43vw; /* 85px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-text-wrapper-3 {
@@ -606,15 +672,15 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.4vh;
   font-weight: 400;
-  height: 1.4vh;
-  left: 26.4vh;
+  height: 1.30vh; /* 14px */
+  left: 13.75vw; /* 264px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
   white-space: nowrap;
-  width: 8.5vh;
+  width: 4.43vw; /* 85px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-unidad {
@@ -622,84 +688,84 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.4vh;
   font-weight: 400;
-  height: 1.4vh;
-  left: 35.7vh;
+  height: 1.30vh; /* 14px */
+  left: 18.59vw; /* 357px */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
   white-space: nowrap;
-  width: 8.5vh;
+  width: 4.43vw; /* 85px */
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cuantitativo-selected-2 {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   background-color: #d9d9d9;
   text-align: center;
   box-shadow: none;
   outline: none;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   border: none;
   position: relative;
-  top: 3vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  top: 2.78vh; /* 30px */
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-cualitativo-result-2 {
-  height: 4.9vh;
+  height: 4.54vh; /* 49px */
   left: 0;
   list-style: none;
   background-color: #5378957e;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   position: relative;
-  top: 5vh;
+  top: 4.63vh; /* 50px */
   cursor: pointer;
-  margin-bottom: 1.6vh;
-  width: 50.5vh;
-  font-size: 2vh;
+  margin-bottom: 16px;
+  width: 26.28vw; /* 505px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-update-cancelar {
-  height: 6.9vh;
-  left: 5.5vh;
-  border-radius: 0.5vh;
+  height: 6.39vh; /* 69px */
+  left: 2.86vw; /* 55px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   border: none;
   cursor: pointer;
   background-color: #d9d9d9;
   position: absolute;
-  top: 76.9vh;
-  width: 19.6vh;
-  font-size: 2vh;
+  top: 71.57vh; /* 769px */
+  width: 10.10vw; /* 196px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-box-1 .RegisterPreventivoForm-actualizar-button {
-  height: 6.9vh;
-  left: 31.2vh;
-  border-radius: 0.5vh;
+  height: 6.39vh; /* 69px */
+  left: 15.67vw; /* 312px */
+  border-radius: 5px;
   box-shadow: none;
   outline: none;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   cursor: pointer;
   border: none;
   background-color: #00ddfa;
   position: absolute;
-  top: 76.9vh;
-  width: 19.6vh;
-  font-size: 2vh;
+  top: 71.57vh; /* 769px */
+  width: 10.10vw; /* 196px */
+  font-size: 1.6vh;
 }
 
 .RegisterPreventivoForm-separator {
-  height: 0.1vh;
-  left: 4.5vh;
+  height: 0.09vh; /* 1px */
+  left: 2.34vw; /* 45px */
   background-color: #636b6f61;
   object-fit: cover;
   position: relative;
-  top: 4.5vh;
-  width: 45vh;
+  top: 4.17vh; /* 45px */
+  width: 23.44vw; /* 450px */
 }
