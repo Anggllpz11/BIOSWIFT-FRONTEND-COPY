@@ -145,7 +145,7 @@ const EquipoDetailPage: React.FC = () => {
             </div>
             <div className="EquipoDetailPage-overlap-3">
               <div className="EquipoDetailPage-serie-title">NÚMERO DE SERIE</div>
-              <QrCodeOutlinedIcon className="EquipoDetailPage-img"/>
+              <QrCodeOutlinedIcon className="EquipoDetailPage-img-serie"/>
               <div className="EquipoDetailPage-serie-number">{equipo ? equipo.serie : ''}</div>
             </div>
             <div className="EquipoDetailPage-overlap-4">
@@ -178,12 +178,12 @@ const EquipoDetailPage: React.FC = () => {
                 <p className="EquipoDetailPage-notas-icon">{equipo ? equipo.modelo_equipos.modelo : 'N/A'}</p>
               </div>
               <div className="EquipoDetailPage-notas-title">MARCA</div>
-              <RemoveRedEyeIcon className='EquipoDetailPage-see-client' onClick={handleRedirectToMarcaDetail}/>
+              <RemoveRedEyeIcon className='EquipoDetailPage-see-marca' onClick={handleRedirectToMarcaDetail}/>
               <p className="EquipoDetailPage-notas-p">{equipo ? equipo.modelo_equipos.id_marca.marca : 'N/A'}</p>
             </div>
             <div className="EquipoDetailPage-overlap-9">
               <div className="EquipoDetailPage-overlap-10">
-                <div className="EquipoDetailPage-text-wrapper-2">BOARD TEMPERATURE</div>
+                <div className="EquipoDetailPage-text-wrapper-temperature">BOARD TEMPERATURE</div>
                 <DeviceThermostatOutlinedIcon className="EquipoDetailPage-temperature-icon"/>
               </div>
               <div className="EquipoDetailPage-temperature-grades">0 °C</div>
