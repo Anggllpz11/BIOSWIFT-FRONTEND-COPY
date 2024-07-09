@@ -552,3 +552,447 @@
   top: 51.7vh; /* 517px */
   width: 28.6vw; /* 286px */
 }
+
+@media screen and (min-width: 200px) and (max-width:480px) {
+
+  .EditEquipoButton-box .EditEquipoButton-overlap-group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 72.13vh;
+    position: relative;
+    width: 84vw;
+    overflow-x: hidden;
+}
+
+.EditEquipoButton-box .EditEquipoButton-overlap {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  height: 10.11vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 84vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 3vh;
+  font-weight: 400;
+  left: 16.2vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1.6vh;
+  width: 50.9vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-div {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  box-shadow: none;
+  font-weight: 400;
+  left: 11.7vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11.1vh;
+  width: 59.2vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-2 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  height: 2.8vh;
+  left: 4vw;
+  position: absolute;
+  top: 14.6vh;
+  width: 76vw;
+  font-size: 1.6vh;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-results-sede {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 5vw;
+  position: absolute;
+  top: 18vh;
+  height: 6.5vh;
+  width: 77.6vw;
+  overflow-y: auto;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-item-sede {
+  background-color: #53789587;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6vh;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  top: 0.3vh;
+  height: 2vh;
+  list-style: none;
+  position: relative;
+  margin-bottom: 0.2vh;
+  width: 74.5vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-text-wrapper-4 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25.6vh;
+  width: 74.6vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-6 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 2.8vh;
+  left: 5vw;
+  position: absolute;
+  top: 30vh;
+  text-align: center;
+  width: 73.6vw;
+  font-size: 1.6vh;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-results-modelo {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 5vw;
+  position: absolute;
+  top: 34vh;
+  height: 6.5vh;
+  width: 76.6vw;
+  overflow-y: auto;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-item-modelo {
+  background-color: #53789587;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6vh;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  top: 0.3vh;
+  height: 2vh;
+  list-style: none;
+  position: relative;
+  margin-bottom: 0.2vh;
+  width: 73.5vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-text-wrapper-5 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41.7vh;
+  width: 72.6vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-7 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 2.8vh;
+  left: 5vw;
+  position: absolute;
+  top: 46.5vh;
+  width: 72.6vw;
+  text-align: center;
+  font-size: 1.6vh;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-results-areas {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 5vw;
+  position: absolute;
+  top: 50.5vh;
+  height: 6.5vh;
+  width: 76.6vw;
+  overflow-y: auto;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-item-areas {
+  background-color: #53789587;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6vh;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  top: 0.3vh;
+  height: 2vh;
+  list-style: none;
+  position: relative;
+  margin-bottom: 0.2vh;
+  width: 73.5vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-mtto-label {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 5.3vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58.4vh;
+  width: 72.6vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-mtto-input {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 1.6vh;
+  height: 2.8vh;
+  left: 5vw;
+  position: absolute;
+  top: 61.7vh;
+  text-align: center;
+  width: 71.6vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle {
+  background-color: #00ddfa;
+  height: 0.1vh;
+  left: 4.2vw;
+  position: absolute;
+  top: 65.9vh;
+  transform: rotate(180deg);
+  width: 76.1vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-text-wrapper-6 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 4.5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67.2vh;
+  width: 83vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-8 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 2.8vh;
+  left: 5.5vw;
+  position: absolute;
+  top: 70.5vh;
+  width: 70.6vw;
+  text-align: center;
+  font-size: 1.6vh;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-results-tipos {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 5.7vw;
+  position: absolute;
+  top: 73.5vh;
+  height: 7.5vh;
+  width: 71.6vw;
+  overflow-y: auto;
+}
+
+.EditEquipoButton-box .EditEquipoButton-search-item-tipos {
+  background-color: #53789587;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6vh;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  top: 0.3vh;
+  height: 2.vh;
+  list-style: none;
+  position: relative;
+  margin-bottom: 0.2vh;
+  width: 70.2vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-p {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 2.2vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 78.1vh;
+  width: 84.2vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-3 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  height: 2.8vh;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  left: 6.7vw;
+  position: absolute;
+  top: 81.2vh;
+  width: 68.6vw;
+  font-size: 1.6vh;
+}
+
+.EditEquipoButton-box .EditEquipoButton-text-wrapper-2 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 5.8vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 85.1vh;
+  width: 77.2vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-4 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 2.8vh;
+  left: 6.7vw;
+  position: absolute;
+  top: 89.8vh;
+  width: 68.6vw;
+  font-size: 1.6vh;
+  text-align: center;
+}
+
+.EditEquipoButton-box .EditEquipoButton-text-wrapper-3 {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 5.7vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 94.4vh;
+  width: 72.6vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-rectangle-5 {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  height: 2.8vh;
+  left: 6.7vw;
+  position: absolute;
+  top: 99vh;
+  width: 68.6vw;
+  text-align: center;
+  font-size: 1.6vh;
+}
+
+.EditEquipoButton-box .EditEquipoButton-activo-fijo-label {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.6vh;
+  font-weight: 400;
+  left: 5.7vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 103.7vh;
+  width: 63.6vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-activo-fijo-input {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 1.6vh;
+  height: 2.8vh;
+  left: 6.7vw;
+  position: absolute;
+  top: 106.5vh;
+  width: 68.6vw;
+  text-align: center;
+}
+
+.EditEquipoButton-box .EditEquipoButton-div-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  height: 3.6vh;
+  left: 10.8vw;
+  position: absolute;
+  top: 110.5vh;
+  cursor: pointer;
+  width: 25.3vw;
+}
+
+.EditEquipoButton-box .EditEquipoButton-overlap-2 {
+  background-color: #00ddfa;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 3.6vh;
+  left: 42.2vw;
+  position: absolute;
+  top: 110.5vh;
+  width: 28vw;
+}
+}

@@ -152,7 +152,7 @@ const EditEquipoButton: React.FC<EditEquipoButtonProps> = ({ equipoId, onEditSuc
   };
 
   return (
-    <div>
+
     <div className="EditEquipoButton-box">
       <form className="EditEquipoButton-form">
         <div className="EditEquipoButton-overlap-group">
@@ -161,24 +161,27 @@ const EditEquipoButton: React.FC<EditEquipoButtonProps> = ({ equipoId, onEditSuc
           </div>
           <div className="EditEquipoButton-rectangle" />
           
-          <label className="EditEquipoButton-div">Seleccione la sede a relacionar:</label>
-          <input
-            type="text"
-            value={sedeKeyword}
-            onChange={(e) => setSedeKeyword(e.target.value)}
-            className="EditEquipoButton-rectangle-2"
-            autoComplete="off"
-            placeholder="Buscar Sede..."
-          />
-          {sedeResults.length > 0 && (
-            <ul className="EditEquipoButton-search-results-sede">
-              {sedeResults.map((sede) => (
-                <li key={sede._id} onClick={() => handleSelectSede(sede)} className="EditEquipoButton-search-item-sede">
-                  {sede.sede_nombre}
-                </li>
-              ))}
-            </ul>
-          )}
+          <div className='EditEquipoButton-sede-container'>
+            <label className="EditEquipoButton-div">Seleccione la sede a relacionar:</label>
+            <input
+              type="text"
+              value={sedeKeyword}
+              onChange={(e) => setSedeKeyword(e.target.value)}
+              className="EditEquipoButton-rectangle-2"
+              autoComplete="off"
+              placeholder="Buscar Sede..."
+            />
+            {sedeResults.length > 0 && (
+              <ul className="EditEquipoButton-search-results-sede">
+                {sedeResults.map((sede) => (
+                  <li key={sede._id} onClick={() => handleSelectSede(sede)} className="EditEquipoButton-search-item-sede">
+                    {sede.sede_nombre}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+          
 
           <label className="EditEquipoButton-p">Ingrese el numero de serie (SN) del equipo:</label>
           <input
@@ -298,9 +301,6 @@ const EditEquipoButton: React.FC<EditEquipoButtonProps> = ({ equipoId, onEditSuc
       </form>
     </div>
 
-
-
-    </div>
   );
 };
 
