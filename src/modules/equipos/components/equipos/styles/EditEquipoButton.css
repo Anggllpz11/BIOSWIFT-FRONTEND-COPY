@@ -67,11 +67,7 @@
 }
 
 .EditEquipoButton-box .EditEquipoButton-search-results-sede {
-<<<<<<< HEAD
-  animation-duration: 1.2s;
-=======
   animation-duration: 3ms;
->>>>>>> 9265ad6eb7db00cecc725781decc8b7f35d17d5d
   animation-name: slidein;
   background-color: transparent;
   border-radius: 5px;
@@ -84,19 +80,6 @@
   height: 7.1vh;
   width: 29.6vw;
   overflow-y: auto;
-<<<<<<< HEAD
-  overflow-x: hidden;
-}
-
-@keyframes slidein {
-
-  from { opacity: 0;
-  }
-
-  to { opacity: 1;
-  }
-=======
->>>>>>> 9265ad6eb7db00cecc725781decc8b7f35d17d5d
 }
 
 /* Estiliza la barra de desplazamiento en su totalidad */
@@ -278,12 +261,7 @@
 }
 
 .EditEquipoButton-box .EditEquipoButton-search-item-sede {
-<<<<<<< HEAD
-  animation-duration: 0.3s;
-  animation-name: slide-right;
-=======
 
->>>>>>> 9265ad6eb7db00cecc725781decc8b7f35d17d5d
   display: inline-block;
   background-color: #53789587;
   border-radius: 5px;
@@ -293,18 +271,12 @@
   outline: none;
   cursor: pointer;
   border: none;
-<<<<<<< HEAD
-=======
   top: 0.3vh;
->>>>>>> 9265ad6eb7db00cecc725781decc8b7f35d17d5d
   height: auto;
   list-style: none;
   position: relative;
   margin-bottom: 0.2vh;
   width: 28.5vw;
-<<<<<<< HEAD
-  
-=======
 }
 
 .EditEquipoButton-box .EditEquipoButton-search-item-sede:hover {
@@ -324,32 +296,7 @@
     display: block;
   }
 
->>>>>>> 9265ad6eb7db00cecc725781decc8b7f35d17d5d
 }
-
-@keyframes slide-right {
-  from {
-    top: 100%;
-    height: 0%;
-   }
-  50% {
-      top: 0%;
-      height: 0%;
-    }
-  
-  to {
-    height: 2.2vh;
-    top: 0%;
-  }
-}
-
-
-
-.EditEquipoButton-box .EditEquipoButton-search-item-sede:hover {
-  background-color: #00ddfa;
-  color: #f1f1f1;
-}
-
 
 .EditEquipoButton-box .EditEquipoButton-rectangle-2 {
   background-color: #d9d9d9;
@@ -941,7 +888,6 @@
   height: 6.5vh;
   width: 77.6vw;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .EditEquipoButton-box .EditEquipoButton-search-item-sede {
