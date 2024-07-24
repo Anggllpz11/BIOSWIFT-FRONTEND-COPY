@@ -38,48 +38,50 @@
   }
   
   .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-title {
-  color: #00ddfa;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 3vh;
-  font-weight: 400;
-  left: 15.73vw; /* 302px */
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 5.74vh; /* 62px */
-  width: 20.05vw; /* 385px */
-  }
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 2vh;
+    font-weight: 400;
+    left: 15.73vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5.74vh;
+    width: 20.05vw;
+    word-break: break-all;
+}
   
-  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-id {
+.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.5vh;
   font-weight: 400;
-  left: 15.73vw; /* 302px */
+  left: 15.73vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 10.65vh; /* 115px */
-  width: 19.74vw; /* 379px */
-  }
+  top: 10.65vh;
+  width: 19.74vw;
+  word-break: break-word;
+}
   
-  .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-edit {
-  height: 2.87vh; /* 31px */
-  left: 31.67vw; /* 608px */
+.AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-edit {
+  height: 2.87vh;
+  left: 28.67vw;
   color: #00ddfa;
   position: absolute;
-  top: 1.30vh; /* 14px */
-  width: 1.56vw; /* 30px */
-  }
+  top: 1.30vh;
+  width: 3.56vw;
+}
   
   .AreaEquipoDetailPage-box .AreaEquipoDetailPage-marcaequipo-delete {
-  height: 2.87vh; /* 31px */
-  left: 34.17vw; /* 656px */
-  position: absolute;
-  color: #00ddfa;
-  top: 1.30vh; /* 14px */
-  width: 1.61vw; /* 31px */
-  }
+    height: 2.87vh;
+    left: 32.5vw;
+    position: absolute;
+    color: #00ddfa;
+    top: 1.30vh;
+    width: 3.61vw;
+}
   

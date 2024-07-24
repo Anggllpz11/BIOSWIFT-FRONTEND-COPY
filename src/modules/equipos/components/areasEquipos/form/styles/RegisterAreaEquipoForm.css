@@ -1,13 +1,13 @@
 .RegisterAreaEquipoForm-box {
   height: 22.04vh; /* 238px / 1080px * 100 */
-  width: 24.27vw; /* 466px / 1920px * 100 */
+  width: 43.15vw; /* 466px / 1080px * 100 */
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-register-marca {
   height: 22.04vh; /* 238px / 1080px * 100 */
   left: 0;
   top: 0;
-  width: 24.48vw; /* 470px / 1920px * 100 */
+  width: 43.52vw; /* 470px / 1080px * 100 */
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-overlap-group {
@@ -19,7 +19,7 @@
   border: none;
   height: 22.04vh; /* 238px / 1080px * 100 */
   position: relative;
-  width: 24.27vw; /* 466px / 1920px * 100 */
+  width: 43.15vw; /* 466px / 1080px * 100 */
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-overlap {
@@ -31,41 +31,45 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 24.27vw; /* 466px / 1920px * 100 */
+  width: 43.15vw; /* 466px / 1080px * 100 */
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-register-marca-title {
   -webkit-text-stroke: 1px #00ddfa33;
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.85vh; /* 20px / 1080px * 100 */
+  font-size: 2vh;
   font-weight: 400;
-  left: 3.54vw; /* 68px / 1920px * 100 */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 1.30vh; /* 14px / 1080px * 100 */
-  width: 17.03vw; /* 327px / 1920px * 100 */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+  width: 43vw;
+  height: 5vh;
+  word-break: break-all;
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-register-marca-label {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.85vh; /* 20px / 1080px * 100 */
+  font-size: 1.5vh;
   font-weight: 400;
-  left: 0.31vw; /* 6px / 1920px * 100 */
+  left: 0vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 8.43vh; /* 91px / 1080px * 100 */
-  width: 23.60vw; /* 453px / 1920px * 100 */
+  top: 7.43vh;
+  width: 43vw;
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-register-marca-input {
   height: 3.33vh; /* 36px / 1080px * 100 */
-  left: 3.13vw; /* 60px / 1920px * 100 */
+  left: 5.56vw; /* 60px / 1080px * 100 */
   border-radius: 5px;
   background-color: #d9d9d9;
   box-shadow: none;
@@ -73,34 +77,34 @@
   border: none;
   position: absolute;
   top: 13.33vh; /* 144px / 1080px * 100 */
-  width: 17.97vw; /* 345px / 1920px * 100 */
+  width: 31.94vw; /* 345px / 1080px * 100 */
   font-size: 1.6vh;
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-registrar-button {
-  height: 3.33vh; /* 36px / 1080px * 100 */
-  left: 12.24vw; /* 235px / 1920px * 100 */
+  height: 3.33vh;
+  left: 21.76vw;
   background-color: #00ddfa;
   border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: absolute;
-  top: 17.50vh; /* 189px / 1080px * 100 */
-  width: 4.11vw; /* 79px / 1920px * 100 */
+  top: 17.50vh;
+  width: auto;
   font-size: 1.3vh;
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-cancelar-button {
-  height: 3.33vh; /* 36px / 1080px * 100 */
-  left: 7.55vw; /* 145px / 1920px * 100 */
+  height: 3.33vh;
+  left: 9.76vw;
   background-color: #d9d9d9;
   border-radius: 5px;
   box-shadow: none;
   outline: none;
   border: none;
   position: absolute;
-  top: 17.50vh; /* 189px / 1080px * 100 */
+  top: 17.50vh;
   font-size: 1.3vh;
-  width: 4.11vw; /* 79px / 1920px * 100 */
+  width: auto;
 }
