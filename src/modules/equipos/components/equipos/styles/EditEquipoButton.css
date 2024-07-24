@@ -306,21 +306,23 @@
   outline: none;
   border: none;
   height: 2.8vh;
-  left: 5vw;
+  left: 16vw;
   position: absolute;
   top: 14.6vh;
-  width: 28.6vw;
+  width: 11vh;
   font-size: 1.6vh;
   text-align: center;
-  transition-duration: 0.3s;
-  transition-property: background, transform,;
-  transition-timing-function: ease-in-out;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  color: #000000;
 }
 
-.EditEquipoButton-box .EditEquipoButton-rectangle-2:hover {
+.EditEquipoButton-box .EditEquipoButton-rectangle-2:focus {
+  left: 5vw;
+  width: 28.6vw;
   background-color: #00ddfa;
-  transform: matrix3d(30deg)
+  color: #ffffff;
 }
+
 
 .EditEquipoButton-box .EditEquipoButton-p {
   color: #636b6f;
