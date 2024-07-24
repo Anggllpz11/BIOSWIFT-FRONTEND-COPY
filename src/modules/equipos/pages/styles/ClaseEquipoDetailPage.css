@@ -1,13 +1,13 @@
 .ClaseEquipoDetailPage-box {
   height: 19.44vh; /* 210px */
-  width: 36.93vw; /* 709px */
+  width: 43.15vw; /* 466px */
 }
 
 .ClaseEquipoDetailPage-box .ClaseEquipoDetailPage-overlap-group-wrapper {
   height: 19.44vh; /* 210px */
   left: 0;
   top: 0;
-  width: 37.14vw; /* 713px */
+  width: 43.52vw; /* 470px */
 }
 
 .ClaseEquipoDetailPage-box .ClaseEquipoDetailPage-overlap-group {
@@ -15,17 +15,17 @@
   border-radius: 5px;
   height: 19.44vh; /* 210px */
   position: relative;
-  width: 36.93vw; /* 709px */
+  width: 43.15vw; /* 466px */
 }
 
 .ClaseEquipoDetailPage-box .ClaseEquipoDetailPage-overlap {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 19.44vh; /* 210px */
+  height: 19.44vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 12.92vw; /* 248px */
+  width: 13.15vw;
 }
 
 .ClaseEquipoDetailPage-box .ClaseEquipoDetailPage-marcaequipo-icon {
@@ -56,29 +56,30 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.7vh;
   font-weight: 400;
-  left: 15.73vw; /* 302px */
+  left: 15.73vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 10.65vh; /* 115px */
-  width: 19.74vw; /* 379px */
+  top: 10.65vh;
+  width: 25.74vw;
+  word-break: break-all;
 }
 
 .ClaseEquipoDetailPage-box .ClaseEquipoDetailPage-marcaequipo-edit {
-  height: 2.87vh; /* 31px */
-  left: 31.67vw; /* 608px */
+  height: 2.87vh;
+  left: 33.67vw;
   color: #00ddfa;
   position: absolute;
-  top: 1.30vh; /* 14px */
-  width: 1.56vw; /* 30px */
+  top: 1.30vh;
+  width: 3.56vw;
 }
 
 .ClaseEquipoDetailPage-box .ClaseEquipoDetailPage-marcaequipo-delete {
-  height: 2.87vh; /* 31px */
-  left: 34.17vw; /* 656px */
+  height: 2.87vh;
+  left: 38.17vw;
   position: absolute;
   color: #00ddfa;
-  top: 1.30vh; /* 14px */
-  width: 1.61vw; /* 31px */
+  top: 1.30vh;
+  width: 3.61vw;
 }
