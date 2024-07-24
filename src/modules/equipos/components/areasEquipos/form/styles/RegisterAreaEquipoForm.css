@@ -83,7 +83,7 @@
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-registrar-button {
   height: 3.33vh;
-  left: 21.76vw;
+  left: 2.76vw;
   background-color: #00ddfa;
   border-radius: 5px;
   box-shadow: none;
@@ -91,13 +91,14 @@
   border: none;
   position: absolute;
   top: 17.50vh;
-  width: auto;
+  width: 12vw;
   font-size: 1.3vh;
+  margin: 0 5vw;
 }
 
 .RegisterAreaEquipoForm-box .RegisterAreaEquipoForm-cancelar-button {
   height: 3.33vh;
-  left: 9.76vw;
+  left: 16.76vw;
   background-color: #d9d9d9;
   border-radius: 5px;
   box-shadow: none;
@@ -106,5 +107,7 @@
   position: absolute;
   top: 17.50vh;
   font-size: 1.3vh;
-  width: auto;
+  width: 12vw;
+  margin: 0 5vw;
 }
+

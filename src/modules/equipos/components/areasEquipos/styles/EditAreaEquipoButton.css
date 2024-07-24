@@ -82,7 +82,7 @@
 
 .EditAreaEquipoButton-box .EditAreaEquipoButton-img {
   height: 3.33vh;
-  left: 21.76vw;
+  left: 7.76vw;
   background-color: #00ddfa;
   border-radius: 5px;
   box-shadow: none;
@@ -90,13 +90,13 @@
   border: none;
   position: absolute;
   top: 17.50vh;
-  width: auto;
+  width: 12.7vw;
   font-size: 1.3vh;
 }
 
 .EditAreaEquipoButton-box .EditAreaEquipoButton-cancelar-button {
   height: 3.33vh;
-  left: 13.76vw;
+  left: 21.76vw;
   background-color: #d9d9d9;
   border-radius: 5px;
   box-shadow: none;
@@ -104,6 +104,6 @@
   border: none;
   position: absolute;
   top: 17.50vh;
-  width: auto;
   font-size: 1.3vh;
+  width: 11.7vw;
 }
