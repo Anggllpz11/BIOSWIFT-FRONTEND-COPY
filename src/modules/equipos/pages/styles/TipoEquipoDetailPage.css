@@ -82,3 +82,67 @@
   top: 1.30vh; /* 14px / 1080px * 100 */
   width: 1.61vw; /* 31px / 1920px * 100 */
 }
+
+@media (orientation:portrait) {
+
+  .TipoEquipoDetailPage-box .TipoEquipoDetailPage-overlap-group {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 19.44vh;
+    position: relative;
+    width: 66.93vw;
+    transition: left 0.3s ease, top 0.3s ease;
+    left: -13vw;
+}
+
+.TipoEquipoDetailPage-box .TipoEquipoDetailPage-marcaequipo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.85vh;
+  font-weight: 400;
+  left: 15.73vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5.74vh;
+  width: 48.05vw;
+  position: relative;
+  margin-bottom: 1vh;
+  word-break: break-all;
+}
+
+.TipoEquipoDetailPage-box .TipoEquipoDetailPage-marcaequipo-id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.30vh;
+  font-weight: 400;
+  left: 15.73vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7.65vh;
+  width: 46.74vw;
+  position: relative;
+}
+
+.TipoEquipoDetailPage-box .TipoEquipoDetailPage-marcaequipo-edit {
+  height: 2.87vh;
+  left: 50.67vw;
+  color: #00ddfa;
+  position: absolute;
+  top: 1.30vh;
+  width: 4.56vw;
+}
+
+.TipoEquipoDetailPage-box .TipoEquipoDetailPage-marcaequipo-delete {
+  height: 2.87vh;
+  left: 56.17vw;
+  position: absolute;
+  color: #00ddfa;
+  top: 1.30vh;
+  width: 4.61vw;
+}
+
+}
