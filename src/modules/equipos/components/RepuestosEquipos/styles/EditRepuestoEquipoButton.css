@@ -303,3 +303,317 @@
   transform: rotate(180deg);
   width: 0.05vw; /* 1px / 1920px * 100 */
 }
+
+ @media (orientation: portrait) {
+
+  .EditRepuestoEquipoButton-box {
+    height: 46.20vh; /* 499px / 1080px * 100 */
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-edit-repuesto-equipo {
+    height: 46.20vh; /* 499px / 1080px * 100 */
+    left: 0;
+    top: 0;
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-overlap-group {
+    background-color: #ffffff;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 46.20vh; /* 499px / 1080px * 100 */
+    position: relative;
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-overlap {
+    background-color: #D9D9D9;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    height: 9.91vh; /* 107px / 1080px * 100 */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-edit-title {
+    -webkit-text-stroke: 1px #00ddfa33;
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 2.04vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2.78vh;
+    width: 63.8vw;
+}
+  
+.EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-repuesto-id {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.85vh;
+  font-weight: 400;
+  height: 2.59vh;
+  left: 8.07vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6.02vh;
+  width: 57vw;
+}
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-register-repuesto {
+    height: 46.20vh; /* 499px / 1080px * 100 */
+    left: 0;
+    top: 0;
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-overlap-group {
+    background-color: #ffffff;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 41vh; /* 443px / 1080px * 100 */
+    position: relative;
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-overlap {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 9.91vh; /* 107px / 1080px * 100 */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70vw; /* Cambiado a 70vw */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-register-title {
+    -webkit-text-stroke: 1px #00ddfa33;
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-weight: 400;
+    left: 6.09vw; /* 117px / 1920px * 100 */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3.52vh; /* 38px / 1080px * 100 */
+    width: 28.80vw; /* 553px / 1920px * 100 */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-repuesto-cliente {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 2.34vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14.17vh;
+    width: 25.6vw;
+}
+  
+.EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-cliente-input {
+  font-size: 1.1vh;
+  height: 3.06vh;
+  left: 2.02vw;
+  position: absolute;
+  background-color: #d9d9d9d9;
+  box-shadow: none;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  top: 19.5vh;
+  width: 29.15vw;
+  /* font-size: 1.6vh; */
+}
+  
+.EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-client-search-results {
+  height: 16.26vh;
+  width: 28.15vw;
+  position: absolute;
+  top: 23.93vh;
+  left: 3.02vw;
+  list-style: none;
+  overflow-y: auto;
+}
+  
+    /* Estiliza la barra de desplazamiento en su totalidad */
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-client-search-results::-webkit-scrollbar {
+    width: 5px; /* Ajusta el ancho de la barra de desplazamiento */
+  }
+  
+  /* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-client-search-results::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+  }
+  
+  /* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-client-search-results::-webkit-scrollbar-thumb {
+    background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+  }
+  
+  /* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-client-search-results::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-client-search-item {
+    height: 1.85vh;
+    font-size: 1.11vh;
+    width: 27.1vw;
+    background-color: #53789587;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-repuesto-nombre {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 39.2vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14.17vh;
+    width: 28.64vw;
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-nombre-input {
+    height: 3.06vh;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+    left: 38.97vw;
+    position: absolute;
+    top: 19.41vh;
+    width: 27.04vw;
+    font-size: 1.6vh;
+}
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-repuesto-cantidad {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-weight: 400;
+    left: 21.20vw; /* 407px / 1920px * 100 */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14.17vh; /* 153px / 1080px * 100 */
+    width: 19.64vw; /* 377px / 1920px * 100 */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-cantidad-input {
+    height: 4.26vh; /* 46px / 1080px * 100 */
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+    left: 22.97vw; /* 441px / 1920px * 100 */
+    position: absolute;
+    top: 17.41vh; /* 188px / 1080px * 100 */
+    width: 16.04vw; /* 308px / 1920px * 100 */
+    font-size: 1.6vh;
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-repuesto-precio {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 39.2vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 24.48vh;
+    width: 29.64vw;
+}
+  
+.EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-precio-input {
+  height: 3.06vh;
+  left: 38.97vw;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  position: absolute;
+  top: 29.72vh;
+  width: 27.04vw;
+  font-size: 1.6vh;
+}
+  
+.EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-actualizar-texto-wrapper {
+  background-color: #00ddfa;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  left: 52.6vw;
+  position: absolute;
+  top: 36.37vh;
+  font-size: 1vh;
+  width: 16.9vw;
+  cursor: pointer;
+  height: 4vh;
+}
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-weight: 400;
+    height: 2.59vh; /* 28px / 1080px * 100 */
+    left: 1.15vw; /* 22px / 1920px * 100 */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1.11vh; /* 12px / 1080px * 100 */
+    cursor: pointer;
+    width: 7.55vw; /* 145px / 1920px * 100 */
+  }
+  
+  .EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-cancelar-texto-wrapper {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 4vh;
+    left: 35.44vw;
+    position: absolute;
+    top: 36.37vh;
+    width: 15.9vw;
+    cursor: pointer;
+}
+  
+.EditRepuestoEquipoButton-box .EditRepuestoEquipoButton-repuesto-separator {
+  background-color: #636b6f61;
+  height: 27.59vh;
+  left: 34.42vw;
+  position: absolute;
+  top: 11.57vh;
+  transform: rotate(180deg);
+  width: 0.05vw;
+}
+  
+
+}
