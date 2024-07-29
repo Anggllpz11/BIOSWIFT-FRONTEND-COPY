@@ -196,18 +196,6 @@
   font-size: 1.4vh;
 }
 
-.box .registrar-texto-wrapper {
-  background-color: #00ddfa;
-  border-radius: 5px;
-  background-size: 100% 100%;
-  height: 4vh; /* 53px / 1080px * 100 */
-  left: 22.60vw; /* 434px / 1920px * 100 */
-  position: absolute;
-  top: 35.37vh; /* 382px / 1080px * 100 */
-  width: 9.90vw; /* 190px / 1920px * 100 */
-  cursor: pointer;
-}
-
 .box .text-wrapper {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
@@ -224,17 +212,33 @@
   width: 7.55vw; /* 145px / 1920px * 100 */
 }
 
-.box .cancelar-texto-wrapper {
-  background-color: #D9D9D9;
-  border-radius: 5px;
-  background-size: 100% 100%;
-  height: 4vh; /* 53px / 1080px * 100 */
-  left: 8.44vw; /* 162px / 1920px * 100 */
-  position: absolute;
-  top: 35.37vh; /* 382px / 1080px * 100 */
-  width: 9.90vw; /* 190px / 1920px * 100 */
-  cursor: pointer;
-}
+  .box .cancelar-text-wrapper {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 3vh; /* 53px / 1080px * 100 */
+    left: 30.8vw; /* 162px / 1920px * 100 */
+    position: absolute;
+    top: 35.37vh; /* 382px / 1080px * 100 */
+    width: 9.90vw; /* 190px / 1920px * 100 */
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5vh;
+  }
+
+  .box .registrar-text-wrapper {
+    background-color: #00ddfa;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 3vh; /* 53px / 1080px * 100 */
+    left: 20.6vw; /* 434px / 1920px * 100 */
+    position: absolute;
+    top: 35.37vh; /* 382px / 1080px * 100 */
+    width: 9.90vw; /* 190px / 1920px * 100 */
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5vh;
+    }
 
 .box .repuesto-separator {
   background-color: #636b6f61;
@@ -244,4 +248,276 @@
   top: 11.57vh; /* 125px / 1080px * 100 */
   transform: rotate(180deg);
   width: 0.05vw; /* 1px / 1920px * 100 */
+}
+
+@media (orientation: portrait) {
+
+  .box {
+    height: 46.20vh; /* 499px / 1080px * 100 */
+    width: 41.09vw; /* 789px / 1920px * 100 */
+  }
+  
+  .box .register-repuesto {
+    height: 41.2vh;
+    width: 68.82vw;
+    position: relative;
+    left: -10vw;
+}
+  
+  .box .overlap-group {
+    background-color: #ffffff;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 41.02vh; /* 443px / 1080px * 100 */
+    position: relative;
+    width: 69.09vw;
+  }
+  
+  .box .overlap {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 9.91vh; /* 107px / 1080px * 100 */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 69.09vw;
+  }
+  
+  .box .register-title {
+    -webkit-text-stroke: 1px #00ddfa33;
+    color: #00ddfa;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-weight: 400;
+    left: 0vw; /* 117px / 1920px * 100 */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3.52vh; /* 38px / 1080px * 100 */
+    width: 68.80vw; /* 553px / 1920px * 100 */
+  }
+  
+  .box .repuesto-cliente {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 2.34vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11.17vh;
+    width: 27.6vw;
+}
+  
+.box .cliente-input {
+  height: 3.06vh;
+  left: 3.02vw;
+  position: absolute;
+  background-color: #d9d9d9d9;
+  box-shadow: none;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  top: 15.85vh;
+  width: 27.15vw;
+  font-size: 1.4vh;
+}
+  
+  .box .client-search-results {
+    height: 17.26vh; /* 100px / 1080px * 100 */
+    width: 27.15vw;
+    position: absolute;
+    top: 19.3vh; /* 226px / 1080px * 100 */
+    left: 3.02vw;
+    list-style: none;
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+  }
+  
+  /* Estiliza la barra de desplazamiento en su totalidad */
+  .box .client-search-results::-webkit-scrollbar {
+    width: 0.26vw; /* Ajusta el ancho de la barra de desplazamiento */
+  }
+  
+  /* Estiliza el rastro de la barra de desplazamiento (la parte que "contiene" el pulgar) */
+  .box .client-search-results::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Ajusta el color de fondo según prefieras */
+  }
+  
+  /* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+  .box .client-search-results::-webkit-scrollbar-thumb {
+    background: #888; /* Ajusta el color del pulgar de la barra de desplazamiento */
+  }
+  
+  /* Estiliza el pulgar de la barra de desplazamiento al pasar el cursor */
+  .box .client-search-results::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Ajusta el color del pulgar cuando se hace hover */
+  }
+  
+  .box .client-search-item {
+    height: auto; /* 20px / 1080px * 100 */
+    font-size: 1.11vh; /* 12px / 1080px * 100 */
+    width: 26.10vw; /* 290px / 1920px * 100 */
+    background-color: #53789587;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 0.19vh; /* 2px / 1080px * 100 */
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    display: inline-block;
+  }
+  
+  .box .repuesto-nombre {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 37.2vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11.17vh;
+    width: 30vw;
+}
+  
+.box .nombre-input {
+  height: 3.06vh;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: #D9D9D9;
+  left: 37.2vw;
+  position: absolute;
+  top: 18.41vh;
+  width: 27.04vw;
+  font-size: 1.4vh;
+}
+  
+  .box .repuesto-cantidad {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-weight: 400;
+    left: 21.20vw; /* 407px / 1920px * 100 */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14.17vh; /* 153px / 1080px * 100 */
+    width: 30vw; /* 377px / 1920px * 100 */
+  }
+  
+  .box .cantidad-input {
+    height: 4.26vh; /* 46px / 1080px * 100 */
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+    left: 22.97vw; /* 441px / 1920px * 100 */
+    position: absolute;
+    top: 30vh; /* 188px / 1080px * 100 */
+    width: 16.04vw; /* 308px / 1920px * 100 */
+  }
+  
+  .box .repuesto-precio {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh;
+    font-weight: 400;
+    left: 37.2vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 24.48vh;
+    width: 30.4vw;
+}
+  
+.box .precio-input {
+  height: 3.06vh;
+  left: 37.2vw;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  position: absolute;
+  top: 31.72vh;
+  width: 27.04vw;
+  font-size: 1.4vh;
+}
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-weight: 400;
+    height: 2.59vh; /* 28px / 1080px * 100 */
+    left: 1.15vw; /* 22px / 1920px * 100 */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1.11vh; /* 12px / 1080px * 100 */
+    cursor: pointer;
+    width: 18.5vw; /* 145px / 1920px * 100 */
+  }
+  
+  .box .cancelar-texto-wrapper {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    height: 4vh; /* 53px / 1080px * 100 */
+    left: 8.44vw; /* 162px / 1920px * 100 */
+    position: absolute;
+    top: 35.37vh; /* 382px / 1080px * 100 */
+    width: 20vw; /* 190px / 1920px * 100 */
+    cursor: pointer;
+  }
+  
+  .box .repuesto-separator {
+    background-color: #636b6f61;
+    height: 27.59vh;
+    left: 33.42vw;
+    position: absolute;
+    top: 11.57vh;
+    transform: rotate(180deg);
+    width: 0.05vw;
+}
+
+.box .cancelar-text-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  left: 36.6vw;
+  position: absolute;
+  top: 38.37vh;
+  width: 14.9vw;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  font-size: 1.1vh;
+  padding: 0.3vh;
+  text-align: center;
+}
+
+.box .registrar-text-wrapper {
+  border-radius: 5px;
+  background-size: 100% 100%;
+  left: 52.6vw;
+  position: absolute;
+  top: 38.37vh;
+  width: 14.9vw;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  font-size: 1.1vh;
+  padding: 0.3vh;
+  text-align: center;
+  }
+
 }

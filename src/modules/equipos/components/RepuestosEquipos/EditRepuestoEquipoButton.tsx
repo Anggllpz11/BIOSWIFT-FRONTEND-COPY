@@ -110,12 +110,9 @@ const EditRepuestoEquipoButton: React.FC<EditRepuestoEquipoButtonProps> = ({ rep
               value={repuestoEquipoData.repuesto_precio || 0}
               onChange={(e) => setRepuestoEquipoData({ ...repuestoEquipoData, repuesto_precio: e.target.value })}
               />
-
-              <div className="EditRepuestoEquipoButton-actualizar-texto-wrapper">
-                <div className="EditRepuestoEquipoButton-text-wrapper" onClick={handleEdit}>ACTUALIZAR</div>
-              </div>
-              <div className="EditRepuestoEquipoButton-cancelar-texto-wrapper">
-                <div className="EditRepuestoEquipoButton-text-wrapper" onClick={onCancel}>CANCELAR</div>
+              <div className='EditRepuestoEquipoButton-actionButtons'>
+                <div className="EditRepuestoEquipoButton-actualizar-texto-wrapper" onClick={handleEdit}>ACTUALIZAR</div>
+                <div className="EditRepuestoEquipoButton-cancelar-texto-wrapper" onClick={onCancel}>CANCELAR</div>
               </div>
               <div className="EditRepuestoEquipoButton-repuesto-separator" />
             </div>

@@ -110,14 +110,10 @@ const RegisterRepuestoEquipoForm: React.FC = () => {
                   value={repuestoEquipoData.repuesto_precio}
                   onChange={handleChange}
                   />
-
-
-                  <div className="registrar-texto-wrapper">
-                    <div className="text-wrapper" onClick={handleSubmit}>REGISTRAR</div>
-                  </div>
-                  <div className="cancelar-texto-wrapper">
-                    <div  className="text-wrapper" onClick={() => navigate('/equipos-repuestos')}>CANCELAR</div>
-                  </div>
+                  <div className='RegisterRepuestoEquipoForm-actionButtons'>
+                    <div className="registrar-text-wrapper" onClick={handleSubmit}>REGISTRAR</div>
+                    <div  className="cancelar-text-wrapper" onClick={() => navigate('/equipos-repuestos')}>CANCELAR</div>
+                    </div>
                   <div className="repuesto-separator" />
                 </div>
               </div>
