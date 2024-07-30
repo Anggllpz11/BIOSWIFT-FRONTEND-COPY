@@ -84,3 +84,75 @@
   top: 1.30vh;
   width: 3.61vw;
 }
+
+@media (orientation: portrait) {
+  
+  .MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap-group {
+    background-color: #ffffffd9;
+    border-radius: 5px;
+    height: 19.44vh;
+    position: relative;
+    width: 62.93vw;
+    left: -7vw;
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 19.44vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12.92vw;
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 2vh;
+  font-weight: 400;
+  left: 14.73vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 4.74vh;
+  width: 47.05vw;
+  word-break: break-word;
+  margin-bottom: 1vh;
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-id {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.30vh;
+  font-weight: 400;
+  left: 14.73vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 6.65vh;
+  word-break: break-word;
+  width: 46.74vw;
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-edit {
+  height: 2.87vh;
+  left: 55.67vw;
+  color: #00ddfa;
+  position: absolute;
+  top: 1.30vh;
+  width: 4.56vw;
+}
+
+.MarcaEquipoDetailPage-box .MarcaEquipoDetailPage-marcaequipo-delete {
+  height: 2.87vh;
+  left: 49.17vw;
+  position: absolute;
+  color: #00ddfa;
+  top: 1.30vh;
+  width: 4.61vw;
+}
+
+}
