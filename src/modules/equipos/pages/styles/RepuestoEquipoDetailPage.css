@@ -1,313 +1,318 @@
 .RepuestoEquipoDetailPage-box {
-  height: 40.83vh; /* 441px / 1080px * 100 */
-  width: 30.78vw; /* 591px / 1920px * 100 */
+  height: 70vh; /* Aumentado proporcionalmente */
+  width: 60vw; /* Aumentado proporcionalmente */
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-repuestos-equipos {
-  height: 40.83vh; /* 441px / 1080px * 100 */
+  height: 70vh; /* Aumentado proporcionalmente */
   left: 0;
   top: 0;
-  width: 32.03vw; /* 615px / 1920px * 100 */
+  width: 62vw; /* Aumentado proporcionalmente */
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-overlap-group {
   background-color: #53789587;
   border-radius: 5px;
-  height: 40.83vh; /* 441px / 1080px * 100 */
+  height: 70vh; /* Aumentado proporcionalmente */
   position: relative;
-  width: 30.78vw; /* 591px / 1920px * 100 */
+  width: 60vw; /* Aumentado proporcionalmente */
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-overlap {
   background-color: #ffffffd9;
   border-radius: 5px;
-  height: 9.63vh; /* 104px / 1080px * 100 */
+  height: 17vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 30.78vw; /* 591px / 1920px * 100 */
+  width: 60vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-div {
-  height: 5.74vh; /* 62px / 1080px * 100 */
-  left: 5.78vw; /* 111px / 1920px * 100 */
+  height: 11vh; /* Aumentado proporcionalmente */
+  left: 12vw; /* Aumentado proporcionalmente */
   position: absolute;
-  top: 1.94vh; /* 21px / 1080px * 100 */
-  width: 19.22vw; /* 369px / 1920px * 100 */
+  top: 4.5vh; /* Aumentado proporcionalmente */
+  width: 45vw; /* Aumentado proporcionalmente */
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-repuestoequipo-name {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.85vh; /* 20px / 1080px * 100 */
+  font-size: 3.7vh;
   font-weight: 400;
-  left: -1.67vw; /* -32px / 1920px * 100 */
+  left: -4vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 22.24vw; /* 427px / 1920px * 100 */
-  height: 4.63vh; /* 50px / 1080px * 100 */
+  width: 50vw;
+  height: 12vh;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-repuestoequipo-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.30vh; /* 14px / 1080px * 100 */
+  font-size: 2.8vh;
   font-weight: 400;
-  left: 0;
+  left: -12vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 5.74vh; /* 62px / 1080px * 100 */
-  width: 19.22vw; /* 369px / 1920px * 100 */
+  top: 7vh;
+  width: 60vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-delete-icon-header {
-  height: 2.96vh; /* 32px / 1080px * 100 */
+  height: 9vh;
   color: #00ddfa;
-  left: 28.18vw; /* 541px / 1920px * 100 */
+  left: 56vw;
   position: absolute;
-  top: 4.91vh; /* 53px / 1080px * 100 */
-  width: 1.61vw; /* 31px / 1920px * 100 */
+  top: 8vh;
+  width: 3vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-edit-icon-header {
-  height: 2.96vh; /* 32px / 1080px * 100 */
+  height: 9vh;
   color: #00ddfa;
-  left: 28.18vw; /* 541px / 1920px * 100 */
+  left: 56vw;
   position: absolute;
-  top: 1.02vh; /* 11px / 1080px * 100 */
-  width: 1.61vw; /* 31px / 1920px * 100 */
+  top: 0vh;
+  width: 3vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-overlap-2 {
   background-color: #ffffffd9;
   border-radius: 5px;
   background-size: 100% 100%;
-  height: 27.31vh; /* 295px / 1080px * 100 */
-  left: 0.47vw; /* 9px / 1920px * 100 */
+  height: 51vh;
+  left: 0.7vw;
   position: absolute;
-  top: 11.11vh; /* 120px / 1080px * 100 */
-  width: 16.88vw; /* 324px / 1920px * 100 */
+  top: 18vh;
+  width: 32vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-repuestoequipo {
   background-color: #636b6f61;
-  height: 15.93vh; /* 172px / 1080px * 100 */
-  left: 8.07vw; /* 155px / 1920px * 100 */
+  height: 35vh;
+  left: 16vw;
   position: absolute;
-  top: 10vh; /* 108px / 1080px * 100 */
-  transform: rotate(180deg);
-  width: 0.05vw; /* 1px / 1920px * 100 */
+  top: 13vh;
+  /* transform: rotate(208deg); */
+  width: 0.2vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-name {
   color: #00ddfa;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.67vh; /* 18px / 1080px * 100 */
+  font-size: 2.7vh;
   font-weight: 400;
-  left: 0.47vw; /* 9px / 1920px * 100 */
+  left: 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 1.30vh; /* 14px / 1080px * 100 */
-  width: 15.94vw; /* 306px / 1920px * 100 */
+  top: 2vh;
+  width: 32vw;
+  margin-bottom: 0.5vh;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-id {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.02vh; /* 11px / 1080px * 100 */
+  font-size: 2.3vh;
   font-weight: 400;
-  left: 0.63vw; /* 12px / 1920px * 100 */
+  height: 4vh;
+  left: 0vw;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 6.76vh; /* 73px / 1080px * 100 */
-  width: 15.63vw; /* 300px / 1920px * 100 */
+  top: 3vh;
+  width: 32vw;
+  word-break: break-word;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-nit-icon {
-  height: 3.70vh; /* 40px / 1080px * 100 */
+  height: 4vh;
   color: #00ddfa;
-  left: 3.39vw; /* 65px / 1920px * 100 */
+  left: 6vw;
   position: absolute;
-  top: 10.37vh; /* 112px / 1080px * 100 */
-  width: 1.51vw; /* 29px / 1920px * 100 */
+  top: 14vh;
+  width: 4vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-nit {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.20vh; /* 13px / 1080px * 100 */
+  font-size: 2.7vh;
   font-weight: 400;
-  height: 3.24vh; /* 35px / 1080px * 100 */
-  left: 0.31vw; /* 6px / 1920px * 100 */
+  height: 11vh;
+  left: 2vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 14.63vh; /* 158px / 1080px * 100 */
-  width: 7.66vw; /* 147px / 1920px * 100 */
+  top: 21vh;
+  width: 12vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-location-icon {
-  height: 3.70vh; /* 40px / 1080px * 100 */
+  height: 5vh;
   color: #00ddfa;
-  left: 3.39vw; /* 65px / 1920px * 100 */
+  left: 6vw;
   position: absolute;
-  top: 18.15vh; /* 196px / 1080px * 100 */
-  width: 1.51vw; /* 29px / 1920px * 100 */
+  top: 31vh;
+  width: 3vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-address {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.02vh; /* 11px / 1080px * 100 */
+  font-size: 2.8vh;
   font-weight: 400;
-  height: 4.54vh; /* 49px / 1080px * 100 */
-  left: 0.47vw; /* 9px / 1920px * 100 */
+  height: 15vh;
+  left: -2.3vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 21.85vh; /* 236px / 1080px * 100 */
-  width: 6.93vw; /* 133px / 1920px * 100 */
+  top: 38vh;
+  width: 20vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-telefono-icon {
-  height: 3.70vh; /* 40px / 1080px * 100 */
+  height: 10vh;
   color: #00ddfa;
-  left: 11.67vw; /* 224px / 1920px * 100 */
+  left: 23vw;
   position: absolute;
-  top: 10.37vh; /* 112px / 1080px * 100 */
-  width: 1.51vw; /* 29px / 1920px * 100 */
+  top: 11vh;
+  width: 2vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-telefono {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.20vh; /* 13px / 1080px * 100 */
+  font-size: 2.7vh;
   font-weight: 400;
-  height: 3.24vh; /* 35px / 1080px * 100 */
-  left: 8.59vw; /* 165px / 1920px * 100 */
+  height: 11vh;
+  left: 11.5vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 14.63vh; /* 158px / 1080px * 100 */
-  width: 7.66vw; /* 147px / 1920px * 100 */
+  top: 21vh;
+  width: 25vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-overlap-3 {
-  height: 7.96vh; /* 86px / 1080px * 100 */
-  left: 8.59vw; /* 165px / 1920px * 100 */
+  height: 25vh;
+  left: 17vw;
   position: absolute;
-  top: 18.43vh; /* 199px / 1080px * 100 */
-  width: 7.92vw; /* 152px / 1920px * 100 */
+  top: 30vh;
+  width: 25vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-email-icon {
-  height: 3.70vh; /* 40px / 1080px * 100 */
+  height: 5vh;
   color: #00ddfa;
-  left: 3.07vw; /* 59px / 1920px * 100 */
+  left: 6vw;
   position: absolute;
-  top: 0;
-  width: 1.51vw; /* 29px / 1920px * 100 */
+  top: 1vh;
+  width: 3vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-client-email {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.02vh; /* 11px / 1080px * 100 */
+  font-size: 2.8vh;
+  font-size: calc(2rem - 0.1vw * (100% / (10ch + 1)));
   font-weight: 400;
-  height: 4.54vh; /* 49px / 1080px * 100 */
-  left: 0;
+  height: 15vh;
+  left: -5.5VW;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 3.43vh; /* 37px / 1080px * 100 */
-  width: 7.92vw; /* 152px / 1920px * 100 */
+  top: 8vh;
+  width: 25vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-overlap-4 {
   background-color: #ffffffd9;
   border-radius: 5px;
   background-size: 100% 100%;
-  height: 6.30vh; /* 68px / 1080px * 100 */
-  left: 18.23vw; /* 350px / 1920px * 100 */
+  height: 18vh; /* Aumentado proporcionalmente */
+  left: 38vw; /* Aumentado proporcionalmente */
   position: absolute;
-  top: 11.11vh; /* 120px / 1080px * 100 */
-  width: 11.93vw; /* 229px / 1920px * 100 */
+  top: 28vh; /* Aumentado proporcionalmente */
+  width: 30vw; /* Aumentado proporcionalmente */
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-text-wrapper {
   -webkit-text-stroke: 1px #636b6f1a;
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.20vh; /* 13px / 1080px * 100 */
+  font-size: 3vh;
   font-weight: 400;
-  left: 0.21vw; /* 4px / 1920px * 100 */
+  left: 1vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0.74vh; /* 8px / 1080px * 100 */
-  width: 11.51vw; /* 221px / 1920px * 100 */
+  top: 2vh;
+  width: 30vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-img {
-  height: 2.59vh; /* 28px / 1080px * 100 */
+  height: 8.5vh;
   color: #00ddfa;
-  left: 0.57vw; /* 11px / 1920px * 100 */
+  left: 1.5vw;
   position: absolute;
-  top: 3.24vh; /* 35px / 1080px * 100 */
-  width: 1.09vw; /* 21px / 1920px * 100 */
+  top: 8.5vh;
+  width: 3vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-cantidad-value {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.39vh; /* 15px / 1080px * 100 */
+  font-size: 3.7vh; /* Aumentado proporcionalmente */
   font-weight: 400;
-  left: 6.56vw; /* 126px / 1920px * 100 */
+  left: 18vw; /* Aumentado proporcionalmente */
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 3.52vh; /* 38px / 1080px * 100 */
-  width: 5vw; /* 96px / 1920px * 100 */
+  top: 10vh; /* Aumentado proporcionalmente */
+  width: 15vw; /* Aumentado proporcionalmente */
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-overlap-5 {
   background-color: #ffffffd9;
   background-size: 100% 100%;
   border-radius: 5px;
-  height: 6.30vh; /* 68px / 1080px * 100 */
-  left: 18.23vw; /* 350px / 1920px * 100 */
+  height: 18vh;
+  left: 33vw;
   position: absolute;
-  top: 11.11vh; /* 120px / 1080px * 100 */
-  width: 11.93vw; /* 229px / 1920px * 100 */
+  top: 18vh;
+  width: 26.6vw;
 }
 
 .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-precio-value {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.39vh; /* 15px / 1080px * 100 */
+  font-size: 3.7vh;
   font-weight: 400;
-  left: 3.75vw; /* 72px / 1920px * 100 */
+  left: 11vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 3.52vh; /* 38px / 1080px * 100 */
-  width: 7.81vw; /* 150px / 1920px * 100 */
+  top: 10vh;
+  width: 15vw;
 }
+
 
 @media (orientation: portrait) {
 
@@ -352,17 +357,17 @@
   .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-repuestoequipo-name {
     color: #00ddfa;
     font-family: "Inter-Regular", Helvetica;
-    font-size: 1.85vh; /* 20px / 1080px * 100 */
+    font-size: 1.85vh;
     font-weight: 400;
-    left: -3.65vw; /* -1.67vw * 2.185 */
+    left: -3.65vw;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 0;
-    width: 48.54vw; /* 22.24vw * 2.185 */
-    height: 4.63vh; /* 50px / 1080px * 100 */
-  }
+    top: -0.5vh;
+    width: 48.54vw;
+    height: 4.63vh;
+}
   
   .RepuestoEquipoDetailPage-box .RepuestoEquipoDetailPage-repuestoequipo-id {
     color: #636b6f;
