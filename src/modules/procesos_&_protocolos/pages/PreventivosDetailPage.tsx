@@ -103,43 +103,51 @@ const PreventivoDetailPage: React.FC = () => {
                             </div>
                             <div className="PreventivoDetailPage-overlap-3">
                               <div className="PreventivoDetailPage-otros-name">OTROS PROTOCOLOS</div>
-                                  <ul className="PreventivoDetailPage-ul">
+                                <ul>
                                     {preventivo && preventivo.otros
                                       ? preventivo.otros.map((item: any) => (
-                                          <li className="PreventivoDetailPage-otros-text-wrapper" key={item._id}>{ item ? item.title : 'N/A'}</li>
+                                          <div className="PreventivoDetailPage-otros-text-wrapper" key={item._id}>{ item ? item.title : 'N/A'}</div>
                                         ))
                                       : null}
-                                  </ul>
+                                  <li className="PreventivoDetailPage-ul">
+                                  </li>
+                                </ul>
                             </div>
 
                             <div className="PreventivoDetailPage-overlap-4">
                                 <div className="PreventivoDetailPage-cuantitativo-title">PROTOCOLOS CUANTITATIVOS</div>
-                                  {preventivo && preventivo.cuantitativo
-                                    ? preventivo.cuantitativo.map((item: any) => (
-                                      <ul className="PreventivoDetailPage-ul-cuantitativo">
-                                        <div className="PreventivoDetailPage-cuantitativo-text-wrapper" key={item._id}>
-                                          {item.campo && item.campo.title ? item.campo.title : 'N/A'}
-                                          <div className="PreventivoDetailPage-minimo">MÍNIMO</div>
-                                          <div className="PreventivoDetailPage-maximo">MÁXIMO</div>
-                                          <div className="PreventivoDetailPage-unidad">UNIDAD</div>
-                                          <div className="PreventivoDetailPage-separator"/>
-                                          <div className="PreventivoDetailPage-img"/>
-                                          <div className="PreventivoDetailPage-separator-2"/>
-                                          <div className="PreventivoDetailPage-minimo-value">{item.minimo}</div>
-                                          <div className="PreventivoDetailPage-maximo-value">{item.maximo}</div>
-                                          <div className="PreventivoDetailPage-unidad-value">{item.unidad}</div>
-                                        </div>
-                                      </ul>
-                                      ))
-                                    : null}
-                                <br></br>
+                      <ul className="PreventivoDetailPage-list-cuantitativo">
+                        {preventivo && preventivo.cuantitativo
+                          ? preventivo.cuantitativo.map((item: any) => (
+                            <li className="PreventivoDetailPage-li-cuantitativo" key={item._id}>
+                              <div className='PreventivoDetailPage-cuantitativo-text-wrapper'>{item.campo && item.campo.title ? item.campo.title : 'N/A'}</div>
+                              <div className="PreventivoDetailPage-info">
+                                <table>
+                                  <thead>
+                                    <tr>
+                                      <th className="PreventivoDetailPage-minimo">MÍNIMO</th>
+                                      <th className="PreventivoDetailPage-maximo">MÁXIMO</th>
+                                      <th className="PreventivoDetailPage-unidad">UNIDAD</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td className="PreventivoDetailPage-minimo-value">{item.minimo}</td>
+                                      <td className="PreventivoDetailPage-maximo-value">{item.maximo}</td>
+                                      <td className="PreventivoDetailPage-unidad-value">{item.unidad}</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </div>
-                          </div>
-                        </div>
-                      </div>
-
-       
-
+                            </li>
+                          ))
+                          : null}
+                      </ul>
+                    <br />
+              </div>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
