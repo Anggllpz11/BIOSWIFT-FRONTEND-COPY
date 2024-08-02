@@ -65,7 +65,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.5vh;
   font-weight: 400;
-  left: 3.96vw;
+  left: 8.96vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -78,7 +78,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.5vh;
   font-weight: 400;
-  left: 20.42vw;
+  left: 25.42vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -91,12 +91,12 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 1.5vh;
   font-weight: 400;
-  left: 37.77vw;
+  left: 38.77vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 10.93vh;
-  width: 19.27vw;
+  width: auto;
 }
 
 .PreventivoDetailPage-box .PreventivoDetailPage-edit-icon {
@@ -120,15 +120,15 @@
 .PreventivoDetailPage-box .PreventivoDetailPage-oid {
   color: #636b6f;
   font-family: "Inter-Regular", Helvetica;
-  font-size: 1.02vh; /* 11px / 1080 * 100 */
+  font-size: 1.02vh;
   font-weight: 400;
-  left: 18.54vw; /* 356px / 1920 * 100 */
+  left: 18.54vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 4.17vh; /* 45px / 1080 * 100 */
-  width: 22.86vw; /* 439px / 1920 * 100 */
+  top: 6.17vh;
+  width: 22.86vw;
 }
 
 .PreventivoDetailPage-box .PreventivoDetailPage-div {
@@ -178,30 +178,19 @@
 }
 
 .PreventivoDetailPage-box .PreventivoDetailPage-list-cuantitativo {
-  height: auto;
+  height: 27vh;
   width: auto;
   list-style: none;
   position: absolute;
-  top: 3vh;
+  top: 5vh;
   left: 2vw;
-  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
 }
 
-/*scrollbar customizations*/
-
-::-webkit-scrollbar {
-  width: 1.1vw;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent !important;
-}
-
-::-webkit-scrollbar-thumb { 
-  background: linear-gradient(#00ddfa, #ffffff );
-  border-radius: 5px;
-  scrollbar-width: thin !important;;
-}
 
 .PreventivoDetailPage-box .PreventivoDetailPage-li-cuantitativo {
   position: relative;
@@ -317,6 +306,7 @@
   top: 1.20vh; /* 13px / 1080 * 100 */
   white-space: nowrap;
   width: 22.40vw; /* 430px / 1920 * 100 */
+  word-break: break-all;
 }
 
 .PreventivoDetailPage-box .PreventivoDetailPage-otros-text-wrapper {
@@ -391,11 +381,7 @@
   display: inline-block;
   text-align: center;
   max-height: 7vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  /* Style the scrollbar */
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+
 
   /* WebKit (Chrome, Safari) */
   &::-webkit-scrollbar {
@@ -447,6 +433,7 @@
   border-collapse: collapse;
   font-family: "Inter-Regular", Helvetica;
 }
+
 
 .PreventivoDetailPage-info th,
 .PreventivoDetailPage-info td {
@@ -509,3 +496,271 @@
 }
 
 
+@media (orientation:portrait) {
+
+  .PreventivoDetailPage-box .PreventivoDetailPage-header {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    position: absolute;
+    left: 7vw;
+    top: 5.3vh;
+  }
+
+  .PreventivoDetailPage-box .PreventivoDetailPage-body{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    position: absolute;
+  }
+  
+  .PreventivoDetailPage-box .PreventivoDetailPage-li-cuantitativo {
+    position: relative;
+    height: 17.89vh;
+    width: 20.458vw;
+  }
+
+  .PreventivoDetailPage-info th,
+.PreventivoDetailPage-info td {
+  border: 1px solid #636b6f;
+  padding: 1vh 1.6vw;
+  text-align: center;
+  font-size: 1vh;
+  font-weight: 400;
+}
+}  
+
+
+@media screen and (min-width: 318px) and (max-width:427px) {
+
+  .PreventivoDetailPage-box .PreventivoDetailPage-overlap-group {
+    background-color: #53789587;
+    border-radius: 5px;
+    height: 70.19vh;
+    position: relative;
+    width: 70.46vw;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  height: 14.72vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 70.46vw;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-code {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.1vh;
+  font-weight: 400;
+  left: 8.96vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10.93vh;
+  width: 9.06vw;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-version {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.1vh;
+  font-weight: 400;
+  left: 25.42vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10.93vh;
+  width: 7.81vw;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-date {
+  color: #636b6f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.1vh;
+  font-weight: 400;
+  left: 41.77vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10.93vh;
+  width: auto;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-text-wrapper {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.67vh;
+  font-weight: 400;
+  left: 0.78vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1vh;
+  width: 28.75vw;
+  font-size: 1.3vh;
+  word-break: break-all;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap-3 {
+  background-color: #ffffffd9;
+  background-size: 100% 100%;
+  height: 17.59vh;
+  border-radius: 5px;
+  left: 31.82vw;
+  position: absolute;
+  top: 50.83vh;
+  width: 36.65vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #636b6f61 #636b6f61;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-otros-name {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.2vh;
+  font-weight: 400;
+  left: 0.62vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  /* text-align: center; */
+  top: 1.20vh;
+  white-space: normal;
+  width: 34.4vw;
+  word-wrap: break-word;
+}
+
+
+.PreventivoDetailPage-box .PreventivoDetailPage-otros-text-wrapper {
+  background-color: #0000007d;
+  border-radius: 5px;
+  list-style: none;
+  color: #ffffff;
+  text-align: center;
+  height: auto;
+  left: 1.82vw;
+  display: inline-block;
+  position: relative;
+  top: 4.35vh;
+  width: 33vw;
+  margin-bottom: 16px;
+  font-size: 1.3vh;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-overlap-4 {
+  background-color: #ffffffd9;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  height: 32.87vh;
+  left: 31.82vw;
+  position: absolute;
+  top: 16.76vh;
+  width: 36.65vw;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-cuantitativo-title {
+  color: #00ddfa;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 1.2vh;
+  font-weight: 400;
+  left: 0.62vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1.76vh;
+  width: 36vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-list-cuantitativo {
+  height: 27vh;
+  width: 34vw;
+  list-style: none;
+  position: absolute;
+  top: 5vh;
+  left: 2vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* Style the scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #636b6f61 #636b6f61; /* Firefox */
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-li-cuantitativo {
+  position: relative;
+  height: 19.89vh;
+  width: 34.458vw;
+}
+
+.PreventivoDetailPage-info th, .PreventivoDetailPage-info td {
+  border: 1px solid #636b6f;
+  padding: 1vh 1.3vw;
+  text-align: center;
+  font-size: 1vh;
+  font-weight: 400;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-cuantitativo-text-wrapper {
+  background-color: #0000007d;
+  border-radius: 5px;
+  height: auto;
+  color: #ffffff;
+  position: relative;
+  width: 32.1vw;
+  margin-bottom: 16px;
+  font-size: 1.3vh;
+  display: inline-block;
+  text-align: center;
+  top: 1vh;
+}
+
+.PreventivoDetailPage-info {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: "Inter-Regular", Helvetica;
+  position: absolute;
+  top: 8vh;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-header {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  position: absolute;
+  left: 9vw;
+  top: 0.4vh;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-body {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  position: absolute;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-edit-icon {
+  height: 4.07vh;
+  left: 58.46vw;
+  color: #00ddfa;
+  position: absolute;
+  top: 1.94vh;
+  width: 4.34vw;
+}
+
+.PreventivoDetailPage-box .PreventivoDetailPage-delete-icon {
+  height: 4.07vh;
+  left: 63.78vw;
+  color: #00ddfa;
+  position: absolute;
+  top: 1.94vh;
+  width: 4.34vw;
+}
+
+}
