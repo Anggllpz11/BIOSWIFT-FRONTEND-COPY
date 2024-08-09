@@ -216,15 +216,16 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  height: auto;
   left: 113px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 4.8vh;
+  top: 40%;
+  transform: translateY(-50%);
   width: 4vw;
   white-space: normal;
   padding: 0px 1px 4px 1px;
+  overflow: visible;
 }
   
 .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-frequency-icon {
@@ -287,10 +288,10 @@
     color: #00ddfa;
     left: 4px;
     position: absolute;
-    top: 103px;
+    top: 10vh;
     width: 17px;
-  }
-  
+}
+
   .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-client-name {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
@@ -310,14 +311,14 @@
     text-align: center;
 }
   
-  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-icon {
-    height: 14px;
-    color: #00ddfa;
-    left: 95px;
-    position: absolute;
-    top: 104px;
-    width: 17px;
-  }
+.RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-icon {
+  height: 14px;
+  color: #00ddfa;
+  left: 95px;
+  position: absolute;
+  top: 10.1vh;
+  width: 17px;
+}
   
   .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-address {
     color: #000000;
@@ -336,14 +337,14 @@
     white-space: normal;
 }
   
-  .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone-icon {
-    height: 14px;
-    color: #00ddfa;
-    left: 189px;
-    position: absolute;
-    top: 104px;
-    width: 17px;
-  }
+.RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone-icon {
+  height: 14px;
+  color: #00ddfa;
+  left: 189px;
+  position: absolute;
+  top: 10.1vh;
+  width: 17px;
+}
   
   .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-sede-telephone-value {
     color: #000000;
@@ -363,9 +364,9 @@
   
 .RegisterSolicitudServicioForm-div-wrapper .RegisterSolicitudServicioForm-seleccionar-button {
   background-color: transparent;
-  border-radius: 1px 3px 5px 12px;
+  border-radius: 4px;
   height: 1.3vh;
-  left: 0vw;
+  left: 19vw;
   border-style: none;
   font-size: 10px;
   cursor: pointer;
